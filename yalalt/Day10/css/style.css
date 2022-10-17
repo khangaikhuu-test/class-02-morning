@@ -1,0 +1,53 @@
+body {
+    max-width: 1920px;
+    max-height: 6613px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-menu {
+    width: 657px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.Call {
+    height: 52px;
+    width: 173px;
+    color: #F58A07;
+    border-radius: 15px;
+    background-color: rgba(245, 138, 7, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 123px;
+    height: 38px;
+    background: url(../img/airbnb.png) no-repeat center center/cover;
+}
+
+.test{
+    width: 437px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+}
