@@ -4,23 +4,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
 .nav-menu {
     width: 657px;
     height: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-}
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
-    height: 52px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* align-content: center; */
 }
 
 .call {
@@ -45,9 +43,65 @@ body {
     width: 437px;
     display: flex;
     justify-content: space-between;
-
 }
 
-a {
+.nav-menu .test a {
     text-decoration: none;
+}
+
+.margin-1 {
+    margin: 1rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+#showcase .showcase-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#showcase .showcase-content .showcase-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#showcase .showcase-content .showcase-text h2 {
+    display: inline-block;
+}
+
+#showcase .showcase-content .showcase-image {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 190px;
+    background: linear-gradient(#fff, pink);
+    box-shadow: 2px 2px 2px 3px #f4f4f4;
+    border-radius: 5px;
+}
+
+#showcase .showcase-content .blue-text {
+    color: #377dff;
+}
+
+#showcase .showcase-content .btn {
+    background: #377dff;
+    color: #fff;
+    padding: 0.61rem 2.5rem;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 1s ease-in-out;
+}
+
+#showcase .showcase-content .btn:hover {
+    background: #01b780;
+    color: rgb(255, 255, 255);
 }
