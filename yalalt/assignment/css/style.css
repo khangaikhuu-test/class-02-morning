@@ -1,0 +1,190 @@
+:root {
+    --primary-color: #F58A07;
+    --secondary-color: #fff;
+    --medium-header-color: #063255;
+    --big-header-color: #0D1317;
+    --bg-light: #DCEAF5;
+    --bg-dark: #063255;
+    --test1-border: 1px solid red;
+    --test2-border: #01b780 solid 1px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Popping', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+
+}
+
+body {
+    max-width: 1920px;
+    /* max-height: 6613px; */
+}
+
+/****************** CSS Resused Code here - Mainly used style Code ****************/
+
+.container {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.container .container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.margin-1 {
+    margin: 0.8rem 0;
+}
+
+.margin-2 {
+    margin: 2rem 0;
+}
+
+.m1-5px {
+    margin: 1px 5px;
+}
+
+.p-1 {
+    padding: 1rem 0;
+}
+.p-2 {
+    padding: 2rem 0;
+}
+.padding-1 {
+    padding: 1rem;
+}
+
+.padding-2 {
+    padding: 2.4rem;
+}
+
+/* Main used style CSS Reused code end */
+
+.nav-menu {
+    width: 657px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.call {
+    height: 52px;
+    width: 173px;
+    color: var(--primary-color);
+    border-radius: 31px;
+    background-color: rgba(245, 138, 7, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 122px;
+    height: 28px;
+    background: url(../images/finsweet_logo.png) center center/cover;
+}
+
+.menu-items {
+    width: 437px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu .menu-items a {
+    text-decoration: none;
+}
+
+.nav-menu .menu-items a:active {
+    color: var(--primary-color);
+}
+
+/* Show case style Start */
+/* background light blue */
+#showcase {
+    background: var(--bg-light);
+}
+
+#showcase .container .container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#showcase .container .container-content .showcase-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 0.75rem;
+}
+
+#showcase .container .container-content .showcase-text .btn {
+    flex: none;
+    padding: 0.62rem 2.5rem;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+}
+
+#showcase .container .container-content .showcase-text .btn-first {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#showcase .container .container-content .showcase-text .btn-second {
+    background: var(--bg-light);
+    color: var(--medium-header-color);
+}
+
+#showcase .container .container-content .btn:hover {
+    background: var(--medium-header-color);
+    color: var(--secondary-color);
+}
+
+#showcase .container .container-content .showcase-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 618px;
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png) center center/cover;
+}
+
+#showcase .container .container-content .showcase-text .showcase-logo-text {
+    margin: 3rem 0 1rem 0;
+    color: #394149;
+    text-align: center;
+}
+
+#showcase .container .container-content .showcase-text .showcase-logos {
+    display: flex;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: var(--test1-border);
+}
