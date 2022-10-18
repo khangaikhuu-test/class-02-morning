@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.main-header {
+    background: white;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header img {
+    margin: 28px 0;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #394149;
+    align-items: baseline;
+}
+
+#button1 {
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 18px 30px 17px 29px;
+}
+
+#button1 a {
+    color: white;
+}
+
+.bannercon {
+    background: #DCEAF5;
+}
+
+.bannercon .container {
+    height: 703px;
+    display: flex;
+}
+
+.bannercon .text1 h1 {
+    margin: 117px 0 0 0;
+    color: #1D3444;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    height: 144px;
+    width: 576px;
+}
+
+.bannercon .text1 #t1 {
+    height: 60px;
+    width: 571px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin: 12px 0 0 0;
+}
+
+.buttons {
+    display: flex;
+    margin: 32px 0 0 0;
+    gap: 72px;
+    align-items: baseline;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.buttons p:nth-child(1) {
+    background: #f58a07;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.buttons p:nth-child(1) a {
+    color: white;
+}
+
+.buttons p:nth-child(2) a {
+    color: #1D3444;
+}
+
+#t2 {
+    margin-top: 56px;
+    color: #394149;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+#img4 {
+    height: 618px;
+    width: 747px;
+    margin-top: 85px;
+}
