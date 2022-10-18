@@ -1,0 +1,59 @@
+*{
+ box-sizing: border-box;
+ max-width: 1280px;
+ justify-content: center;
+ position: relative;
+
+}
+header{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+     display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.Call {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid blue;
+    background-color: rgb(245, 138,7, 0.1);
+    border-radius: 50px;
+    overflow: hidden;     
+}
+main{
+   
+    display: flex; 
+    width: 1933px;
+    height: 703px;
+    left: -5px;
+    top: 84px;
+    background-color: #DCEAF5;
+
+}
+.Service1{ 
+    border: 1px solid black; 
+    background-color: #F58A07;
+    border-radius: 27px;   
+    justify-content: space-between;
+}
+.Service2{
+    margin: 40px;
+}
+.logo2{
+    margin: 48px;
+
+}
+.leftside{
+    border:1px solid black;
+    padding: ;
+}
+h1{
+    
+
+}
+
