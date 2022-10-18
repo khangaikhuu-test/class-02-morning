@@ -1,28 +1,28 @@
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+                /* HEAD NAV*/
 header {
+    margin-top: 16px;
     margin-left: 320px;
     margin-right: 320px;
 }
 .navbar {
-    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     gap: 32px;
     line-height: 24px;
     font-size: 16px;
-    /* width: 985px; */
-
 }
-
 .navbar ul li {
     display: flex;
     list-style: none;
     position: relative;
-    /* margin-right: 47px; */
-    margin-left:501px ;
+    margin-left: 401px ;
     gap: 32px;
 }
 .navbar ul li a {
@@ -34,30 +34,79 @@ header {
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
     border-radius: 30%;
-    padding: 18px 35px 18px 35px ;
+    padding: 14px 35px 14px 35px ;
 }
+
+            /* HEADER */
 section {
-    margin-top: 30px;
-    height: 703px;
+    position: relative;
+    margin-top: 16px;
     background-color: rgba(220, 234, 245, 1);
+    height: 700px;
+
+   
 }
 .container {
+    position: absolute;
     display: flex;
-    flex-direction: row-reverse;
-    align-content: center;
-    
+    margin: 117px 0px 0px 325px;
 }
-.title {
-   font-weight: 600px;
-   font-size: 64px;
-   line-height: 72px;
-    color: rgba(29, 52, 68, 1);
-    margin-top: 0px;
-    margin-left: 320px;
+ 
+.text {
+    border: 1px solid hidden;
+    padding: 0px;
+    width: 576px;
+    height: 439px;
 
 }
-.photo_man   {
-    margin: 85px 232px 0px 954px;
-    /* margin-top: 169px;
-    margin-left: 954px; */
+.title {
+    position: relative;
+    width: 576px;
+    height: 144px;
+    font-weight: 600px;
+    font-size: 64px;
+    line-height: 72px;
+    color: rgba(29, 52, 68, 1);
+    letter-spacing: -0.03em;
+ 
 }
+.title1 {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.title2 {
+    border: 0px solid #f58A07;
+    background-color: #f58A07 ;
+    width: 199px;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px;
+    margin-top: 25px;
+}
+
+.title3 {
+    color: #1d3444;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 250px;
+    margin-top: -45px;
+}
+
+.title4 {
+    color: #394149 50%;
+    font-size: 18px;
+    margin-top: 70px;
+
+}
+ .head_logo {
+    margin-top: 20px;
+    display: flex;
+    gap: 32px;
+ }
+
+.photoman {
+    margin: -63px;
+}
+        /* HELP SECTION  */
+
+
