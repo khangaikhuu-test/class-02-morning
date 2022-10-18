@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -63,7 +64,7 @@ section {
     position: relative;
     width: 576px;
     height: 144px;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 64px;
     line-height: 72px;
     color: rgba(29, 52, 68, 1);
@@ -74,6 +75,7 @@ section {
     font-weight: 500px;
     font-size: 18px;
     line-height: 30px;
+    font-weight: 500;
 }
 .title2 {
     border: 0px solid #f58A07;
@@ -82,6 +84,7 @@ section {
     border-radius: 27px;
     padding: 18px 32px 19px 32px;
     margin-top: 25px;
+    font-weight: 600;
 }
 
 .title3 {
@@ -96,7 +99,7 @@ section {
     color: #394149 50%;
     font-size: 18px;
     margin-top: 70px;
-
+    font-weight: 400;
 }
  .head_logo {
     margin-top: 20px;
@@ -117,18 +120,19 @@ section {
     height: 112px;
     margin: 96px 0 0 320px;
     line-height: 56px;
+    font-weight: 600;
 }
 .text2 {
     font-size: 18px;
     width: 735px;
     height: 90px;
     line-height: 30px;
+    font-weight: 500;
     margin: 27px 0 0 320px;
 }
 .container2 {
     display: flex;
     justify-content: space-between;
-    height: 1280px;
     width: 740px;
     margin: 64px 0 0 321px;
     gap: 40px;
@@ -143,6 +147,7 @@ section {
     line-height: 106.5%;
     font-style: normal;
     margin-top: 30px;
+    font-weight: 500;
 }
 .text3 {
     color: #5B5B5B;
@@ -157,6 +162,146 @@ section {
     font-size: 16px;
     font-weight: 500;
     line-height: 106.5%;
+}
+                /* FEATURES SECTION */
+.section3 {
+    background-color: #EDF7FF;
+    height: 665px;
+    width: 1920px;
+    margin-top: 96px;
+}
+.features2 {
+    display: flex;
+}
+.title6 {
+    color: #0D1317;
+    font-size: 36px;
+    line-height: 44px;
+    width: 619px;
+    height: 132px;
+    font-weight: 600;
+    margin: 96px 0 0 321px;
+}
+.text4 {
+    color: #1D3444;
+    font-size: 18px;
+    line-height: 30px;
+    width: 620px;
+    margin: 100px 0 0 40px;
+    font-weight: 500;
+
+}
+.features1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 1282px;
+    height: 277px;
+    margin: 62px 0 0 318px;
+}
+.box {
+    border: 1px solid white;
+    background-color: #fffffF;
+    width: 401px;
+    height: 277px;
+    border-radius: 20px;
+    padding: 48px 0 0 41px;
+}
+.title7 {
+    color: #0D1317;
+    font-size: 24px;
+    line-height: 25.56px;
+    margin-top: 32px;
+    font-weight: 600;
+
+}
+.text7 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    width: 336px;
+    height: 84px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+                        /* ABOUT SECTION 4 */
+.section4 {
+    border: 0px solid hidden;
+    width: 1280px;
+    height: 667px;
+    margin: 99px 0 0 320px;
+    display: flex;
+}
+.title8 {
+    font-size: 48px;
+    line-height: 56px;
+    columns:#0D1317;
+    width: 596px;
+    height: 157px;
+    font-weight: 600;
+    margin-top: 67px;
+}
+.text8 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    width: 510px;
+    height: 120px;
+    margin: 32px 0 0 0;
+}
+.about_section2 {
+    display: flex;
+    gap: 224px;
+}
+
+.title9 {
+        /* font: inter;  ene yu ve? */
+        font-size: 36px;
+        color: #f58A07;
+        line-height: 50px;
+        font-weight: 700;
+        margin: 48px 0 0 0;
+}
+.about_section3 {
+    display: flex;
+    gap: 150px;
+}
+
+.text10 {
+    font-size: 24px;
+    line-height: 25.56px;
+    font-weight: 600;
+    margin: 16px 0 0 0;
+}
+.about_section5 {
+    display: flex;
+    gap: 20px;
+}
+.text9 {
+    font-size: 16px;
+    color: #5B5B5B;
+    line-height: 28px;
+    font-weight: 500;
+    width: 264px;
+    height: 84px;
+    margin: 18px 0 0 0;
+}
+
+.sec4_img {
+    border: 1px solid hidden;
+    border-radius: 15px;
+    margin-left: 47px;
+    z-index: -1;
+
+}
+.boxborder {
+    box-sizing: border-box;
+    background-color: #F58A07;
+    mix-blend-mode: lighten;
+    width: 153px;
+    height: 670px;
+    margin: 97px 0 0 47px;
+
 }
 
 
