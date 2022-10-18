@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: space-betweene;
+    
+}
+footer {
+    text-align: center;
+    margin-top: 90%;
+}
+
