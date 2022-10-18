@@ -1,13 +1,18 @@
 * {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
+    
 }
 header {
     text-align: center;
+    background-image: linear-gradient(to right, blue , yellow);
+    padding: 10px 10px;
 }
 main {
     display: flex;
     justify-content: space-betweene;
+    padding: 10% ;
+
     
 }
 footer {
