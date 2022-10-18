@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* --- Main Design --- */
+
+/* Page Inline box */
+.mainBody {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+header {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid lightgray;
+    z-index: 3;
+}
+
+header ul {
+    display: inline;
+}
+
+header ul li {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 40px;
+}
+
+header ul li:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+header ul li a:hover {
+    color: sandybrown;
+}
+
+/* Home design */
+/* Top Big Picture design */
+.homeBackground {
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background: rgb(240, 240, 240) url('https://codehs.com/uploads/d721a4bd7667bed559ff3ed7c5e574b8') no-repeat center center/ cover;
+}
+
+/* Home text */
+.titleHeader {
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+}
+
+.titleRow1 {
+    font-size: 3rem;
+}
+
+.titleRow2 {
+    font-size: 0.7em;
+}
+
+.orangeName {
+    color: sandybrown;
+}
+
+/* Contact Download CV Button design */
+.titleHeader a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+
+/* ---- Profile Image ---- */
+.imageProfile {
+    display: inline;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 30%;
+    left: 20%;
+}
+
+.imageProfile img {
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 5px solid white;
+}
+/* Image Design End */
+
+/* Reused codes here */
+.container {
+    max-width: 1100px;
+}
+
+.centerDiv {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 40px 15%;
+}
+
+.p-1 {
+    padding: 5px;
+}
+.p-2 {
+    padding: 10px;
+}
+
+
+
+/* ABOUT heseg Design */
+.about-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 80vw;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+}
+
+.about-box .whoIs { 
+    width: 33%;
+    height: 100%;
+}
+
+.about-box .whoIs img {
+    display: inline-block;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.about-box .whoIs p {
+    font-size: 1rem;
+    top: 380px;
+    left: 130px;
+    color: #333;
+}
+
+.about-box .aboutMe {
+    width: 67%;
+    height: 100%;
+    color: #212121;
+    padding: 30px 10px 10px 10px;
+}
+.about-box .aboutMe>h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    text-align: center;
+    color: sandybrown;
+}
+
+.about-box .aboutMe h5 {
+    margin: 0px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.about-box .aboutMe h3 {
+    font-size: 1.75rem;
+    color: sandybrown;
+    margin-bottom: 0.5rem;
+}
+.about-box .aboutMe .bold {
+    font-weight: bold;
+}
+.about-box .aboutMe p {
+    margin-top: 0px;
+    margin-left: 35px;
+    font-size: 1.1rem;
+}
+.aboutMe ul {
+    margin-top: 0px;
+}
+
+.aboutMe ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+.contact {
+    z-index: 1;
+}
+
+.about .aboutMe #experience ul li {
+    margin-left: 20px;
+    font-size: 0.8rem;
+    list-style: circle;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+
+/* .CLASS HERE a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0px 10px;
+} */
+
+/* WORKS Hiisen ajiliin jagsaalt haruulah heseg */
+.works {
+    width: 100%;
+    height: 50vh;
+    background-color: #212121;
+    background-size: cover;
+    color: #fff;
+}
+.works .positionWorks {
+    display: inline-block;
+    width: 80vw;
+    margin: 20px 8vw;
+}
+
+.works .positionWorks h4 {
+    font-size: 1.6em;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.works .positionWorks p {
+    text-align: center;
+}
+
+.works .positionWorks .listItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItems .lessonDays {
+    display: inline-block;
+    width: 210px;
+    height: 110px;
+    background-color: antiquewhite;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.listItems .lessonDays>.circleDay {
+    text-align: center;
+    color: #212121;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* FOOTER Design */
+/* ICONS Design */
+.icon {
+    position: absolute;
+    height: 35%;
+    width: 80px;
+    text-align: center;
+    padding-top: 10%;
+    bottom: 50%;
+}
+
+.icon i {
+    display: inline-block;
+    margin: 15px 23px;
+    font-size: 20px;
+}
