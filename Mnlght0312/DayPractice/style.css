@@ -9,6 +9,7 @@ header img {
     max-width: 10%;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
 }
 .almighty {
     
@@ -76,13 +77,13 @@ h1 {
 }
 .skor {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 15px 25px;
     margin: 5%;
 
 }
 .skor p {
-    margin-left: 5%;
+    margin: 5%;
 }
 .blitz img {
     width: 400px; 
@@ -96,7 +97,10 @@ h1 {
     margin:5%
 }
 .blitz p {
-    margin-left: 5%;
+    margin: 5%;
+}
+.main-nav {
+    display: block;
 }
 
 
