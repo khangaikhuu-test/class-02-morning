@@ -1,0 +1,164 @@
+* {
+    
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 1280px;
+    height: 52px;
+    margin:16px 320px 0 320px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+#logo {
+    padding: 12px 0 12px 0;
+    
+    /* top: 28px;
+    width: 122px;
+    height: 28px;
+    left: 320px;
+    left: 16.67%;
+    right: 76.98%;
+    top: 0.42%;
+    bottom: 99.15%;   */
+} 
+/* .menu {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 437px;
+height: 24px;
+left: 943px;
+top: 30px;
+} */
+.menu {
+    display: flex;
+    justify-content: row;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 14px 0 14px 623px;
+    /* width: 437px;
+    height: 24px;
+    left: 943px;
+    top: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #394149;    ;
+    justify-content: space-around;
+    left: 320px;
+    top: 30px;
+    margin-top: 30px; */
+
+} 
+
+/* #Action {
+
+width: 173px;
+height: 52px;
+left: 1427px;
+top: 16px;
+background: rgba(245, 138, 7);
+border-radius: 31px;
+
+left: 75.83%;
+right: 18.23%;
+top: 0.51%;
+bottom: 99.23%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 106.5%;
+color: #F58A07;
+
+} */
+#Action {
+    color: #F58A07;
+    border-radius: 31px;
+    background: rgba(245, 138, 7, 0.1);
+    width: 173px;
+    height: 52px;
+    left: 1427px;
+    top: 16px;
+    padding: 18px 30px 17px 45px;
+}
+ /* .slider {
+    max-width: 1280px;
+    width: 1933px;
+    height: 703px;
+    left: -5px;
+    top: 84px;
+    background: #DCEAF5;
+    
+
+ } */
+ slider {
+    width: 1933px;
+    height: 703px;
+    display: flex;
+    background-color: #DCEAF5;
+
+ }
+
+h1 {
+    width: 576px;
+    height: 144px;
+    padding:201px 0 0 320px;
+    font-size: 64px;
+    font-weight: 600px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    line-height: 72px;
+    font-style: normal;
+}
+ .sliderblue {
+    padding: 84px 0 0 -5px;
+    background-color: #DCEAF5;
+ }
+
+ #lorem {
+     width: 571px;
+     height: 60px;
+     padding: 12px 0 0 321px;
+ }
+.service {
+    display: flex;
+    text-align: center;
+}
+
+#ourservice {
+    background-color: #F58A07;
+    color: aliceblue;
+    border-radius: 27px;
+    margin-left: 325px;
+    padding: 18px 32px 19px 32px;
+}
+#allservice {
+    padding: 18px 0 19px 80px;
+
+}
+ #worked {
+    padding-left: 325px;
+    height: 30px;
+    color: rgba(57, 65, 73, 0.5);
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-weight: 400;
+ }
+.logoimg {
+    display: flex;
+    gap: 32px;
+    width: 325px;
+    padding: 18px 0 147px 325px;
+}
+.headerimg {
+    
+}
