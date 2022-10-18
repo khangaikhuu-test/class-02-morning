@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+aside {
+    display: flex;
+    
+}
+
+header {
+    text-align: center;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    height: 70vh;
+}
+
+footer {
+    bottom: 0;
+text-align: center;
+}
+
