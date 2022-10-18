@@ -1,19 +1,18 @@
-*
-{
+* {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-header
-{
+
+header {
     text-align: center;
 }
-main
-{
+
+main {
     display: flex;
+    min-height: 800px;
     justify-content: space-between;
 }
-footer
-{
-    display: flex;
-    justify-content: flex-end;
+
+aside {
+    
 }

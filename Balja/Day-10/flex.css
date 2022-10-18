@@ -1,19 +1,14 @@
-*
-{
+
+* {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-header
-{
+header{
     text-align: center;
+    margin: 0 auto;
 }
-main
-{
+main{
     display: flex;
     justify-content: space-between;
-}
-footer
-{
-    display: flex;
-    justify-content: flex-end;
+    
 }
