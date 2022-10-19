@@ -4,6 +4,7 @@
     --medium-header-color: #063255;
     --big-header-color: #0D1317;
     --bg-light: #DCEAF5;
+    --bg-lightB: #EDF7FF;
     --bg-dark: #063255;
     --gray: #5B5B5B;
     --black: #1D3444;
@@ -101,6 +102,14 @@ body {
     font-weight: 600;
 }
 
+.bg-light-center {
+    background: var(--bg-lightB);
+}
+
+.bg-light-bottom {
+    background: var(--bg-light);
+}
+
 /* Main used style CSS Reused code end */
 
 .nav-menu {
@@ -174,6 +183,7 @@ body {
 
 #showcase .container .container-content .showcase-text .p1 {
     font-size: var(--font64);
+    color: var(--black);
     width: 576px;
     margin: 12px 0;
 }
@@ -201,7 +211,7 @@ body {
 /* Button 2 */
 #showcase .container .container-content .showcase-text .btn-second {
     background: var(--bg-light);
-    color: var(--medium-header-color);
+    color: var(--black);
 }
 
 /* #showcase .container .container-content .btn:hover {
@@ -245,7 +255,9 @@ body {
 
 #what-we-work-1 .container .container-content .p1 {
     font-size: var(--font48);
+    color: var(--black);
     width: 735px;
+    line-height: 56px;
 }
 
 #what-we-work-1 .container .container-content .p2 {
@@ -266,7 +278,6 @@ body {
 #what-we-work-1 .container .container-content .card-container .card {
     display: flex;
     flex-direction: column;
-    align-items:stretch;
     justify-content: space-between;
     width: 400px;
     height: 470px;
@@ -283,8 +294,10 @@ body {
 
 #what-we-work-1 .container .container-content .card-container .card .title-card {
     font-size: var(--font24);
-    margin: 0 0 17px 0;
-    letter-spacing: -3%;
+    color: var(--big-header-color);
+    align-self: baseline;
+    margin-bottom: 0px 0px 17px 0px;
+    letter-spacing: 0.3;
 }
 
 #what-we-work-1 .container .container-content .card-container .card .text-card {
@@ -299,6 +312,66 @@ body {
     font: normal;
     text-decoration: none;
 }
+
+
+/* WHAT WE WORK 2 HESEG */
+/* Row flex */
+#what-we-work-2 .container .container-content {
+    flex-direction: column;
+}
+
+#what-we-work-2 .container .container-content .we-work-challenge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-bottom: 60px;
+}
+
+#what-we-work-2 .container .container-content .we-work-challenge .work-challenge {
+    font-size: var(--font36);
+    color: var(--big-header-color);
+    height: 132px;
+}
+
+#what-we-work-2 .container .container-content .we-work-challenge .work-challenge .work-para {
+    height: 132px;
+    width: 620px;
+}
+
+/* Row flex */
+#what-we-work-2 .container .container-content .card-container-white {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-bottom: 96px;
+}
+
+/* Column flex */
+#what-we-work-2 .container .container-content .card-container-white .card-white {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 400px;
+    height: 277px;
+    background: var(--secondary-color);
+    padding: 48px 24px 37px 41px;
+    border-radius: 20px;
+}
+
+#what-we-work-2 .container .container-content .card-container-white .card-white img {
+    width: 41px;
+}
+
+#what-we-work-2 .container .container-content .card-container-white .card-white .med-title {
+    font-size: var(--font24);
+    color: var(--big-header-color);
+}
+
+
+
 
 
 
