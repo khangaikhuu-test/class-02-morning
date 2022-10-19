@@ -383,7 +383,9 @@ body {
     display: flex;
     justify-items: center;
     align-items: center;
+    justify-content: space-between;
     margin: 50px 0;
+    width: 100%;
 }
 
 #about-us .container .container-content .start-up .experience-left {
