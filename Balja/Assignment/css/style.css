@@ -4,6 +4,10 @@
     font-size: 16px;
     line-height: 24px;
 }
+body{
+    max-width: 1280px;
+    box-sizing: border-box;
+}
 .container{
     max-width: 1280px;
 }
@@ -199,6 +203,120 @@ img{
     font-weight:500px;
     line-height:17.04px;
     color:#f58a07;
-    width:90px;
+    width:120px;
     height: 17px;
+}
+.feature{
+    width:1280px;
+    height:665px;
+    background: #edf7ff;
+    margin-top:97px;
+    display:flex;
+    flex-direction: column;
+    gap:64px;
+}
+.feature01{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin-top: 96px;
+}
+.feature02{
+    display:flex;
+    gap:40px;
+}
+.feature1{
+    font-size:36px;
+    font-weight:600;
+    line-height: 44px;
+    width: 619px;
+    height:132px;
+}
+.feature2{
+    font-size:18px;
+    font-weight:500;
+    line-height: 30px;
+    width: 620px;
+    height:102px;
+    color: #1d3444;
+}
+.feature3{
+    display:flex;
+    flex-direction: column;
+    border: 0 solid #ffffff;
+    border-radius: 20px;
+    width: 401px;
+    height: 277px;
+    background: #ffffff;
+    justify-content: space-evenly;
+    padding-left: 40px;
+
+}
+.feature3-2{
+    font-weight:600;
+    font-size: 24px;
+    line-height: 25.56px;
+}
+.feature3-3{
+    font-weight:500;
+    font-size: 16px;
+    line-height: 28px;
+    color:#5b5b5b;
+}
+.about{
+    display:flex;
+}
+.upper-text1{
+    width:596px;
+    height:157px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0d1317;
+    margin-top: 166px;
+}
+.upper-text2{
+    width: 510px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color:#5b5b5b;
+    margin-top: 32px;
+}
+.bottom-text{
+    display:flex;
+
+}
+.bottom-text11{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color:#f58a07;
+}
+.bottom-text12{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 106.5%;
+    color:#0d1317;
+    letter-spacing: -0.03em;
+}
+.bottom-text13{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5b5b5b;
+}
+.bottom-text1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 16px;
+}
+.about-pic{
+    margin-top: 96px;
+    background: #f58a07 center / cover;
+    mix-blend-mode: multiply;
+    
 }
