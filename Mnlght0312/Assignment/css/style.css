@@ -55,13 +55,14 @@
     color: #1D3444;
     width: 576px;
     height: 144px;
+    margin-top: 117px;
     
     
 }
 .lorem {
     font-size: 18px;
     color: #5B5B5B;
-
+    margin-top: 12px;
     width: 571px;
 
 }
@@ -73,9 +74,10 @@
     display: inline-block;
     text-decoration: none;
 }
-.worked h2 {
+.worked {
     color: rgba(57, 65, 73, 0.5);
     font-size: 18px;
+    margin-top: 56px;
     
 }
 
@@ -88,14 +90,11 @@
     padding-top: 50px;
 }
 .logo1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-right: 45px;
+
 }
 .logo2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-right: 48px;
     
 }
 .logo3 {
@@ -110,5 +109,257 @@
     background-position: right;
     height: 703px;
 }
+.rightu {
+    margin-right: 40px;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+}
+.all {
+    margin-top: -60px;
+}
+.companies {
+    font-size: 48px;
+    width: 735px;
+    font-family: "Poppins";
+    margin-top: 96px; 
+}
+.subt {
+    width: 735px;
+    font-family: "Poppins";
+    margin-top: 27px;
+    margin-bottom: 64px;
+}
+.army img {
+    width: 399px;
+    height: 242px;
+    border-radius: 20px;
+}
+.standing {
+    width: 399px;
+    margin-right: 40px;
+}
+.business {
+    font-family: "Poppins";
+    font-size: 24px;
+}
+.digitalization {
+    font-family: "Poppins";
+    font-size: 24px;
+}
+.working {
+    width: 399px;
+    margin-right: 40px;
+}
+.risk {
+    font-family: "Poppins";
+    font-size: 24px;
+}
+.teach {
+    width: 399px;
+}
+.army {
+    display: flex;
+    flex-direction: row;
+}
+.learn1 {
+    color: #F58A07;
+}
+.learn2 {
+    color: #F58A07;
+}
+.learn3 {
+    color: #F58A07;
+}
+
+.bigsec {
+    background: #EDF7FF;
+    width: 1920px;
+    
+    height: 665px;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 97px;
+}
+.solution {
+    color: #0D1317;
+    font-family: "Poppins";
+    font-size: 36px;
+    width: 619px;
+    height: 132px;
+    display: inline-block;
+    
+}
+.seclor {
+    color: #1D3444;
+    font-size: 18px;
+    width: 620px;
+    height: 102px;
+    font-family: "Poppins";
+    display: inline-block;
+
+}
+.invoice {
+    color: #0D1317;
+}
+.in16 {
+    color: #5B5B5B;
+    width: 336px;
+    
+}
+.thirdy {
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+.support {
+    color: #0D1317;
+}
+.sup16 {
+    color: #5B5B5B;
+    width: 336px;
+    
+}
+.fourdy {
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+.survey {
+    color: #0D1317;
+}
+.sur16 {
+    color: #5B5B5B;
+    width: 336px;
+}
+.fivedy {
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+.energy {
+    width: 596px;
+    font-family: 'Poppins';
+    font-size: 48px;
+}
+.txt {
+    width: 510px;
+    font: 'Poppins';
+    font-size: 18px;
+}
+.plus15 {
+    color: #F58A07;
+    font-size: 36px;
+    width: 66px;
+}
+.award {
+    font-family: 'Poppins';
+    font-size: 24px;
+    width: 195px;
+    color: #0D1317;
+}
+.txtt {
+    width: 264px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #5B5B5B;
+}
+.plus500 {
+    color: #F58A07;
+    width: 98px;
+    font-size: 36px;
+}
+.clients {
+    width: 164px;
+    font-size: 24px;
+    color: #0D1317;
+}
+.txttt {
+    width: 270px;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.a {
+    display: inline-block;
+}
+.b {
+    display: inline-block;
+}
+.half {
+    display: inline-block;
+}
+.ahalf {
+    /* background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png); */
+    display: inline-block;
+    margin-top: 88.39px;
+}
+.container2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.bigthird {
+    
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 97px;
+}
+.bigfourth {
+    background-color: #EDF7FF;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.anu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.threev1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 72px;
+    margin-top: -120px;
+    margin-bottom: 100px;
+}
+.anu .threev1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.strategy {
+    color: #F58A07;
+    font-size: 16px;
+    margin-right: 72px;
+}
+.digi {
+    margin-right: 72px;
+}
+/* .bigfourth {
+    background-color: #EDF7FF;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.help {
+    width: 572px;
+}
+.text24 {
+    width: 510px;
+}
+.text144 {
+    width: 510px;
+}
+.bigfourth {
+    display: flex;
+    flex-direction: column;
+
+} */
+
 
 
