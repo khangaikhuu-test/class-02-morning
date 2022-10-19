@@ -5,8 +5,19 @@
     --big-header-color: #0D1317;
     --bg-light: #DCEAF5;
     --bg-dark: #063255;
+    --gray: #5B5B5B;
+    --black: #1D3444;
+
+    /* Font size 16px-ees to REM */
+    --xxl-font: 4rem;
+    --xl-font: 3rem;
+    --large-font: 2.25rem;
+    --medium-font: 1.5rem;
+    --normal-font: 1rem;
+
+    /* Test hiihed zoriulaw */
     --test1-border: 1px solid red;
-    --test2-border: #01b780 solid 1px;
+    --test2-border: 1.5px solid #01b780;
 }
 
 * {
@@ -20,9 +31,7 @@ main {
     justify-content: space-between;
 }
 
-header {
 
-}
 
 body {
     max-width: 1920px;
@@ -55,6 +64,10 @@ body {
     margin: 1px 5px;
 }
 
+.m2rem {
+    margin-top: 1.75rem;
+}
+
 .p-1 {
     padding: 1rem 0;
 }
@@ -66,7 +79,7 @@ body {
 }
 
 .padding-2 {
-    padding: 2.4rem;
+    padding: 2.25rem;
 }
 
 /* Main used style CSS Reused code end */
@@ -77,7 +90,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .call {
@@ -95,7 +107,7 @@ body {
 .logo {
     width: 122px;
     height: 28px;
-    background: url(../images/finsweet_logo.png) center center/cover;
+    background: url(../images/logo.svg);
 }
 
 .menu-items {
@@ -106,10 +118,17 @@ body {
 
 .nav-menu .menu-items a {
     text-decoration: none;
+    font-size: var(--normal-font);
+    line-height: var(--medium-font);
+    font-weight: 600;
 }
 
 .nav-menu .menu-items a:active {
     color: var(--primary-color);
+}
+
+.nav-menu .menu-items a:visited {
+    color: var(--black);
 }
 
 /* Show case style Start */
@@ -131,51 +150,72 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-right: 0.75rem;
+    /* padding-right: 0.75rem; */
+}
+
+#showcase .container .container-content .showcase-text .p1 {
+    font-size: var(--xxl-font);
+    width: 576px;
+    margin: 12px 0;
+}
+
+#showcase .container .container-content .showcase-text .p-2 {
+    font-size: 1.125rem;
+    width: 576px;
 }
 
 #showcase .container .container-content .showcase-text .btn {
     flex: none;
+    width: 12.43rem;
+    height: 3.37rem;
     padding: 0.62rem 2.5rem;
     text-align: center;
     border-radius: 20px;
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
 }
 
+/* Button 1 */
 #showcase .container .container-content .showcase-text .btn-first {
     background: var(--primary-color);
     color: var(--secondary-color);
 }
 
+/* Button 2 */
 #showcase .container .container-content .showcase-text .btn-second {
     background: var(--bg-light);
     color: var(--medium-header-color);
 }
 
-#showcase .container .container-content .btn:hover {
+/* #showcase .container .container-content .btn:hover {
     background: var(--medium-header-color);
     color: var(--secondary-color);
-}
+} */
 
+/* Image 1 */
 #showcase .container .container-content .showcase-image {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 618px;
+    height: 703px;
     background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png) center center/cover;
 }
 
 #showcase .container .container-content .showcase-text .showcase-logo-text {
-    margin: 3rem 0 1rem 0;
-    color: #394149;
+    margin: 4rem 0 1rem 0;
+    color: var(--gray);
     text-align: center;
 }
 
 #showcase .container .container-content .showcase-text .showcase-logos {
     display: flex;
+    justify-content: space-between;
+    min-width: 560px;
 }
+
+
+
 
 
 
