@@ -1,9 +1,29 @@
 .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
-
+header{
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-content:center; 
+    }
 .item{
     text-align: right;
+}
+
+.mainlogo{
+    position: absolute;
+}
+
+
+.p1{
+    margin-top: 50px;
+    display:flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #394149;
+    opacity: 0.5;
 }
