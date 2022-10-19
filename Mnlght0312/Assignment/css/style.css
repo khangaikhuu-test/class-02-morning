@@ -123,11 +123,14 @@
 .companies {
     font-size: 48px;
     width: 735px;
-    font-family: "Poppins"; 
+    font-family: "Poppins";
+    margin-top: 96px; 
 }
 .subt {
     width: 735px;
     font-family: "Poppins";
+    margin-top: 27px;
+    margin-bottom: 64px;
 }
 .army img {
     width: 399px;
@@ -170,11 +173,16 @@
 .learn3 {
     color: #F58A07;
 }
+
 .bigsec {
     background: #EDF7FF;
     width: 1920px;
+    
     height: 665px;
-    border: 2px solid green;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 97px;
 }
 .solution {
     color: #0D1317;
@@ -232,4 +240,126 @@
     border-radius: 20px;
     display: inline-block;
 }
+.energy {
+    width: 596px;
+    font-family: 'Poppins';
+    font-size: 48px;
+}
+.txt {
+    width: 510px;
+    font: 'Poppins';
+    font-size: 18px;
+}
+.plus15 {
+    color: #F58A07;
+    font-size: 36px;
+    width: 66px;
+}
+.award {
+    font-family: 'Poppins';
+    font-size: 24px;
+    width: 195px;
+    color: #0D1317;
+}
+.txtt {
+    width: 264px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #5B5B5B;
+}
+.plus500 {
+    color: #F58A07;
+    width: 98px;
+    font-size: 36px;
+}
+.clients {
+    width: 164px;
+    font-size: 24px;
+    color: #0D1317;
+}
+.txttt {
+    width: 270px;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.a {
+    display: inline-block;
+}
+.b {
+    display: inline-block;
+}
+.half {
+    display: inline-block;
+}
+.ahalf {
+    /* background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png); */
+    display: inline-block;
+    margin-top: 88.39px;
+}
+.container2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.bigthird {
+    
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 97px;
+}
+.bigfourth {
+    background-color: #EDF7FF;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.anu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.threev1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 72px;
+    margin-top: -120px;
+    margin-bottom: 100px;
+}
+.anu .threev1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.strategy {
+    color: #F58A07;
+    font-size: 16px;
+    margin-right: 72px;
+}
+.digi {
+    margin-right: 72px;
+}
+/* .bigfourth {
+    background-color: #EDF7FF;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.help {
+    width: 572px;
+}
+.text24 {
+    width: 510px;
+}
+.text144 {
+    width: 510px;
+}
+.bigfourth {
+    display: flex;
+    flex-direction: column;
+
+} */
+
+
 
