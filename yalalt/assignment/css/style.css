@@ -294,10 +294,11 @@ body {
 
 #what-we-work-1 .container .container-content .card-container .card .title-card {
     font-size: var(--font24);
+    font-weight: 600;
     color: var(--big-header-color);
     align-self: baseline;
     margin-bottom: 0px 0px 17px 0px;
-    letter-spacing: 0.3;
+    letter-spacing: -3%;
 }
 
 #what-we-work-1 .container .container-content .card-container .card .text-card {
@@ -318,6 +319,7 @@ body {
 /* Row flex */
 #what-we-work-2 .container .container-content {
     flex-direction: column;
+    padding: 96px 0;
 }
 
 #what-we-work-2 .container .container-content .we-work-challenge {
@@ -325,18 +327,18 @@ body {
     align-items: center;
     justify-content: space-between;
     column-gap: 40px;
-    margin-bottom: 60px;
 }
 
-#what-we-work-2 .container .container-content .we-work-challenge .work-challenge {
+#what-we-work-2 .container .container-content .we-work-challenge .work-title {
     font-size: var(--font36);
     color: var(--big-header-color);
-    height: 132px;
+    flex-basis: 50%;
 }
 
-#what-we-work-2 .container .container-content .we-work-challenge .work-challenge .work-para {
-    height: 132px;
-    width: 620px;
+#what-we-work-2 .container .container-content .we-work-challenge .work-para {
+    font-size: var(--font16);
+    line-height: 30px;
+    flex-basis: 50%;
 }
 
 /* Row flex */
@@ -345,7 +347,6 @@ body {
     align-items: center;
     justify-content: space-between;
     column-gap: 40px;
-    margin-bottom: 96px;
 }
 
 /* Column flex */
@@ -359,6 +360,7 @@ body {
     background: var(--secondary-color);
     padding: 48px 24px 37px 41px;
     border-radius: 20px;
+    box-shadow: 1px 1px 2px var(--bg-light);
 }
 
 #what-we-work-2 .container .container-content .card-container-white .card-white img {
@@ -368,11 +370,21 @@ body {
 #what-we-work-2 .container .container-content .card-container-white .card-white .med-title {
     font-size: var(--font24);
     color: var(--big-header-color);
+    margin-top: 2rem;
+    margin-bottom: 0px;
 }
+/* WORK 2 Heseg ---INVOICE SUPPORT SURVEY--- END */
+
+
+/* The energy of a START-UP begin */
 
 
 
 
+
+
+
+/* The energy of a START-UP END */
 
 
 
