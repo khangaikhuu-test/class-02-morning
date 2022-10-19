@@ -294,10 +294,11 @@ body {
 
 #what-we-work-1 .container .container-content .card-container .card .title-card {
     font-size: var(--font24);
+    font-weight: 600;
     color: var(--big-header-color);
     align-self: baseline;
     margin-bottom: 0px 0px 17px 0px;
-    letter-spacing: 0.3;
+    letter-spacing: -3%;
 }
 
 #what-we-work-1 .container .container-content .card-container .card .text-card {
@@ -318,6 +319,7 @@ body {
 /* Row flex */
 #what-we-work-2 .container .container-content {
     flex-direction: column;
+    padding: 96px 0;
 }
 
 #what-we-work-2 .container .container-content .we-work-challenge {
@@ -325,18 +327,18 @@ body {
     align-items: center;
     justify-content: space-between;
     column-gap: 40px;
-    margin-bottom: 60px;
 }
 
-#what-we-work-2 .container .container-content .we-work-challenge .work-challenge {
+#what-we-work-2 .container .container-content .we-work-challenge .work-title {
     font-size: var(--font36);
     color: var(--big-header-color);
-    height: 132px;
+    flex-basis: 50%;
 }
 
-#what-we-work-2 .container .container-content .we-work-challenge .work-challenge .work-para {
-    height: 132px;
-    width: 620px;
+#what-we-work-2 .container .container-content .we-work-challenge .work-para {
+    font-size: var(--font16);
+    line-height: 30px;
+    flex-basis: 50%;
 }
 
 /* Row flex */
@@ -345,7 +347,6 @@ body {
     align-items: center;
     justify-content: space-between;
     column-gap: 40px;
-    margin-bottom: 96px;
 }
 
 /* Column flex */
@@ -359,6 +360,7 @@ body {
     background: var(--secondary-color);
     padding: 48px 24px 37px 41px;
     border-radius: 20px;
+    box-shadow: 1px 1px 2px var(--bg-light);
 }
 
 #what-we-work-2 .container .container-content .card-container-white .card-white img {
@@ -368,11 +370,115 @@ body {
 #what-we-work-2 .container .container-content .card-container-white .card-white .med-title {
     font-size: var(--font24);
     color: var(--big-header-color);
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+/* WORK 2 Heseg ---INVOICE SUPPORT SURVEY--- END */
+
+
+/* The energy of a START-UP begin */
+
+/* 1 1 1 1 1 1 1 */
+#about-us .container .container-content .start-up {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    width: 100%;
 }
 
+#about-us .container .container-content .start-up .experience-left {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    width: 596px;
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .e1 {
+    color: var(--big-header-color);
+    line-height: 56px;
+    font-size: var(--font48);
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .e2 {
+    line-height: 30px;
+    font-size: var(--font18);
+    font-weight: 500;
+    width: 510px;
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .has-2child {
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    margin: 48px 0;
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .has-2child .child {
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    align-items: flex-start;
+    width: 264px;
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .has-2child .child .child-no {
+    color: var(--primary-color);
+    font-size: var(--font36);
+    font-weight: 700;
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .has-2child .child .child-title {
+    color: var(--big-header-color);
+    font-size: var(--font24);
+    margin: 1rem 0;
+}
+
+#about-us .container .container-content .start-up 
+.experience-left .has-2child .child .child-text {
+    line-height: 28px;
+    font-size: var(--font16);
+}
+
+#about-us .container .container-content .start-up 
+.experience-image {
+    display: inline-block;
+}
+
+#pretty-woman {
+    position: relative;
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) no-repeat center center/cover;
+    height: 667px;
+    width: 637px;
+    z-index: -1;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+}
+
+#orangeBox-on-image {
+    position: absolute;
+    background: url(../images/orange-side.png) no-repeat center/cover;
+    height: 667px;
+    width: 153px;
+    opacity: 0.8;
+    border-radius: 20px 0 0 20px;
+}
+/* 1 1 1 1 1 1 1 1 */
+
+/* Experience Start-up Service 2 dugaar mor - ROW 2 */
 
 
 
+
+/* The energy of a START-UP END */
 
 
 
