@@ -291,17 +291,142 @@ section {
     border: 1px solid hidden;
     border-radius: 15px;
     margin-left: 47px;
-    z-index: -1;
-
+    /* z-index: -1;   daraa n daxin xiix */
 }
-.boxborder {
-    box-sizing: border-box;
+
+                        /* SERVICE SECTION #5 */
+
+.sectionT5 {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: 1295px;
+    height: 698px;
+    margin: 95px 0 0 320px;
+}
+.section5 {
+    border: 1px solid #EDF7FF;
+    background-color: #EDF7FF;
+    border-radius: 20px;
+    width: 1274.3px;
+    height: 682px;
+    margin: -168px 0 0 0 ;
+}
+.sticker {
+    margin: 0 0 0 1115px;
+}
+.sec5_title1 {
+    color: #F58A07;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 600;
+    border: 1px solid #f58A07;
+    border-radius: 31px;
+    background-color: #FFFFFF;
+    width: 194px;
+    height: 40px;
+    padding: 8px 22px;
+    margin: 48px 0 0 48px;
+}
+
+.sec5_title2 {
+    color: #063255;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 600;
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    background-color: #EDF7FF;
+    width: 155px;
+    height: 40px;
+    padding: 8px 22px;
+    margin: 48px 0 0 24px;
+}
+.sec5_title3 {
+    /* color 30% daraa daxin ergej harah */
+    color: #063255;     
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 600;
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    background-color: #EDF7FF;
+    width: 183px;
+    height: 40px;
+    padding: 8px 22px;
+    margin: 48px 0 0 24px;
+}
+.title11 {
+    display: flex;
+    gap: 24px;
+}
+.sec5_title4 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    width: 572px;
+    height: 168px;
+    margin: 80px 0 0 48px;
+}
+.sec5_text1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 510px;
+    height: 210px;
+    margin: 25px 0 0 48px;
+}
+.sec5_link {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 17px;
+    color: #f58A07;
+    width: 160px;
+    height: 17px;
+    margin: 40px 0 0 48px;
+}
+
+.phototeam {
+    margin: -530px 42px 48px 760px;
+}
+
+                    /* CTA SECTION #6 */
+
+.sec6 {
+    border: 1px solid #F58A07;
+    width: 1920px;
+    height: 518px;
     background-color: #F58A07;
-    mix-blend-mode: lighten;
-    width: 153px;
-    height: 670px;
-    margin: 97px 0 0 47px;
-
+    margin-top: 128px;
 }
-
-
+.sec6_img {
+    width: 963px;
+    height: 518px;
+}
+.sec6_title {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    width: 532px;
+    height: 168px;
+    margin: 128px 0 0 128px;
+}
+.sec6_link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #F58A07;
+    padding: 18px 15px;
+    border: 1px solid white;
+    border-radius: 31px;
+    background-color: #FFFFFF;
+    width: 216px;
+    height: 54px;
+    margin: 40px 0 0 128px;
+}
+.sec6 {
+    display: flex;
+}
