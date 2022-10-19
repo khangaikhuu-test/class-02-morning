@@ -5,8 +5,19 @@
     --big-header-color: #0D1317;
     --bg-light: #DCEAF5;
     --bg-dark: #063255;
+    --gray: #5B5B5B;
+    --black: #1D3444;
+
+    /* Font size 16px-ees to REM */
+    --xxl-font: 4rem;
+    --xl-font: 3rem;
+    --large-font: 2.25rem;
+    --medium-font: 1.5rem;
+    --normal-font: 1rem;
+
+    /* Test hiihed zoriulaw */
     --test1-border: 1px solid red;
-    --test2-border: #01b780 solid 1px;
+    --test2-border: 1.5px solid #01b780;
 }
 
 * {
@@ -20,9 +31,7 @@ main {
     justify-content: space-between;
 }
 
-header {
 
-}
 
 body {
     max-width: 1920px;
@@ -169,7 +178,7 @@ body {
 
 #showcase .container .container-content .showcase-text .showcase-logo-text {
     margin: 3rem 0 1rem 0;
-    color: #394149;
+    color: var(--gray);
     text-align: center;
 }
 
