@@ -66,7 +66,7 @@ h1 {
     font-family: 'Poppins';
     font-size: 64px;
     font-weight: 600;
-    line-height: 72px;
+    line-height: 72px;  
     letter-spacing: -3%;
     width: 576px;
     height: 144px;
@@ -226,3 +226,120 @@ h2 {
     line-height: 106.5%;
     color: #F58A07;
    }
+
+   /* --second section starts here */
+  .secondsection {
+    width: 1920px;
+    height: 665px;
+    border: #0D1317 1px solid;
+    background: #EDF7FF;
+    gap: 40px;
+  }
+
+   .secondsection h2 {
+    width: 619px;
+    height: 132px;
+    margin: 96px 40px 64px 321px;
+    /* font-family: 'Poppins';
+    font-style: normal; */
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 3%em;
+    color: #0D1317;
+   }
+
+   .secondfooter {
+    display: flex;
+    height: 277px;
+    width: 1282px;
+    border: #0D1317 1px solid;
+    margin: 0px 320px 96px 318px;
+    gap: ;
+
+   }
+. secondimg{
+    border: #0D1317 1px solid black;
+}
+   .secondcontenttext {
+    width: 336px;
+    height: 84px;
+    
+   }
+
+   .feature-1 {
+    width: 401px;
+    height: 277px;
+    background: white;
+    border-radius: 20px;
+    
+   }
+    .feature-1 img {
+        margin: 48px 327px 32px 41px;
+    }
+    .feature-1 h3 {
+        margin: 0px 253px 16px 41px;
+    }
+.secondcontenttext-1 {
+    margin: 0px 24px 37px 41px;
+    width: 336px;
+    height: 84px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+   .feature-2 {
+    width: 401px;
+    height: 277px;
+    background: white;
+    margin-left: 40px;
+    border-radius: 20px;
+   }
+    .feature-2 img {
+        margin: 40px 322px 32px 38px;
+    }
+    .feature-2 h3 {
+        margin: 0px 269px 16px 39px;
+    }
+    .secondcontenttext-2 {
+        margin: 0px 26px 37px 39px;
+        width: 336px;
+        height: 84px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #5B5B5B;
+    }
+   
+   .feature-3 {
+    width: 401px;
+    height: 277px;
+    background: white;
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+
+.feature-3 img {
+    margin: 50px 327px 32px 38px;
+}
+.feature-3 h3 {
+    margin: 0px 245px 16px 39px;
+}
+.secondcontenttext-3 {
+    margin: 0px 26px 37px 39px;
+    width: 336px;
+    height: 84px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
