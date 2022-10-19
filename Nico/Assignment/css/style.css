@@ -9,9 +9,9 @@ a {
     font-weight: 600;
     line-height: 106.5%;
     font-style: normal;
-    white-space: nowrap;
     text-decoration: none;
 }
+/* main content width */
 
 .content {
     max-width: 1280px;
@@ -29,10 +29,6 @@ a {
 .article {
     max-width: 735px;
 }
-
-/* header {
-    height: 84px;
-} */
 
 /* header starts here */
 .main-nav {
@@ -58,6 +54,7 @@ a {
 .navbar a {
     line-height: 24px;
     color: #394149;
+    white-space: nowrap;
 }
 
 #call-to a {
@@ -65,10 +62,6 @@ a {
     padding: 18px 30px;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
-}
-
-#contact-us {
-    width: 100px;
 }
 
 /* slider starts here */
@@ -106,6 +99,7 @@ a {
 .slider-article a {
     margin-top: 50px;
     margin-bottom: 75px;
+    white-space: nowrap;
 }
 
 #article-buttons {
