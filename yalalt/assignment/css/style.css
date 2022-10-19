@@ -9,11 +9,18 @@
     --black: #1D3444;
 
     /* Font size 16px-ees to REM */
-    --xxl-font: 4rem;
-    --xl-font: 3rem;
-    --large-font: 2.25rem;
-    --medium-font: 1.5rem;
-    --normal-font: 1rem;
+    /* 64px */
+    --font64: 4rem;
+    /* 48px */
+    --font48: 3rem;
+    /* 36px */
+    --font36: 2.25rem;
+    /* 24px */
+    --font24: 1.5rem;
+    /* 18px */
+    --font18: 1.125rem;
+    /* 16px */
+    --font16: 1rem;
 
     /* Test hiihed zoriulaw */
     --test1-border: 1px solid red;
@@ -82,6 +89,18 @@ body {
     padding: 2.25rem;
 }
 
+.removeMargin {
+    margin: 0 0;
+}
+
+.w500 {
+    font-weight: 500;
+}
+
+.w600 {
+    font-weight: 600;
+}
+
 /* Main used style CSS Reused code end */
 
 .nav-menu {
@@ -118,8 +137,8 @@ body {
 
 .nav-menu .menu-items a {
     text-decoration: none;
-    font-size: var(--normal-font);
-    line-height: var(--medium-font);
+    font-size: var(--font16);
+    line-height: var(--font24);
     font-weight: 600;
 }
 
@@ -154,21 +173,20 @@ body {
 }
 
 #showcase .container .container-content .showcase-text .p1 {
-    font-size: var(--xxl-font);
+    font-size: var(--font64);
     width: 576px;
     margin: 12px 0;
 }
 
-#showcase .container .container-content .showcase-text .p-2 {
-    font-size: 1.125rem;
+#showcase .container .container-content .showcase-text .p2 {
+    font-size: var(--font18);
     width: 576px;
 }
 
 #showcase .container .container-content .showcase-text .btn {
     flex: none;
     width: 12.43rem;
-    height: 3.37rem;
-    padding: 0.62rem 2.5rem;
+    padding: 0.8rem 2.5rem;
     text-align: center;
     border-radius: 20px;
     /* transition: all 1s ease-in-out; */
@@ -213,6 +231,100 @@ body {
     justify-content: space-between;
     min-width: 560px;
 }
+
+
+/* We Work 1 Design Style */
+/* Card container class */
+#what-we-work-1 .container .container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#what-we-work-1 .container .container-content .p1 {
+    font-size: var(--font48);
+    width: 735px;
+}
+
+#what-we-work-1 .container .container-content .p2 {
+    font-size: var(--font18);
+    width: 735px;
+}
+
+
+/* CARD container CARD DESIGN */
+#what-we-work-1 .container .container-content .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin: 50px 0;
+}
+
+#what-we-work-1 .container .container-content .card-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-between;
+    width: 400px;
+    height: 470px;
+}
+
+#what-we-work-1 .container .container-content .card-container .card .img-card {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 399px;
+    height: 242px;
+    border-radius: 20px;
+    margin-bottom: 33px;
+}
+
+#what-we-work-1 .container .container-content .card-container .card .title-card {
+    font-size: var(--font24);
+    margin: 0 0 17px 0;
+    letter-spacing: -3%;
+}
+
+#what-we-work-1 .container .container-content .card-container .card .text-card {
+    font-size: var(--font16);
+    line-height: 28px;
+    margin: 0 0 24px 0;
+}
+
+#what-we-work-1 .container .container-content .card-container .card a {
+    font-size: var(--font16);
+    color: var(--primary-color);
+    font: normal;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
