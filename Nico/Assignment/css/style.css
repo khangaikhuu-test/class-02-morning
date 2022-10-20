@@ -13,16 +13,6 @@ a {
     text-decoration: none;
 }
 
-.orangebg {
-    background: #F58A07;
-    color: #FFFFFF;
-    border-radius: 27px;
-    line-height: 17.04px;
-    /* padding: 18px 32px 19px 32px; */
-    padding: 5% 10%;
-    margin-right: 40px;
-}
-
 .orange-link {
     color: #F58A07;
 }
@@ -54,6 +44,10 @@ body {
     margin-bottom: 50px;
     font-size: 18px;
     line-height: 30px;
+}
+
+.align-between {
+    align-content: space-between;
 }
 
 /* header starts here */
@@ -104,6 +98,7 @@ body {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .slider-article {
@@ -131,7 +126,9 @@ body {
 }
 
 #article-buttons {
-    margin: 50px 0 75px 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
 .slider-article div {
@@ -153,31 +150,36 @@ body {
     margin: 0 0 18px 0;
 }
 
+/* positions */
+
+.align-center {
+    align-content: center;
+}
+
 .between {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
+.flex {
+    display: flex;
+}
+
 .article-flex {
     display: flex;
     line-height: 28px;
     color: #1D3444;
-    gap: 40px;
     justify-content: space-between;
 }
 
-.little-bg {
-    border-radius: 20px;
-    height: 242px;
-    max-width: 400px;
+/* gaps */
+.gap-24 {
+    gap: 24px;
 }
 
-.half-bg {
-    border: 0;
-    border-radius: 20px;
-    height: 670px;
-    width: 670px;
+.gap-40 {
+    gap: 40px;
 }
 
 .max-w270 {
@@ -192,12 +194,9 @@ body {
     max-width: 600px;
 }
 
-/* .article-flex img {
-    border: 0px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-} */
+.padding-48 {
+    padding: 48px;
+}
 
 .article-flex div {
     margin-top: 15px;
@@ -229,6 +228,24 @@ body {
     line-height: 44px;
 }
 
+/* backgrounds */
+
+/* backgrounds by size */
+.little-bg {
+    border-radius: 20px;
+    height: 242px;
+    max-width: 400px;
+}
+
+.half-bg {
+    border: 0;
+    border-radius: 20px;
+    height: auto;
+    width: 620px;
+}
+
+/* backgrounds by color */
+
 .blueish-bg {
     background: #EDF7FF;
 }
@@ -237,6 +254,10 @@ body {
     background: #FFFFFF;
     border: 0;
     padding: 40px;
+}
+
+.border-radius {
+    border-radius: 20px;
 }
 
 /* background images */
@@ -254,21 +275,75 @@ body {
 
 #smiling {
     background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) center / cover;
-
     isolation: isolate;
 }
 
-#orange-stack {
+#ribbon {
+    background-image: url('../images/Ribbon.png') no-repeat scroll 0 0 transparent;
+    background-position: 0 0;
+    z-index: 100;
+    /* background stacks */
+}
+
+.orange-stack {
     background: #F58A07;
     border-radius: 20px 0px 0px 20px;
-    width: 153px;
-    height: 670px;
     left: 0;
     top: 0;
     mix-blend-mode: multiply;
+}
+
+#smiling-stack {
+    width: 153px;
+    height: 670px;
     margin: 0;
+}
+
+#team-stack {
+    width: 120px;
+    height: auto;
+    margin: 0;
+}
+
+#ribbon {
+    justify-self: flex-end;
+    height: 178px;
+    width: 179px;
+    margin: -64px -64px 0 0;
 }
 
 .orange {
     color: #F58A07;
+}
+
+/* Buttons */
+
+.button {
+    padding: 8px 24px;
+    border-radius: 31px;
+    
+}
+
+.height-40 {
+    height: 40px;
+}
+
+.white-bg {
+    line-height: 24px;
+    background: #FFFFFF;
+}
+
+.orange-bg {
+    background: #F58A07;
+    color: #FFFFFF;
+    border-radius: 27px;
+    line-height: 17.04px;
+    /* padding: 18px 32px 19px 32px; */
+    padding: 5% 10%;
+}
+
+.grey-30 {
+    line-height: 24px;
+    color: rgba(6, 50, 85, 0.3);
+    border: 1px solid #A8BCCC
 }
