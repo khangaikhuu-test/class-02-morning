@@ -485,6 +485,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding-bottom: 48px;
 }
 
 #about-us .container .container-content .my-service-all 
@@ -611,8 +612,11 @@ body {
 /* The energy of a START-UP END */
 
 
-
-
+/* Hondlon zurag shar background */
+#energy-job-vacancies {
+    background: var(--primary-color);
+    height: 518px;
+}
 
 
 
