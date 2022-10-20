@@ -21,19 +21,19 @@
 .header_menu{
     display: flex;
     gap: 32px;
-    margin: 0 0 0 501px;
+    margin: 0 0 0 470px;
 }
 .header_link {
     font-size: 16px;
     font-weight: 600;
     line-height: 17px;
-    padding: 15px 28px;
-    width: 173px;
+    padding: 18px 32px;
+    width: 190px;
     height: 52px;
     color:#F58A07;
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
-    border-radius: 39%;
+    border-radius: 31%;
     margin: -15px 0 0 47px;
 }
 .header_menu a {
@@ -282,6 +282,17 @@ section {
     margin-left: 47px;
     /* z-index: -1;   daraa n daxin xiix */
 }
+.orange1 {
+    position: absolute;
+    background-color: rgba(245, 138, 7, 1);
+    opacity: 90%;
+    width: 153px;
+    height: 667px;
+    margin: 0 0 0 47px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
                         /* SERVICE SECTION #5 */
 .sectionT5 {
     border: 1px solid #ffffff;
