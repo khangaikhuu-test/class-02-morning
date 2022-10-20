@@ -14,9 +14,11 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     max-width: 1280px;
-    top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
 }
 svg
 {
@@ -125,10 +127,10 @@ h4
 {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     position: absolute;
     top: 480px;
-    right: 40px;
+    right: 300px;
     
    
    
@@ -143,7 +145,7 @@ h4
 {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 200px;
     max-width: 100%;
     margin-left: 200px;
    
@@ -231,7 +233,7 @@ h4
 { 
  display: inline-block;
  width: 1280px;
- height: 500px;
+ height: 300px;
  margin-left: 200px;
  
  
@@ -268,7 +270,7 @@ text-align: left;
 {
   display: flex;
   max-width: 1280px;
-  height: 690px;
+  height: 390px;
   margin-left: 200px;
 }
 .abouttext
@@ -303,4 +305,9 @@ text-align: left;
     background: azure;
     float: left;
     border: 100px solid rgb(173, 100, 57);
+}
+.number
+{
+    display: flex;
+    font-size: 36px;
 }
