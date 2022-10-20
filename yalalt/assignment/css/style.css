@@ -211,6 +211,7 @@ body {
   padding: 0.8rem 2.5rem;
   text-align: center;
   border-radius: 20px;
+  text-decoration: none;
   /* transition: all 1s ease-in-out; */
 }
 
@@ -847,16 +848,189 @@ body {
 }
 
 #blog-news {
-    background: var(--bg-light);
-    height: 820px;
+  background: var(--bg-light);
+  height: 820px;
 }
+
+
+#blog-news .container .container-content .flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  width: inherit;
+  margin-top: 48px;
+}
+
+/* Hondlon container zarlah */
+#blog-news .container .container-content .flex-col .container-card2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+  width: inherit;
+}
+
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  width: 400px;
+  height: 507px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px var(--bg-light);
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .post-img {
+  background: url(../images/post1.png) no-repeat center center/cover;
+  width: 400px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .post-img2 {
+  background: url(../images/post-2.png) no-repeat center center/cover;
+  width: 400px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .post-img3 {
+  background: url(../images/post-3.png) no-repeat center center/cover;
+  width: 400px;
+  height: 230px;
+  border-radius: 20px 20px 0 0;
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .med-title2 {
+  font-size: var(--font24);
+  color: var(--big-header-color);
+  font-weight: 500;
+  margin-top: 2rem;
+  margin: 32px 32px 0 32px;
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .med-title2-p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: justify;
+  margin: 16px 32px 0 32px;
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .post-button {
+  width: inherit;
+  padding: 32px;
+}
+
+#blog-news .container .container-content .flex-col .container-card2 .card-white2 .post-button a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
 
 
 /* Footer heseg */
 footer {
+  background: #063255;
+  height: 463px;
+  position: relative;
+}
+
+footer #footer-img-right {
+  position: absolute;
+  top: 38px;
+  right: 0px;
+}
+
+footer #footer-img-left {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+footer .container .container-content .footer { 
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border: var(--test1-border);
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 80px;
+  color: #fff;
+}
+
+footer .container .container-content .col-1 .logo {
+  background: url(../images/white-logo.svg) no-repeat;
+  width: 120px;
+  height: 27px;
+}
+
+footer .container .container-content .col-1 .footer-title1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  width: 351px;
+}
+
+
+footer .container .container-content .col-1 .foot-social-logo i {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+footer .container .container-content .col-1 .footer-copyright {
+  margin-top: 80px;
+}
+
+footer .container .container-content .col-2 .footer-col-2-title,
+footer .container .container-content .col-3 .footer-col-3-title {
+  justify-self: flex-start;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer .container .container-content .col-2 .footer-col-2-text,
+footer .container .container-content .col-3 .footer-col-3-text {
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+footer .container .container-content .col-4 .footer-col-4-title {
+  font-size: 18px;
+  font-weight: 600;
+  
+}
+
+footer .container .container-content .col-4 #footer-email {
+  color: #9c9c9c;
+  text-decoration: none;
+  background: #fff;
+  padding: 17px 32px;
+  margin: 16px 0;
+  width: 342px;
+  height: 54px;
+  border-radius: 31px;
+}
+
+footer .container .container-content .col-4 #footer-subscribe-btn {
+  background: #f58a07;
+  width: 156px;
+  height: 54px;
+  border-radius: 31px;
+  padding: 17px 32px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer .container .container-content .col-4 .privacy-text {
+  margin-top: 104px;
+  text-align: right;
+  align-self: flex-end;
 }
