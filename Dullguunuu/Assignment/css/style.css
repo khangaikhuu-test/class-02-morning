@@ -120,3 +120,108 @@
     width: 747px;
     margin-top: 85px;
 }
+
+.helpsection {
+    margin: 96px auto;
+}
+
+.helpsection h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1D3444;
+    width: 735px;
+    height: 112px;
+}
+
+.helpsection #headtext {
+    margin-top: 27px;
+    width: 735px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.helpposts {
+    margin-top: 64px;
+    display: flex;
+    gap: 40px;
+}
+
+.helpposts img {
+    border-radius: 20px;
+    width: 399px;
+    height: 242px;
+}
+
+.helpposts h3 {
+    margin-top: 33px;
+    color: #0D1317;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.helpposts .helptext {
+    margin-top: 17px;
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.helpposts .LMs {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f58a07;
+}
+
+.featuresection {
+    margin: auto;
+    background: #EDF7FF;
+}
+
+.featuretexts {
+    display: flex;
+    gap: 40px;
+}
+
+.featuretexts h3 {
+    width: 619px;
+    height: 132px;
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 96px;
+}
+
+.featuretexts p {
+    width: 620px;
+    height: 102px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 102px;
+}
+
+.features {
+    display: flex;
+    gap: 40px;
+}
+
+.features .background {
+    background: white;
+    border-radius: 20px;
+}
+
+.features .featurebox1 {
+    padding: 48px 24px 37px 41px;
+}
+
+.features img {
+    color: #F58A07;
+}
+
+.
