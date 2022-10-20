@@ -1,40 +1,240 @@
 * {
-	box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  /* font-size: 16px;
+    line-height: 24px; */
 }
-body {
-    max-width: 1280px;
-}
-.row {
-	padding: 10px;
-	margin: 0px auto;
-}
-.item {
-	padding: 30px;
-	background: #ffffff;
-}
-.callout{
-    margin: 16px;
-    background: #F58A071A;
-    text-align: center;
-    color: #F58A07;
-    border-radius: 31px;
-    padding-top: 18px;
-    padding-bottom: 17px;
-    padding-left: 29px;
-    padding-right: 30px;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
 
-.background{
-    color: solid #dceaf5;
-    max-width: 1280px;
-    height: 703px;
-    background: #DCEAF5;
+/* menu/slider heseg ehlev */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
-.banner img{
-    width: 747px;
-    height: 618px;
-    position: absolute;
-    box-sizing: border-box;
+.slider {
+  background: #dceaf5;
+  height: 703px;
 }
+
+.slider-container {
+  display: flex;
+  margin: auto;
+  max-width: 1280px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 50px;
+}
+.navbar {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  column-gap: 30px;
+  list-style: none;
+  margin-left: 50px;
+}
+.mainlogo {
+  margin-top: 28px;
+  width: 122px;
+  height: 28px;
+}
+.callout {
+  width: 173px;
+  height: 52px;
+  color: #f58a07;
+  background-color: rgba(245, 138, 7, 0.1);
+  border-radius: 31px;
+  margin-top: 18px;
+  margin-bottom: 17px;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a {
+  color: inherit;
+}
+/* menu/slider heseg duusav */
+
+/* main heseg ehlev */
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.main1 {
+  font-size: 48px;
+  line-height: 72px;
+  color: #1d3444;
+  font-weight: bold;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.maintext {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+.main-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+}
+.button1 {
+  width: 199px;
+  height: 54px;
+  border-radius: 27px;
+  background: #f58a07;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.button1 {
+  width: 199px;
+  height: 54px;
+  border-radius: 27px;
+  background: #f58a07;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.p1 {
+  margin-top: 50px;
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #394149;
+  opacity: 0.5;
+}
+.logo1 {
+  width: 143px;
+  height: 33px;
+}
+.logo2 {
+  width: 134px;
+  height: 31px;
+}
+.logo3 {
+  width: 140px;
+  height: 32px;
+}
+.small-logos {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.main-banner {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 85px;
+}
+h2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: center;
+  margin-right: 500px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.h2-content {
+  margin-right: 500px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.h2-post1 {
+  margin-right: 480px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.column-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 40px;
+  margin: 50px 0;
+}
+.column-img {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 370px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 33px;
+}
+.column-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.column-content {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.more-button {
+  color: #f58a07;
+}
+.contain3 {
+  background-color: #edf7ff;
+  height: 665px;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-right: 40px;
+  margin-top: 96px;
+  width: 619px;
+}
+
+/* main heseg duusav */
+
+/* footer heseg ehlev */
+
+/* footer heseg duusav */
