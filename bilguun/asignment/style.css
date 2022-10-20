@@ -2,14 +2,16 @@
     max-width: 1280px;
     margin: 0 auto;
 }
-*{
+
+* {
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 header {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     text-transform: capitalize;
@@ -29,6 +31,7 @@ header {
 .navbar a {
     color: #394149;
 }
+
 .but1 {
     background: #F58A071A;
     padding: 18px 30px;
@@ -41,17 +44,18 @@ header {
     background: #DCEAF5 100vw;
     text-transform: capitalize;
 }
+
 .banner {
     display: flex;
     gap: 40px;
     justify-content: space-between;
-
 }
-#zurag{
+
+#zurag {
     height: 618px;
     margin-top: 85px;
-
 }
+
 .text1 {
     display: flex;
     justify-content: center;
@@ -59,26 +63,29 @@ header {
     flex-direction: column;
     gap: 20px;
 }
+
 .text2 {
     flex-direction: column;
-
 }
+
 .text2 h1 {
     font-size: 64px;
     color: #1D3444;
     margin: 0;
     line-height: 72px;
 }
+
 .text2 h3 {
     font-size: 18px;
     color: #5B5B5B;
     line-height: 30px;
 }
 
-.services { 
+.services {
     display: flex;
     gap: 72px;
 }
+
 .services span {
     padding: 18px 32px;
     background-color: #F58A07;
@@ -93,47 +100,52 @@ header {
     margin-left: 0;
     padding-top: 30px;
 }
+
 .img1 img {
     padding-right: 45px;
 }
 
+
 /*      Banner        */
+
 .text3 {
     max-width: 735px;
 }
+
 .text3 h2 {
     font-size: 3rem;
     line-height: 56px;
     color: #1D3444;
 }
 
-.text3 p{
+.text3 p {
     font-size: 1.125rem;
     line-height: 30px;
     color: #5B5B5B;
 }
 
-.text4 h3{
+.text4 h3 {
     font-size: 1.5rem;
     color: #0d1317;
 }
 
-.text4 p{
+.text4 p {
     color: #5b5b5b;
 }
 
 .but3 {
     color: #F58A07;
 }
+
 .post1 img {
     border-radius: 20px;
 }
-.posts{
+
+.posts {
     display: flex;
     justify-items: center;
     align-items: center;
 }
-
 
 .help {
     height: 932px;
@@ -142,6 +154,7 @@ header {
     justify-content: space-evenly;
 }
 
+
 /*      Feaures section          */
 
 #feauress {
@@ -149,35 +162,40 @@ header {
     background: #DCEAF5 100vw;
     display: flex;
 }
+
 .feaures {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
-
 }
-.text5{
+
+.text5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
-.text5 h1{
+
+.text5 h1 {
     font-size: 2.25rem;
     line-height: 2.75rem;
     color: #0d1317;
     width: 620px;
 }
-.text5 h2{
+
+.text5 h2 {
     font-size: 1.25rem;
     line-height: 1.875rem;
     color: #1D3444;
     width: 620px;
 }
+
 .feature1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .icons {
     width: 25rem;
     background-color: #FFFFFF;
@@ -188,11 +206,53 @@ header {
     padding: 1.5rem;
     justify-content: space-around;
     align-content: space-around;
-
 }
+
 .icons h2 {
     font-size: 1.5rem;
 }
+
 .icons p {
     line-height: 28px;
+}
+
+
+/*      About section        */
+
+.text6 h1 {
+    font-size: 3rem;
+    color: #0D1317;
+}
+
+.text6 p {
+    font-size: 1.125rem;
+    color: #5B5B5B;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box span {
+    font-size: 2rem;
+    color: #F58A07;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    color: #0D1317;
+}
+
+.box p {
+    color: #5B5B5B;
+}
+
+.about {
+    display: flex;
+    align-content: center;
+}
+
+.about img {
+    border-radius: 40px;
 }
