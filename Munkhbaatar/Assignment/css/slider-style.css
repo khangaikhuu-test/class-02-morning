@@ -94,6 +94,43 @@ button {
     font-style: normal;
 }
 
+.business-button {
+    background-color: #FFFFFF;
+    color: #F58A07;
+    border-radius: 27px;
+    width: 199px;
+    height: 54px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.digitalization-button {
+    background-color: #EDF7FF;
+    color: #0632554D;
+    border: 2px solid #A8BCCC;
+    border-radius: 31px;
+    width: 155px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.risk-button {
+    background-color: #EDF7FF;
+    color: #F58A07;
+    border-radius: 27px;
+    width: 199px;
+    height: 54px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
 .seeAll {
     margin-left: 40px;
     text-decoration: none;
@@ -156,7 +193,7 @@ button {
 
 .col-container {
     display: flex;
-    font-size: 16px;
+    font-size: 18px;
     justify-content: space-between;
     padding-top: 5em;
     align-content: flex-start;
@@ -164,7 +201,7 @@ button {
 
 .col-container3 {
     display: flex;
-    font-size: 16px;
+    font-size: 18px;
     justify-content: space-between;
     align-content: flex-start;
 }
@@ -223,10 +260,16 @@ button {
     border-radius: 20px;
     /* mix-blend-mode: multiply; */
     padding-top: 10px;
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+    
 }
 .woman-pic img {
     opacity: 0.6;
     display: flex;
     align-items: stretch;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
