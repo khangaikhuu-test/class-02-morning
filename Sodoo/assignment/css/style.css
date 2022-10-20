@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+header ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #394149;
+    margin-right: 35px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+    
+}
+
+.slider-con {
+    display: flex;
+}
+
+.col1 {
+   display: flex;
+   flex-direction: column;
+
+    width: 50%;
+    margin: auto;
+}
+
+.col1 p {
+    color: rgba(57, 65, 73, 0.5);
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 56px;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.col2 {
+    display: flex;
+    width: 50%;
+}
+
+h1 {
+    color: #1D3444;
+    font-size: 64px;
+    
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+
+}
+
+h4 {
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.button {
+    color: #F58A07;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    /* width: 173px;
+    height: 52px; */
+    padding: 18px 30px;
+    
+}
+
+.seebtn {
+    background-color: #F58A07;
+    padding: 18px 32px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 27px;
+    margin-right: 40px;
+}
+
+.seebtn2 {
+    color: #1D3444;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.slider {
+    
+    background-color: #DCEAF5;
+    
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 389px;
+    align-items: center;
+}
+
+.content1 p {
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h2 {
+    color: #1D3444;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+
+}
+
+section {
+    width: 30%;
+
+}
+
+section img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+section h3 {
+    font-size: 24px;
+    color: #0D1317;
+}
+
+section p {
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+section a {
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

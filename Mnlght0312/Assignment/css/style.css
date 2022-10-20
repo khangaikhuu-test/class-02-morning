@@ -123,11 +123,14 @@
 .companies {
     font-size: 48px;
     width: 735px;
-    font-family: "Poppins"; 
+    font-family: "Poppins";
+    margin-top: 96px; 
 }
 .subt {
     width: 735px;
     font-family: "Poppins";
+    margin-top: 27px;
+    margin-bottom: 64px;
 }
 .army img {
     width: 399px;
@@ -170,11 +173,16 @@
 .learn3 {
     color: #F58A07;
 }
+
 .bigsec {
     background: #EDF7FF;
     width: 1920px;
+    
     height: 665px;
-    border: 2px solid green;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 97px;
 }
 .solution {
     color: #0D1317;
@@ -231,5 +239,220 @@
     background-color: white;
     border-radius: 20px;
     display: inline-block;
+}
+.energy {
+    width: 596px;
+    font-family: 'Poppins';
+    font-size: 48px;
+}
+.txt {
+    width: 510px;
+    font: 'Poppins';
+    font-size: 18px;
+}
+.plus15 {
+    color: #F58A07;
+    font-size: 36px;
+    width: 66px;
+}
+.award {
+    font-family: 'Poppins';
+    font-size: 24px;
+    width: 195px;
+    color: #0D1317;
+}
+.txtt {
+    width: 264px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #5B5B5B;
+}
+.plus500 {
+    color: #F58A07;
+    width: 98px;
+    font-size: 36px;
+}
+.clients {
+    width: 164px;
+    font-size: 24px;
+    color: #0D1317;
+}
+.txttt {
+    width: 270px;
+    color: #5B5B5B;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.a {
+    display: inline-block;
+}
+.b {
+    display: inline-block;
+}
+.half {
+    display: inline-block;
+}
+.ahalf {
+    /* background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png); */
+    display: inline-block;
+    margin-top: 88.39px;
+}
+.container2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.bigthird {
+    
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 97px;
+}
+.bigfourth {
+    background-color: #EDF7FF;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+.anu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.threev1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 48px;
+    margin-top: -130px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.anu .threev1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.strategy {
+    color: #F58A07;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgba(168, 188, 204, 1);
+    margin-right: 24px;
+    border-radius: 31px;
+    width: 183px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.digi {
+    margin-right: 24px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgba(168, 188, 204, 1);
+    color: rgba(6, 50, 85, 0.3);
+    border-radius: 31px;
+    width: 183px;
+    height: 40px;
+    text-align: center;
+}
+.risky {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgba(168, 188, 204, 1);
+    color: rgba(6, 50, 85, 0.3);
+    border-radius: 31px;
+    width: 183px;
+    height: 40px;
+    text-align: center;
+}
+.help {
+    font-size: 48px;
+    width: 572px;
+    margin-left: 48px;
+    margin-bottom: 25px;
+}
+.text24 {
+    width: 510px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.text144 {
+    width: 510px;
+    margin-left: 48px;
+    font-size: 18px;
+}
+.sas {
+    margin-left: 48px;
+    color: #F58A07;
+    font-size: 16px;
+    font-family: 'Poppins';
+    margin-top: 40px;
+}
+.conference {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.conference img {
+    width: 472px;
+    height: 466px;
+}
+.mclients {
+    height: 466px;
+}
+
+/* .bigfourth {
+    background-color: #EDF7FF;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+.help {
+    width: 572px;
+}
+.text24 {
+    width: 510px;
+}
+.text144 {
+    width: 510px;
+}
+.bigfourth {
+    display: flex;
+    flex-direction: column;
+
+} */
+
+.coffee {
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png);
+    background-repeat: no-repeat;
+    width: 963px;
+    height: 518px;
+    
+}
+.bigfifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgba(245, 138, 7, 1);
+    text-align: center;
+}
+
+.energy {
+    width: 532px;
+    font-size: 48px;
+    font-family: 'Poppins';
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+}
+.job {
+    border: 1px solid white;
+    width: 216px;
+    height: 54px;
+    padding: 32px 19px 32px 18px;
+    text-align: center;
+    background-color: white;
+    color: rgba(245, 138, 7, 1);
+    border-radius: 31px;
 }
 
