@@ -227,3 +227,20 @@ h2{
     margin-left: 30px;
     color: #F58A07;
 }
+
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.content3-column1{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
