@@ -29,13 +29,17 @@ a {
 
 
 /* main content width */
-
-.content {
-    max-width: 1280px;
-    margin: 0 auto;
+body {
+    margin: 5px 0 5px 0;
 }
 
-.content h2 {
+.contents {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.contents h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
@@ -48,6 +52,8 @@ a {
     max-width: 735px;
     margin-top: 75px;
     margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 /* header starts here */
@@ -55,6 +61,8 @@ a {
     display: flex;
     justify-content: space-between;
     height: 90px;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .navbar {
@@ -94,8 +102,8 @@ a {
 
 .slider {
     display: flex;
-    height: 100%;
-
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .slider-article {
@@ -155,15 +163,41 @@ a {
     display: flex;
     line-height: 28px;
     color: #1D3444;
+    gap: 40px;
     justify-content: space-between;
 }
 
-.article-flex img {
+.little-bg {
+    border-radius: 20px;
+    height: 242px;
+    max-width: 400px;
+}
+
+.half-bg {
+    border: 0;
+    border-radius: 20px;
+    height: 670px;
+    width: 670px;
+}
+
+.max-w270 {
+    max-width: 270px;
+}
+
+.max-w400 {
+    max-width: 400px;
+}
+
+.max-w600 {
+    max-width: 600px;
+}
+
+/* .article-flex img {
     border: 0px;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
-}
+} */
 
 .article-flex div {
     margin-top: 15px;
@@ -175,4 +209,66 @@ a {
     /* or 26px */
     letter-spacing: -0.03em;
     color: #0D1317;
+}
+
+/* headers */
+
+.header {
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.big-h {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.med-h {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.blueish-bg {
+    background: #EDF7FF;
+}
+
+.white-bg {
+    background: #FFFFFF;
+    border: 0;
+    padding: 40px;
+}
+
+/* background images */
+#post1 {
+    background: url(/Nico/Assignment/images/post-1.png) center / cover;
+}
+
+#post2 {
+    background: url(/Nico/Assignment/images/post-2.png) center / cover;
+}
+
+#post3 {
+    background: url(/Nico/Assignment/images/post-3.png) center / cover;
+}
+
+#smiling {
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) center / cover;
+
+    isolation: isolate;
+}
+
+#orange-stack {
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    width: 153px;
+    height: 670px;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    margin: 0;
+}
+
+.orange {
+    color: #F58A07;
 }
