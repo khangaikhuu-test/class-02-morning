@@ -36,6 +36,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #f58a07;
     
 }
 nav{
@@ -97,7 +98,7 @@ main{
     color: #5b5b5b;
     width: 571px;
     height: 60px;
-    margin: 0px;
+    margin-top: 12px;
     padding: 0px;
 }
 .main-buttons{
@@ -117,6 +118,7 @@ main{
     display:flex;
     align-items: center;
     justify-content: center;
+    color: #ffffff;
 }
 .p1{
     display:flex;
@@ -184,9 +186,7 @@ main{
     align-content: center;
     border-radius: 20px;
 }
-img{
-    border-radius: 20px;
-}
+
 .help-head1{
     font-size: 24px;
     font-weight: 500;
@@ -267,6 +267,11 @@ img{
     display:flex;
     
 }
+.about-text{
+    width:596px;
+    height:549px;
+}
+
 .upper-text1{
     width:596px;
     height:157px;
@@ -332,3 +337,288 @@ img{
     height: 670px;
     border-radius: 20px 0 0 20px;
 }   
+.service{
+    width:1280px;
+    height:682px;
+    background: #edf7ff;
+    border-radius: 20px;
+    margin-top:95px;
+}
+.service-header{
+    display:flex;
+    justify-content: space-between;
+}
+.header-nav{
+    display: flex;
+    gap:24px;
+    margin-top: 48px;
+    margin-left: 48px;
+    
+
+}
+.orange-head{
+    display: flex;
+    background: #ffffff;
+    border-radius: 31px;
+    color: #f58a07;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    width:194px;
+    height:40px;
+    align-items: center;
+    justify-content: center;
+}
+.normal-head{
+    display: flex;
+    border:1px solid #a8bccc;
+    border-radius: 31px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(6, 50, 85, 0.3);
+    width: 155px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.ribbon{
+    background: url(../images/Ribbon.png);
+    width: 179px;
+    height: 178px;
+    margin-top: -16px;
+    margin-right: -16px;
+}
+.service-bottom{
+    display: flex;
+    margin-left: 48px;
+    
+}
+.service-h2{
+    width: 572px;
+    height: 168px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color:#0d1317;
+}
+.service-p{
+    width: 510px;
+    height: 210px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color:#5b5b5b;
+
+}
+.service-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #f58a07;
+}
+.service-pic{
+    background: url(../images/team.png);
+    width: 472px;
+    height: 466px;
+    mix-blend-mode: multiply;
+    margin-left: 140px;
+}
+#service-box{
+    background: #f58a07;
+    width: 120px;
+    height: 466px;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0px 0px 20px;
+}
+.ct{
+    display: flex;
+}
+.ct-pic{
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png) center / cover;
+    width: 963px;
+    height: 518px;
+}
+.ct-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background: #f58a07;
+    width: 960px;
+    height: 518px;
+    
+}
+.ct-h2{
+    display: flex;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+    width: 532px;
+    height: 168px;
+    margin-left: 64px;
+    
+}
+.ct-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 216px;
+    height: 54px;
+    background: #ffffff;
+    border-radius: 31px;
+    color: #f58a07;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.04px;
+    margin-left:64px;
+    
+}
+.video{
+    display: flex;
+    margin-top: 128px;
+}
+.video-left{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 346px;
+}
+.video-h2{
+    width: 550px;
+    height: 112px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0d1317;
+}
+.video-p{
+    width: 550px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b5b5b;
+}
+.video-profile{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 249px;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.profile-pic{
+    background: url(../images/Image.png);
+    width: 80px;
+    height: 80px;
+
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.protext1{
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 171%;
+    color: #063255;
+}
+.protext2{
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 171%;
+    color: #f58a07;
+}
+.video-right{
+    background: url(../images/video-image.png) center / cover;
+    width: 620px;
+    height: 501px;
+    margin-left: 110px;
+}
+.play-video{
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 410px;
+}
+.play-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    height: 51px;
+    width: 51px;
+    border-radius: 50%;
+
+}
+.play-text{
+    width: 92px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 101.8%;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-left: 17px;
+
+}
+.latest{
+    width: 1280px;
+    height: 819px;
+    background: #dceaf5;
+    display: flex;
+    flex-direction: column;
+}
+.latest-h1{
+    width: 453px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #0d1317;
+}
+.latest-bottom{
+    display: flex;
+}
+.latest-pic{
+    border-radius: 20px 0px 0px 20px;
+}
+.pic1{
+    background: url(../images/post1.png);
+    border-radius: 20px 20px 0px 0px;
+    width: 400px;
+    height: 230px;
+}
+.latest-text{
+    background: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    width: 400px;
+    height: 277px;
+    margin-top: 0px;
+}
+.pic2{
+    background: url(../images/post-2.png);
+    border-radius: 20px 20px 0px 0px;
+    width: 400px;
+    height: 230px;
+}
+.pic3{
+    background: url(../images/post-3.png);
+    border-radius: 20px 20px 0px 0px;
+    width: 400px;
+    height: 230px;
+}
