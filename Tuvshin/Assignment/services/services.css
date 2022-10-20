@@ -102,7 +102,7 @@
 
                         /* FEATURES SECTION #2 */
 .features {
-    border: 3px solid hidden;
+    border: 3px solid red;
     width: 1376px;
     height: 556px;
     margin: 90px 272px 0 272px;
@@ -150,10 +150,19 @@
     border: 3px solid blue;
     width: 1376px;
     height: 556px;
-    margin: 90px 272px 0 272px;
+    margin: 700px 320px 0 0px;
+}
+.head_title3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #0D1317;
+    width: 410;
+    height: 56px;
+    margin: 128px 0 0 76px;
 }
 
-.head_text3 {
+.head_text4 {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;

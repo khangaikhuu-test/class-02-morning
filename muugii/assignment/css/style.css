@@ -1,59 +1,306 @@
 * {
-
     box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
     font-family: 'Poppins', sans-serif;
-
-
 }
-
-.container {
+.container
+{
     max-height: 100%;
-
+    max-width: 1280px;
 }
-
-header {
+/*header heseg ehlev*/
+header
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     max-width: 1280px;
+    top: 30px;
 }
-
-
-nav {
+svg
+{
+    margin-left: 320px; 
+}
+nav
+{
     display: flex;
-    gap: 32px;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
     font-size: 16px;
 }
-
-nav a {
+nav a
+{  
     text-decoration: none;
-}
+    margin-left: 32px;
+    font-weight: bold;
+    color: black;
 
-.call a {
-    border: 1px solid orange;
-    width: 30px;
+}
+.call 
+{   border: 0 solid rgb(173, 100, 57);
+    font-weight: bold ;
+    color: orangered;
+    border-radius: 25px;
+    width: 150px;
     height: 30px;
 }
+.headertext
+{  position: relative;
+   background: lightblue;
+   width: 100%;
+   height: 700px;
+   
 
-
-.headertext {
-     display: flex;
-     justify-content: flex-end;
-     background-color: lightblue; 
-    /* background: url("https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png"); */
-
+ 
+} 
+section
+{
+    display: flex;
+    justify-items: stretch;
 }
-.text{
+.text
+{   position: relative;
     display: inline-block;
-    text-align: center;
+    left: 200px;
+    margin: 0 auto;
+    letter-spacing: -0.03;
 }
+
+
 .text h1
-{   
+{
+    color: darkblue;
     font-size: 64px;
-    color: blue;
+    font-weight: bold;
+    line-height: 70px;
+    
+
+
+  
 }
-.text h1 p
+.text h1 p 
+{
+    position: absolute;
+    top: 200px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 30px;
+    
+
+} 
+.see
+{
+    display: flex;
+    justify-items: stretch;
+    justify-content:flex-start;
+ 
+}
+.btn
+{  
+ position: absolute;
+ left: 200px;
+ top: 380px;
+ background: rgb(145, 102, 23);
+ border: none;
+ border-radius: 25px;
+ color: white;
+}
+h4
+{   position: absolute;
+    left: 400px ;
+    top: 360px;
+    font-size: 16px;
+}
+.work
+{   
+    position: absolute;
+    left: 200px;
+    top: 430px;
+    font-size: 18px;
+    color: rgba(57, 65, 73, 0.5);
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: absolute;
+    top: 480px;
+    right: 40px;
+    
+   
+   
+
+
+
+}
+/* header duusav*/ 
+
+/*middle buyu dund heseg ehlev*/
+.middle
+{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    max-width: 100%;
+    margin-left: 200px;
+   
+
+}
+.we 
+{  
+   margin-top: 50px;
+   font-size: 48px;
+   color: #1D3444;
+   line-height: 56px;
+}
+.loren
 {
     font-size: 18px;
+    color: #5B5B5B;
+    line-height: 30px;
+}
+.middle1
+{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 400px;
+}
+.business
+{  position: relative;
+   margin-left: 200px;
+   
+}
+.b
+{   display: inline-block;
+    line-height: 30px;
+    color: #0D1317;
+    font-size: 24px; 
+    
+   
+}
+.b img
+{  position: absolute;
+   border-radius: 20px;
+   border: 0px none white;
+ 
+}
+.b p
+{
+    font-size: 16px;
+   
+}
+.b a
+{
+    color: #F58A07;
+    font-size: 16px;
+}
+/*middle1 duusav*/
+/*middle2 heseg ni ehlev*/
+.middle2
+{   
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 1280px;
+    background: #EDF7FF;
+   
+}
+.midtext
+{
+     display: flex;
+     flex-direction: row;
+    font-size: 36px;
+    color: #0D1317;
+    line-height: 44px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.midtext1
+{
+    font-size: 18px;
+    line-height: 30px;
+    color: #1D3444;
+    font: weight 10px; 
+}/*2 dahi heseg buyu middle duusav*/
+.conmid /*3 dahi heseg buyu conmid*/
+{ 
+ display: inline-block;
+ width: 1280px;
+ height: 500px;
+ margin-left: 200px;
+ 
+ 
+}
+
+.box 
+{   
+    display: flex;
+    justify-content: row;
+    background: azure;
+    float: left;
+    border-radius: 20px ;
+    height: 200px;
+    width: 280px ;
+    box-sizing: content-box;
+    overflow: hidden;
+    padding: 30px;
+    margin: 10px;
+    
+}
+
+.c
+{
+    font-size: 24px;
+}
+.c p
+{ 
+text-align: left;
+   font-size: 16px; 
+}
+
+/*conmid duusav*/
+.about   /*about heseg ehlelee*/
+{
+  display: flex;
+  max-width: 1280px;
+  height: 690px;
+  margin-left: 200px;
+}
+.abouttext
+{
+    position: relative;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1317;
+    line-height: 56px;
+   
+   
+}
+.abouttext p
+{
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.photo
+{
+    box-sizing: border-box;
+    width: 100%;
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) center /cover yellow;
+    background-blend-mode: multiply;
+    
+
+
+}
+.bor
+{
+    background: azure;
+    float: left;
+    border: 100px solid rgb(173, 100, 57);
 }
