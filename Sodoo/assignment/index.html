@@ -9,44 +9,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:wght@100;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:wght@100;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
+
+    <!-- -----------navbar----------- -->
+
     <div class="container">
-        <header>
+        <nav>
             <img src="./images/Logo.svg" alt="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Careers</a>
-                <li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="career.html">Careers</a>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
                 <li><a href="#" class="button">Call to Action</a></li>
             </ul>
-        </header>
-
+        </nav>
     </div>
-    <div class="slider">
-        <div class="container slider-con">
+
+    <!-- ----------header-------------- -->
+
+    <header>
+        <div class="container header-con">
             <div class="col1">
                 <h1>
                     Prosper with our bespoke solutions
                 </h1>
-                <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                <p class="col1-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in eros
+                    elementum
                     tristique
-                </h4>
+                </p>
                 <div>
                     <a href="#" class="seebtn">See Our Services</a>
                     <a href="#" class="seebtn2">See All Services</a>
                 </div>
-                <p>
-                    Worked with 100+ Companies
-                </p>
+                <p class="worked100">Worked with 100+ Companies</p>
                 <div class="logos">
                     <img src="./images/haeder-logo-1.svg" alt="logo">
                     <img src="./images/heder-logo-2.svg" alt="logo">
@@ -58,46 +65,337 @@
                     alt="zurag">
             </div>
         </div>
-    </div>
-    <div class="container">
+    </header>
+
+    <!-- --------------Help Section------------ -->
+
+    <div class="container help-section">
         <div class="content1">
             <h2>We help more than 1500 companies from all sectors</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit
-                et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.</p>
-            
+                et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+            </p>
         </div>
-    </div>
-    <div class="container">
-        <div class="sec">
-            <section>
+        <div class="row">
+            <div class="help-col">
                 <img src="./images/post1.png" alt="">
-                <h3>Business strategy</h3>
+                <h4>Business strategy</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                    elit
                     et,
                 </p>
                 <a href="#">Learn More &#8594;</a>
-            </section>
-            <section>
+            </div>
+            <div class="help-col">
                 <img src="./images/post-2.png" alt="">
-                <h3>Digitalization</h3>
+                <h4>Digitalization</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                    elit
                     et,
                 </p>
                 <a href="#">Learn More &#8594;</a>
-            </section>
-            <section>
+            </div>
+            <div class="help-col">
                 <img src="./images/post-3.png" alt="">
-                <h3>Risk assessment</h3>
+                <h4>Risk assessment</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                    elit
                     et,
                 </p>
                 <a href="#">Learn More &#8594;</a>
-            </section>
+            </div>
         </div>
     </div>
+
+
+    <!-- --------------Features Section------------ -->
+
+
+    <div class="feat">
+        <div class="container">
+            <div>
+                <div class="row">
+                    <h3>We are building software solution that solves your business challenges</h3>
+                    <p class="feat-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet
+                        eros blandit,
+                        hendrerit
+                        elit
+                        et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="feat-col">
+                        <img src="images/Icon-layer.png">
+                        <h4>Invoicing</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et,</p>
+                    </div>
+                    <div class="feat-col">
+                        <img src="images/Icon-wizard.png">
+                        <h4>Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et,</p>
+                    </div>
+                    <div class="feat-col">
+                        <img src="images/Icon-heart.png">
+                        <h4>Surveying</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit elit et,</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------About Section------------ -->
+
+
+    <section class="about-section container">
+        <div class="row">
+            <div class="about-col1">
+                <h2>
+                    The energy of a start-up combined with 30 years of experience.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                    elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+                </p>
+                <div class="row">
+                    <div class="about-col1-1">
+                        <h6>15+</h6>
+                        <h4>Awards received</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.
+                        </p>
+                    </div>
+                    <div class="about-col1-1">
+                        <h6>500+</h6>
+                        <h4>Awards received</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit amet eros elit et.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-col2">
+
+                <div class="about-zurag">
+                    <div id="about-color"></div>
+                </div>
+                <!-- <img src="images/about-image.png" id="about-zurag"> -->
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- --------------Service Section------------ -->
+
+
+    <section class="service-sec container">
+        <img src="images/Ribbon.png" alt="" class="tuuz">
+        <div class="service-menu">
+            <a href="#" class="bus-btn">Business Strategy</a>
+            <a href="#" class="bus2-btn">Digitalization</a>
+            <a href="#" class="bus2-btn">Risk assessment</a>
+        </div>
+        <div class="row">
+            <div class="service-col1">
+                <h2>
+                    Helping clients with research and strategy for their business
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit
+                    elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+                    <br><br>
+                    Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.
+                </p>
+                <a href="#">See all services &#8594;</a>
+            </div>
+            <div class="service-col2">
+                <div class="service-zurag">
+                    <div class="service-color"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------CTA Section------------ -->
+
+
+    <section class="cta-sec">
+        <div class="container">
+
+        </div>
+        <div class="row">
+            <div class="cta-col1">
+             
+            </div>
+            <div class="cta-col2">
+                <h2>Energy of a start-up combined with 30 years of experience.</h2>
+                <a href="#" class="cta-btn">See Job Vacancies</a>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <!-- --------------Video Section------------ -->
+
+    
+
+    <section class="video-sec container">
+        <div class="row">
+            <div class="video-col1">
+                <h2>
+                    Finsweet Was a Dream to Work With
+                </h2>
+                <p>
+                    Maecenas efficitur scelerisque lorem, et varius lacus tincidunt vel. Pellentesque a arcu vitae diam
+                    dapibus mattis vel vel orci. Vivamus eleifend nec felis vel auctor.
+                </p>
+                <div class="video-col1-1">
+                    <img src="images/vid-image.png">
+                    <div>
+                        <h4>Chikelu Neo</h4>
+                        <span class="vid-author">CEO at MazeAI</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-col2">
+                <div class="video-ply-btn">
+                    <img src="./images/play-icon.svg" class="video-ply-icon">
+                    <!-- <img src="/images/Circle.png" class="video-ply-circle"> -->
+                    <a href="#" class="video-ply-text">Play Video</a>
+                </div>
+                <img src="images/video-image.png" alt="zurag">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- --------------Latest Section------------ -->
+
+
+
+    <section class="latest">
+        <div class="container">
+            <div>
+                <h2>Latest Blog & News</h2>
+            </div>
+            <div class="row">
+                <div class="latest-col">
+                    <img src="./images/post1.png" alt="">
+                    <div class="latest-col-text">
+                        <h4>Why you have to digitalize in 2021</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit
+                            elit
+                            et,
+                        </p>
+                        <a href="#">Learn More &#8594;</a>
+                    </div>
+                </div>
+                <div class="latest-col">
+                    <img src="./images/post-2.png" alt="">
+                    <div class="latest-col-text">
+                        <h4>Our internal process and longerm vision</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit
+                            elit
+                            et,
+                        </p>
+                        <a href="#">Learn More &#8594;</a>
+                    </div>
+                </div>
+                <div class="latest-col">
+                    <img src="./images/post-3.png" alt="">
+                    <div class="latest-col-text">
+                        <h4>Helping the next generation of leaders</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit,
+                            hendrerit
+                            elit
+                            et,
+                        </p>
+                        <a href="#">Learn More &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------Footer Section------------ -->
+
+
+    <footer>
+        <div class="container">
+            <div class="colorbox1"></div>
+            <div class="colorbox2"></div>
+            <div class="row">
+                <div class="footer-col">
+                    <img src="images/logo-footer.svg" alt="logofoot">
+                    <h3>Sodgerel software solutions</h3>
+                    <div>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <a href="" class="footer-link-title">Company</a>
+                    <a href="" class="footer-links-text">About Us</a>
+                    <a href="" class="footer-links-text">Careers</a>
+                    <a href="" class="footer-links-text">Services</a>
+                    <a href="" class="footer-links-text">Blog</a>
+                </div>
+                <div class="footer-col3">
+                    <a href="" class="footer-link-title">Connect</a>
+                    <a href="" class="footer-links-text">sodoo75@gmail.com</a>
+                    <a href="" class="footer-links-text">+(976) 88115080</a>
+                </div>
+                <div class="footer-co4">
+                    <a href="" class="footer-link-title">Join Newsletter</a>
+                    <a href="#" class="footer-email">Type email here</a>
+                    <a href="#" class="footer-Subscribe">Subscribe</a>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <a href="#">© All rights reserved – by Sodgerel</a>
+                <div>
+                    <a href="#">Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- --------------by Sodgerel------------ -->
+
+
+
 </body>
 
 </html>
