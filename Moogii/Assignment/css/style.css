@@ -1,35 +1,125 @@
-*{
- box-sizing: border-box;
- font-family: 'Poppins';
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
-.logo{
-    left: 16.67%;
-    right: 76.98%;
-    top: 0.42%;
-    bottom: 99.15%;
-    margin: 28px 320px;
-    width: 122px;
-    height: 28px;
 
-}
-.menu{
+.menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 32px;
 
 }
+
+.menu a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #394149;
+    text-decoration: none;
+}
+
 .Call {
     display: flex;
     border-radius: 31px;
+    justify-content: center;
+    align-items: center;
+    color: #F58A07 !important;
+    background: rgba(245, 138, 7, 0.1);
     width: 173px;
     height: 52px;
-    justify-content:center;
-    background-color: #f58a07;
+}
+
+.container {
+    background-color: #DCEAF5;
+    margin: 0px;
+}
+
+.slider {
+    max-width: 1280px;
+    max-height: 703px;
+    display: flex;
+    background-color: #DCEAF5;
+    margin: auto;
+}
+
+.leftside {
+    margin: 0px;
+}
+
+.leftside h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    width: 600px;
+    margin-bottom: 12px;
+    margin-top: 117px;
+
+}
+.leftside p{
+    width: 571px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+.leftside .service a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #1D3444 !important;
+    margin-top: 50px;
+}
+.leftside .service1{
+    color: #FFFFFF !important;
+    background-color: #F58A07 ;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px; 
+    margin-left: 0; 
+    margin-right: 55px;   
+}
+.leftside a{
+    font-size: 16px;
+    font-weight: 600;
+    width: 199px;
+ }
+ .leftside h5{
+    margin-top: 56px;
+    color: rgba(57, 65, 73, 0.5);
+    font-weight: 400;
+    margin-top: 75px;
+ }
+ 
+.rightside img{
+    height: 703px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo div{
+    display: flex;
     align-items: center;
+}
+.leftside .logo a{
+    color: #4A5D69;
+    font-weight: 700;
 }
 
