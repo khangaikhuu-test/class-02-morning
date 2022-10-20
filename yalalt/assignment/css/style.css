@@ -449,24 +449,19 @@ body {
 }
 
 /* 15+ 500+ hesegiin zurag oruulsan heseg */
-#about-us .container .container-content .start-up 
-.experience-image {
-    display: inline-block;
-}
-
+/* Background coloroor oruulj vzeh ________________________ */
 /* emegtein zurag */
-#pretty-woman {
-    position: relative;
+#experienced-woman {
+    /* position: relative; */
     background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png), url(../images/orange-side.png);
     height: 667px;
     width: 637px;
     border-radius: 20px;
-    background-blend-mode: multiply;
 }
 
 /* shar bulangiin opacity */
 #orangeBox-on-image {
-    position: absolute;
+    /* position: absolute; */
     background: url(../images/orange-side.png) no-repeat center/cover;
     height: 667px;
     width: 153px;
@@ -477,6 +472,13 @@ body {
 
 /* Experience Start-up Service 2 dugaar mor - ROW 2 */
 /* Helping clients , ... 3 button tai */
+#about-us .container .container-content .experienceCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
 #about-us .container .container-content .my-service-all 
 .strategy-services {
     /* Bagaar ni center ogow */
@@ -495,13 +497,43 @@ body {
     justify-items: flex-start;
 }
 
+/* Zvvn deed buland boonoor ni bairshuulah */
 #about-us .container .container-content .my-service-all 
 .strategy-services .strategy-buttons {
     display: flex;
-
+    align-content: flex-start;
+    justify-content: flex-start;
 }
 
+#about-us .container .container-content .my-service-all 
+.strategy-services .strategy-buttons .bs-button {
+    background: var(--bg-light);
+    border: var(--gray) solid 1px;
+    border-radius: 20px;
+    color: var(--gray);
+}
 
+#about-us .container .container-content .my-service-all 
+.strategy-services .strategy-buttons .bs-button:first-child {
+    background: var(--secondary-color);
+    border: var(--secondary-color) solid 1px;
+    border-radius: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .star-image {
+    display: flex;
+    justify-items: right;
+    align-items: flex-start;
+}
+
+.starImage-insert {
+    background: url(../images/Ribbon.png);
+    width: 178px;
+    height: 178px;
+}
 
 
 /* The energy of a START-UP END */
