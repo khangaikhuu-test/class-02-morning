@@ -4,6 +4,7 @@
     font-size: 16px;
 }
 
+/* Links */
 a {
     text-transform: capitalize;
     font-weight: 600;
@@ -11,6 +12,22 @@ a {
     font-style: normal;
     text-decoration: none;
 }
+
+.orangebg {
+    background: #F58A07;
+    color: #FFFFFF;
+    border-radius: 27px;
+    line-height: 17.04px;
+    /* padding: 18px 32px 19px 32px; */
+    padding: 5% 10%;
+    margin-right: 40px;
+}
+
+.orange-link {
+    color: #F58A07;
+}
+
+
 /* main content width */
 
 .content {
@@ -26,8 +43,11 @@ a {
     letter-spacing: -0.03em;
     color: #1D3444;
 }
+
 .article {
     max-width: 735px;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 /* header starts here */
@@ -116,16 +136,6 @@ a {
     align-self: flex-end;
 }
 
-.orangebg {
-    background: #F58A07;
-    color: #FFFFFF;
-    border-radius: 27px;
-    line-height: 17.04px;
-    /* padding: 18px 32px 19px 32px; */
-    padding: 5% 10%;
-    margin-right: 40px;
-}
-
 #greyish {
     font-weight: 400;
     font-size: 18px;
@@ -139,4 +149,30 @@ a {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.article-flex {
+    display: flex;
+    line-height: 28px;
+    color: #1D3444;
+    justify-content: space-between;
+}
+
+.article-flex img {
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.article-flex div {
+    margin-top: 15px;
+}
+
+.article-header {
+    font-size: 24px;
+    line-height: 106.5%;
+    /* or 26px */
+    letter-spacing: -0.03em;
+    color: #0D1317;
 }
