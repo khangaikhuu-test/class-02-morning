@@ -21,19 +21,19 @@
 .header_menu{
     display: flex;
     gap: 32px;
-    margin: 0 0 0 501px;
+    margin: 0 0 0 470px;
 }
 .header_link {
     font-size: 16px;
     font-weight: 600;
     line-height: 17px;
-    padding: 15px 28px;
-    width: 173px;
+    padding: 18px 32px;
+    width: 190px;
     height: 52px;
     color:#F58A07;
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
-    border-radius: 39%;
+    border-radius: 31%;
     margin: -15px 0 0 47px;
 }
 .header_menu a {
@@ -161,7 +161,7 @@ section {
 .section3 {
     background-color: #EDF7FF;
     height: 665px;
-    width: 1920px;
+    /* width: 1920px; */
     margin-top: 96px;
 }
 .features2 {
@@ -282,6 +282,17 @@ section {
     margin-left: 47px;
     /* z-index: -1;   daraa n daxin xiix */
 }
+.orange1 {
+    position: absolute;
+    background-color: rgba(245, 138, 7, 1);
+    opacity: 90%;
+    width: 153px;
+    height: 667px;
+    margin: 0 0 0 47px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
                         /* SERVICE SECTION #5 */
 .sectionT5 {
     border: 1px solid #ffffff;
@@ -379,14 +390,10 @@ section {
                     /* CTA SECTION #6 */
 .sec6 {
     border: 1px solid #F58A07;
-    width: 1920px;
+    /* width: 1920px; */
     height: 518px;
     background-color: #F58A07;
     margin-top: 128px;
-}
-.sec6_img {
-    width: 963px;
-    height: 518px;
 }
 .sec6_title {
     font-size: 48px;
@@ -481,9 +488,22 @@ section {
     margin: 15px 0 0 47px;
 }
                             /* LATEST SECTION #8 */
+.title5 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.text3 {
+    color: #5B5B5B;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 17px;
+}
 .sec8 {
     border: 5px solid #DCEAF5;
-    width: 1920px;
+    /* width: 1920px; */
     height: 819px;
     background-color: #DCEAF5;
     margin: 128px 0 0 0  ;
@@ -498,7 +518,7 @@ section {
 footer {
     border: 1px solid #063255;
     background-color: #063255;
-    width: 1920px;
+    /* width: 1920px; */
     height: 463px;
 }
 .corner1 {
@@ -521,7 +541,7 @@ footer {
 .foot_corners{
     display: flex;
     justify-content: space-between;
-    width: 1920px;
+    /* width: 1920px; */
 }
 .foot_col1 {
     display: flex;

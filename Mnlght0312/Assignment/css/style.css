@@ -50,11 +50,10 @@
     justify-content: space-between;
 
 }
-.prosper {
+h1 {
     font-size: 64px;
     color: #1D3444;
-    width: 576px;
-    height: 144px;
+    width: 650px;
     margin-top: 117px;
     
     
@@ -66,7 +65,7 @@
     width: 571px;
 
 }
-.services a {
+.services .rightu {
     color: white;
     background: #F58A07 ;
     border-radius: 27px;
@@ -87,7 +86,9 @@
 
 }
 .services {
-    padding-top: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
 .logo1 {
     margin-right: 45px;
@@ -107,7 +108,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    height: 703px;
+    /* height: 703px; */
 }
 .rightu {
     margin-right: 40px;
@@ -216,9 +217,16 @@
 .thirdy {
     background-color: white;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 401px;
-    height: 277px;
+    padding: 41px;
+   
+}
+.Alldy img {
+    width: 33px;
+    height: 34px;
 }
 .support {
     color: #0D1317;
@@ -231,9 +239,12 @@
 .fourdy {
     background-color: white;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 401px;
-    height: 277px;
+    padding: 41px;
+
 }
 .survey {
     color: #0D1317;
@@ -245,9 +256,16 @@
 .fivedy {
     background-color: white;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 401px;
-    height: 277px;
+    padding: 41px;
+}
+.Alldy {
+    display: flex;
+    gap: 40px;
+    
 }
 .energy {
     width: 596px;
@@ -379,6 +397,7 @@
     width: 572px;
     margin-left: 48px;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 .text24 {
     width: 510px;
@@ -397,19 +416,31 @@
     font-size: 16px;
     font-family: 'Poppins';
     margin-top: 40px;
+    width: 153px;
+    margin-bottom: 54px;
+    
 }
-.conference {
+
+/* .conference {
     display: flex;
     flex-direction: row;
     justify-content: end;
-}
-.conference img {
+} */
+/* .conference img {
     width: 472px;
     height: 466px;
-}
+} */
 .mclients {
-    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    
 }
+.mclients img{
+    margin-right: 42.39px;
+    height: 539px;
+}
+
+
 
 /* .bigfourth {
     background-color: #EDF7FF;
@@ -476,6 +507,7 @@
     width: 550px;
     font-size: 48px;
     font-family: 'Poppins';
+    margin-bottom: 24px;
 }
 .lcd {
     width: 550px;
@@ -495,17 +527,34 @@
     margin: 0 auto;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-.chikelu {
+/* .chikelu {
     color: rgba(6, 50, 85, 1);
     font-size: 24px;
     width: 145px;
-}
-.ceo {
+} */
+/* .ceo {
     color: rgba(245, 138, 7, 1);
     font-size: 18px;
     width: 129px;
     font-family: 'Poppins';
+} */
+.pro {
+    display: flex;
 }
+.pro p {
+    width: 200px;
+    font-size: 24px;
+    color: rgba(6, 50, 85, 1);
+    margin-left: 24px;
+}
+.wp2 {
+    color: rgba(245, 138, 7, 1) !important;
+    font-size: 18px !important;
+}
+
+
 
 

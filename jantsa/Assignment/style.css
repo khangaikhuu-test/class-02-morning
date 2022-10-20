@@ -1,0 +1,130 @@
+ * {
+     box-sizing: border-box;
+     font-family: "Poppins";
+ }
+ 
+ a {
+     color: black;
+     text-decoration: none;
+ }
+ 
+ .container {
+     max-width: 1280px;
+     margin: auto;
+     width: 100%;
+ }
+ 
+ header {
+     height: 84px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .header-left {
+     width: 608px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .header-middle {
+     width: 400px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ #callToAction {
+     background-color: rgba(245, 138, 7, 0.1);
+     border-radius: 31px;
+     color: #F58A07;
+     width: 173px;
+     height: 52px;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .banner {
+     background: #DCEAF5;
+ }
+ 
+ .banner-content {
+     display: flex;
+ }
+ 
+ .banner-left {
+     width: 700px;
+ }
+ 
+ .banner img {
+     width: 50%;
+ }
+ 
+ .Main-text {
+     color: black;
+     font-size: 64px;
+     /* font-weight: 600px; */
+     line-height: 72px;
+     letter-spacing: -0.03em;
+     width: 576px;
+     height: 144px;
+     margin-top: 117px;
+ }
+ 
+ .second-text {
+     font-size: 20px;
+     color: black;
+     margin-top: 10px;
+     width: 571px;
+ }
+ 
+ .seeourservice {
+     background-color: #f58a07;
+     border-radius: 30px;
+     color: white;
+     width: 199px;
+     height: 54px;
+     font-size: 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .services {
+     display: flex;
+     align-items: center;
+ }
+ 
+ .seeAllService {
+     margin-left: 10%;
+ }
+ 
+ .Worked {
+     color: rgba(57, 65, 73, 0.5);
+ }
+ 
+ .banner-left img {
+     width: 100px;
+     margin-top: 18px;
+ }
+ 
+ .We {
+     color: black;
+     font-family: "popping";
+     font-size: 38px;
+     line-height: 50px;
+     letter-spacing: -0.02em;
+     justify-content: space-between;
+     margin-top: 96px;
+     margin-right: 864px;
+ }
+ 
+ .lorem {
+     font-family: "poppins";
+     font-size: 18px;
+     width: 725px;
+     margin-top: 27px;
+     margin-bottom: 64px;
+ }
