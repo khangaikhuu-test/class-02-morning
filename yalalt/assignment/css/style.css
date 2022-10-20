@@ -8,6 +8,7 @@
     --bg-dark: #063255;
     --gray: #5B5B5B;
     --black: #1D3444;
+    --button-border: #A8BCCC;
 
     /* Font size 16px-ees to REM */
     /* 64px */
@@ -108,6 +109,13 @@ body {
 
 .bg-light-bottom {
     background: var(--bg-light);
+}
+
+.medium-headline {
+    color: var(--big-header-color);
+    line-height: 56px;
+    font-size: var(--font48);
+    font-weight: 600;
 }
 
 /* Main used style CSS Reused code end */
@@ -459,7 +467,7 @@ body {
     border-radius: 20px;
 }
 
-/* shar bulangiin opacity */
+/* har emegtei deerh shar bulangiin opacity */
 #orangeBox-on-image {
     /* position: absolute; */
     background: url(../images/orange-side.png) no-repeat center/cover;
@@ -486,6 +494,9 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    background: var(--bg-lightB);
+    border-radius: 20px;
+    padding: 0px 42px 48px 48px;
 }
 
 
@@ -494,53 +505,110 @@ body {
 .strategy-services .button-and-starImage {
     display: flex;
     align-items: center;
-    justify-items: flex-start;
+    justify-content: space-between;
 }
 
 /* Zvvn deed buland boonoor ni bairshuulah */
 #about-us .container .container-content .my-service-all 
 .strategy-services .strategy-buttons {
     display: flex;
+    align-items: flex-start;
     align-content: flex-start;
+    justify-items: flex-start;
     justify-content: flex-start;
+    width: 670px;
+    column-gap: 24px;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .strategy-buttons a {
+    text-decoration: none;
 }
 
 #about-us .container .container-content .my-service-all 
 .strategy-services .strategy-buttons .bs-button {
-    background: var(--bg-light);
-    border: var(--gray) solid 1px;
-    border-radius: 20px;
-    color: var(--gray);
+    background: var(--bg-lightB);
+    border: var(--button-border) solid 1px;
+    border-radius: 31px;
+    color: var(--bg-dark);
+    padding: 12px 31px;
+    font-size: var(--font16);
 }
 
 #about-us .container .container-content .my-service-all 
 .strategy-services .strategy-buttons .bs-button:first-child {
     background: var(--secondary-color);
     border: var(--secondary-color) solid 1px;
-    border-radius: 20px;
+    border-radius: 31px;
     color: var(--primary-color);
-    font-weight: 600;
 }
 
 #about-us .container .container-content .my-service-all 
 .strategy-services .star-image {
     display: flex;
-    justify-items: right;
-    align-items: flex-start;
+    justify-items: flex-end;
+    align-items: flex-end;
+    width: 555px;
 }
 
 .starImage-insert {
+    position: relative;
+    top: -15px;
+    right: -50px;
     background: url(../images/Ribbon.png);
-    width: 178px;
-    height: 178px;
+    width: 170px;
+    height: 170px;
 }
 
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box .left-side .title {
+    width: 572px;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box .left-side .text {
+    width: 510px;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box .left-side a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box .team-womans {
+    background-image: url(../images/team.png);
+    width: 472px;
+    height: 466px;
+    border-radius: 20px;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .all-service-btn-box .team-womans .orange-box2nd {
+    background: url(../images/team.png), var(--primary-color);
+    height: 466px;
+    width: 120px;
+    background-blend-mode: multiply;
+    border-radius: 20px 0px 0px 20px;
+}
 
 /* The energy of a START-UP END */
-
-
-
-
 
 
 
