@@ -110,7 +110,7 @@ color: #F58A07;
 h1 {
     width: 576px;
     height: 144px;
-    padding:201px 0 0 320px;
+    padding:0 0 0 320px;
     font-size: 64px;
     font-weight: 600px;
     letter-spacing: -0.03em;
@@ -119,14 +119,14 @@ h1 {
     font-style: normal;
 }
  .sliderblue {
-    padding: 84px 0 0 -5px;
+    padding: 0 0 0 -5px;
     background-color: #DCEAF5;
  }
 
  #lorem {
      width: 571px;
      height: 60px;
-     padding: 12px 0 0 321px;
+     padding: 0 0 0 321px;
  }
 .service {
     display: flex;
@@ -138,15 +138,15 @@ h1 {
     color: aliceblue;
     border-radius: 27px;
     margin-left: 325px;
-    padding: 18px 32px 19px 32px;
+    padding: 0 32px 0px 32px;
 }
 #allservice {
-    padding: 18px 0 19px 80px;
+    padding: 0 0 0 80px;
 
 }
  #worked {
     padding-left: 325px;
-    height: 30px;
+
     color: rgba(57, 65, 73, 0.5);
     font-size: 18px;
     font-style: normal;
@@ -157,8 +157,9 @@ h1 {
     display: flex;
     gap: 32px;
     width: 325px;
-    padding: 18px 0 147px 325px;
+    padding: 0 0 0 325px;
 }
 .headerimg {
-    
+    background-color: #DCEAF5;
+    border: #1D3444 1px solid;
 }
