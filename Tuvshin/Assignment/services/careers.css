@@ -2,17 +2,18 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
-                     /* HEAD NAV*/
+                    /* HEAD NAV*/
 .head_container {
     display: flex;
     border: 1px solid hidden;
     width: 1280px;
     height: 52px;
     padding: 14px 0 ;
-    margin: 16px 328px;
+    margin: auto;
+    /* margin: 16px 320px 0 320px; */
 }
 .header_logo {
     margin-top: 0;
@@ -43,7 +44,7 @@
     color: #394149;
     text-decoration: none;
 }
-                        /* HEADER1 #1 */
+                       /* HEADER1 #1 */
 
 .header1 {
     border: 1px solid hidden;
@@ -58,8 +59,8 @@
     line-height: 72px;
     color: #1D3444;
     width: 618px;
-    height: 216px;
-    margin-top: 132px;
+    height: 288px;
+    margin-top: 50px;
 }
 .head_text1 {
     font-size: 18px;
@@ -79,9 +80,9 @@
     background-color: #F58A07;
     border-radius: 27px;
     padding: 18px 32px;
-    width: 171px;
+    width: 180px;
     height: 54px;
-    margin-top: 32px;
+    margin-top: 54px;
 }
 .head_photo1 {
     border-radius: 20px;
@@ -99,187 +100,64 @@
 .h1container {
     display: flex;
 }
-
-                        /* FEATURES SECTION #2 */
-.features {
-    border: 3px solid hidden;
-    width: 1376px;
-    height: 556px;
-    margin: 90px 272px 0 272px;
-
-}
-.head_title2 {
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 56px;
-    color: #0D1317;
-    width: 410;
-    height: 56px;
-    margin: 128px 0 0 76px;
-}
-.head_text2 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #5B5B5B;
-    width: 583px;
-    margin: 24px 0 0 76px;
-}
-.head_text3 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #5B5B5B;
-    width: 583px;
-    margin: 20px 0 0 90px;
-}
-.features {
-    display: flex;
-}
-.orange2 {
-    position: absolute;
-    background-color: rgba(245, 138, 7, 1);
-    mix-blend-mode: multiply;
-    width: 95px;
-    height: 97px;
-    border-radius: 20px;
-    margin: 128px 0 0 -48px;
-}
-                        /* 2nd FEATURES */
-.features2 {
-    border: 3px solid hidden;
-    width: 1376px;
-    height: 556px;
-    margin: 128px 272px 0 272px;
-    display: flex;
-}
-.head_title3 {
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 56px;
-    color: #0D1317;
-    width: 410;
-    height: 56px;
-    margin: 128px 0 0 0px;
-}
-
-.head_text4 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #5B5B5B;
-    width: 583px;
-    margin: 24px 0 0 0;
-}
-.section_photo3 {
-    margin-left: 170px;
-}
-.orange3 {
-    position: absolute;
-    background-color: rgba(245, 138, 7, 1);
-    mix-blend-mode: multiply;
-    width: 95px;
-    height: 97px;
-    border-radius: 20px;
-    margin: 270px 0 0 570px;
-}
-                        /* 3nd FEATURES */
-
-.features3 {
-    border: 3px solid hidden;
-    width: 1376px;
-    height: 556px;
-    margin: 128px 272px 0 272px;
-    display: flex;
-}
-
-                        /* 4nd FEATURES */
-
-.features4 {
-    border: 3px solid hidden;
-    width: 1376px;
-    height: 556px;
-    margin: 128px 272px 0 272px;
-    display: flex;
-}
-
-                        /* 5nd FEATURES */
-
-.features5 {
-    border: 3px solid hidden;
-    width: 1376px;
-    height: 556px;
-    margin: 128px 272px 0 272px;
-    display: flex;
-}
-                    /* VIDEO SECTION #7 */
-.sec7 {
+                     /* careers_section #1 */
+.careers_section {
     border: 1px solid hidden;
-    width: 1280px;
-    height: 501px;
-    margin: 128px 320px 0 320px;
+    width: 1300px;
+    height: 522px;
+    margin-top: 127px;
 }
-.sec7_title1 {
-    font-size: 48px;
-    line-height: 56px;
-    font-weight: 600;
+.careers_box1 {
+    border: 1px solid #C1E4FF;
+    background-color: rgba(193, 228, 255, 0.3);
+    /* mix-blend-mode: 30%; asuux ungu n bagasaad bna 30% */  
+    border-radius: 20px;
+    width: 400px;
+    height: 181px;
+    padding: 30px 0 0 40px;
+
+}
+.careers_title1 {
     color: #0D1317;
-    width: 550px;
-    height: 112px;
-    margin: 78px 0 0 0;
-}
-.sec_text {
-    font-size: 18px;
-    color: #5B5B5B;
-    line-height: 30px;
-    font-weight: 500;
-    width: 550px;
-    height: 90px;
-    margin: 24px 0 0 0;
-}
-.sec7_imgname {
-    display: flex;
-}
-.photo_ceo {
-    margin: 40px 0 0 0;
-}
-.sec7_name {
-    margin: 46px 0 0 24px;
-}
-.sec7_name1 {
-    color:#063255;
     font-size: 24px;
-    line-height: 171%;
     font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: -0.03em;
 }
-.sec7_name2 {
-    color:#F58A07;
+.careers_text1 {
+    color: #394149;
+    opacity: 0.6;
     font-size: 18px;
-    line-height: 171%;
     font-weight: 500;
+    line-height: 28px;
+    margin-top: 8px 0 0 0;
 }
-.sec7 {
-    display: flex;
-}
-.sec7_video {
-    margin: 0 0 0 110px;
-}
-.sec7_playbutton {
-    display: flex;
-    margin: -80px 0 0 1020px;
-}
-.sec7_playicon {
-    position: relative;
-    margin: 0 0 18px -30px;
-}
-.sec7_text2 {
+.careers_link1 {
     font-size: 18px;
+    font-weight: 400;
+    line-height: 106%;
+    color: #F58A07;
+    margin-top: 32px;
+}
+.car_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 40px;
+    margin: 64px 0 0 0;
+}
+.careers_title {
+    font-size: 48px;
     font-weight: 600;
-    line-height: 18.32px;
-    color: white;
-    margin: 15px 0 0 47px;
+    line-height: 56px;
+    color: #0D1317;
+    width: 676px;
+    height: 56px;
+    margin: 0 587px 0 6px;
 }
-                    /* LATEST SECTION #8 */
+
+                   /* LATEST SECTION #8 */
 .title5 {
     font-size: 24px;
     line-height: 36px;
@@ -298,7 +176,7 @@
     /* width: 1920px; */
     height: 819px;
     background-color: #DCEAF5;
-    margin: 128px 0 0 0  ;
+    margin: 750px 0 0 0  ;
 }
 .sec8_title{
     font-size: 48px;
