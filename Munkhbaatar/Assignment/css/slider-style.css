@@ -108,14 +108,14 @@ button {
 
 .digitalization-button {
     background-color: #EDF7FF;
-    color: black;
-    border-color: black;
-    border: 2px solid black;
-    border-radius: 27px;
-    width: 199px;
-    height: 54px;
+    color: #0632554D;
+    border: 2px solid #A8BCCC;
+    border-radius: 31px;
+    width: 155px;
+    height: 40px;
     font-weight: 600;
     font-size: 16px;
+    line-height: 24px;
     font-style: normal;
 }
 
