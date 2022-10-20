@@ -173,6 +173,9 @@
 .learn3 {
     color: #F58A07;
 }
+.GG {
+    background-color: #EDF7FF;
+}
 
 .bigsec {
     background: #EDF7FF;
@@ -214,6 +217,8 @@
     background-color: white;
     border-radius: 20px;
     display: inline-block;
+    width: 401px;
+    height: 277px;
 }
 .support {
     color: #0D1317;
@@ -227,6 +232,8 @@
     background-color: white;
     border-radius: 20px;
     display: inline-block;
+    width: 401px;
+    height: 277px;
 }
 .survey {
     color: #0D1317;
@@ -239,6 +246,8 @@
     background-color: white;
     border-radius: 20px;
     display: inline-block;
+    width: 401px;
+    height: 277px;
 }
 .energy {
     width: 596px;
@@ -428,6 +437,8 @@
     background-repeat: no-repeat;
     width: 963px;
     height: 518px;
+    display: flex;
+    justify-content: flex-start;
     
 }
 .bigfifth {
@@ -436,23 +447,65 @@
     justify-content: end;
     background-color: rgba(245, 138, 7, 1);
     text-align: center;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-bottom: 128px;
 }
 
-.energy {
+.energyres {
     width: 532px;
     font-size: 48px;
     font-family: 'Poppins';
     display: inline-block;
     color: rgba(255, 255, 255, 1);
+    margin-right: 580px;
+    margin-top: 128px;
+    font-weight: 600;
+    margin-bottom: 59px;
 }
 .job {
     border: 1px solid white;
-    width: 216px;
-    height: 54px;
-    padding: 32px 19px 32px 18px;
-    text-align: center;
+    width: 250px;
+    padding: 19px 32px 18px 32px;
     background-color: white;
     color: rgba(245, 138, 7, 1);
     border-radius: 31px;
+    margin-left: 30px;
 }
+.finsweet {
+    width: 550px;
+    font-size: 48px;
+    font-family: 'Poppins';
+}
+.lcd {
+    width: 550px;
+    font-size: 18px;
+    color: rgba(91, 91, 91, 1);
+    margin-bottom: 40px;    
+}
+
+
+/* .pro {
+   background: url(/Mnlght0312/Assignment/images/Image.png);
+   background-repeat: no-repeat; 
+} */
+
+.smile {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+.chikelu {
+    color: rgba(6, 50, 85, 1);
+    font-size: 24px;
+    width: 145px;
+}
+.ceo {
+    color: rgba(245, 138, 7, 1);
+    font-size: 18px;
+    width: 129px;
+    font-family: 'Poppins';
+}
+
 
