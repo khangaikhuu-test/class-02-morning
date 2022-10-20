@@ -448,32 +448,58 @@ body {
     font-size: var(--font16);
 }
 
+/* 15+ 500+ hesegiin zurag oruulsan heseg */
 #about-us .container .container-content .start-up 
 .experience-image {
     display: inline-block;
 }
 
+/* emegtein zurag */
 #pretty-woman {
     position: relative;
-    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) no-repeat center center/cover;
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png), url(../images/orange-side.png);
     height: 667px;
     width: 637px;
-    z-index: -1;
     border-radius: 20px;
-    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
 }
 
+/* shar bulangiin opacity */
 #orangeBox-on-image {
     position: absolute;
     background: url(../images/orange-side.png) no-repeat center/cover;
     height: 667px;
     width: 153px;
-    opacity: 0.8;
     border-radius: 20px 0 0 20px;
+    mix-blend-mode: multiply;
 }
 /* 1 1 1 1 1 1 1 1 */
 
 /* Experience Start-up Service 2 dugaar mor - ROW 2 */
+/* Helping clients , ... 3 button tai */
+#about-us .container .container-content .my-service-all 
+.strategy-services {
+    /* Bagaar ni center ogow */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+/* Buttons row container */
+#about-us .container .container-content .my-service-all 
+.strategy-services .button-and-starImage {
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+#about-us .container .container-content .my-service-all 
+.strategy-services .strategy-buttons {
+    display: flex;
+
+}
 
 
 
