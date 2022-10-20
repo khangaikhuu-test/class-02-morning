@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background: #E5E5E5; */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/* Navbar */
+
+
+
+#callaction {
+    color: #F58A07;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 20px;
+}
+
+.logofins {
+    position: absolute;
+    left: 16.67%;
+    right: 76.98%;
+    top: 28px;
+    bottom: 99.15%;
+
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+
+    float: right;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* width: 49px; */
+    height: 24px;
+
+    color: #394149;
+}
+
+
+
+
+/* Main style CSS */
+
+
+.container {
+
+    margin: 84px auto;
+    width: 100%;
+    background-color: #DCEAF5;
+    position: absolute;
+    height: 703px;
+    padding-left: 80px;
+    /* padding: 100px; */
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: -;
+
+}
+
+/* Left side style */
+
+.aside {
+    width: 60vw;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.seeallservice {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+    font-weight: bold;
+    font-size: 16px;
+    color: #1D3444;
+}
+
+.seeallservice a {
+    padding: 10px;
+}
+
+.right-btn {
+    margin-left: 3vw;
+}
+
+#seeour {
+    background-color: #f58a07;
+    border-radius: 27px;
+
+
+    color: #ffffff;
+
+}
+
+.container h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+
+}
+
+#worktext {
+    color: #394149;
+}
+
+.vector {
+    display: flex;
+
+
+    justify-content: space-between;
+}
+
+/* .st {
+    display: flex;
+
+    align-items: center;
+} */
+
+/* .nd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rd {
+    display: flex;
+
+    align-items: center;
+} */
+
+
+/* Image */
+
+/* #man {
+    display: flex;
+    justify-content: flex-end;
+    width: 747px;
+    height: 618px;
+    padding: 0;
+    margin: 0 auto;
+    top: 169px;
+    right: 0;
+} */

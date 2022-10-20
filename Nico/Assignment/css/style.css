@@ -1,0 +1,274 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 106.5%;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.orangebg {
+    background: #F58A07;
+    color: #FFFFFF;
+    border-radius: 27px;
+    line-height: 17.04px;
+    /* padding: 18px 32px 19px 32px; */
+    padding: 5% 10%;
+    margin-right: 40px;
+}
+
+.orange-link {
+    color: #F58A07;
+}
+
+
+/* main content width */
+body {
+    margin: 5px 0 5px 0;
+}
+
+.contents {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.contents h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
+
+.article {
+    max-width: 735px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* header starts here */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    margin: 30px 30px;
+}
+
+#finsweet {
+    height: 28px;
+    margin: 28px 0 28px;
+}
+
+.navbar a {
+    line-height: 24px;
+    color: #394149;
+    white-space: nowrap;
+}
+
+#call-to a {
+    color: #F58A07;
+    padding: 18px 30px;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+}
+
+/* slider starts here */
+
+.slider-back {
+    background: #DCEAF5 100vw;
+    margin: 0 auto;
+    height: 703px;
+}
+
+.slider {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.slider-article {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    align-items: baseline;
+    margin: 80px 0px 80px 0;
+}
+
+.slider-article h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+    letter-spacing: -0.03em;
+    margin-bottom: 0;
+    color: #1D3444;
+}
+
+.slider-article a {
+    margin-top: 50px;
+    margin-bottom: 75px;
+    white-space: nowrap;
+}
+
+#article-buttons {
+    margin: 50px 0 75px 0;
+}
+
+.slider-article div {
+    border: 0;
+}
+
+.slider-img {
+    width: 685px;
+    margin-left: 50px;
+    align-self: flex-end;
+}
+
+#greyish {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: rgba(57, 65, 73, 0.5);
+    margin: 0 0 18px 0;
+}
+
+.between {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.article-flex {
+    display: flex;
+    line-height: 28px;
+    color: #1D3444;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.little-bg {
+    border-radius: 20px;
+    height: 242px;
+    max-width: 400px;
+}
+
+.half-bg {
+    border: 0;
+    border-radius: 20px;
+    height: 670px;
+    width: 670px;
+}
+
+.max-w270 {
+    max-width: 270px;
+}
+
+.max-w400 {
+    max-width: 400px;
+}
+
+.max-w600 {
+    max-width: 600px;
+}
+
+/* .article-flex img {
+    border: 0px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+} */
+
+.article-flex div {
+    margin-top: 15px;
+}
+
+.article-header {
+    font-size: 24px;
+    line-height: 106.5%;
+    /* or 26px */
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+/* headers */
+
+.header {
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
+.big-h {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.med-h {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.blueish-bg {
+    background: #EDF7FF;
+}
+
+.white-bg {
+    background: #FFFFFF;
+    border: 0;
+    padding: 40px;
+}
+
+/* background images */
+#post1 {
+    background: url(/Nico/Assignment/images/post-1.png) center / cover;
+}
+
+#post2 {
+    background: url(/Nico/Assignment/images/post-2.png) center / cover;
+}
+
+#post3 {
+    background: url(/Nico/Assignment/images/post-3.png) center / cover;
+}
+
+#smiling {
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) center / cover;
+
+    isolation: isolate;
+}
+
+#orange-stack {
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    width: 153px;
+    height: 670px;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    margin: 0;
+}
+
+.orange {
+    color: #F58A07;
+}

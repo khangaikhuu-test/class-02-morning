@@ -1,0 +1,14 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    
+}

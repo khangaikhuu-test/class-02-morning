@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #394149;
+    font-size: 16px;
+    margin: 30px 0 30px 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.navbar span {
+    background: #F58A071A;
+    font-size: 16px;
+    padding: 18px 30px 18px 30px;
+    border-radius: 31px;
+    color: #F58A07;
+}
+
+.bg {
+    height: 703px;
+    background-color: #DCEAF5;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 53px;
+}
+
+.header-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 40px;
+}
+
+.text1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg h1 {
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+}
+
+.bg p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin-left: 0;
+}
+
+#but {
+    margin-left: 0;
+    display: flex;
+}
+
+#but1 {
+    background: #F58A07;
+    padding: 18px 32px;
+    border-radius: 31px;
+    color: #eee;
+    margin: auto;
+    margin-left: 0;
+}
+
+#but2 {
+    color: #1D3444;
+    padding: 18px 32px 18px 32px;
+    margin-left: 0;
+}
+
+#work {
+    font-size: 18px;
+    height: 30px;
+    color: #394149 50%;
+    margin-left: 0;
+}
+
+#img1 {
+    margin-left: 0;
+    display: flex;
+    gap: 30px;
+}
+
+
+/*      About section        */
+
+.text6 h1 {
+    font-size: 3rem;
+    color: #0D1317;
+}
+
+.text6 p {
+    font-size: 1.125rem;
+    color: #5B5B5B;
+}
+
+.box span {
+    font-size: 2rem;
+    color: #F58A07;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    color: #0D1317;
+}
+
+.box p {
+    color: #5B5B5B;
+}
