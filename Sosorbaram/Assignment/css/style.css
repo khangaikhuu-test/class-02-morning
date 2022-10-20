@@ -11,6 +11,22 @@ a {
     text-decoration: none;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1280px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
 
 
 /* Navbar */
@@ -24,7 +40,7 @@ a {
     padding: 20px;
 }
 
-.logofins {
+/* .logofins {
     position: absolute;
     left: 16.67%;
     right: 76.98%;
@@ -32,8 +48,9 @@ a {
     bottom: 99.15%;
 
 
-}
+} */
 
+/* 
 li {
     list-style-type: none;
     display: inline;
@@ -44,44 +61,56 @@ li {
     font-size: 16px;
     line-height: 24px;
     /* width: 49px; */
-    height: 24px;
-
-    color: #394149;
-}
 
 
 
 
 /* Main style CSS */
-
-
 .container {
-
-    margin: 84px auto;
-    width: 100%;
-    background-color: #DCEAF5;
-    position: absolute;
-    height: 703px;
-    padding-left: 80px;
-    /* padding: 100px; */
     display: flex;
-    align-content: center;
-    justify-content: space-between;
-    margin-left: -;
+    margin-top: 30px;
 
+    /* padding: 60px 60px 0px 60px; */
+    max-width: 1280px;
+
+    margin: 0 auto;
 }
 
-/* Left side style */
+.backround {
+    background-color: #DCEAF5;
+}
 
-.aside {
-    width: 60vw;
-    padding: 50px;
+/* .leftside {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
+
+    /* padding: 40px; */
+
+.leftside h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+
+    letter-spacing: -0.03em;
+
+    color: #1D3444;
+    margin-bottom: 12px;
 }
+
+.leftside p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+
+    color: #5B5B5B;
+}
+
 
 .seeallservice {
     display: flex;
@@ -111,23 +140,24 @@ li {
 
 }
 
-.container h1 {
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 72px;
-    letter-spacing: -0.03em;
+/* .container h1 {
+
+    font-size: 54px;
+
+
     color: #1D3444;
 
-}
+} */
 
 #worktext {
+    margin-top: 56px;
     color: #394149;
 }
 
 .vector {
     display: flex;
-
-
+    margin-top: 27px;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -162,3 +192,214 @@ li {
     top: 169px;
     right: 0;
 } */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    max-width: 1280px;
+    margin: auto;
+    padding-right: 700px;
+}
+
+.sectors {
+    display: flex;
+    max-width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+#post {
+    border-radius: 20px;
+
+    /* margin: 0 auto; */
+
+}
+
+#article-text {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.we-build {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#learnmore {
+    color: orange;
+    margin: 30px auto;
+}
+
+.the-energy {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* flex-direction: column; */
+
+    align-items: center;
+}
+
+.orangeopacity {
+    background-color: orange;
+    mix-blend-mode: multiply;
+}
+
+.the-energy .articles {
+    display: flex;
+}
+
+
+
+
+#orange-text {
+    color: orange;
+}
+
+/* .box-text {
+    display: flex;
+    flex-direction: row;
+} */
+
+#max-width-title {
+    max-width: 516px;
+}
+
+#max-width-text {
+    max-width: 510px;
+}
+
+#women-pic {
+    display: flex;
+    margin-top: 88.39px;
+    border-radius: 20px;
+    background: orange;
+    /* opacity: 0.6; */
+
+}
+
+.orangeopacity {
+    background: #F58A07;
+    width: 153px;
+    height: 667px;
+    position: absolute;
+    margin-top: 88.39px;
+    border-radius: 20px 0 0 20px;
+}
+
+.helping-client {
+    max-width: 1280px;
+    margin: 95px auto;
+    background: #EDF7FF;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    position: relative;
+}
+
+.businesshead #b1 {
+    display: flex;
+    border-radius: 31px;
+    padding: 10px;
+    background: #FFFFFF;
+    color: #F58A07;
+}
+
+.businesshead {
+    display: flex;
+    gap: 24px;
+    border-radius: 31px;
+
+}
+
+.businesshead #b2 {
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    color: rgba(6, 50, 85, 0.3);
+    padding: 10px;
+}
+
+.businesshead #b3 {
+    border: 1px solid #A8BCCC;
+    border-radius: 31px;
+    color: rgba(6, 50, 85, 0.3);
+    padding: 10px;
+}
+
+#women-pic2 {
+    display: flex;
+    margin-top: 60px;
+    border-radius: 20px;
+
+}
+
+.max-width {
+    max-width: 510px;
+}
+
+.orangeopacity2 {
+    background: #F58A07;
+    width: 120px;
+    height: 466px;
+    position: absolute;
+    margin-top: 60px;
+    border-radius: 20px 0 0 20px;
+    mix-blend-mode: multiply;
+}
+
+#ribbon {
+    position: absolute;
+    top: -16px;
+    right: -19px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.banner .bannertext {
+    position: absolute;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    max-width: 532px;
+    color: white;
+    top: 128px;
+    right: 300px;
+    left: 1088px;
+    bottom: 222px;
+}
+
+.banner .bannertext1 {
+    /* display: flex; */
+    position: absolute;
+
+    font-size: 16px;
+    /* justify-content: flex-end; */
+    max-width: 532px;
+    color: white;
+    top: 336px;
+    right: 616px;
+    bottom: 128px;
+    left: 1088px;
+}
+
+#seejob {
+    color: orange;
+    border-radius: 31px;
+    background: white;
+    /* display: flex; */
+    padding: 10px;
+    align-items: center;
+}
