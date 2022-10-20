@@ -3,6 +3,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -732,4 +736,59 @@ footer a {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+/* --------- Footer Section----------- */
+
+
+
+.contact-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-section a {
+    padding: 20px;
+    padding-right: 100px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: #9C9C9C;
+    border-radius: 27px;
+    text-decoration: none;
+    width: 550px;
+    margin-top: 10px;
+}
+
+.contact-section a:last-child {
+    padding: 20px;
+    padding-right: 100px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: #9C9C9C;
+    border-radius: 27px;
+    text-decoration: none;
+    width: 550px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.contact-section-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 60px;
+}
+
+.contact-section-col2 {
+    /* margin-top: 100px; */
+}
+
+.contact-section-col2 .row {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.contact-section-col2 img {
+    border-radius: 20px;
+    
 }
