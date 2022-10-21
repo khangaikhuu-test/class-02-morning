@@ -193,8 +193,10 @@ h1 {
     font-family: "Poppins";
     font-size: 36px;
     width: 619px;
-    height: 132px;
-    display: inline-block;
+    /* height: 132px; */
+    display: flex;
+    justify-content: end;
+    margin-bottom: 64px;
     
 }
 .seclor {
@@ -203,7 +205,8 @@ h1 {
     width: 620px;
     height: 102px;
     font-family: "Poppins";
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
 
 }
 .invoice {
