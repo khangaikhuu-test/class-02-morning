@@ -45,7 +45,7 @@ body {
   /* max-height: 6613px; */
 }
 
-/****************** CSS Resused Code here - Mainly used style Code ****************/
+/***** CSS Resused Code here - Mainly used style Code ********/
 
 .container {
   max-width: 1280px;
@@ -694,8 +694,8 @@ body {
   .all-service-btn-box
   .team-womans {
   background-image: url(../images/team.png);
-  width: 472px;
   height: 466px;
+  width: 472px;
   border-radius: 20px;
 }
 
@@ -1054,3 +1054,4 @@ footer .container .container-content .footer-row2 .footer-copyright {
 footer .container .container-content .footer-row2 .privacy-text {
   color: #fff;
 }
+/* FOOTER END */
