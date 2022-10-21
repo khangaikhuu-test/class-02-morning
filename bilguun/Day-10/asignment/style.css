@@ -65,6 +65,7 @@ header {
 }
 
 .text2 {
+    display: flex;
     flex-direction: column;
 }
 
@@ -73,6 +74,7 @@ header {
     color: #1D3444;
     margin: 0;
     line-height: 72px;
+    width: 576px;
 }
 
 .text2 h3 {
@@ -520,7 +522,7 @@ header {
 
 footer {
     background-color: #063255;
-
+    position: relative;
 }
 .bottom a , p {
     color: #ffffff;
@@ -611,4 +613,25 @@ footer {
 }
 .text7 {
     color: #ffffff;
+}
+
+.shapeleft {
+    width: 53px;
+    height: 144px;
+    border-radius: 0px 20px 0 0 ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #F58A07;
+}
+
+.shaperight {
+    width: 53px;
+    height: 287px;
+    background: #F58A07;
+    position: absolute;
+    border-radius: 20px 0 0 20px;
+    right: 0;
+    top: 38px;
+
 }
