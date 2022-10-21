@@ -6,6 +6,13 @@ a {
     text-decoration: none;
     color: rgba(57, 65, 73, 1);
 }
+p {
+    font-size: calc(1rem + 2px);
+    color: rgba(91, 91, 91, 1); 
+}
+section {
+    margin: 97px 0px;
+}
 .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -41,7 +48,7 @@ a {
     font-size: 4rem;
     color: rgba(29, 52, 68, 1);
 }
-p {
+.solution p {
     width: 571px;
     font-size: calc(1rem + 2px);
 }
@@ -71,7 +78,7 @@ p {
 }
 .name img {
     width: 143px;
-    padding: 0px 45px 0px 0px;
+    padding-right: 45px;
 }
 .name {
     display: flex;
@@ -79,8 +86,81 @@ p {
     justify-content: space-evenly;
 }
 .head {
-    margin: 16px 0px 0px 0px;
+    margin-top: 16px;
 }
+.help h2 {
+    font-size: 3rem;
+    width: 735px;
+    color: rgba(29, 52, 68, 1);
+}
+.help p {
+    width: 735px;
+    font-size: calc(1rem + 2px);
+    color: rgba(91, 91, 91, 1);
+}
+.col-3 {
+    display: flex;
+    width: calc(100% / 3 - 40px);
+    gap: 40px;
+    
+}
+.col-3 img {
+    width: 399px;
+    border-radius: 20px;
+}
+.col-3 p {
+    width: 399px;
+}
+.col-3 a {
+    color: rgba(245, 138, 7, 1);
+    font-weight: 500;
+    width: 90px;
+}
+.col-3 .digi {
+    color: rgba(13, 19, 23, 1);
+    font-size: calc(1rem + 8px);
+    font-weight: 500;
+}
+.row .first {
+    font-size: calc(2rem + 4px);
+    width: 619px;
+    color: rgba(13, 19, 23, 1);
+}
+.row .second {
+    width: 620px;
+    color: rgba(29, 52, 68, 1);
+
+}
+.baby {
+    align-items: baseline;
+}
+.col-3 .zero {
+    width: 41px;
+    height: 42px;
+}
+.col-3 .initial {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    width: 401px;
+    /* padding: 48px 0px 37px 41px; */
+    margin-bottom: 96px;
+}
+.of {
+    width: 510px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
