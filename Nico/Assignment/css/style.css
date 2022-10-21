@@ -150,6 +150,13 @@ body {
     margin: 0 0 18px 0;
 }
 
+#img-orange {
+    height: 518px;
+    overflow: hidden;
+    width: 100%;
+
+}
+
 /* positions */
 
 .align-center {
@@ -285,6 +292,13 @@ body {
     /* background stacks */
 }
 
+#team {
+    background-image: url(../images/team.png);
+    width: 472px;
+    height: 466px;
+    ;
+}
+
 .orange-stack {
     background: #F58A07;
     border-radius: 20px 0px 0px 20px;
@@ -299,9 +313,16 @@ body {
     margin: 0;
 }
 
+#phone-talking {
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
 #team-stack {
     width: 120px;
-    height: auto;
+    height: 466px;
     margin: 0;
 }
 
@@ -321,7 +342,7 @@ body {
 .button {
     padding: 8px 24px;
     border-radius: 31px;
-    
+
 }
 
 .height-40 {
@@ -346,4 +367,21 @@ body {
     line-height: 24px;
     color: rgba(6, 50, 85, 0.3);
     border: 1px solid #A8BCCC
+}
+
+.white-button {
+    background: #FFFFFF;
+}
+
+
+
+
+#orange-bg-half {
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #F58A07;
+    width: 100%;
 }
