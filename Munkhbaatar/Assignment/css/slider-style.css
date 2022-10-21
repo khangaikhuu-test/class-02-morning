@@ -21,15 +21,6 @@
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
-}
-
-.header-c {
-    font-size: 16px;
-}
-
-.help-c {
-    flex-direction: column;
-    padding-bottom: 4em;
     font-size: 16px;
     color: #5B5B5B;
     line-height: 28px;
@@ -37,16 +28,22 @@
     font-style: normal;
 }
 
-.features-c {
+.header-c {
     font-size: 16px;
-    margin: 0 auto;
-    padding-top: 96px;
-    display: flex;
-    flex-direction: column;
 }
-/* .c3 {
-    
-} */
+
+
+
+.features-c {
+    flex-direction: column;
+    padding-top: 102px;
+    padding-bottom: 96px;
+}
+
+.about-c {
+    padding-top: 88.3px;
+    padding-bottom: 85px;
+}
 
 h1 {
     font-size: 64px;
@@ -64,6 +61,7 @@ h2 {
     line-height: 56px;
     font-style: normal;
     font-weight: 600;
+    letter-spacing: -3%;
 }
 
 h3 {
@@ -75,11 +73,6 @@ h3 {
     font-style: normal;
 }
 
-.header-text2 {
-
-    
-}
-
 h4 {
     font-size: 24px;
     color: #0D1317;
@@ -87,12 +80,6 @@ h4 {
     line-height: 106.5%;
     font-weight: 500;
     font-style: normal;
-}
-
-
-
-.mini-header {
-    
 }
 
 .text-18px {
@@ -115,6 +102,7 @@ h4 {
     flex-direction: column;
 }
 
+
 /* button {
     color: #FFFFFF;
     background-color: #F58A07;
@@ -136,13 +124,12 @@ h4 {
     flex-wrap: wrap;
     align-items: stretch;
     width: 50%;
-    margin-top: 117px;
+   
 }
 
 .content-box-right {
     margin-top: 58px;
     width: 50%;
-    /* margin-left: 53px; */
 }
 
 .head-48 {
@@ -162,6 +149,10 @@ h4 {
 }
 
 /* HEADER specific formatting */
+.header-c .content-box-left {
+     margin-top: 117px;
+}
+
 .head-txt {
     padding-top: 1em;
 }
@@ -209,9 +200,23 @@ h4 {
 
 /* HELP specific formatting */
 
+.help-c {
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+
+/* .help-c .column-container .column {
+    margin: 0;
+    padding: 0;
+} */
+
 .help-c h2 {
     max-width: 800px;
-    margin-top: 80px;
+}
+
+.help-c {
+    margin-top: 96px;
 }
 
 .help-txt{
@@ -219,10 +224,6 @@ h4 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-/* .help-c .col-container {
-    padding-top: 5em;
-} */
 
 .help-c h4 {
     padding-top: 1em;
@@ -248,63 +249,65 @@ h4 {
 }
 
 
-
-
 /* FEATURES specific formatting */
 
 .features-c h4 {
     max-width: 50%;
+    padding: 32px 0 18px 0;
+    margin: 0;
     /* margin-top: -5px; */
 }
 
-.col-container3 {
-    display: flex;
-    font-size: 18px;
-    justify-content: space-between;
-    align-content: flex-start;
+.features-c .text-18px {
+    max-width: 50%;
+    margin-left: 20px;
+    color: #1D3444;
+    /* margin-top: -5px; */
 }
 
-.column2 {
-    display: flex;
-    flex-direction: column;
+.features-c .column-container .column{
+    margin: 64px 0px 0px 0px;
+}
+
+.features-c .column {
     background-color: #FFFFFF;
-    margin: 1.5em 1.5em 1.5em 0;
-    padding: 1.5em;
+    padding: 48px 20px 37px 38px;
     border-radius: 20px;
 }
 
-
-
-
-
-
-
-
-/* .top-text {
-    color: #5B5B5B;
-    font-size: 18px;
-    font-weight: 500;
-    max-width: 60%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-
-.top-text2 {
-    color: #5B5B5B;
-    font-size: 1em;
-    font-weight: 500;
-    max-width: 50%;
-    line-height: 30px;
+.features-c .column-container .col2 {
+    margin-left: 40px; 
+    margin-right: 40px;
 }
 
+/* ABOUT specific formatting */
 
+.about-c .text-18px {
+    padding-top: 32px;    
+}
 
+.about-c h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
 
+.about-c .column-container .column {
+    padding: 0;
+    margin: 0;
+    margin-top: 48px;
+}
 
-
+.about-c .column:nth-child(2) {
+    margin-left: 26px;
+    margin-right: 83px;
+}
 
 .yellow-bold-text {
-    font-size: 2em;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
     color: #F58A07;
 }
 
@@ -314,37 +317,67 @@ h4 {
     background-size: cover;
     width: 640px;
     border-radius: 20px;
-    /* mix-blend-mode: multiply; */
     padding-top: 10px;
     display: flex;
     margin-top: 0;
     padding-top: 0;
-    
 }
 .woman-pic img {
-    opacity: 0.6;
+    /* opacity: 0.6; */
     display: flex;
     align-items: stretch;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    mix-blend-mode: multiply;
 }
 
 
-/* --------------- SERVICE SECTION ---------------- */
+/* ABOUT specific formatting */
 
-/* container */
-.service {
+/* ---container--- */
+.service-c {
+    flex-direction: column;
     justify-content: space-around;
-    padding-top: 168px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.service-c  .text-18px {
+    padding-top: 25px;
+    line-height: 30px;
+    padding-right: 90px;
+}
+.service-c .column-container {
+    justify-content: space-between;
+}
+
+.service-c .content-box-left {
+    align-items: flex-start;
+}
+
+.service-c .content-box-left {
+    padding-left: 48px;
+    padding-right: 140px;
 }
 
 .service-all-buttons {
+    padding-left: 48px;
+    padding-bottom: 80px;
+    width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
-.service-txt {
-    margin-top: -50px;
+.digitalization-button {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.service-c .learn-more {
+    padding-top: 40px;
+}
+
+.service-c h2 {
+    color: #0D1317;
 }
 
 .business-button {
@@ -385,24 +418,66 @@ h4 {
     font-style: normal;
 }
 
-.service-pic {
-    background-image: url('/Assignment/images/team.png');
+
+.service-c .woman-pic {
+    background-image: url('/images/team.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 472px;
     height: 466px;
     border-radius: 20px;
-    /* mix-blend-mode: multiply; */
     padding-top: 10px;
     display: flex;
     margin-top: 0;
     padding-top: 0;
-    
+    margin-right: 42.39px;
 }
-.service-pic img {
-    opacity: 0.6;
+
+.woman-pic img {
+    /* opacity: 0.6; */
     display: flex;
     align-items: stretch;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    mix-blend-mode: multiply;
+}
+
+.ribbon {
+    position: absolute;
+    margin-left: 1292px;
+    margin-top: -18px;
+}
+
+
+/* GTA specific formatting */
+
+.container-GTA {
+    display: flex;
+    
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.GTA-pic {
+    background-image: url('https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 963px;
+    height: 518px;
+}
+
+.container-GTA .GTA-txt {
+    width: 963px;
+    height: 518px;
+    background-color: #F58A07;
+    
+}
+
+.container-GTA h2 {
+    color:#FFFFFF;
+    padding: 128px 300px 222px 128px ;
+}
+
+.container-GTA button {
+    background-color: #FFFFFF;
 }
