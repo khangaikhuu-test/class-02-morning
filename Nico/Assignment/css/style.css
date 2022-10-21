@@ -13,11 +13,6 @@ a {
     text-decoration: none;
 }
 
-.orange-link {
-    color: #F58A07;
-}
-
-
 /* main content width */
 body {
     margin: 5px 0 5px 0;
@@ -47,7 +42,10 @@ body {
 }
 
 .align-between {
+    display: flex;
+    flex-direction: column;
     align-content: space-between;
+    height: 100%;
 }
 
 /* header starts here */
@@ -90,8 +88,12 @@ body {
 
 .slider-back {
     background: #DCEAF5 100vw;
-    margin: 0 auto;
     height: 703px;
+}
+
+.f-slider {
+    height: 819px;
+    background: #DCEAF5;
 }
 
 .slider {
@@ -189,6 +191,10 @@ body {
     gap: 40px;
 }
 
+.gap-110 {
+    gap: 110px;
+}
+
 .max-w270 {
     max-width: 270px;
 }
@@ -197,12 +203,24 @@ body {
     max-width: 400px;
 }
 
+.max-w550 {
+    max-width: 550px;
+}
+
 .max-w600 {
     max-width: 600px;
 }
 
+.max-wf {
+    max-width: fit-content;
+}
+
 .padding-48 {
     padding: 48px;
+}
+
+.padding-32 {
+    padding: 32px;
 }
 
 .article-flex div {
@@ -235,6 +253,13 @@ body {
     line-height: 44px;
 }
 
+.small-h {
+    font-size: 24px;
+    line-height: 106.5%;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+}
+
 /* backgrounds */
 
 /* backgrounds by size */
@@ -242,6 +267,8 @@ body {
     border-radius: 20px;
     height: 242px;
     max-width: 400px;
+    line-height: 28px;
+    padding: 40px;
 }
 
 .half-bg {
@@ -259,8 +286,6 @@ body {
 
 .white-bg {
     background: #FFFFFF;
-    border: 0;
-    padding: 40px;
 }
 
 .border-radius {
@@ -296,7 +321,6 @@ body {
     background-image: url(../images/team.png);
     width: 472px;
     height: 466px;
-    ;
 }
 
 .orange-stack {
@@ -337,21 +361,21 @@ body {
     color: #F58A07;
 }
 
+.white {
+    color: #FFFFFF;
+}
+
 /* Buttons */
 
 .button {
     padding: 8px 24px;
     border-radius: 31px;
-
+    max-width: fit-content;
+    white-space: nowrap;
 }
 
 .height-40 {
     height: 40px;
-}
-
-.white-bg {
-    line-height: 24px;
-    background: #FFFFFF;
 }
 
 .orange-bg {
@@ -373,15 +397,40 @@ body {
     background: #FFFFFF;
 }
 
-
+.font-18 {
+    font-size: 18px;
+}
 
 
 #orange-bg-half {
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-    flex-direction: column;
+
     background: #F58A07;
     width: 100%;
+}
+
+#orange-article {
+    padding: 128px 0 0 128px;
+    max-width: 532px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* little elements */
+
+#chikelu {
+    font-size: 24px;
+    line-height: 171%;
+}
+
+#chikelu-neo {
+    margin-top: 40px;
+}
+
+.border-r {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img-cover {
+
 }
