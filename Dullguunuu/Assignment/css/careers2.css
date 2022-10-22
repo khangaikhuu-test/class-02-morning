@@ -125,12 +125,42 @@ h4 {
     font-weight: 600;
     font-size: 48px;
     color: #0D1317;
+    margin: 0 auto;
 }
 
-.applysection div {
+
+.forms {
     display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 51px 0 24px 0;
 }
 
-.applysection p {
-    font-weight: 600;
+.forms input {
+    width: 628px;
+    height: 54px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: rgba(210, 218, 237, 0.17);
+}
+
+.forms input::placeholder {
+    color: #9C9C9C;
+    padding: 18px 0 18px 32px;
+}
+
+.bottomforms input {
+    height: 215px;
+    width: 1280px;
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    border: rgba(210, 218, 237, 0.17);
+}
+
+.bottomforms input::placeholder {
+    color: #9C9C9C;
+    padding: 29px 0 0 32px;
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
 }
