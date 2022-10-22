@@ -108,14 +108,11 @@
     margin-top: 127px;
 }
 .careers_box1 {
-    border: 1px solid #C1E4FF;
+    border: 1px solid hidden;
     background-color: rgba(193, 228, 255, 0.3);
-    /* mix-blend-mode: 30%; asuux ungu n bagasaad bna 30% */  
     border-radius: 20px;
     width: 400px;
     height: 181px;
-    padding: 30px 0 0 40px;
-
 }
 .careers_title1 {
     color: #0D1317;
@@ -124,6 +121,7 @@
     font-style: normal;
     line-height: 30px;
     letter-spacing: -0.03em;
+    margin: 32px 0 0 40px;
 }
 .careers_text1 {
     color: #394149;
@@ -131,7 +129,8 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-    margin-top: 8px 0 0 0;
+    margin: 8px 0 0 40px;
+
 }
 .careers_link1 {
     font-size: 18px;
@@ -139,6 +138,8 @@
     line-height: 106%;
     color: #F58A07;
     margin-top: 32px;
+    margin: 32px 0 0 40px;
+
 }
 .car_box {
     display: flex;
