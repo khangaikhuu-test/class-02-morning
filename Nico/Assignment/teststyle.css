@@ -1,0 +1,68 @@
+#one {
+    background: blue;
+    max-width: 1200px;
+    height: 600px;
+}
+
+#top {
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    width: 500px;
+    height: 300px;
+    left: 0;
+    top: 0;
+
+}
+
+#img {
+    mix-blend-mode: multiply;
+}
+
+#example1 {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background: url(http://goldenageofgaia.com/wp-content/uploads/2012/09/Field-flowers-image7.jpg) 60% 60% no-repeat;
+}
+
+#example1:after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    opacity: .7;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    background: url("http://www.butterflyskye.com.au/Monarch%20Butterfly%202.jpg");
+}
+
+#exampleA {
+    width: 600px;
+    height: 400px;
+    background: url(./images/team.png), #F58A07;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+#team-stack {
+    width: 120px;
+    height: 466px;
+    margin: 0;
+    mix-blend-mode: multiply;
+}
+
+#team {
+    background-image: url(../Assignment/images/team.png);
+    width: 472px;
+    height: 466px;
+
+}
+
+.orange-stack {
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    left: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+}

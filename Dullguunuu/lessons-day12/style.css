@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    border: 2px solid grey;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30px;
+}
