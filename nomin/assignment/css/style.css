@@ -4,10 +4,13 @@
     font-family: 'Poppins' , sans-serif;
   
 }
-
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
 .navigation {
     height: 52px;
-    margin: 16px 320px 16px 320px;
     border: #1D3444 1px solid hidden;
     display:flex;
     flex-flow: row;
@@ -160,7 +163,7 @@ h2 {
     letter-spacing: -3%;
     color: #1D3444;
     border: #1D3444 1px solid hidden;
-    margin: 96px 865px 27px 320px;
+    /* margin: 96px 865px 27px 320px; */
 }
 
 #content {
@@ -647,14 +650,14 @@ h2 {
 
 /* ending seventh starts here */
 .seventh {
-    width: 1933px;
     border: solid 1px #DCEAF5;
     background-color: #DCEAF5;
+    padding: 60px 0;
 }
 
 .footerending-1 {
     display: flex;
-    margin: 0px 320px 96px 320px;
+    /* margin: 0px 320px 96px 320px; */
     gap: 40px;
     border: #0D1317 1px solid hidden;
 }
@@ -675,25 +678,22 @@ h2 {
 /* last section starts here */
 .eight {
     background-color: #063255;
-    width: 1933px;
     height: 463px;
-    padding: 80px 320px 80px 320px;
     justify-content: space-evenly;
 }
 
-.eight img {
-    color: #FFFFFF;
-    background: #FFFFFF;
-}
+
 
 .firstcolumn {
-    color: #FFFFFF;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
     letter-spacing: -0.03em;
+    
 }
-
+.firstcolumn p {
+    width: 351px;
+}
 .footerheadend {
     display: flex;
     color: #FFFFFF;
@@ -703,6 +703,17 @@ h2 {
     text-transform: capitalize;   
 }
 
-.eightbold {
+.eightbold p{
     font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.email {
+    color: #9C9C9C;
+    background: white;
+    
+}
+.logofooter {
+
 }
