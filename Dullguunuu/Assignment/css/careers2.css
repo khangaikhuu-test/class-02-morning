@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.main-header {
+    background: white;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header img {
+    margin: 28px 0;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #394149;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #394149;
+    align-items: baseline;
+}
+
+#button1 {
+    background: rgb(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 18px 30px 17px 29px;
+}
+
+#button1 a {
+    color: #F58A07;
+}
+
+header h2 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #1D3444;
+    margin: 94px 0 64px;
+}
+
+.careerheader {
+    display: flex;
+    gap: 284px;
+}
+
+.jobleft {
+    width: 640px;
+    height: 106px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #0D1317;
+    margin: 0;
+}
+
+.careerheader p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #5b5b5b;
+    margin: 16px 0 0 0;
+}
+
+.careerdetails {
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    display: flex;
+    margin: 64px 0 128px;
+}
+
+.careerdetails li {
+    list-style: none;
+}
+
+.careerdetails .left {
+    padding: 0;
+    margin: 68px 94px 0 68px;
+}
+
+.careerdetails a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0D1317;
+}
+
+#orangetext {
+    color: #F58A07;
+}
+
+.careerdetails .right {
+    margin: 64px 94px 69px 0;
+    padding: 0;
+}
+
+.right li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5b5b5b;
+    line-height: 28px;
+}
+
+.applysection {
+    margin: 128px 0;
+}
+
+.applysection h3 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #0D1317;
+}
+
+.applysection div {
+    display: flex;
+}
+
+.applysection p {
+    font-weight: 600;
+}
