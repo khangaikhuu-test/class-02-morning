@@ -43,8 +43,6 @@ body {
 }
 
 .align-between {
-    display: flex;
-    flex-direction: column;
     align-content: space-between;
 }
 
@@ -155,13 +153,10 @@ footer {
     color: #FFFFFF;
 }
 
-.f-top div {
-    max-width: 350px;
-}
-
 .f-logos {
     display: flex;
     flex-direction: column;
+
 }
 
 #greyish {
@@ -187,8 +182,6 @@ footer {
 }
 
 .between {
-    display: flex;
-    width: 100%;
     justify-content: space-between;
 }
 
@@ -488,4 +481,8 @@ footer {
     border-radius: 31px;
     padding: 5% 10%;
     width: max-content;
+}
+
+#ribbon {
+    width: 100%;
 }
