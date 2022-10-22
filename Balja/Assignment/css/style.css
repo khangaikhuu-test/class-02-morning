@@ -662,59 +662,99 @@ main{
     color: #f58a07;
     margin-left: 32px;
 }
-footer{
-width: 1280px;
-height: 463px;
-background: #063255;
-
+.footer-container{
+    width: 1280px;
+    height: 463px;
+    background:#063255;
+    display: flex;
+    justify-content: space-between;
+}
+.shape-left{
+    background-image: url(../images/Shape\ Left.png);
+    width: 53px;
+    height: 144px;
+    margin-top: 319px;
 }
 .footer-top{
-    width: 1320px;
-    height: 199px;
+display: flex;
+}
+.logoleft{
+    
+}
+.shape-right{
+    background-image: url(../images/Shape\ Right.png);
+    width: 53px;
+    height: 287px;
+    margin-top: 38px;
+}
+.footer-bottom{
     display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-
+    justify-content: space-between;
 }
-.footer-left{
+.bottom-right{
     display: flex;
-    flex-direction: column;
 }
-#footer-logo{
-    background-image: url(../images/Logo.svg);
-    width: 120px;
-    height: 27px;
-    overflow: visible;
-}
-#footer-text{
+#left-h2{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
     width: 351px;
     height: 88px;
+}
+#social-logos{
+    background: no-repeat;
+
+}
+#company-h3{
+width: 92px;
+height: 27px;
+font-size: 18px;
+line-height: 27px;
+color: #ffffff;
+}
+.footer-company p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
     color: #ffffff;
 }
-#join-new{
+#connect-h3{
+    width: 79px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.footer-connect p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+#right-h3{
     width: 141px;
     height: 27px;
     font-weight: 600;
-    line-height: 27px;
     font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
 }
-#footer-input{
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 32px;
-    align-items: center;
+#email-button{
     width: 342px;
     height: 54px;
     background: #ffffff;
     border-radius: 31px;
-    color: #9c9c9c;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 19px;
-    font-family:'Inter' , sans-serif;
+    color: #9c9c9c;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
 }
 #sub-button{
     width: 156px;
@@ -723,68 +763,24 @@ background: #063255;
     border-radius: 31px;
     color: #ffffff;
     font-weight: 600;
-    line-height: 106.5%;
-    display: flex;
-    align-items: center;
-    padding-left: 32px;
-    margin-top: 16px;
-}
-#small-logos{
-    background: url(../images/Social.png);
-    width: 136px;
-    height: 20px;
-}
-.footer-company{
-    text-decoration: none;
-    list-style-type: none;
-    color: #ffffff;
-}
-ul{
-    list-style-type: none;
-}
-.footer-connect{
-    color: #ffffff;
-
-}
-.footer-sub{
-    color: #ffffff;
-}
-#bot-bot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #ffffff;
-}
-#bot-bot2{
-    display: flex;
-}
-#comp{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-#conct{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-#conct ul{
     font-size: 18px;
-}
-.footer-bottom{
+    line-height: 106.5%;
+    padding-left: 32px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    text-transform: capitalize;
 }
-#shape-right{
-    background-image: url(../images/Shape\ Right.png);
-    width: 53px;
-    height: 287px;
-    margin-top: -250px;
+.bottom-left{
+    width: 249px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
 }
-#shape-left{
-    background-image: url(../images/Shape\ Left.png);
-    width: 53px;
-    height: 144px;
-    margin-top: -33px;
+.bottom-right{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
 }
