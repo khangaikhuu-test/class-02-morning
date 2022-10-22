@@ -10,12 +10,12 @@
     width: 100%;
 }
 .navigation {
-    height: 52px;
     border: #1D3444 1px solid hidden;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
     align-content:center; 
+    margin: 0 auto;
 }
 
 .nav {
@@ -44,12 +44,10 @@
 }
 
 #callto {
-    width: 173px;
-    height: 52px;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px;
     border-width: 173px;
-    margin: 0 0 0 70px;
+    gap: 70px;
     text-align: center;
     padding: 12px 0 12px 0;
 }
@@ -652,7 +650,7 @@ h2 {
 .seventh {
     border: solid 1px #DCEAF5;
     background-color: #DCEAF5;
-    padding: 60px 0;
+    padding: 0px 0;
 }
 
 .footerending-1 {
