@@ -2,39 +2,42 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
-  
-    
 }
-                        /* HEAD NAV*/
+.golluulagch{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+                     /* HEAD NAV*/
 .head_container {
     display: flex;
     border: 1px solid hidden;
     width: 1280px;
     height: 52px;
     padding: 14px 0 ;
-    margin: auto;
+    /* margin: 16px 328px; */
 }
 .header_logo {
     margin-top: 0;
 }
 .header_menu{
     display: flex;
-    gap: 32px; 
-    margin: 0 0 0 450px;
+    gap: 32px;
+    margin: 0 0 0 470px;
 }
 .header_link {
     font-size: 16px;
     font-weight: 600;
     line-height: 17px;
-    text-align: center;
-    padding: 18px 0;
-    width: 173px;
+    padding: 18px 32px;
+    width: 190px;
     height: 52px;
     color:#F58A07;
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
-    border-radius: 40%;
-    margin: -15px 0 0 60px;
+    border-radius: 31%;
+    margin: -15px 0 0 47px;
 }
 .header_menu a {
     font-size: 16px;
@@ -47,23 +50,19 @@
 
                    /* HEADER */
 section {
-    /* margin-top: 16px; */
     background-color: rgba(220, 234, 245, 1);
-    height: 750px;
-    width: 1990px;
-    margin: 16px;
-    
+    height: 750px;  
+    margin-top: 24px;
 }
 .blog_container1 {
     display: flex;
-    margin: 0px 394px 128px 319px;
+    justify-content: space-between;
 }
 
 .blog_sec1 {
     border: 1px solid hidden;
     width: 559px;
-    /* height: 427px; */
-    /* margin: 0px 1117px 161px 319px; */
+
 }
 .blog_text1 {
     font-size: 16px;
@@ -111,7 +110,7 @@ img {
     font-size: 24px;
     line-height: 36px;
     font-weight: 500;
-    margin: 32px 0 0 32px;
+    margin-top: 32px;
 }
 .text3 {
     color: #5B5B5B;
@@ -139,7 +138,7 @@ img {
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
-    margin: 96px 0 0 320px;
+    margin-top: 96px;
 }
 .container2 {
     display: flex;
@@ -147,13 +146,14 @@ img {
     flex-wrap: wrap;
     width: 1280px;
     height: 1174px;
-    margin: 64px 0 0 321px;
+    margin-top: 64px;
     gap: 40px;
 }
 .container2 img {
     border: 1px solid hidden;
     border-radius: 20px;
 }
+
                         /* FOOTER SECTION #9 */
                         /* FOOTER SECTION #9 */
 footer {
@@ -258,16 +258,19 @@ input[type=text], select {
     display: flex;
     justify-content: space-between;
     border: 1px solid hidden;
-    margin: 80px 0 0 320px;
+    /* margin-top: 80px; */
     width: 1280px;
     height: 199px;
+    margin-top: 30px;
+
 }
 .foot_box2 {
     display: flex;
     justify-content: space-between;
     width: 1280px;
     height: 24px;
-    margin: 80px 0 0 320px;
+    margin-top: 80px;
+
 }
 
 .foot_text {

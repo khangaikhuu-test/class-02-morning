@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  box-sizing: border-box;
   /* font-size: 16px;
     line-height: 24px; */
 }
@@ -9,12 +10,16 @@
   margin: auto;
 }
 
+
+
 /* menu/slider heseg ehlev */
 .menu {
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
+
+/*this is slider content-1*/
 
 .slider {
   background: #dceaf5;
@@ -154,6 +159,9 @@ a {
   margin-right: 0px;
   margin-top: 85px;
 }
+
+/*This is content-2*/
+
 h2 {
   display: flex;
   flex-flow: row;
@@ -218,23 +226,166 @@ h2 {
 .more-button {
   color: #f58a07;
 }
-.contain3 {
-  background-color: #edf7ff;
+
+/*This is content3-*/
+
+.content3 {
+  display: flex;
+  background-color: #dceaf5;
   height: 665px;
 }
+
 h3 {
-  font-size: 36px;
+  color: #0d1317;
   font-weight: 600;
+  font-size: 36px;
   line-height: 44px;
   letter-spacing: -0.03em;
-  text-align: left;
-  margin-right: 40px;
-  margin-top: 96px;
-  width: 619px;
 }
+
+.content3 h3 {
+  margin-top: 96px;
+  margin-bottom: 64px;
+}
+
+.content3-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content3-box {
+  width: 32%;
+  border-radius: 20px;
+  text-align: left;
+  background: #ffffff;
+  padding: 41px;
+}
+
+/*This is content4-*/
+
+.content4 {
+  display: flex;
+}
+.content-left {
+  width: 596px;
+  height: 549px;
+}
+
+.upper-text1 {
+  width: 596px;
+  height: 157px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+  margin-top: 166px;
+}
+.upper-text2 {
+  width: 510px;
+  height: 120px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #5b5b5b;
+  margin-top: 32px;
+}
+.bottom-text {
+  display: flex;
+}
+.bottom-text11 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #f58a07;
+}
+.bottom-text12 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 106.5%;
+  color: #0d1317;
+  letter-spacing: -0.03em;
+}
+.bottom-text13 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5b5b5b;
+}
+.bottom-text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 16px;
+  width: 40%;
+}
+.content-right {
+  background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png);
+  margin-top: 96px;
+  background-color: #f58a07;
+  mix-blend-mode: multiply;
+  width: 670px;
+  height: 670px;
+  border-radius: 20px;
+}
+
+#orange-box {
+  background-color: #f58a07;
+  mix-blend-mode: multiply;
+  width: 153px;
+  height: 670px;
+  border-radius: 20px 0 0 20px;
+}
+
+/*This is content5-*/
+
+.help-client {
+  margin-top: 100px;
+}
+
+
+.content5 {
+  background-color: #edf7ff;
+  /* max-width: 1280px; */
+  /* margin: auto; */
+  margin-top: 85px;
+} 
+
+
+.content5-left {
+  margin-top: 30px;
+  display: flex;
+  justify-content: left;
+  
+}
+
+.content5-image {
+  display: flex;
+  margin-left: 42.39px;
+}
+
+.content5-link1 {
+  width: 194px;
+  height: 40px;
+  color: #f58a07;
+  background-color: #ffffff;
+  border-radius: 31px;
+}
+.content5-link2 {
+  width: 183px;
+  height: 40px;
+  color: rgba(6, 50, 85, 0.3);
+  border: 1px solid #a8bccc;
+  border-radius: 31px;
+}
+
+/* .help-content-container {
+  display: flex;
+}  */
+
+/*This is content5-*/
 
 /* main heseg duusav */
 
 /* footer heseg ehlev */
-
-/* footer heseg duusav */

@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -149,21 +150,61 @@ section {
 .of {
     width: 510px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.energy {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 596px;
+    color: rgba(13, 19, 23, 1);
+}
+.inside {
+    display: flex;
+    gap: 0px 70px;
+}
+.music {
+    width: 264px;
+}
+.tonight {
+    color: rgba(245, 138, 7, 1);
+    font-size: calc(2rem + 4px);
+    font-weight: 700;
+}
+.the {
+    color: rgba(13, 19, 23, 1);
+    font-size: calc(1rem + 8px);
+    font-weight: 600;
+}
+.secondhalf img{
+    margin-top: 60px;
+    mix-blend-mode: multiply;
+    background: #F58A07;
+}
+.whisper {
+    max-width: 1280px;
+    width: 100%;
+    background-color: rgba(237, 247, 255, 1);
+    padding: 56px 42px 48px 48px;
+}
+.surprise {
+    display: flex;
+}
+.surprise p {
+    border-radius: 31px;
+    border: 1px solid rgba(168, 188, 204, 1);
+    /* padding: 8px 30px; */
+    width: 300px;
+}
+.so {
+    width: 572px;
+    color: rgba(13, 19, 23, 1);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.seems a {
+    color: rgba(245, 138, 7, 1);
+}
+.col-2 img {
+    margin-top: 120px;
+}
 
 
 

@@ -15,6 +15,10 @@
     background-color: #EDF7FF;
 }
 
+.orange {
+    background-color: #F58A07;
+}
+
 /* General formatting */
 /* Container & Header & Text */
 .container {
@@ -420,7 +424,7 @@ h4 {
 
 
 .service-c .woman-pic {
-    background-image: url('/images/team.png');
+    background-image: url('../images/team.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 472px;
@@ -451,33 +455,76 @@ h4 {
 
 /* GTA specific formatting */
 
-.container-GTA {
+.GTA-c {
     display: flex;
-    
-    flex-wrap: nowrap;
-    margin: 0 auto;
 }
 
-.GTA-pic {
+.GTA .column-container {
+    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.gta-col1 {
+    background: url(../images/Imageblack-pic.png) no-repeat center / cover #F58A07;
+    /* padding-top: 128px; */
+    width: 50%;
+    /* margin-right: 0; */
+}
+
+.gta-col2 {
+    /* width: 50%;
+    margin: 0; */
+    background-color: #F58A07;
+    padding: 128px 0 0 128px;
+    width: 50%;
+    height: 518px;
+
+}
+
+.GTA-c h2 {
+    margin: 128px 0px 0px 128px;
+    color: #FFFFFF;
+}
+
+.GTA-c button {
+    margin: 40px 0px 128px 128px;
+    background-color: #FFFFFF;
+    color: #F58A07;
+    border-radius: 31px;
+    width: 194px;
+    height: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+/* .GTA-pic {
     background-image: url('https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 963px;
+    /* background-size: cover; */
+    background-position:center;
+    /* width: 963px; */
     height: 518px;
-}
+    position: absolute;
 
-.container-GTA .GTA-txt {
+}  */
+
+
+/* .GTA-c h2 {
+    color:#FFFFFF;
+    padding: 128px 300px 222px 128px ;
+} */
+
+
+/* 
+.GTA-c .GTA-txt {
     width: 963px;
     height: 518px;
     background-color: #F58A07;
     
-}
+} */
 
-.container-GTA h2 {
-    color:#FFFFFF;
-    padding: 128px 300px 222px 128px ;
-}
 
-.container-GTA button {
-    background-color: #FFFFFF;
-}
+
