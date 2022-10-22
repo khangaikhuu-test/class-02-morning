@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+    margin: auto;
+    width: 450px;
+}
+
+input {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 50%;
+}
+
+.gender-container{
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+textarea {
+    margin-bottom: 10px;
+}
