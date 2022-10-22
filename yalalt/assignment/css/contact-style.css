@@ -38,7 +38,6 @@
   
   /***** CSS Resused code template ********/
   #showcase-blog {
-    background: #dceaf5;
     padding: 47px 0;
     margin: 20px 0px;
   }
@@ -57,7 +56,7 @@
   /* Flex row */
   .flex-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-items: center;
     justify-content: space-between;
   }
@@ -66,8 +65,15 @@
   .flex-col {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .flex-col-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
   }
 
   /* Add to Flex margin 80px */
@@ -113,18 +119,18 @@
   } */
 
   .medium-title {
-    font-size: 3rem;
-    line-height: 56px;
+    font-size: 24px;
+    line-height: 25px;
     font-weight: 600;
     color: #0d1317;
   }
 
   .large-title {
-    font-size: 4rem;
-    line-height: 72px;
+    font-size: 48px;
+    line-height: 56px;
     font-weight: 600;
     color: #1d3444;
-    width: 618px;
+    max-width: 550px;
     /* height: 216px; */
   }
 
@@ -139,7 +145,27 @@
     line-height: 30px;
     font-weight: 500;
     color: #5b5b5b;
+    width: 270px;
     margin: 16px 32px 0 32px;
+  }
+
+  .text-para-email {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5b5b5b;
+    width: 270px;
+    margin-top: 16px 0px 0px 0px;
+  }
+  
+  .text-para-bottom {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5b5b5b;
+    width: 524px;
   }
 
 /* .orange-btn {
@@ -166,6 +192,7 @@
     column-gap: 40px;
     row-gap: 40px;
 }
+
 
 /* .hire-work-box {
     display: flex;

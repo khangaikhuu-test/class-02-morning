@@ -336,7 +336,7 @@ h4 {
 }
 
 
-/* ABOUT specific formatting */
+/* SERVICE specific formatting */
 
 /* ---container--- */
 .service-c {
@@ -344,6 +344,7 @@ h4 {
     justify-content: space-around;
     padding-top: 48px;
     padding-bottom: 48px;
+    position: relative;;
 }
 .service-c  .text-18px {
     padding-top: 25px;
@@ -448,8 +449,8 @@ h4 {
 
 .ribbon {
     position: absolute;
-    margin-left: 1292px;
-    margin-top: -18px;
+    margin-left: 1116px;
+    margin-top: -60px;
 }
 
 
@@ -463,31 +464,35 @@ h4 {
     /* display: flex; */
     display: flex;
     justify-content: space-between;
+    height: 518px;
 }
 
 .gta-col1 {
-    background: url(../images/Imageblack-pic.png) no-repeat center / cover #F58A07;
+    background: url(../images/Imageblack-pic.png);
     /* padding-top: 128px; */
     width: 50%;
+    background-size: cover;
+    background-repeat: none;
     /* margin-right: 0; */
+    height: 518px;
 }
 
 .gta-col2 {
     /* width: 50%;
     margin: 0; */
     background-color: #F58A07;
-    padding: 128px 0 0 128px;
+    /* padding: 128px 0 0 128px; */
     width: 50%;
     height: 518px;
-
 }
 
-.GTA-c h2 {
+.GTA h2 {
     margin: 128px 0px 0px 128px;
     color: #FFFFFF;
+    max-width: 532px;
 }
 
-.GTA-c button {
+.GTA button {
     margin: 40px 0px 128px 128px;
     background-color: #FFFFFF;
     color: #F58A07;
@@ -500,31 +505,11 @@ h4 {
     font-style: normal;
 }
 
-/* .GTA-pic {
-    background-image: url('https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png');
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position:center;
-    /* width: 963px; */
-    height: 518px;
-    position: absolute;
+/* GTA specific formatting */
 
-}  */
-
-
-/* .GTA-c h2 {
-    color:#FFFFFF;
-    padding: 128px 300px 222px 128px ;
-} */
-
-
-/* 
-.GTA-c .GTA-txt {
-    width: 963px;
-    height: 518px;
-    background-color: #F58A07;
-    
-} */
+.video-c {
+    /* margin-top: ; */
+}
 
 
 
