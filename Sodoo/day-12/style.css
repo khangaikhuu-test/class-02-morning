@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid orange;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+
+input {
+   
+}
