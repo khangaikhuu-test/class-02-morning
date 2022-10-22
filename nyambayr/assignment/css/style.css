@@ -342,6 +342,9 @@ h3 {
 
 .help-client {
   margin-top: 100px;
+  max-width: 1280px;
+  margin: auto;
+  border-radius: 20px;
 }
 
 
@@ -357,32 +360,49 @@ h3 {
   margin-top: 30px;
   display: flex;
   justify-content: left;
-  
+  margin-left: 48px;
+}
+
+.content5h2{
+  font-size: 48px;
+
 }
 
 .content5-image {
   display: flex;
-  margin-left: 42.39px;
+  margin-right: 42.39px;
+  border-radius: 20px;
+  margin-bottom: 48px;
+}
+.content5-image img {
+  border-radius: 20px;
 }
 
 .content5-link1 {
+  margin-top: 48px;
   width: 194px;
   height: 40px;
   color: #f58a07;
   background-color: #ffffff;
   border-radius: 31px;
+  text-align: center;
+
 }
 .content5-link2 {
+  margin-top: 48px;
+  margin-left: 24px;
   width: 183px;
   height: 40px;
   color: rgba(6, 50, 85, 0.3);
   border: 1px solid #a8bccc;
   border-radius: 31px;
+  text-align: center;
 }
 
-/* .help-content-container {
+* .help-content-container {
   display: flex;
-}  */
+  margin-left: 48px;
+} 
 
 /*This is content5-*/
 
