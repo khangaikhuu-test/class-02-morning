@@ -647,7 +647,7 @@ h2 {
 
 /* ending seventh starts here */
 .seventh {
-    width: 100%;
+    width: 1933px;
     border: solid 1px #DCEAF5;
     background-color: #DCEAF5;
 }
@@ -675,7 +675,7 @@ h2 {
 /* last section starts here */
 .eight {
     background-color: #063255;
-    max-width: 100%;
+    width: 1933px;
     height: 463px;
     padding: 80px 320px 80px 320px;
     justify-content: space-evenly;
@@ -700,6 +700,9 @@ h2 {
     width: 1280px;
     border: white 1px solid;    
     justify-content: space-between;
-    text-transform: capitalize;
-    
+    text-transform: capitalize;   
+}
+
+.eightbold {
+    font-size: 18px;
 }
