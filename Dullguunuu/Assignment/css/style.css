@@ -21,6 +21,10 @@
 
 .header-nav a {
     text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #394149;
 }
 
 .header-nav {
@@ -34,25 +38,25 @@
 }
 
 #button1 {
-    background: #F58A07;
+    background: rgb(245, 138, 7, 0.1);
     border-radius: 31px;
     padding: 18px 30px 17px 29px;
 }
 
 #button1 a {
-    color: white;
+    color: #F58A07;
 }
 
-.bannercon {
+.header {
     background: #DCEAF5;
 }
 
-.bannercon .container {
+.header .container {
     height: 703px;
     display: flex;
 }
 
-.bannercon .text1 h1 {
+.header .text1 h1 {
     margin: 117px 0 0 0;
     color: #1D3444;
     font-weight: 600;
@@ -62,7 +66,7 @@
     width: 576px;
 }
 
-.bannercon .text1 #t1 {
+.header .text1 #t1 {
     height: 60px;
     width: 571px;
     font-size: 18px;
@@ -119,4 +123,613 @@
     height: 618px;
     width: 747px;
     margin-top: 85px;
+}
+
+.helpsection {
+    margin: 96px auto;
+}
+
+.helpsection h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1D3444;
+    width: 735px;
+    height: 112px;
+}
+
+.helpsection #headtext {
+    margin-top: 27px;
+    width: 735px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.helpposts {
+    margin-top: 64px;
+    display: flex;
+    gap: 40px;
+}
+
+.helpposts img {
+    border-radius: 20px;
+    width: 399px;
+    height: 242px;
+}
+
+.helpposts h3 {
+    margin-top: 33px;
+    color: #0D1317;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.helpposts .helptext {
+    margin-top: 17px;
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.helpposts .LMs {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f58a07;
+}
+
+.featuresection {
+    margin: auto;
+    background: #EDF7FF;
+}
+
+.featuretexts {
+    display: flex;
+    gap: 40px;
+}
+
+.featuretexts h3 {
+    width: 619px;
+    height: 132px;
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 96px;
+}
+
+.featuretexts p {
+    width: 620px;
+    height: 102px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 102px;
+}
+
+.features {
+    display: flex;
+    gap: 40px;
+}
+
+.features .background {
+    background: white;
+    border-radius: 20px;
+    padding: 48px 24px 37px 41px;
+    margin-bottom: 96px;
+    margin-top: 64px;
+}
+
+.features .background h3 {
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25.56px;
+}
+
+.aboutsection .container {
+    display: flex;
+    gap: 47px;
+}
+
+.aboutsection .abouttext h2 {
+    width: 596px;
+    height: 157px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin: 166px 0 32px 0;
+}
+
+.aboutsection .abouttext #t21 {
+    width: 510px;
+    height: 120px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin: 0;
+}
+
+.aboutsection .abouttext .aboutfeature {
+    display: flex;
+    gap: 26px;
+}
+
+.aboutsection .abouttext .aboutfeature div {
+    width: 264px;
+    height: 192px;
+    margin-top: 48px;
+}
+
+.aboutsection .aboutfeature .number {
+    color: #F58A07;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.aboutsection .aboutfeature h3 {
+
+    font-weight: 600;
+    font-size: 24px;
+    color: #0D1317;
+    margin: 16px 0;
+}
+
+.aboutsection .aboutfeature p {
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.aboutsection .aboutimage {
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png);
+    width: 638px;
+    height: 667px;
+    margin-top: 96px;
+    border-radius: 20px;
+}
+
+.aboutcolor {
+    background-color: #F58A07;
+    width: 153px;
+    height: 667px;
+    mix-blend-mode: multiply;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.servicesection {
+    margin: 85px auto 0;
+    background: #EDF7FF;
+    width: 1274.39px;
+    height: 682px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#ribbon {
+    position: absolute;
+    right: -20.61px;
+    top: -16px;
+}
+
+.servicetabs {
+    display: flex;
+    gap: 24px;
+}
+
+.servicetabs #tab1 {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 31px;
+    background-color: white;
+    padding: 8px 24px;
+    color: #F58A07;
+    margin: 48px 0 0 48px;
+}
+
+.servicetabs .tab2-3 {
+    text-decoration: none;
+    border: 1px solid #a8bccc;
+    border-radius: 31px;
+    padding: 8px 24px;
+    color: #063255;
+    opacity: 30%;
+    margin-top: 48px;
+}
+
+.service {
+    display: flex;
+    gap: 140px;
+    margin: 80px 42.39px 48px 48px;
+}
+
+.servicesection .service h2 {
+    width: 572px;
+    height: 168px;
+    color: #0D1317;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+}
+
+.servicesection .service p {
+    width: 510px;
+    height: 210px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+    margin: 25px 0 0 0;
+}
+
+.servicesection .service a {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f58a07;
+}
+
+.teamimage img {
+    width: 472px;
+    height: 466px;
+}
+
+.teamimage {
+    position: relative;
+}
+
+.teamcolor {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    top: 0px;
+    width: 120px;
+    height: 466px;
+    border-radius: 20px 0 0 20px;
+}
+
+.content {
+    display: flex;
+    margin: 128px 0 0 0;
+    width: 1920px;
+    height: 518px;
+}
+
+.content img {
+    width: 963px;
+    height: 518px;
+    
+}
+
+.content div {
+    background: #F58A07;
+}
+
+.content div h2 {
+    color: white;
+    padding: 128px 300px 40px 128px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.content div a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 31px;
+    background-color: white;
+    padding: 18px 32px;
+    margin-left: 128px;
+    color: #F58A07;
+    font-size: 16px;
+}
+
+.videosection
+{
+    display: flex;
+    gap: 110px;
+    margin: 0 auto;
+}
+
+.leftside
+{
+    width: 550px;
+    height: 346px;
+}
+.videosection .leftside h2
+{
+    width: 550px;
+    height: 112px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    margin-top: 206px;
+}
+
+.videosection .leftside p
+{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+
+.videosection .leftside div
+{
+    display: flex;
+    margin-top: 40px;
+}
+
+.videosection .leftside div img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.videosection ul
+{
+    list-style: none;
+    margin-left: 24px;
+}
+
+.videosection ul li:nth-child(1)
+{
+    font-weight: 500;
+    font-size: 24px;
+    color: #063255;
+}
+
+.videosection ul li:nth-child(2)
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: #F58A07;
+}
+
+.videosection .rightside
+{
+    margin-top: 128px;
+    width: 620px;
+    height: 501px;
+    position: relative;
+}
+
+.videosection .playicon
+{
+    display: flex;
+    position: absolute;
+    top: 410px;
+    left: 40px;
+}
+
+.playicon p
+{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 0 17px;
+}
+
+.latestsection
+{
+    background: #DCEAF5;
+    margin-top: 128px;
+    height: 819px;
+}
+
+.latestsection .container h2
+{
+    font-weight: 600;
+    font-size: 48px;
+    padding-top: 96px;
+    margin: 0;
+}
+
+.blogitems {
+    margin-top: 64px;
+    display: flex;
+    gap: 40px;
+}
+
+.blogitems img {
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+    height: 230px;
+}
+
+.bgcolor
+{
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    width: 400px;
+    height: 277px;
+    padding: 32px;
+}
+
+.blogitems h3 {
+    color: #0D1317;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+}
+
+.blogitems p {
+    margin: 16px 0 24px 0;
+    color: #5B5B5B;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.blogitems .LMs {
+    font-weight: 500;
+    font-size: 16px;
+    color: #f58a07;
+    margin: 0;
+}
+
+footer
+{
+    background: #063255;
+    position: relative;
+}
+
+.footercontainer
+{
+margin: 0 auto;
+}
+footer .footertop
+{
+    display: flex;
+    padding: 80px 0 80px;
+    color: white;
+}
+
+.footerheadings
+{
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 24px 0;
+}
+
+.footerleft 
+{
+    width: 351px;
+    height: 199px;
+}
+
+.footerleft h2
+{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 32px 0;
+}
+
+.footerleft ul
+{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.footerleft li
+{
+    list-style: none;
+}
+
+.footerleft a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.footercompany
+{
+    margin: 0 107px 0 110px;
+}
+
+.footercompany .companylinks
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footercompany .companylinks a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.subscripe
+{
+    margin-left: 137px;
+}
+
+.subscripe p:nth-child(2)
+{
+    color: #9c9c9c;
+    font-weight: 500;
+    font-size: 16px;
+    background: white;
+    border-radius: 31px;
+    padding: 18px 188px 17px 32px;
+}
+
+.subscripe p:nth-child(3)
+{
+    background: #f58a07;
+    border-radius: 31px;
+    padding: 18px 32px 17px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 156px;
+}
+
+.footerbottom
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.footerbottom p
+{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0;
+}
+
+.footerbottomlinks
+{
+    display: flex;
+    gap: 32px;
+}
+
+.footerbottomlinks a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.shapeleft
+{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 53px;
+    height: 144px;
+    background: #f58a07;
+    border-top-right-radius: 20px;
+}
+
+.shaperight
+{
+    position: absolute;
+    top:38px;
+    right: 0px;
+    width: 53px;
+    height: 287px;
+    background: #f58a07;
+    border-radius: 20px 0 0 20px;
 }

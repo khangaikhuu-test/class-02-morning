@@ -1,0 +1,35 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 100px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    border: #cecece solid 1px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: 200;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 30px;
+}
+
+h3, h2 {
+    color: greenyellow;
+    text-align: center;
+}
