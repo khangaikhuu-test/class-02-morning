@@ -10,6 +10,8 @@
   margin: auto;
 }
 
+
+
 /* menu/slider heseg ehlev */
 .menu {
   display: flex;
@@ -262,19 +264,17 @@ h3 {
 
 /*This is content4-*/
 
-
-.content4{
-  display:flex;
-  
+.content4 {
+  display: flex;
 }
-.content-left{
-  width:596px;
-  height:549px;
+.content-left {
+  width: 596px;
+  height: 549px;
 }
 
-.upper-text1{
-  width:596px;
-  height:157px;
+.upper-text1 {
+  width: 596px;
+  height: 157px;
   font-weight: 600;
   font-size: 48px;
   line-height: 56px;
@@ -282,46 +282,45 @@ h3 {
   color: #0d1317;
   margin-top: 166px;
 }
-.upper-text2{
+.upper-text2 {
   width: 510px;
   height: 120px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 500;
-  color:#5b5b5b;
+  color: #5b5b5b;
   margin-top: 32px;
 }
-.bottom-text{
-  display:flex;
-
+.bottom-text {
+  display: flex;
 }
-.bottom-text11{
+.bottom-text11 {
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
-  color:#f58a07;
+  color: #f58a07;
 }
-.bottom-text12{
+.bottom-text12 {
   font-weight: 600;
   font-size: 24px;
   line-height: 106.5%;
-  color:#0d1317;
+  color: #0d1317;
   letter-spacing: -0.03em;
 }
-.bottom-text13{
+.bottom-text13 {
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: #5b5b5b;
 }
-.bottom-text1{
-  display:flex;
+.bottom-text1 {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 16px;
   width: 40%;
 }
-.content-right{
+.content-right {
   background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png);
   margin-top: 96px;
   background-color: #f58a07;
@@ -332,12 +331,61 @@ h3 {
 }
 
 #orange-box {
-    background-color: #f58a07;
-    mix-blend-mode: multiply;
-    width: 153px;
-    height: 670px;
-    border-radius: 20px 0 0 20px;
+  background-color: #f58a07;
+  mix-blend-mode: multiply;
+  width: 153px;
+  height: 670px;
+  border-radius: 20px 0 0 20px;
 }
+
+/*This is content5-*/
+
+.help-client {
+  margin-top: 100px;
+}
+
+
+.content5 {
+  background-color: #edf7ff;
+  /* max-width: 1280px; */
+  /* margin: auto; */
+  margin-top: 85px;
+} 
+
+
+.content5-left {
+  margin-top: 30px;
+  display: flex;
+  justify-content: left;
+  
+}
+
+.content5-image {
+  display: flex;
+  margin-left: 42.39px;
+}
+
+.content5-link1 {
+  width: 194px;
+  height: 40px;
+  color: #f58a07;
+  background-color: #ffffff;
+  border-radius: 31px;
+}
+.content5-link2 {
+  width: 183px;
+  height: 40px;
+  color: rgba(6, 50, 85, 0.3);
+  border: 1px solid #a8bccc;
+  border-radius: 31px;
+}
+
+/* .help-content-container {
+  display: flex;
+}  */
+
+/*This is content5-*/
+
 /* main heseg duusav */
 
 /* footer heseg ehlev */
