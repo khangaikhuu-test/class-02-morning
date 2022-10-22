@@ -2,6 +2,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* General background formatting */
 .blue{
     background-color: #DCEAF5;
 }
@@ -14,49 +15,125 @@
     background-color: #EDF7FF;
 }
 
+.orange {
+    background-color: #F58A07;
+}
+
+/* General formatting */
+/* Container & Header & Text */
 .container {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
-}
-
-.c1 {
-    
-}
-
-.c2 {
-    flex-direction: column;
-    padding-bottom: 5em;
-}
-
-.c3 {
     font-size: 16px;
-    padding-bottom: 5em;
+    color: #5B5B5B;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header-c {
+    font-size: 16px;
 }
 
 
-.slider-left {
-    display: flex;
+
+.features-c {
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 50%;
-    margin-top: 117px;
+    padding-top: 102px;
+    padding-bottom: 96px;
 }
 
-.slider-right {
-    margin-top: 58px;
-    width: 50%;
-    /* margin-left: 53px; */
+.about-c {
+    padding-top: 88.3px;
+    padding-bottom: 85px;
 }
 
-.prosper {
+h1 {
     font-size: 64px;
     color: #1D3444;
     line-height: 72px;
     font-style: normal;
     font-weight: 600;
     display: flex;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-size: 48px;
+    color: #1D3444;
+    line-height: 56px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -3%;
+}
+
+h3 {
+    color: #0D1317;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 24px;
+    color: #0D1317;
+    letter-spacing: -0.03em;
+    line-height: 106.5%;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text-18px {
+    color:#5B5B5B;
+    line-height: 30px;
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* button {
+    color: #FFFFFF;
+    background-color: #F58A07;
+    border-radius: 27px;
+    width: 199px;
+    height: 54px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+} */
+
+
+/* General alignment formatting */
+
+.content-box-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 50%;
+   
+}
+
+.content-box-right {
+    margin-top: 58px;
+    width: 50%;
 }
 
 .head-48 {
@@ -75,14 +152,22 @@
     flex-wrap: wrap;
 }
 
-.buttonSe {
-    /* margin-top: 40px; */
+/* HEADER specific formatting */
+.header-c .content-box-left {
+     margin-top: 117px;
+}
+
+.head-txt {
+    padding-top: 1em;
+}
+
+.header-all-buttons {
     display: flex;
     align-items: center;
     padding-top: 25px;
 }
 
-button {
+.service-button {
     color: #FFFFFF;
     background-color: #F58A07;
     border-radius: 27px;
@@ -94,110 +179,59 @@ button {
     font-style: normal;
 }
 
-.seeAll {
+.services-see {
     margin-left: 40px;
     text-decoration: none;
-    size: 16px;
     color: #1D3444;
 }
 
 .worked {
     font-weight: 400;
-    color: #39414980;
-    display: flex;
+    font-size: 18px;
+    color: rgba(57, 65, 73, 0.5);
     padding-top: 50px;
-
 }
 
-.logo {
+.header-all-logo {
     display: flex;
     padding-top: 20px;
 }
 
-.logo img {
+.header-all-logo img {
     padding-right: 30px;
 }
 
-.header-text {
-    color: #1D3444;
-    font-size: 48px;
-    font-weight: 600;
+
+/* HELP specific formatting */
+
+.help-c {
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+
+/* .help-c .column-container .column {
+    margin: 0;
+    padding: 0;
+} */
+
+.help-c h2 {
     max-width: 800px;
-    line-height: 56px;
-    margin-top: 80px;
 }
 
-.header-text2 {
-    color: #0D1317;
-    font-size: 2em;
-    font-weight: 600;
-    max-width: 50%;
-    line-height: 44px;
-    margin-top: -5px;
-    
+.help-c {
+    margin-top: 96px;
 }
 
-.top-text {
-    color: #5B5B5B;
-    font-size: 18px;
-    font-weight: 500;
+.help-txt{
     max-width: 60%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.top-text2 {
-    color: #5B5B5B;
-    font-size: 1em;
-    font-weight: 500;
-    max-width: 50%;
-    line-height: 30px;
-}
-
-.col-container {
-    display: flex;
-    font-size: 16px;
-    justify-content: space-between;
-    padding-top: 5em;
-    align-content: flex-start;
-}
-
-.col-container3 {
-    display: flex;
-    font-size: 16px;
-    justify-content: space-between;
-    align-content: flex-start;
-}
-
-.col-container img {
-    border-radius: 20px;
-}
-
-.mini-header {
+.help-c h4 {
     padding-top: 1em;
     padding-bottom: 1em;
-    font-size: 24px;
-    color: #0D1317;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 20px 20px 0;
-}
-
-.column2 {
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    margin: 1.5em 1.5em 1.5em 0;
-    padding: 1.5em;
-    border-radius: 20px;
-}
-
-
-.mini-text{
-    color: #5B5B5B;
 }
 
 .learn-more {
@@ -210,8 +244,74 @@ button {
     color: #F58A07;
 }
 
+.container .column-container .column {
+    margin: 40px 40px 40px 0;
+}
+
+.column-container img {
+    border-radius: 20px;
+}
+
+
+/* FEATURES specific formatting */
+
+.features-c h4 {
+    max-width: 50%;
+    padding: 32px 0 18px 0;
+    margin: 0;
+    /* margin-top: -5px; */
+}
+
+.features-c .text-18px {
+    max-width: 50%;
+    margin-left: 20px;
+    color: #1D3444;
+    /* margin-top: -5px; */
+}
+
+.features-c .column-container .column{
+    margin: 64px 0px 0px 0px;
+}
+
+.features-c .column {
+    background-color: #FFFFFF;
+    padding: 48px 20px 37px 38px;
+    border-radius: 20px;
+}
+
+.features-c .column-container .col2 {
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+
+/* ABOUT specific formatting */
+
+.about-c .text-18px {
+    padding-top: 32px;    
+}
+
+.about-c h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.about-c .column-container .column {
+    padding: 0;
+    margin: 0;
+    margin-top: 48px;
+}
+
+.about-c .column:nth-child(2) {
+    margin-left: 26px;
+    margin-right: 83px;
+}
+
 .yellow-bold-text {
-    font-size: 2em;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
     color: #F58A07;
 }
 
@@ -221,12 +321,210 @@ button {
     background-size: cover;
     width: 640px;
     border-radius: 20px;
-    /* mix-blend-mode: multiply; */
     padding-top: 10px;
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
 }
 .woman-pic img {
-    opacity: 0.6;
+    /* opacity: 0.6; */
     display: flex;
     align-items: stretch;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    mix-blend-mode: multiply;
 }
+
+
+/* ABOUT specific formatting */
+
+/* ---container--- */
+.service-c {
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.service-c  .text-18px {
+    padding-top: 25px;
+    line-height: 30px;
+    padding-right: 90px;
+}
+.service-c .column-container {
+    justify-content: space-between;
+}
+
+.service-c .content-box-left {
+    align-items: flex-start;
+}
+
+.service-c .content-box-left {
+    padding-left: 48px;
+    padding-right: 140px;
+}
+
+.service-all-buttons {
+    padding-left: 48px;
+    padding-bottom: 80px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.digitalization-button {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.service-c .learn-more {
+    padding-top: 40px;
+}
+
+.service-c h2 {
+    color: #0D1317;
+}
+
+.business-button {
+    background-color: #FFFFFF;
+    color: #F58A07;
+    border-radius: 31px;
+    width: 194px;
+    height: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.digitalization-button {
+    background-color: #EDF7FF;
+    color: #0632554D;
+    border: 2px solid #A8BCCC;
+    border-radius: 31px;
+    width: 155px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.risk-button {
+    background-color: #EDF7FF;
+    color: #0632554D;
+    border: 2px solid #A8BCCC;
+    border-radius: 31px;
+    width: 183px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+
+.service-c .woman-pic {
+    background-image: url('../images/team.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 472px;
+    height: 466px;
+    border-radius: 20px;
+    padding-top: 10px;
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+    margin-right: 42.39px;
+}
+
+.woman-pic img {
+    /* opacity: 0.6; */
+    display: flex;
+    align-items: stretch;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    mix-blend-mode: multiply;
+}
+
+.ribbon {
+    position: absolute;
+    margin-left: 1292px;
+    margin-top: -18px;
+}
+
+
+/* GTA specific formatting */
+
+.GTA-c {
+    display: flex;
+}
+
+.GTA .column-container {
+    /* display: flex; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.gta-col1 {
+    background: url(../images/Imageblack-pic.png) no-repeat center / cover #F58A07;
+    /* padding-top: 128px; */
+    width: 50%;
+    /* margin-right: 0; */
+}
+
+.gta-col2 {
+    /* width: 50%;
+    margin: 0; */
+    background-color: #F58A07;
+    padding: 128px 0 0 128px;
+    width: 50%;
+    height: 518px;
+
+}
+
+.GTA-c h2 {
+    margin: 128px 0px 0px 128px;
+    color: #FFFFFF;
+}
+
+.GTA-c button {
+    margin: 40px 0px 128px 128px;
+    background-color: #FFFFFF;
+    color: #F58A07;
+    border-radius: 31px;
+    width: 194px;
+    height: 40px;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+/* .GTA-pic {
+    background-image: url('https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position:center;
+    /* width: 963px; */
+    height: 518px;
+    position: absolute;
+
+}  */
+
+
+/* .GTA-c h2 {
+    color:#FFFFFF;
+    padding: 128px 300px 222px 128px ;
+} */
+
+
+/* 
+.GTA-c .GTA-txt {
+    width: 963px;
+    height: 518px;
+    background-color: #F58A07;
+    
+} */
+
+
 

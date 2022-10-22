@@ -50,11 +50,10 @@
     justify-content: space-between;
 
 }
-.prosper {
+h1 {
     font-size: 64px;
     color: #1D3444;
-    width: 576px;
-    height: 144px;
+    width: 650px;
     margin-top: 117px;
     
     
@@ -66,7 +65,7 @@
     width: 571px;
 
 }
-.services a {
+.services .rightu {
     color: white;
     background: #F58A07 ;
     border-radius: 27px;
@@ -87,7 +86,9 @@
 
 }
 .services {
-    padding-top: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
 .logo1 {
     margin-right: 45px;
@@ -107,7 +108,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    height: 703px;
+    /* height: 703px; */
 }
 .rightu {
     margin-right: 40px;
@@ -173,6 +174,9 @@
 .learn3 {
     color: #F58A07;
 }
+.GG {
+    background-color: #EDF7FF;
+}
 
 .bigsec {
     background: #EDF7FF;
@@ -189,8 +193,9 @@
     font-family: "Poppins";
     font-size: 36px;
     width: 619px;
-    height: 132px;
-    display: inline-block;
+    /* height: 132px; */
+    display: flex;
+    margin-bottom: 64px;
     
 }
 .seclor {
@@ -199,7 +204,8 @@
     width: 620px;
     height: 102px;
     font-family: "Poppins";
-    display: inline-block;
+    display: flex;
+    align-items: flex-end;
 
 }
 .invoice {
@@ -213,7 +219,16 @@
 .thirdy {
     background-color: white;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 401px;
+    padding: 41px;
+   
+}
+.Alldy img {
+    width: 33px;
+    height: 34px;
 }
 .support {
     color: #0D1317;
@@ -226,7 +241,12 @@
 .fourdy {
     background-color: white;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 401px;
+    padding: 41px;
+
 }
 .survey {
     color: #0D1317;
@@ -238,7 +258,16 @@
 .fivedy {
     background-color: white;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 401px;
+    padding: 41px;
+}
+.Alldy {
+    display: flex;
+    gap: 40px;
+    
 }
 .energy {
     width: 596px;
@@ -370,6 +399,7 @@
     width: 572px;
     margin-left: 48px;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 .text24 {
     width: 510px;
@@ -388,19 +418,31 @@
     font-size: 16px;
     font-family: 'Poppins';
     margin-top: 40px;
+    width: 153px;
+    margin-bottom: 54px;
+    
 }
-.conference {
+
+/* .conference {
     display: flex;
     flex-direction: row;
     justify-content: end;
-}
-.conference img {
+} */
+/* .conference img {
     width: 472px;
     height: 466px;
-}
+} */
 .mclients {
-    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    
 }
+.mclients img{
+    margin-right: 42.39px;
+    height: 539px;
+}
+
+
 
 /* .bigfourth {
     background-color: #EDF7FF;
@@ -428,6 +470,8 @@
     background-repeat: no-repeat;
     width: 963px;
     height: 518px;
+    display: flex;
+    justify-content: flex-start;
     
 }
 .bigfifth {
@@ -436,23 +480,83 @@
     justify-content: end;
     background-color: rgba(245, 138, 7, 1);
     text-align: center;
+    justify-content: space-between;
+    margin-top: 128px;
+    margin-bottom: 128px;
 }
 
-.energy {
+.energyres {
     width: 532px;
     font-size: 48px;
     font-family: 'Poppins';
     display: inline-block;
     color: rgba(255, 255, 255, 1);
+    margin-right: 580px;
+    margin-top: 128px;
+    font-weight: 600;
+    margin-bottom: 59px;
 }
 .job {
     border: 1px solid white;
-    width: 216px;
-    height: 54px;
-    padding: 32px 19px 32px 18px;
-    text-align: center;
+    width: 250px;
+    padding: 19px 32px 18px 32px;
     background-color: white;
     color: rgba(245, 138, 7, 1);
     border-radius: 31px;
+    margin-left: 30px;
 }
+.finsweet {
+    width: 550px;
+    font-size: 48px;
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+}
+.lcd {
+    width: 550px;
+    font-size: 18px;
+    color: rgba(91, 91, 91, 1);
+    margin-bottom: 40px;    
+}
+
+
+/* .pro {
+   background: url(/Mnlght0312/Assignment/images/Image.png);
+   background-repeat: no-repeat; 
+} */
+
+.smile {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+/* .chikelu {
+    color: rgba(6, 50, 85, 1);
+    font-size: 24px;
+    width: 145px;
+} */
+/* .ceo {
+    color: rgba(245, 138, 7, 1);
+    font-size: 18px;
+    width: 129px;
+    font-family: 'Poppins';
+} */
+.pro {
+    display: flex;
+}
+.pro p {
+    width: 200px;
+    font-size: 24px;
+    color: rgba(6, 50, 85, 1);
+    margin-left: 24px;
+}
+.wp2 {
+    color: rgba(245, 138, 7, 1) !important;
+    font-size: 18px !important;
+}
+
+
+
 
