@@ -5,6 +5,11 @@
     /* margin: 0;
     padding: 0; */
 }
+.golluulagch{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
 
                      /* HEAD NAV*/
 .head_container {
@@ -13,7 +18,7 @@
     width: 1280px;
     height: 52px;
     padding: 14px 0 ;
-    margin: 16px 328px;
+    /* margin: 16px 328px; */
 }
 .header_logo {
     margin-top: 0;
@@ -53,6 +58,8 @@
     letter-spacing: -0.03em;
     width: 640px;
     height: 76px;
+    margin-top: 64px;
+
 }
 .car2_title2 {
     color: #0D1317;
@@ -91,7 +98,7 @@
 section {
     width: 1086px;
     height: 246px;
-    margin: 122px 514px 0 320px;
+    margin-top: 122px;
 }
                                  /* ARTICLE*/
 .car2_article {
@@ -102,7 +109,7 @@ section {
     justify-content: space-between;
     width: 1280px;
     height: 441px;
-    margin:64px 320px 0 320px ;
+    margin-top;:64px
     border-radius: 20px;
 }
 .car2_col3 {
@@ -119,7 +126,6 @@ section {
     font-size: 24px;
     font-weight: 600;
     line-height: 108%;
-    /* margin-top: 16px; */
 }
 .car2_title4 {
     color: #0D1317;
@@ -271,7 +277,7 @@ input[type=text], select {
     display: flex;
     justify-content: space-between;
     border: 1px solid hidden;
-    margin: 80px 0 0 320px;
+    margin-top: 80px;
     width: 1280px;
     height: 199px;
 }
@@ -280,7 +286,7 @@ input[type=text], select {
     justify-content: space-between;
     width: 1280px;
     height: 24px;
-    margin: 80px 0 0 320px;
+    margin-top: 80px;
 }
 
 .foot_text {
