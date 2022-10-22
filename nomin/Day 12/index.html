@@ -6,12 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="/nomin/Day 12/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>My beautiful form</h1>
-    <form></form>
+    <h1>My Register Form</h1>
+    <form action="success.html">
+        <div class="row">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="row">
+            <label for="phone">Phone Number:</label>
+            <input type="number" name="phone" placeholder="Phone Number">
+        </div>
+
+
+        <div class=" row">
+            <label for="">First Name</label>
+            <input type="text" name="first-name" placeholder="First Name">
+        </div>
+
+        <div class="row">
+            <label for="gender">Gender</label>
+            <select>
+                <option>
+                    Male
+                </option>
+                <option>
+                    Female
+                </option>
+                <option>
+                    Other
+                </option>
+            </select>
+        </div>
+        <div class="row">
+            <label for="Nationality">Mongolian</label>
+            <input type="radio" name="Nationality">
+        </div>
+        <div class="row">
+            <label for="Nationality">Foreigner</label>
+            <input type="radio" name="Nationality">
+        </div>
+
+        <div class="row">
+            <label for="">First Name</label>
+            <input type="text" name="first-name" placeholder="First Name">
+        </div>
+        <div class="row">
+            <label for="address">Address</label>
+
+        </div>
+        <div class="row">
+            <textarea cols="16" rows="4"></textarea>
+        </div>
+
+
+        <div class="row">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div class="row">
+            <label for="repreat-password">Repeat Password</label>
+            <input type="password" name="repreat-password" placeholder="Repeat-Password">
+        </div>
+        <div class="row">
+            <!-- <input type="submit" placeholder="Submit"> -->
+            <button>Submit</button>
+        </div>
+
+    </form>
 </body>
 
 </html>
