@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -142,29 +143,191 @@ section {
     border: 1px solid white;
     background-color: white;
     border-radius: 20px;
-    width: 401px;
-    /* padding: 48px 0px 37px 41px; */
+    width: 420px;
+    padding: 48px 0px 37px 41px;
     margin-bottom: 96px;
 }
 .of {
     width: 510px;
 }
+.energy {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 596px;
+    color: rgba(13, 19, 23, 1);
+}
+.inside {
+    display: flex;
+    gap: 0px 70px;
+}
+.music {
+    width: 264px;
+}
+.tonight {
+    color: rgba(245, 138, 7, 1);
+    font-size: calc(2rem + 4px);
+    font-weight: 700;
+}
+.the {
+    color: rgba(13, 19, 23, 1);
+    font-size: calc(1rem + 8px);
+    font-weight: 600;
+}
+.secondhalf img{
+    margin-top: 60px;
+    mix-blend-mode: multiply;
+    background: #F58A07;
+}
+.whisper {
+    max-width: 1280px;
+    width: 100%;
+    background-color: rgba(237, 247, 255, 1);
+    padding: 56px 42px 48px 48px;
+    border-radius: 20px;
+    position: relative;
+}
+.ribbon {
+   position: absolute;
+   right: 0;
+   top: 0; 
+}
+.surprise {
+    display: flex;
+    justify-content: space-between;
+}
+.surprise p {
+    border-radius: 31px;
+    border: 1px solid rgba(168, 188, 204, 1);
+    padding: 8px 30px;
+}
+.so {
+    width: 572px;
+    color: rgba(13, 19, 23, 1);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.seems a {
+    color: rgba(245, 138, 7, 1);
+}
+.str {
+    color: rgba(245, 138, 7, 1);
+    background-color: white;
+}
+.madness img {
+    margin-top: 120px;
+}
+.hehe {
+    width: 56%;
+}
+.coffee {
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png);
+    background-repeat: no-repeat;
+    width: 963px;
+    height: 518px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.bigfifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgba(245, 138, 7, 1);
+    justify-content: space-between;
+}
+.energyres {
+    margin: 0 auto;
+}
+.exp {
+    width: 532px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.vac {
+    color: rgba(245, 138, 7, 1);
+    padding: 18px 32px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 31px;
+    width: 250px;
+}
+.skor {
+    display: flex;
+    gap: 40px;
+}
+.fin {
+    color: rgba(13, 19, 23, 1);
+    font-size: 3rem;
+    font-weight: 600;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.neo {
+    color: rgba(6, 50, 85, 1);
+    font-size: calc(1rem + 8px);
+    width: 200px;
+}
+.ceo {
+    color: rgba(245, 138, 7, 1);
+    font-size: calc(1rem + 2px);
+}
+.skor img {
+    margin-top: 20px;
+}
+.darkblue {
+    background-color: rgba(6, 50, 85, 1);
+}
+footer p {
+    color: white;
+}
+.blog {
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.scotland img {
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.scotland {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 97px;
+}
+.scotland p {
+    padding-left: 32px;
+}
+.learn {
+    color: rgba(245, 138, 7, 1);
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.plastic {
+    font-size: calc(2rem - 5px);
+    font-weight: 600;
+}
+.love {
+    font-size: calc(2rem + 4px);
+    width: 351px;
+}
+.baka img {
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+}
+.nagara {
+    border: 1px solid white;
+    padding: 18px 188px 17px 32px;
+    color: rgba(156, 156, 156, 1);
+    border-radius: 31px;
+    background-color: white;
+}
+.sub {
+    color: white;
+    padding: 17px 32px;
+    border-radius: 31px;
+    background-color: rgba(245, 138, 7, 1);
+    width: 156px;
+}
 
 

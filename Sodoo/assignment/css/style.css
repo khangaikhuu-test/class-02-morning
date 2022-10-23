@@ -173,9 +173,6 @@ header {
     width: 50%;
 }
 
-.col2 img {
-    /* width: 100%; */
-}
 
 
 /* --------Help Section--------- */
@@ -326,7 +323,7 @@ h6 {
 }
 
 .about-zurag {
-    background: url(/images/about-image.png) center / cover;
+    background: url(../images/about-image.png) center / cover;
     border-radius: 20px;
     width: 637px;
     height: 667px;
@@ -407,7 +404,7 @@ h6 {
 }
 
 .service-zurag {
-    background: url(/images/team.png) center / cover;
+    background: url(../images/team.png) center / cover;
     border-radius: 20px;
     width: 472px;
     height: 466px;
@@ -437,7 +434,7 @@ h6 {
 
 .cta-col1 {
     width: 50%;
-    background: url(/images/cta-image.png) no-repeat center / cover #F58A07;
+    background: url(../images/cta-image.png) no-repeat center / cover #F58A07;
 }
 
 .cta-col2 {
@@ -740,13 +737,14 @@ footer a {
 
 
 
-/* --------- Footer Section----------- */
+/* --------- Contact Section----------- */
 
 
 
 .contact-section {
     margin-top: 100px;
     margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .contact-section a {
@@ -770,6 +768,7 @@ footer a {
     width: 550px;
     height: 150px;
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .contact-section-col1 {
@@ -779,9 +778,15 @@ footer a {
     margin-right: 60px;
 }
 
-.contact-section-col2 {
-    /* margin-top: 100px; */
+
+.contact-section-col1 h2 {
+    margin-bottom: 10px;
 }
+
+.contact-section-col1 p {
+    margin-bottom: 40px;
+}
+
 
 .contact-section-col2 .row {
     margin-top: 40px;
@@ -790,5 +795,589 @@ footer a {
 
 .contact-section-col2 img {
     border-radius: 20px;
-    
+
 }
+
+#orange-btn {
+    background-color: #F58A07;
+    padding: 18px 32px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 27px;
+    transition: box-shadow 0.25s;
+}
+
+#orange-btn:hover {
+    box-shadow: 5px 5px 10px rgba(255, 102, 0, 0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------Service-Content-1 Section---------- */
+
+
+.service-content-1-col1 {
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+.service-content-1-col1 h1 {
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.service-content-1-col1 p {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.service-content-1-col1 {
+    width: 45%;
+}
+
+#service-content-1-color {
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 180px;
+    height: 650px;
+    border-radius: 20px 0 0 20px;
+}
+
+.service-content-1-zurag {
+    background: url(../images/service-head-image.png) center / cover;
+    border-radius: 20px;
+    width: 616px;
+    height: 650px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+/* ---------Service-Content-2 Section---------- */
+
+
+.service-content-2 {
+    position: relative;
+    margin-top: -100px;
+}
+
+.service-content-2-col1 {
+    margin-top: 200px;
+    margin-left: 77px;
+}
+
+.service-content-2-col1 h1 {
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.service-content-2-col1 p {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.service-content-2-col1 ul li {
+    width: 100%;
+    margin-left: -15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+.service-content-2-col1 {
+    width: 45%;
+}
+
+
+#service-content-2-color {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 95px;
+    height: 97px;
+    margin-top: 290px;
+    margin-left: -50px;
+    border-radius: 20px;
+}
+
+.service-content-2-zurag {
+    background: url(../images/service2.png) center / cover;
+    border-radius: 20px;
+    width: 620px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+/* ---------Service-Content-3 Section---------- */
+
+
+.service-content-3 {
+    position: relative;
+    margin-top: -80px;
+}
+
+.service-content-3-col1 {
+    margin-top: 250px;
+    margin-right: 77px;
+}
+
+.service-content-3-col1 h1 {
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.service-content-3-col1 p {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.service-content-3-col1 {
+    width: 45%;
+}
+
+
+#service-content-3-color {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 95px;
+    height: 97px;
+    margin-top: 380px;
+    margin-left: 1230px;
+    border-radius: 20px;
+}
+
+.service-content-3-zurag {
+    background: url(../images/service3.png) center / cover;
+    border-radius: 20px;
+    width: 620px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+/* ---------Service-Content-4 Section---------- */
+
+
+.service-content-4 {
+    position: relative;
+    margin-top: -100px;
+}
+
+.service-content-4-col1 {
+    margin-top: 200px;
+    margin-left: 77px;
+}
+
+.service-content-4-col1 h1 {
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.service-content-4-col1 p {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.service-content-4-col1 ul li {
+    width: 100%;
+    margin-left: -15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+.service-content-4-col1 {
+    width: 50%;
+}
+
+
+#service-content-4-color {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 95px;
+    height: 97px;
+    margin-top: 310px;
+    margin-left: -50px;
+    border-radius: 20px;
+}
+
+.service-content-4-zurag {
+    background: url(../images/service4.png) center / cover;
+    border-radius: 20px;
+    width: 620px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+
+/* ---------Service-Content-5 Section---------- */
+
+
+.service-content-5-col1 {
+    margin-top: 200px;
+    margin-right: 77px;
+}
+
+
+.service-content-5-zurag {
+    background: url(../images/service5.png) center / cover;
+    border-radius: 20px;
+    width: 620px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+
+/* ---------Service-Content-6 Section---------- */
+
+
+.service-content-6 {
+    position: relative;
+    margin-top: -80px;
+}
+
+#service-content-6-color {
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 95px;
+    height: 97px;
+    margin-top: 450px;
+    margin-left: -50px;
+    border-radius: 20px;
+}
+
+.service-content-6-zurag {
+    background: url(../images/service6.png) center / cover;
+    border-radius: 20px;
+    width: 620px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+
+/* ---------Career-Content-1 Section---------- */
+
+
+.career-content-1-col1 {
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+.career-content-1-col1 h1 {
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.career-content-1-col1 p {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.career-content-1-col1 {
+    width: 45%;
+}
+
+#career-content-1-color {
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    width: 180px;
+    height: 650px;
+    border-radius: 20px 0 0 20px;
+}
+
+.career-content-1-zurag {
+    background: url(../images/career1.png) center / cover;
+    border-radius: 20px;
+    width: 616px;
+    height: 650px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* ---------Career-Content-2 Section---------- */
+
+
+.career-content-job {
+    background-color: rgba(193, 228, 255, 0.3);
+    padding: 32px 40px;
+    border-radius: 20px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.career-content-job h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.career-content-job p {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 18;
+}
+
+#career-apply {
+    color: #F58A07;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.career-content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+
+
+/* ---------Blog Section---------- */
+
+
+.blog-header {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    justify-content: space-between;
+    height: 749px;
+}
+
+.blog-header-content {
+    display: flex;
+    align-items: center;
+
+}
+
+.blog-header-col1 {
+    width: 50%;
+}
+
+.blog-header-col1 h1 {
+    margin-top: 10px;
+    width: 500px;
+}
+
+#blog-header-text {
+    width: 80%;    
+}
+
+#blog-header-link {
+    color: #F58A07;
+    outline-width: 500;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-header-content img {
+    width: 32px;
+    height: 32px;
+}
+
+.blog-header-col2 {
+    width: 50%;
+}
+
+
+.blog-header-col2 img {
+    border-radius: 20px;
+    height: 493px;
+
+}
+
+
+
+
+/* ---------Blog Post Section---------- */
+
+
+.blog-post {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.blog-post h2 {
+    margin-bottom: 64px;
+}
+
+.blog-post-col {
+    background-color: #EDF7FF;
+    border-radius: 20px;
+    width: 32%;
+}
+
+.blog-post-col img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.blog-post-col a {
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.latest-col-text {
+    padding: 0 32px 32px 32px;
+}
+
+.blog-content-row {
+    margin-bottom: 40px;
+}
+
+
+
+/* ---------Blog Inner Section---------- */
+
+
+
+.blog-inner-header img {
+    margin-top: 70px;
+    border-radius: 70px;
+}
+
+.blog-inner img {
+    width: 1362px;
+}
+
+.blog-post-inner-text {
+    display: flex;
+    align-content: center;
+    width: 752px;
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+/* ---------CTA Section---------- */
+
+
+
+.job-detail-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 68px;
+    margin-top: 50px;
+}
+
+#detail-text {
+    color: #F58A07;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+
+.apply-now-col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 60px;
+}
+
+
+
+.apply-now-col1 a {
+    padding: 20px;
+    padding-right: 100px;
+    background-color: rgba(237, 210, 227, 0.17);
+    color: #9C9C9C;
+    border-radius: 27px;
+    text-decoration: none;
+    width: 610px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.apply-now-col2 {
+    padding: 20px;
+    background-color: rgba(237, 210, 227, 0.17);
+    color: #9C9C9C;
+    border-radius: 27px;
+    text-decoration: none;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.apply-heseg {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+

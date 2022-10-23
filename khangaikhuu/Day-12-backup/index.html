@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Register Form</h1>
+
+    <form class="myform" action="server.html">
+        <input type="email" value="" placeholder="Email">
+        <input type="number" placeholder="Phone Number" >
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <div class="gender-container">
+            <label>
+                Gender
+            </label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+                <option>They</option>
+            </select>
+        </div>
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Repeat Password">
+        <textarea cols="27" rows="5" placeholder="Your Address"></textarea>
+        <div class="gender-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6629.845707561656!2d106.88443698488926!3d47.91790540260411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9692f8e513da4b%3A0x3b47f5ec29206aa6!2zTUFYTUFMTCDRhdGD0LTQsNC70LTQsNCw0L3RiyDRgtOp0LI!5e0!3m2!1sen!2smn!4v1666318367277!5m2!1sen!2smn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="gender-container">
+            <label>Mongolian Citizen</label>
+            <input type="radio" name="countries">
+            <label>Other Countries</label>
+            <input type="radio" name="countries">
+        </div>
+        <div class="gender-container">
+            <input type="checkbox">
+            <label>Terms of Condition</label>
+        </div>
+        <!-- <input type="submit" value="Submit"> -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>

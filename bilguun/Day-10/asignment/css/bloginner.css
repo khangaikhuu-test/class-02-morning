@@ -1,0 +1,52 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    margin-top: 80px;
+    margin-bottom: 128px;
+}
+.img1 {
+    border-radius: 20px;
+    max-width: 1280px;
+    height: 631px;
+    background: url(https://geekruit.com/wp-content/uploads/2022/04/Application-Developmnet-Consulting-2048x888.jpg);
+    margin: 0 auto;
+    background-position: center;
+}
+.banner1a {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner1b {
+    color: #394149;
+    margin-right: 21px;
+    margin-left: 21px;
+}
+.comment {
+    max-width: 752px;
+    margin: 0 auto;
+    
+}
+.comment1 h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: #1d3444;
+}
+
+.comment1 p {
+    color: #5b5b5b;
+}
+.comment1 h2 {
+    font-size: 3rem;
+    color: #0D1317;
+    line-height: 3.5rem;
+}
