@@ -231,10 +231,16 @@ h2 {
     width: 1282px;
     border: #0D1317 1px solid hidden;
     margin: 0px 320px 96px 318px;
+<<<<<<< HEAD
+   }
+   
+. secondimg{
+=======
 
 }
 
 .second img {
+>>>>>>> 2f1ce4203449f95d1a38d1c9dfdcb4cad44d04e4
     border: #0D1317 1px solid black;
 }
 
