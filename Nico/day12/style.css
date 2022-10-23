@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    border: 2px solid grey;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    margin: 5px 10px;
+}
