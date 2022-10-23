@@ -1,0 +1,128 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 32px;
+    padding: 30px 0;
+    color: #394149;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #394149;
+}
+
+.but1 {
+    background: #F58A071A;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: #F58A07;
+}
+
+
+/*      Part 1       */
+.part1 {
+    margin-top: 108px;
+}
+.text1 {
+    font-size: 4rem;
+    color: #1D3444;
+    line-height: 4.5rem;
+}
+.m-text {
+    display: flex;
+    flex-direction: row;
+    gap: 284px;
+    margin: 64px 0 64px 0;
+}
+.text2 h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #0D1317;
+}
+.text2 p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #5b5b5b;
+    max-width: 640px;
+}
+
+/*      Part 2       */
+.text3 h2{
+    font-size: 1.5rem;
+    color: #0D1317;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.text3 {
+    color: #F58A07;
+    font-size: 1.5rem;
+}
+.text4 {
+    color: #5b5b5b;
+}
+
+.part2 {
+    display: flex;
+    gap: 92px;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 68px;
+}
+.part3 {
+    margin-top: 128px;
+}
+.form {
+    margin-top: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.style1 {
+    
+    width: 49%;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: rgba(156, 156, 156, 1);
+    padding: 18px 0 18px 32px;
+}
+
+.style2 {
+    width: 100%;
+    height: 215px;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: rgba(156, 156, 156, 1);
+    padding: 18px 32px 18px 32px;
+}
+
+.submit {
+    color: #ffffff;
+    padding: 18px 32px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}   
