@@ -134,6 +134,7 @@ header {
 
 .banner2-header {
     width: 60%;
+    margin-top: 96px;
 }
 
 .lorem {
@@ -176,14 +177,15 @@ header {
 }
 
 /* banner-3 starts here */
+.banner3 {
+    background-color: #DCEAF5;
+    height: 663px;
+}
 .banner3-text {
     display: flex;
-    border: #0D1317 1px solid;
-    flex-direction: row;
-    justify-content: space-around;
-
+    margin-bottom: 64px;
+    padding-top: 96px;
 }
-
 .font36 {
     font-style: normal;
     font-weight: 600;
@@ -191,4 +193,163 @@ header {
     line-height: 44px;
     letter-spacing: -0.03em;
     color: #0D1317;
+}
+.banner3-content {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.banner3-img-part {
+    background-color: white;
+    padding: 40px 24px 37px 39px;
+    border-radius: 20px;
+    height: 277px;
+    margin:0 auto;
+}
+/* banner4 starts here */
+/* .banner-left{
+    max-width: 100%;
+    gap: 50px;
+} */
+.orangefont364{
+    color: #F58A07;
+    font-size: 36px;
+}
+.banner4 {
+    display: flex;
+    margin-top: 96px;
+}
+.banner4-col1{
+    width: 264px;
+}
+.banner4-right-banner{
+    margin-top: auto;
+}
+.banner4-right-banner img{
+    border-radius: 20px;
+}
+.screen{
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border: red 1px solid;
+    width: 153px;
+    height: 670px;
+    position: absolute;
+    border-radius: 20px;
+}
+/* banner5 starts here */
+.banner5 {
+    background: #DCEAF5;
+    margin-top: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner5-left {
+    padding-top: 48px;
+    margin-left: 48px;
+    padding-bottom: 48px;
+    max-width: 45%;
+}
+.banner5-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.busstrategy {
+    background: white;
+    color: #F58A07;
+    border-radius: 31px;
+    padding: 24px 24px;
+}
+.banner5-right {
+    padding: 168px 42px 42px 42px;
+}
+
+.screen2{
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border: red 1px solid;
+    width: 150px;
+    height: 466px;
+    position: absolute;
+    border-radius: 18px;
+}
+/* banner6 starts here */
+.banner6 {
+    display: flex;
+    margin-top: 128px;
+    width: 100%;
+    margin-bottom: 128px;
+}
+.banner6-right{
+    background-color: #F58A07;
+    height: 518px;
+    width: 100%;
+    padding-top: 128px;
+    padding-left: 128px;
+}
+.coffee{
+    width: 100%;
+    height: 518px;
+}
+.orangewhitelarge {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    width: 532px;
+    height: 168px;
+}
+.busstrategy-2 {
+    background: white;
+    color: #F58A07;
+    border-radius: 31px;
+    padding: 24px 24px;
+    width: 216px;
+    text-align: center;
+    margin-top: 40px;
+}
+/* banner7 starts here */
+.banner7 {
+    display: flex;
+}
+.banner7-left {
+    max-width: 45%;
+    margin-right:110px ;
+    margin-top: 90px;
+}
+.banner7-roundimage {
+    display: flex;
+}
+#sixname {
+    text-align: center;
+    margin-left: 40px;
+}
+#title {
+    color: #F58A07;
+}
+.playbutton{
+    width: 150px;
+    color: white;
+    padding: 17px;
+   
+}
+.play-pic {
+    background-color: white;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    padding: 17px;
+}
+.banner7-right {
+    background: url(/nomin/assignment/images/video-image.png) center / cover;
+    width: 100%;
+}
+.banner7-right-content{
+    display: flex;
+    margin-top: 410px;
+    margin-left: 40px;
 }
