@@ -9,8 +9,8 @@ form
 }
 .row
 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 30px;
+    justify-content: space-between;
     display: flex;
     justify-content: space-between;
     margin: right 30px;
