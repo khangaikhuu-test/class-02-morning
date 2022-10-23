@@ -599,25 +599,137 @@ h4 {
   margin-top: 96px;
 }
 
-.content8-back{
+.content8-back {
   background-color: white;
   border-radius: 20px;
 }
 
-.content8-max{
+.content8-max {
   background-color: white;
   border-radius: 20px;
   width: 399px;
 }
 
-.content8-img img{
+.content8-img img {
   border-radius: 20px 20px 0 0;
 }
 
-.content8-margin{
+.content8-margin {
   margin: 32px;
 }
 
-/* main heseg duusav */
+/* FOOTER heseg ehlev */
 
-/* footer heseg ehlev */
+footer {
+  background-color: #063255;
+  height: 463px;
+}
+
+.footerlogo {
+  margin-top: 80px;
+}
+
+.footer-company {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  width: 351px;
+  margin-top: 32px;
+}
+
+.footer-column {
+  display: flex;
+}
+
+.social {
+  margin-top: 35.33px;
+}
+
+.allrights img {
+  margin-top: 86.7px;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-left: 110px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 110px;
+}
+
+.join {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-left: 137px;
+}
+
+.email {
+  width: 342px;
+  height: 54px;
+  color: #9c9c9c;
+  background-color: #ffffff;
+  border-radius: 31px;
+  margin-top: 24px;
+  margin-bottom: 17px;
+  margin-left: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: 150px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.subscribe {
+  width: 156px;
+  height: 54px;
+  color: white;
+  background-color: #f58a07;
+  border-radius: 31px;
+  margin-top: 16px;
+  margin-bottom: 17px;
+  margin-left: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.privacy {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 181px;
+  margin-top: 122px;
+}
+
+.right-orange {
+  margin-left: 267px;
+  margin-top: 38px;
+}
+
+.left-orange {
+  margin-right: 267px;
+  margin-top: 319px;
+}
+
+.footer-container {
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+}
