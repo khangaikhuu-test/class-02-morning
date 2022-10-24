@@ -102,12 +102,15 @@ p {
     border-style: none;
     outline: none;
 }
-.but5 {
+.but5 input {
     padding: 18px 32px;
     background: #F58A07;
     color: #ffffff;
     border-radius: 31px;
-    width: 156px;
+    border-style: none;
+}
+.but5 input:focus {
+    outline: none;
 }
 
 .bottom2 {
@@ -162,7 +165,8 @@ p {
     color: #394149;
 }
 
-.but1 {
+.but1 input{
+    border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;

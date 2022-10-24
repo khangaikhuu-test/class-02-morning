@@ -12,6 +12,41 @@ main {
     margin-top: 80px;
     margin-bottom: 128px;
 }
+
+/*      Header       */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 32px;
+    padding: 30px 0;
+    color: #394149;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #394149;
+}
+
+
+.but1 input{
+    border-style: none;
+    background: #F58A071A;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: #F58A07;
+}
+
 /*      footer       */
 
 footer {
@@ -98,12 +133,15 @@ p {
     border-style: none;
     outline: none;
 }
-.but5 {
+.but5 input {
     padding: 18px 32px;
     background: #F58A07;
     color: #ffffff;
     border-radius: 31px;
-    width: 156px;
+    border-style: none;
+}
+.but5 input:focus {
+    outline: none;
 }
 
 .bottom2 {
