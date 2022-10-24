@@ -43,10 +43,6 @@ div {
   max-width: 1280px;
   margin: 0 auto;
   color: #5b5b5b;
-  /* font-size: 16px;
-  line-height: 28px;
-  font-weight: 500;
-  font-style: normal; */
 }
 
 .header-c {
@@ -271,14 +267,12 @@ h4 {
   max-width: 50%;
   padding: 32px 0 18px 0;
   margin: 0;
-  /* margin-top: -5px; */
 }
 
 .features-c .text-18px {
   max-width: 50%;
   margin-left: 20px;
   color: #1d3444;
-  /* margin-top: -5px; */
 }
 
 .features-c .column-container .column {
@@ -448,7 +442,6 @@ h4 {
 }
 
 .woman-pic img {
-  /* opacity: 0.6; */
   display: flex;
   align-items: stretch;
   border-top-left-radius: 20px;
@@ -469,7 +462,6 @@ h4 {
 }
 
 .GTA .column-container {
-  /* display: flex; */
   display: flex;
   justify-content: space-between;
   height: 518px;
@@ -477,19 +469,14 @@ h4 {
 
 .gta-col1 {
   background: url(../images/Imageblack-pic.png);
-  /* padding-top: 128px; */
   width: 50%;
   background-size: cover;
   background-repeat: none;
-  /* margin-right: 0; */
   height: 518px;
 }
 
 .gta-col2 {
-  /* width: 50%;
-    margin: 0; */
   background-color: #f58a07;
-  /* padding: 128px 0 0 128px; */
   width: 50%;
   height: 518px;
 }
@@ -513,7 +500,6 @@ h4 {
   margin-bottom: 128px;
 }
 .video-c .content-box-left {
-  /* margin-top: 206px; */
   margin-right: 106px;
 }
 .video-c h2 {
@@ -683,7 +669,6 @@ span {
 
 .service-header-c .content-box-left {
   padding-top: 120px;
-  /* width: ; */
 }
 
 .service-header-c .text-18px {
@@ -981,10 +966,6 @@ ul {
   width: 1280px;
   height: 631px;
   border-radius: 20px;
-
-  /* position: absolute;
-  top: -137px;
-  left: 279px; */
 }
 
 .blog-inner-header-c img {
@@ -1021,7 +1002,6 @@ ul {
 }
 
 .careers-inner-header-c .column-container {
-  /* justify-content: flex-start; */
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -1041,13 +1021,10 @@ ul {
 
 /* ------------- CAREERS INNER DETAILS  -------------*/
 .careers-inner-details-c {
-  /* display: flex;
-  flex-direction: column; */
   padding: 0;
 }
 
 .careers-inner-details-c .column-container {
-  /* justify-content: flex-start; */
   align-items: flex-start;
   background-color: #c1e4ff4d;
   border-radius: 20px;
@@ -1055,7 +1032,6 @@ ul {
 }
 .careers-inner-details-c .column:nth-child(1) {
   padding-right: 92px;
-  /* margin: 0; */
 }
 
 .careers-inner-details-c h4 {
@@ -1074,11 +1050,6 @@ ul {
   display: flex;
   flex-direction: column;
   margin-bottom: 128px;
-}
-
-.careers-inner-form-c .column-container {
-  /* align-items: flex-start; */
-  /* justify-content: space-between; */
 }
 
 .careers-inner-form-c h2 {
@@ -1101,7 +1072,6 @@ ul {
   font-weight: 500px;
   font-style: normal;
   margin-bottom: 20px;
-  /* margin-right: 20px; */
 }
 
 .comment {
@@ -1121,7 +1091,6 @@ ul {
 .careers-inner-form-c .comment {
   width: 1263px;
   height: 215px;
-  /* padding-top: 20px; */
 }
 
 .careers-inner-form-c .col2 {
@@ -1138,11 +1107,6 @@ ul {
 .contact-us-c {
   display: flex;
   margin-top: 90px;
-}
-
-.contact-us-c .content-box-left {
-  /* align-items: flex-start; */
-  /* justify-content: space-between; */
 }
 
 .contact-us-c .content-box-right {
@@ -1173,11 +1137,6 @@ ul {
   margin-bottom: 128px;
 }
 
-.contact-us-form-map-c .column-container {
-  /* align-items: flex-start; */
-  /* justify-content: space-between; */
-}
-
 .contact-us-form-map-c .column {
   width: 628px;
 }
@@ -1193,7 +1152,6 @@ ul {
   font-weight: 500px;
   font-style: normal;
   margin-bottom: 20px;
-  /* margin-right: 20px; */
 }
 
 .contact-us-form-map-c .comment {
