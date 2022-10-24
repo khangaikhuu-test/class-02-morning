@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Asignment web</title>
 </head>
 
@@ -18,13 +18,13 @@
             <img src="./images/Logo.svg" alt="">
         </div>
         <div class="navbar">
-            <a href="#home">home</a>
-            <a href="#careers">careers</a>
-            <a href="#services">services</a>
-            <a href="#blog">blog</a>
-            <a href="#contact us">contact us</a>
+            <a href="./index.html">home</a>
+            <a href="./Careers.html">careers</a>
+            <a href="./services.html">services</a>
+            <a href="./blog.html">blog</a>
+            <a href="./contactus.html">contact us</a>
             <div class="but1">
-                Call to Action
+                <input type="button" value="Call to Action">
             </div>
         </div>
     </header>
@@ -40,10 +40,10 @@
                 </div>
                 <div class="services">
                     <div>
-                        <span>see our services</span>
+                        <a href="./services.html" class="serbut">see our services</a>
                     </div>
                     <div>
-                        see all services
+                        <a href="./services.html">See All Services</a>
                     </div>
                 </div>
                 <p>worked with 100+ companies</p>
@@ -163,40 +163,45 @@
         </div>
 
         <!-- About section part 2 -->
-        <div class="part2">
-            <div class="part2head">
-                <div class="part2head1">
-                    Business Strategy
+        
+            <div class="part2">
+                <div class="part2head">
+                    <div class="part2head1">
+                        Business Strategy
+                    </div>
+                    <div class="part2head2">
+                        Digitalization
+                    </div>
+                    <div class="part2head2">
+                        Risk Assessment
+                    </div>
                 </div>
-                <div class="part2head2">
-                    Digitalization
-                </div>
-                <div class="part2head2">
-                    Risk Assessment
-                </div>
-            </div>
-            <div class="part2a">
-                <div class="part2text">
-                    <h1>Helping clients with research and strategy for their business</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
-                        <br>
-                        <div>
-                            Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.
+                <div class="part2a">
+                    <div class="part2text">
+                        <h1>Helping clients with research and strategy for their business</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque.
+                            <br>
+                            <div>
+                                Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque.
+                            </div>
+                        </p>
+                        <div class="but3">
+                            See all services &#x2192;
                         </div>
-                    </p>
-                    <div class="but3">
-                        See all services &#x2192;
+                    </div>
+                    <div class="part2img">
+                        <img src="./images/team.png" alt="" style="width: 472px; height: 466px;">
+    
+                        <div class="colored1">
+                            .
+                        </div>
                     </div>
                 </div>
-                <div class="part2img">
-                    <img src="./images/team.png" alt="" style="width: 472px; height: 466px;">
-
-                    <div class="colored1">
-                        .
-                    </div>
+                <div class="ribbon">
+                    <img src="./images/Ribbon.png" alt="">
                 </div>
             </div>
-        </div>
+            
     </section>
 
     <!--        CTA Section      -->
@@ -301,10 +306,10 @@
                 </div>
                 <div class="bottom1b">
                     <p>Companies</p>
-                    <a href="#About Us">About Us</a>
-                    <a href="#Careers">Careers</a>
-                    <a href="#Services">Services</a>
-                    <a href="#Blog">Blog</a>
+                    <a href="./index.html">About Us</a>
+                    <a href="./Careers.html">Careers</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./blog.html">Blog</a>
                 </div>
                 <div class="bottom1c">
                     <a href="#Connect">Connect</a>
@@ -313,8 +318,14 @@
                 </div>
                 <div class="bottom1d">
                     <p>Join Newsletter</p>
-                    <div class="type">Type email here</div>
-                    <div class="but5">Subscribe</div>
+                    <div class="type">
+                        <input type="email" name="Email" placeholder="Type email here" id="">
+                    </div>
+                    <div class="but5">
+                        <form action="">
+                            <input type="button" value="Subscribe">
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="bottom2">

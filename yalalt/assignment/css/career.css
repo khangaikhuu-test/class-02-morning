@@ -48,11 +48,11 @@
     margin: 0px auto;
   }
 
-  /* .container-width {
+  .container-width {
     max-width: 1376px;
     margin: 0px auto;
     position: relative;
-  } */
+  }
 
   /* Flex row */
   .flex-row {
@@ -88,7 +88,7 @@
   }
 
   /* Text decoration not USED */
-/* .container-width .n-t-ul {
+.container-width .n-t-ul {
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
@@ -110,7 +110,7 @@
   .imageBox3 {
     height: 501px;
     width: 620px;
-  } */
+  }
 
   .medium-title {
     font-size: 3rem;
@@ -125,6 +125,7 @@
     font-weight: 600;
     color: #1d3444;
     width: 618px;
+    margin-bottom: 8px;
     /* height: 216px; */
   }
 
@@ -139,10 +140,9 @@
     line-height: 30px;
     font-weight: 500;
     color: #5b5b5b;
-    margin: 16px 32px 0 32px;
   }
 
-/* .orange-btn {
+.orange-btn {
     font-weight: 600;
     line-height: 17px;
     color: #fff;
@@ -150,13 +150,22 @@
     padding: 18px 32px;
     border-radius: 27px;
     text-decoration: none;
-} */
+    margin: 6px;
+}
 
 .doubleBlend-source {
-    background: url(../images/showcase-blog-img.jpeg) no-repeat center center/cover;
+    background: url(../images/human-resource-team.jpg) no-repeat center center/cover;
     border-radius: 20px;
-    height: 493px;
-    width: 621px;
+    height: 650px;
+    width: 616px;
+}
+
+.doubleBlend {
+  background: url(../images/human-resource-team.jpg), #f58a07;
+  height: 650px;
+  width: 180px;
+  background-blend-mode: multiply;
+  border-radius: 20px 0 0 20px;
 }
 
 .hire {
@@ -167,7 +176,7 @@
     row-gap: 40px;
 }
 
-/* .hire-work-box {
+.hire-work-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -212,7 +221,7 @@
 
 .small-orange-title:hover {
     text-decoration: underline;
-} */
+}
 
 
 /*----- Template Code Above ----------*/
@@ -248,8 +257,8 @@
 
   /* Blogs News */
   #blog-news {
-    background: #fff;
-    height: 89.375rem;
+    background: #dceaf5;
+    height: 819px;
   }
   
   
@@ -283,7 +292,7 @@
     text-align: left;
     width: 400px;
     min-height: 507px;
-    background: #edf7ff;
+    background: #fff;
     border-radius: 20px;
     box-shadow: 1px 1px 2px var(--bg-light);
   }
@@ -315,7 +324,11 @@
     font-weight: 500;
     letter-spacing: -1px;
     margin-top: 2rem;
-    margin: 32px 32px 0 32px;
+    margin: 16px 32px;
+  }
+
+  .med-title2-p {
+    margin: 0 32px;
   }
   
   #blog-news .container .flex-col .container-card2 .card-white2 .post-button {
@@ -338,6 +351,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 1.75rem;
+    margin-bottom: 1.7rem;
   }
   
   .call {

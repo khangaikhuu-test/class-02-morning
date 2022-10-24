@@ -5,7 +5,7 @@
 
 .container {
     max-width: 1280px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .main-header {
@@ -37,13 +37,13 @@
     align-items: baseline;
 }
 
-#button1 {
+#header-button {
     background: rgb(245, 138, 7, 0.1);
     border-radius: 31px;
     padding: 18px 30px 17px 29px;
 }
 
-#button1 a {
+#header-button a {
     color: #F58A07;
 }
 
@@ -248,6 +248,8 @@ footer .footertop
     font-weight: 600;
     line-height: 44px;
     margin: 32px 0;
+    width: 351px;
+    height: 88px;
 }
 
 .footerleft ul
@@ -296,26 +298,29 @@ footer .footertop
     margin-left: 137px;
 }
 
-.subscripe p:nth-child(2)
+.subscripe input
 {
     color: #9c9c9c;
     font-weight: 500;
     font-size: 16px;
-    background: white;
+    border: white;
     border-radius: 31px;
-    padding: 18px 188px 17px 32px;
+    padding: 18px 32px;
+    width: 342px;
 }
 
-.subscripe p:nth-child(3)
+.subscripe button
 {
+    color: white;
     background: #f58a07;
+    border: #F58A07;
     border-radius: 31px;
-    padding: 18px 32px 17px 32px;
+    padding: 18px 32px;
     font-weight: 600;
     font-size: 18px;
     width: 156px;
+    margin-top: 16px;
 }
-
 .footerbottom
 {
     display: flex;
@@ -366,3 +371,4 @@ footer .footertop
     background: #f58a07;
     border-radius: 20px 0 0 20px;
 }
+

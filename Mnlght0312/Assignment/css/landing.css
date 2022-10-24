@@ -143,8 +143,8 @@ section {
     border: 1px solid white;
     background-color: white;
     border-radius: 20px;
-    width: 401px;
-    /* padding: 48px 0px 37px 41px; */
+    width: 420px;
+    padding: 48px 0px 37px 41px;
     margin-bottom: 96px;
 }
 .of {
@@ -184,6 +184,12 @@ section {
     background-color: rgba(237, 247, 255, 1);
     padding: 56px 42px 48px 48px;
     border-radius: 20px;
+    position: relative;
+}
+.ribbon {
+   position: absolute;
+   right: 0;
+   top: 0; 
 }
 .surprise {
     display: flex;
@@ -203,6 +209,10 @@ section {
 .seems a {
     color: rgba(245, 138, 7, 1);
 }
+.str {
+    color: rgba(245, 138, 7, 1);
+    background-color: white;
+}
 .madness img {
     margin-top: 120px;
 }
@@ -210,7 +220,198 @@ section {
     width: 56%;
 }
 .coffee {
-    background-image: url();
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png);
+    background-repeat: no-repeat;
+    width: 963px;
+    height: 518px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.bigfifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgba(245, 138, 7, 1);
+    justify-content: space-between;
+}
+.energyres {
+    margin: 0 auto;
+}
+.exp {
+    width: 532px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.vac {
+    color: rgba(245, 138, 7, 1);
+    padding: 18px 32px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 31px;
+    width: 250px;
+}
+.skor {
+    display: flex;
+    gap: 40px;
+}
+.fin {
+    color: rgba(13, 19, 23, 1);
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+.neo {
+    color: rgba(6, 50, 85, 1);
+    font-size: calc(1rem + 8px);
+    width: 200px;
+}
+.ceo {
+    color: rgba(245, 138, 7, 1);
+    font-size: calc(1rem + 2px);
+}
+.skor img {
+    margin-top: 20px;
+}
+.darkblue {
+    background-color: rgba(6, 50, 85, 1);
+}
+footer p {
+    color: white;
+}
+.blog {
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.scotland img {
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.scotland {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 97px;
+}
+.scotland p {
+    padding-left: 32px;
+}
+.learn {
+    color: rgba(245, 138, 7, 1);
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.plastic {
+    font-size: calc(2rem - 5px);
+    font-weight: 600;
+}
+.love {
+    font-size: calc(2rem + 4px);
+    width: 351px;
+}
+.baka img {
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+}
+.nagara {
+    border: 1px solid white;
+    padding: 18px 188px 17px 32px;
+    color: rgba(156, 156, 156, 1);
+    border-radius: 31px;
+    background-color: white;
+}
+.sub {
+    color: white;
+    padding: 17px 32px;
+    border-radius: 31px;
+    background-color: rgba(245, 138, 7, 1);
+    width: 156px;
+}
+.your {
+    width: 200px;
+}
+.light{
+    position: relative;
+}
+.light::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    mix-blend-mode: multiply;
+    inset: 8% 75% 3.5% 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+.cicek {
+    position: relative;
+}
+.cicek::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    mix-blend-mode: multiply;
+    inset: 20.5% 75% 1% 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+
+
+.drinking {
+    position: relative;
+}
+.drinking::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    mix-blend-mode: multiply;
+    inset: 0 75% 0 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+.gray {
+    color: rgba(91, 91, 91, 1);
+}
+.caffe {
+    position: relative;
+}
+.caffe::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(245, 138, 7, 1);
+    mix-blend-mode: multiply;
+    inset: 30% 93% 55% -7%;
+    border-radius: 20px;
+}
+.bene {
+    position: relative;
+}
+.bene::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(245, 138, 7, 1);
+    mix-blend-mode: multiply;
+    inset: 50% -7% 35% 93%;
+    border-radius: 20px;
+}
+.star {
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.star p {
+    padding-left: 32px;
+}
+.lion {
+    color: black;
+    font-size: calc(1rem + 8px);
+}
+.champ {
+    color: rgba(245, 138, 7, 1);
 }
 
 
