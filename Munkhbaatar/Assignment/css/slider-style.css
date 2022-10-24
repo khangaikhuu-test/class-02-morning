@@ -253,8 +253,12 @@ h4 {
   color: #f58a07;
 }
 
-.container .column-container .column {
+.col-with-margin-40 {
   margin: 40px 40px 40px 0;
+}
+
+.right-margin-40 {
+  margin-right: 40px;
 }
 
 .column-container img {
@@ -546,7 +550,7 @@ h4 {
 
 .latest-c {
   flex-direction: column;
-  padding: 96px 0px 66px 0px;
+  padding: 96px 0px 56px 0px;
 }
 
 .latest-c h2 {
@@ -644,7 +648,9 @@ span {
 }
 
 .footer-c input {
-  padding: 18px 188px 18px 32px;
+  padding-left: 32px;
+  height: 54px;
+  width: 306px;
   border-radius: 31px;
   font-style: "Inter";
   font-style: normal;
@@ -670,11 +676,14 @@ span {
 
 /* ------ SERVICE - HEADER --------*/
 .service-header-c {
+  display: flex;
+  justify-content: space-between;
   margin-top: 70px;
 }
 
 .service-header-c .content-box-left {
   padding-top: 120px;
+  /* width: ; */
 }
 
 .service-header-c .text-18px {
@@ -704,8 +713,8 @@ span {
 }
 
 .size-620x550 {
-  width: 620px;
-  height: 550px;
+  min-width: 620px;
+  min-height: 550px;
   position: relative;
 }
 
@@ -733,6 +742,8 @@ ul {
 
 .feature-1-c .img-container {
   background-image: url("../images/service-feature1.png");
+  width: 620px;
+  height: 550px;
   margin-top: 128px;
   margin-left: 10px;
 }
@@ -756,6 +767,8 @@ ul {
 .feature-2-c .img-container {
   background-image: url("../images/service-feature2.png");
   margin-top: 128px;
+  width: 620px;
+  height: 550px;
 }
 
 .feature-2-c .yellow-box-img {
@@ -765,7 +778,7 @@ ul {
 
 .feature-2-c .content-box-left {
   margin-top: 256px;
-  margin-right: 80px;
+  margin-right: 70px;
 }
 
 .feature-2-c h2 {
@@ -807,7 +820,7 @@ ul {
 
 .feature-4-c .content-box-left {
   margin-top: 256px;
-  margin-right: 80px;
+  margin-right: 70px;
 }
 
 .feature-4-c h2 {
@@ -871,7 +884,7 @@ ul {
   display: flex;
   flex-direction: column;
   padding-top: 128px;
-  padding-bottom: 128px;
+  padding-bottom: 88px;
 }
 
 .careers-section-c h2 {
@@ -903,6 +916,8 @@ ul {
 /* ------------- BLOG-HEADER  -------------*/
 
 .blog-header-c {
+  display: flex;
+  justify-content: space-between;
   padding-top: 128px;
   padding-bottom: 128px;
 }
@@ -913,6 +928,8 @@ ul {
 
 .blog-header-c .content-box-right {
   margin-top: 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .blog-header-c .content-box-right img {
@@ -923,6 +940,10 @@ ul {
   margin-top: 24px;
   margin-bottom: 24px;
   max-width: 527px;
+}
+
+.blog-header-c .head-txt {
+  max-width: 559px;
 }
 
 .row-container {
@@ -946,7 +967,7 @@ ul {
 
 .blog-all {
   margin-top: 128px;
-  margin-bottom: 108px;
+  margin-bottom: 88px;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -968,13 +989,6 @@ ul {
 
 .blog-inner-header-c img {
   border-radius: 20px;
-}
-
-.blog-all {
-  margin-top: 128px;
-  margin-bottom: 108px;
-  padding-bottom: 0;
-  padding-top: 0;
 }
 
 .blog-inner-container {
@@ -1008,13 +1022,190 @@ ul {
 
 .careers-inner-header-c .column-container {
   /* justify-content: flex-start; */
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .careers-inner-header-c .column-container:nth-child(2) {
   margin-right: 150px;
 }
 
+.careers-inner-header-c h4 {
+  padding-bottom: 16px;
+}
+
 .job-description {
   width: 640px;
   font-size: 18px;
+}
+
+/* ------------- CAREERS INNER DETAILS  -------------*/
+.careers-inner-details-c {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 0;
+}
+
+.careers-inner-details-c .column-container {
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  background-color: #c1e4ff4d;
+  border-radius: 20px;
+  padding: 68px 94px 69px 68px;
+}
+.careers-inner-details-c .column:nth-child(1) {
+  padding-right: 92px;
+  /* margin: 0; */
+}
+
+.careers-inner-details-c h4 {
+  padding-bottom: 40px;
+}
+.careers-inner-details-c h4:nth-child(1) {
+  color: #f58a07;
+}
+
+.careers-inner-details-c .txt8 {
+  padding-top: 25px;
+}
+
+/* ------------- CAREERS INNER FORM  -------------*/
+.careers-inner-form-c {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 128px;
+}
+
+.careers-inner-form-c .column-container {
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+}
+
+.careers-inner-form-c h2 {
+  padding-top: 128px;
+  padding-bottom: 51px;
+}
+
+.careers-inner-form-c .column {
+  width: 628px;
+}
+
+.careers-inner-form-c input {
+  border-radius: 27px;
+  height: 54px;
+  background-color: #d2daed2b;
+  padding-left: 17px;
+  font-family: "Inter";
+  border: 0;
+  color: #9c9c9c;
+  font-weight: 500px;
+  font-style: normal;
+  margin-bottom: 20px;
+  /* margin-right: 20px; */
+}
+
+.comment {
+  vertical-align: top;
+  border-radius: 27px;
+  background-color: #d2daed2b;
+  padding-left: 17px;
+  font-family: "Inter";
+  border: 0;
+  color: #9c9c9c;
+  font-weight: 500px;
+  font-style: normal;
+  margin-bottom: 20px;
+  padding-top: 28px;
+}
+
+.careers-inner-form-c .comment {
+  width: 1263px;
+  height: 215px;
+  /* padding-top: 20px; */
+}
+
+.careers-inner-form-c .col2 {
+  margin-left: 24px;
+}
+
+.careers-inner-form-c .a-button {
+  width: 119px;
+  height: 54px;
+  margin-top: 15px;
+}
+
+/* ------------- CONTACT US -------------*/
+.contact-us-c {
+  display: flex;
+  margin-top: 90px;
+}
+
+.contact-us-c .content-box-left {
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+}
+
+.contact-us-c .content-box-right {
+  display: flex;
+  align-content: flex-start;
+  margin: 0;
+}
+
+.contact-us-c h2 {
+  max-width: 561px;
+  margin-bottom: 24px;
+}
+
+.contact-us-c h4 {
+  margin-bottom: 16px;
+  line-height: 30px;
+}
+
+.contact-us-c .location {
+  padding-right: 78px;
+}
+
+/* ------------- CAREERS INNER FORM  -------------*/
+.contact-us-form-map-c {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  margin-bottom: 128px;
+}
+
+.contact-us-form-map-c .column-container {
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+}
+
+.contact-us-form-map-c .column {
+  width: 628px;
+}
+
+.contact-us-form-map-c input {
+  border-radius: 27px;
+  height: 54px;
+  background-color: #d2daed2b;
+  padding-left: 17px;
+  font-family: "Inter";
+  border: 0;
+  color: #9c9c9c;
+  font-weight: 500px;
+  font-style: normal;
+  margin-bottom: 20px;
+  /* margin-right: 20px; */
+}
+
+.contact-us-form-map-c .comment {
+  height: 160px;
+}
+
+.contact-us-form-map-c .col2 {
+  margin-left: 24px;
+}
+
+.contact-us-form-map-c .a-button {
+  width: 119px;
+  height: 54px;
+  margin-top: 15px;
 }

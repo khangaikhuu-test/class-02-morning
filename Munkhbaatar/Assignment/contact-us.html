@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -25,7 +25,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Blog Inner</title>
+    <title>Contact Us</title>
   </head>
   <body>
     <header>
@@ -48,69 +48,70 @@
       </div>
     </header>
     <main>
-      <!-- BLOG-INNER-HEADER -->
-      <div class="blog-inner-header background white">
-        <div class="container blog-inner-header-c">
-          <div class="blog-inner-pic">
-            <!-- <img src="/images/blog-inner.png" alt="" /> -->
+      <!-- CONTACT US -->
+      <div class="contact-us background white">
+        <div class="container contact-us-c">
+          <div class="content-box-left">
+            <h2>Have a question ? Let’s get in touch with us.</h2>
+            <div>
+              Fill up the Form and ou team will get back to within 24 hrs
+            </div>
+          </div>
+          <div class="content-box-right">
+            <div class="column-container">
+              <div class="column location">
+                <h4>Location</h4>
+                <div>DLF Cybercity, Bhubaneswar,</div>
+                <div>India, &52050</div>
+              </div>
+              <div class="column contact-us">
+                <h4>Contact Us</h4>
+                <div>020 7993 2905</div>
+                <div>hi@finsweet.com</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- BLOG-INNER-Content -->
-      <div class="blog-inner-container">
-        <div class="row-container">
-          <img src="/images/blog-profile.png" alt="" />
-          <div>Andrew Jonson <span>Posted on 27th January 2021</span></div>
-        </div>
-        <h1>Breaking the code How did we build our Figma plugin</h1>
-        <div class="blog-in-txt">
-          Writing UX copies can be a little frustrating and confusing, and
-          sometimes we are unsure about how to get the right word. To crack the
-          code for the UX copies, we at Zeta Design wanted to build a Figma
-          plugin for the larger design community. The plugin is called the Ghost
-          UXWriter and has a set of UX copies cataloged and categorized with a
-          voice and tone variation ranging from plain, casual to playful. The
-          intention to build this Figma plugin originated from our Medium blog
-          post, Designing voice and tone for error messages.
-        </div>
-        <div class="blog-in-txt">
-          Writing UX copies can be a little frustrating and confusing, and
-          sometimes we are unsure about how to get the right word. To crack the
-          code for the UX copies, we at Zeta Design wanted to build a Figma
-          plugin for the larger design community. The plugin is called the Ghost
-          UXWriter and has a set of UX copies cataloged.
-        </div>
-        <div class="blog-in-txt">
-          Writing UX copies can be a little frustrating and confusing, and
-          sometimes we are unsure about how to get the right word. To crack the
-          code for the UX copies, we at Zeta Design wanted to build a Figma
-          plugin for the larger design community. The plugin is called the Ghost
-          UXWriter and has a set of UX copies cataloged and categorized with a
-          voice and tone variation ranging from plain, casual to playful. The
-          intention to build this Figma plugin originated from our Medium blog
-          post, Designing voice.
-        </div>
+      <!-- CONTACT US - FORMS & MAPS -->
+      <div class="contact-us-form-map background white">
+        <div class="container contact-us-form-map-c">
+          <form action="success.html">
+            <div class="column-container form">
+              <div class="column col1">
+                <input type="text" name="first-name" placeholder="First Name" />
+                <input type="text" name="last-name" placeholder="Last Name" />
+                <input type="email" name="email" placeholder="Email address" />
+                <textarea
+                  class="comment"
+                  name="address"
+                  id=""
+                  placeholder="Type message"
+                ></textarea>
+              </div>
+              <div class="column col2">
+                <div id="googleMap" style="width: 100%; height: 400px"></div>
 
-        <h1 class="second">
-          Transform Your Idea Into Reality with Ether a Leading Digital Agency
-        </h1>
-        <div class="blog-in-txt">
-          Writing UX copies can be a little frustrating and confusing, and
-          sometimes we are unsure about how to get the right word. To crack the
-          code for the UX copies, we at Zeta Design wanted to build a Figma
-          plugin for the larger design community. The plugin is called the Ghost
-          UXWriter and has a set of UX copies cataloged.
-        </div>
-        <div class="blog-in-txt">
-          Writing UX copies can be a little frustrating and confusing, and
-          sometimes we are unsure about how to get the right word. To crack the
-          code for the UX copies, we at Zeta Design wanted to build a Figma
-          plugin for the larger design community. The plugin is called the Ghost
-          UXWriter and has a set of UX copies cataloged and categorized with a
-          voice and tone variation ranging from plain, casual to playful. The
-          intention to build this Figma plugin originated from our Medium blog
-          post, Designing voice.
+                <script>
+                  function myMap() {
+                    var mapProp = {
+                      center: new google.maps.LatLng(51.508742, -0.12085),
+                      zoom: 5,
+                    };
+                    var map = new google.maps.Map(
+                      document.getElementById("googleMap"),
+                      mapProp
+                    );
+                  }
+                </script>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+              </div>
+            </div>
+
+            <a href="#" type="submit" class="a-button orange-btn">Submit</a>
+          </form>
         </div>
       </div>
 
@@ -167,7 +168,7 @@
           </div>
 
           <div class="copyright">
-            <div>© All rights reserved – Finsweet</div>
+            <div>© All rights reserved - Finsweet</div>
             <div>Privacy Policy <span> Terms & Conditions</span></div>
           </div>
 
