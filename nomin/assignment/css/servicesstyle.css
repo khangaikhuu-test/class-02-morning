@@ -63,257 +63,69 @@ header {
     color: #F58A07;
 }
 
-.banner {
-    background: #DCEAF5;
-}
-/* starts hre */
-.banner-content {
-    display: flex;
-    height: 703px;
-}
-
-.banner-left {
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    margin: 117px 0px;
-}
-
-
-.banner-left h1 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 64px;
-    letter-spacing: -0.03em;
-}
-
-.banner-left p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: #5B5B5B;
-}
-
-.services {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-
-.services1 {
-    padding: 18px 32px;
-    background: #F58A07;
-    border-radius: 27px;
-    color: white;
-}
-
-.logos {
-    display: flex;
-    gap: 45px;
-}
-
-.logo-content {
-    display: flex;
-    height: 40px;
-    align-items: center;
-}
-
-.man {
-    height: 618px;
-    margin-top: auto;
-}
-
-/* second banner starts here */
-.fontxl h2 {
-    font-size: 48px;
-    height: 112px;
-}
-
-.banner2-header {
-    width: 60%;
-    margin-top: 96px;
-}
-
-.lorem {
-    margin-bottom: 64px;
-}
-
-.banner2-context {
-    background-color: #FFFFFF;
-    display: flex;
-    gap: 40px;
-    margin-bottom: 96px;
-}
-
-.banner2-context img {
-    border-radius: 20px;
-}
-
-.bold {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 106.5%;
-    letter-spacing: -0.03em;
-    color: #0D1317;
-}
-
-.fontsmall {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: #5B5B5B;
-}
-
-.fontsmallorange {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 106.5%;
-    color: #F58A07;
-}
-
-/* banner-3 starts here */
-.banner3 {
-    background-color: #DCEAF5;
-    height: 663px;
-}
-.banner3-text {
-    display: flex;
-    margin-bottom: 64px;
-    padding-top: 96px;
-}
-.font36 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -0.03em;
-    color: #0D1317;
-}
-.banner3-content {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    
-}
-.banner3-img-part {
-    background-color: white;
-    padding: 40px 24px 37px 39px;
-    border-radius: 20px;
-    height: 277px;
-    margin:0 auto;
-}
 /* banner4 starts here */
-/* .banner-left{
-    max-width: 100%;
-    gap: 50px;
-} */
 .orangefont364{
-    color: #F58A07;
-    font-size: 36px;
+    background: #F58A07;
+    font-size: 16px;
+    color: white;
+    width: 171px;
+    height: 54px;
+    border-radius: 27px;
+    padding: 18px 32px 19px 32px;
 }
 .banner4 {
     display: flex;
     margin-top: 96px;
+    justify-content: space-between;
+    margin-bottom: 90px;
 }
-.banner4-col1{
-    width: 264px;
-}
-.banner4-right-banner{
-    margin-top: auto;
-}
-.banner4-right-banner img{
-    border-radius: 20px;
+.banner-left{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
 }
 .screen{
     background: #F58A07;
     mix-blend-mode: multiply;
-    border: red 1px solid;
     width: 153px;
-    height: 670px;
+    height: 650px;
     position: absolute;
     border-radius: 20px;
 }
 /* banner5 starts here */
-.banner5 {
-    background: #DCEAF5;
-    margin-top: 85px;
+.banner5{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.banner5-left {
-    padding-top: 48px;
-    margin-left: 48px;
-    padding-bottom: 48px;
-    max-width: 45%;
-}
-.banner5-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-}
-.busstrategy {
-    background: white;
-    color: #F58A07;
-    border-radius: 31px;
-    padding: 24px 24px;
-}
-.banner5-right {
-    padding: 168px 42px 42px 42px;
-}
-
-.screen2{
-    background: #F58A07;
-    mix-blend-mode: multiply;
-    border: red 1px solid;
-    width: 150px;
-    height: 466px;
-    position: absolute;
-    border-radius: 18px;
-}
-/* banner6 starts here */
-.banner6 {
-    display: flex;
-    margin-top: 128px;
-    width: 100%;
     margin-bottom: 128px;
 }
-.banner6-right{
-    background-color: #F58A07;
-    height: 518px;
-    width: 100%;
-    padding-top: 128px;
-    padding-left: 128px;
+.banner5-right {
+    width: 45%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 }
-.coffee{
-    width: 100%;
-    height: 518px;
+.screensmall{
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    width: 95px;
+    height: 97px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 128px;
+    margin-left: -50px;
 }
-.orangewhitelarge {
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-    width: 532px;
-    height: 168px;
+.screensmallright{
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    width: 95px;
+    height: 97px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 250px;
+    margin-left: 570px;    
 }
-.busstrategy-2 {
-    background: white;
-    color: #F58A07;
-    border-radius: 31px;
-    padding: 24px 24px;
-    width: 216px;
-    text-align: center;
-    margin-top: 40px;
-}
-/* banner7 starts here */
 .banner7 {
     display: flex;
 }
@@ -353,7 +165,6 @@ header {
     margin-top: 410px;
     margin-left: 40px;
 }
-/* footer1 starts here */
 .footer1{
     background-color: #DCEAF5;
     margin-top: 128px;

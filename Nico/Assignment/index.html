@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Assignment</title>
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -305,8 +305,9 @@
         </div>
       </div>
     </div>
-    <footer>
-      <div class="contents flex-col around container">
+    <footer class="flex">
+      <div id="orange-border1"></div>
+      <div class="contents flex-col around">
         <div class="flex align-between between">
           <div class="f-logos max-w350 between">
             <img id="fins-logo-white" src="./images/Logo-white.svg" alt="fins-logo">
@@ -335,14 +336,18 @@
           <div class="newsletter flex-col between">
             <div class="f-header">Join Newsletter</div>
             <div class="input">
-              <form>
-                <input type="email" placeholder="Type email here" class="email-input">
+              <form action="subscribed.html">
+                <input type="email" name="email" placeholder="Type email here" class="email-input">
+                <button type="submit" placeholder="submit" id="subscribe" class="button orange-bg">Subscribe</button>
               </form>
             </div>
-            <div class="button orange-bg">Subscribe</div>
+           
           </div>
+          
         </div>
         <div class="f-bottom flex between">
+          
+          
           <p>© All rights reserved – Finsweet</p>
           <div class="flex gap-40">
             <p>Privacy Policy</p>
@@ -351,7 +356,7 @@
           </div>
         </div>
       </div>
-
+      <div id="orange-border2"></div>
     </footer>
   </main>
 </body>
