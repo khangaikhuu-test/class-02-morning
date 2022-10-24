@@ -148,6 +148,7 @@ body {
 }
 
 footer {
+    width: 100%;
     background: #063255;
     height: 463px;
     color: #FFFFFF;
@@ -187,6 +188,7 @@ footer {
 
 .around {
     justify-content: space-around;
+    flex-grow: 1;
 }
 
 .flex {
@@ -430,10 +432,29 @@ footer {
     background: #FFFFFF;
 }
 
+#subscribe {
+    margin-top: 16px;
+}
+
 .font-18 {
     font-size: 18px;
 }
 
+#orange-border1 {
+    align-self: flex-end;
+    background: #F58A07;
+    width: 53px;
+    height: 144px;
+    border-radius: 0 20px 0 0;
+}
+
+#orange-border2 {
+    margin-top: 38px;
+    background: #F58A07;
+    width: 53px;
+    height: 287px;
+    border-radius: 20px 0 0 20px;
+}
 
 #orange-bg-half {
 
@@ -480,9 +501,14 @@ footer {
 .email-input {
     border-radius: 31px;
     padding: 5% 10%;
-    width: max-content;
+    width: calc(342px - 21%)
 }
 
 #ribbon {
     width: 100%;
+}
+
+#subscribed {
+    text-align: center;
+    height: calc(100vh - 650px);
 }

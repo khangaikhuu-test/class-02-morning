@@ -16,6 +16,139 @@ header {
     justify-content: space-between;
     text-transform: capitalize;
 }
+/*      footer       */
+
+footer {
+    background-color: #063255;
+    position: relative;
+}
+
+.bottom a,
+p {
+    color: #ffffff;
+}
+
+.bottom1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.bottom1a h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.vectors img {
+    margin-right: 21px;
+}
+
+.bottom1b {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-size: 1.125rem;
+}
+
+.bottom1b p {
+    margin-top: 0;
+}
+
+.bottom1b a {
+    margin: 8px 0 8px 0;
+}
+
+.bottom1c {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom1c a {
+    margin-bottom: 16px;
+}
+
+.bottom1c p {
+    margin: 8px 0 8px 0;
+}
+
+.bottom1c a {
+    font-size: 1.125rem;
+}
+
+.bottom1d p {
+    font-size: 1.125rem;
+    margin-top: 0;
+}
+
+.bottom1d {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 18px;
+}
+
+.type input {
+    width: 342px;
+    height: 54px;
+    border-radius: 31px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+.type input:focus {
+    border-style: none;
+    outline: none;
+}
+.but5 input {
+    padding: 18px 32px;
+    background: #F58A07;
+    color: #ffffff;
+    border-radius: 31px;
+    border-style: none;
+}
+.but5 input:focus {
+    outline: none;
+}
+
+.bottom2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 84px 0 84px 0;
+}
+
+.bottom2b {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.text7 {
+    color: #ffffff;
+}
+
+.shapeleft {
+    width: 53px;
+    height: 144px;
+    border-radius: 0px 20px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #F58A07;
+}
+
+.shaperight {
+    width: 53px;
+    height: 287px;
+    background: #F58A07;
+    position: absolute;
+    border-radius: 20px 0 0 20px;
+    right: 0;
+    top: 38px;
+}
 
 .navbar {
     display: flex;
@@ -32,7 +165,8 @@ header {
     color: #394149;
 }
 
-.but1 {
+.but1 input{
+    border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;
@@ -126,3 +260,14 @@ header {
     margin-top: 32px;
     margin-bottom: 128px;
 }   
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border-style: none;
+}
+textarea {
+    border-style: none;
+}

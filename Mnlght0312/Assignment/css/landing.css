@@ -329,5 +329,90 @@ footer p {
     background-color: rgba(245, 138, 7, 1);
     width: 156px;
 }
+.your {
+    width: 200px;
+}
+.light{
+    position: relative;
+}
+.light::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    mix-blend-mode: multiply;
+    inset: 8% 75% 3.5% 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+.cicek {
+    position: relative;
+}
+.cicek::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    mix-blend-mode: multiply;
+    inset: 20.5% 75% 1% 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+
+
+.drinking {
+    position: relative;
+}
+.drinking::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    mix-blend-mode: multiply;
+    inset: 0 75% 0 0;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    vertical-align: bottom;
+}
+.gray {
+    color: rgba(91, 91, 91, 1);
+}
+.caffe {
+    position: relative;
+}
+.caffe::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(245, 138, 7, 1);
+    mix-blend-mode: multiply;
+    inset: 30% 93% 55% -7%;
+    border-radius: 20px;
+}
+.bene {
+    position: relative;
+}
+.bene::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(245, 138, 7, 1);
+    mix-blend-mode: multiply;
+    inset: 50% -7% 35% 93%;
+    border-radius: 20px;
+}
+.star {
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.star p {
+    padding-left: 32px;
+}
+.lion {
+    color: black;
+    font-size: calc(1rem + 8px);
+}
+.champ {
+    color: rgba(245, 138, 7, 1);
+}
+
 
 
