@@ -150,32 +150,66 @@ section {
     margin:64px 94px 69px 92px ;
 }
                     /* FEAUTRES */
+
+/* features {
+    margin: 24px 0 0 320px;
+} */
+
 .car2_title5 {
     color: #0D1317;
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
-    
+    margin: 128px 0 0 0;
+
 }
 
 input[type=text] {
-    width: 628px;
-    height: 54px;
-    padding: 10px 0 10px 40px;
+    /* width: 628px;
+    height: 54px; */
+    padding: 12px 20px;
+    margin: 8px 0;
     box-sizing: border-box;
-   
-    background-color: #;
+    border: none;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    color: #9C9C9C;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
   }
 
+#fname {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
 
-
-
-
-
-
-
-
-
+.input1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 628px;
+    width: 628px;
+    height: 54px;
+}
+.input2 {
+    display: flex;
+    flex-direction: column;
+    width: 628px;
+    height: 54px;
+}
+.container_input {
+    display: flex;
+    flex-direction: row;
+}
+.input3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+  
 
 
 
@@ -255,10 +289,10 @@ footer {
     font-weight: 500;
     line-height: 24px;
 }
-input[type=text], select {
+.input2[type=text], select {
     border: 1px solid white;
-    border-radius:31px ;
-    width: 342px;
+    border-radius:0px ;
+    /* width: 342px; */
     height: 54px;
 }
 .foot_input {
@@ -286,6 +320,7 @@ input[type=text], select {
     width: 1280px;
     height: 199px;
 }
+
 .foot_box2 {
     display: flex;
     justify-content: space-between;
