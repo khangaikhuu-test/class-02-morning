@@ -47,58 +47,93 @@
     color: #F58A07;
 }
 
-section img {
-    margin-top: 98px;
-    border-radius: 20px;
-}
-
-section .blogtext {
-    max-width: 752px;
-    margin: 80px auto 128px;
-}
-
-.blogtext .headermember {
+header .headersection
+{
     display: flex;
-    align-items: center;
+    gap: 99px;
+    margin: 94px 115px 64px 0;
+    width: 1165px;
+}
+
+header h2
+{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #1D3444;
+    margin: 0 0 24px 0;
+    width: 561px;
+}
+
+header h3
+{
+    font-weight: 500;
+    font-size: 24px;
+    color: #0d1317;
+    margin: 0 0 16px 0;
+}
+
+header p
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5b5b5b;
     margin: 0;
 }
 
-.headermember img {
-    margin: 0 8px 0 0;
+.rightside
+{
     display: flex;
-    align-self: center;
+    gap: 76px;
 }
 
-.headermember p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #394149;
-    height: 32px;
-    margin: 0 24px 0 0;
+.contact
+{
+    margin: 64px auto 128px ;
 }
 
-.blogtext h2 {
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 72px;
-    margin: 24px 0 32px;
-    color: #1D3444;
-}
+/* .contactside
+{
+    display: flex; map oruulah
+} */
 
-.blogtext p {
+.contact input
+{
+    color: #9c9c9c;
     font-weight: 500;
     font-size: 16px;
-    line-height: 28px;
-    color: #5b5b5b;
-    margin: 24px 0;
+    background: rgba(210, 218, 237, 0.17);
+    border: white;
+    border-radius: 31px;
+    padding: 18px 32px;
+    width: 605px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
 }
 
-.blogtext h3 {
-    font-size: 48px;
+#typetext
+{
+    height: 160px;
+    width: 605px;
+}
+
+#typetext::placeholder
+{  
+    position: absolute;
+}
+
+button
+{
     font-weight: 600;
-    line-height: 56px;
-    color: #0d1317;
-    margin: 48px 0 24px;
+    font-size: 16px;
+    color: white;
+    background: #F58A07;
+    border-radius: 31px;
+    padding: 18px 32px;
+    border: #F58A07;
+    margin-top: 32px;
 }
 
 footer
