@@ -310,11 +310,11 @@ footer p {
     font-size: calc(2rem + 4px);
     width: 351px;
 }
-.baka img {
-    width: 30px;
-    height: 30px;
-    margin-right: 50px;
+
+.fa-brands {
+    color: white;
 }
+
 .nagara {
     border: 1px solid white;
     padding: 18px 188px 17px 32px;
@@ -413,6 +413,83 @@ footer p {
 .champ {
     color: rgba(245, 138, 7, 1);
 }
+.choco {
+    width: 400px;
+    color: rgba(29, 52, 68, 1);
+}
+.sweden {
+    background-color: rgba(237, 247, 255, 1);
+    border-radius: 0px 0px 20px 20px;
+}
+.montainer {
+    max-width: 752px;
+    margin: 0 auto;
+}
+.fanta {
+    color: rgba(29, 52, 68, 1);
+    width: 600px;
+}
 
+.motion p {
+    padding: 64px 0px 69px 0px;
+    width: 842px;
+}
+.detail p {
+    font-size: calc(1rem + 8px);
+    font-weight: 500;
+    color: black;
+    
+}
+.detail .ventura {
+    color: rgba(245, 138, 7, 1);
+
+}
+.schwe .lightblue {
+    border-radius: 20px;
+}
+
+.lontainer {
+    width: 842px;
+    padding: 69px 0px;
+}
+.detail {
+    padding: 69px 0px 0px 64px;
+}
+.refr {
+    width: 600px;
+    padding: 17px 0px 18px 32px;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border: 1px solid rgba(210, 218, 237, 0.17);
+    margin-top: 30px;
+}
+.snow {
+    width: 1210px;
+    border-radius: 27px;
+    padding: 17px 0px 18px 32px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border: 1px solid rgba(210, 218, 237, 0.17);
+    margin-top: 30px;
+}
+.engi {
+    color: rgba(29, 52, 68, 1);
+}
+.discr {
+    color: black;
+    font-size: calc(1rem + 8px);
+}
+#holdon {
+    width: 600px;
+    border-radius: 27px;
+    padding: 17px 0px 18px 32px;
+    background-color: rgba(210, 218, 237, 0.17);
+    border: 1px solid rgba(210, 218, 237, 0.17);
+    margin-top: 30px;
+}
+.air {
+    width: 600px;
+    font-size: 3rem;
+    color: rgba(29, 52, 68, 1);
+}
 
 
