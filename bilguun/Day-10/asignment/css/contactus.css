@@ -8,10 +8,37 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-main {
-    margin-top: 80px;
-    margin-bottom: 128px;
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 32px;
+    padding: 30px 0;
+    color: #394149;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #394149;
+}
+
+.but1 {
+    background: #F58A071A;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: #F58A07;
+}
+
 /*      footer       */
 
 footer {
@@ -143,41 +170,107 @@ p {
     top: 38px;
 }
 
-.img1 {
-    border-radius: 20px;
-    max-width: 1280px;
-    height: 631px;
-    background: url(https://geekruit.com/wp-content/uploads/2022/04/Application-Developmnet-Consulting-2048x888.jpg);
-    margin: 0 auto;
-    background-position: center;
-}
-.banner1a {
-    margin-top: 80px;
+.navbar {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-items: center;
     align-items: center;
-}
-.banner1b {
+    gap: 32px;
+    padding: 30px 0;
     color: #394149;
-    margin-right: 21px;
-    margin-left: 21px;
-}
-.comment {
-    max-width: 752px;
-    margin: 0 auto;
-    
-}
-.comment1 h1 {
-    font-size: 4rem;
-    line-height: 4.5rem;
-    color: #1d3444;
+    flex-wrap: wrap;
 }
 
-.comment1 p {
-    color: #5b5b5b;
+.navbar a {
+    color: #394149;
 }
-.comment1 h2 {
+
+/*      Part 1       */
+.part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 108px;
+    margin-bottom: 64px;
+}
+.part1 p {
+    font-size: 1.125rem;
+    color: #5b5b5b;
+    line-height: 2rem;
+}
+.text1 {
     font-size: 3rem;
-    color: #0D1317;
-    line-height: 3.5rem;
+    line-height: 4rem;
+    color: #1d3444;
+    width: 43.8%;
+}
+.text2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #0d1317;
+}
+.text3 {
+    width: 49%;
+    display: flex;
+    gap: 76px;
+}
+/*      Part 3       */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    width: 49%;
+}
+
+.style1 {
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: rgba(156, 156, 156, 1);
+    padding: 18px 0 18px 32px;
+}
+
+.style2 {
+    width: 100%;
+    height: 215px;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: rgba(156, 156, 156, 1);
+    padding: 18px 32px 18px 32px;
+}
+
+.submit {
+    color: #ffffff;
+    padding: 18px 32px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}   
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border-style: none;
+}
+textarea {
+    border-style: none;
+}
+
+.map {
+    border-radius: 20px;
+    background-image: url(../images/map.png);
+    width: 620px;
+    height: 370px;
+}
+
+.part4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part3 {
+    margin-bottom: 128px;
 }

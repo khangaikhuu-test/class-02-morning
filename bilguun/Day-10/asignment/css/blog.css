@@ -113,7 +113,7 @@ p {
     gap: 18px;
 }
 
-.type {
+.type input {
     width: 342px;
     height: 54px;
     border-radius: 31px;
@@ -122,7 +122,10 @@ p {
     align-items: center;
     padding-left: 32px;
 }
-
+.type input:focus {
+    border-style: none;
+    outline: none;
+}
 .but5 {
     padding: 18px 32px;
     background: #F58A07;
