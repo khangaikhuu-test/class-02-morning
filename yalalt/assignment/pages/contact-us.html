@@ -37,13 +37,30 @@
     <main>
         <section id="showcase-blog">
             <div class="container">
-                <div class="flex-col-container">
-                    <div class="flex-row">
-                        <div>
-                            <p class="large-title">
-                                Have a question? Let's get in touch with us.
-                            </p>
-                        </div>
+                <div class="flex-row">
+                    <!-- Ehnii baganad -->
+                    <div class="flex-col-container">
+                        <p class="large-title">
+                            Have a question? Let's get in touch with us.
+                        </p>
+                        <p class="text-para-bottom">
+                            Fill up the Form and ou team will get back to within 24 hrs
+                        </p>
+
+                        <form action="apply-register.html">
+                            <div class="flex-col">
+                                <input type="text" name="fname" id="fname" placeholder="First Name">
+                                <input type="text" name="lname" id="lname" placeholder="Last name">
+                                <input type="email" name="email" id="email" placeholder="Email address">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Type message"></textarea>
+                                <input type="submit" id="submit" name="submit">
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- 2 dahi baganii elements -->
+                    <div class="flex-col-container">
                         <div class="flex-row">
                             <div class="flex-col">
                                 <p class="medium-title">
@@ -65,10 +82,11 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="map-google">
+                        </div>
+
+
                     </div>
-                    <p class="text-para-bottom">
-                        Fill up the Form and ou team will get back to within 24 hrs
-                    </p>
                 </div>
             </div>
         </section>

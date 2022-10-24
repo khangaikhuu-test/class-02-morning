@@ -57,7 +57,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
+  width: inherit;
+  /* align-content: center; */
 }
 
 .margin-1 {
@@ -196,8 +197,9 @@ body {
 #showcase .container .container-content .showcase-text .p1 {
   font-size: var(--font64);
   color: var(--black);
-  width: 576px;
+  width: 600px;
   margin: 12px 0;
+  line-height: 72px;
 }
 
 #showcase .container .container-content .showcase-text .p2 {
@@ -340,7 +342,7 @@ body {
 
 #what-we-work-2 .container .container-content .we-work-challenge {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   column-gap: 40px;
 }
@@ -378,7 +380,7 @@ body {
   width: 400px;
   height: 277px;
   background: var(--secondary-color);
-  padding: 48px 24px 37px 41px;
+  padding: 24px 24px 30px 34px;
   border-radius: 20px;
   box-shadow: 1px 1px 2px var(--bg-light);
 }
@@ -507,6 +509,7 @@ body {
   height: 667px;
   width: 637px;
   border-radius: 20px;
+  margin-left: 40px;
 }
 
 /* har emegtei deerh shar bulangiin opacity */

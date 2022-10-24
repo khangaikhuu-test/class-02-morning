@@ -426,7 +426,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 1.75rem;
-}
+    margin-bottom: 1.7rem;
+  }
 
 .call {
     display: flex;

@@ -40,7 +40,6 @@
   #showcase-blog {
     background: #dceaf5;
     padding: 47px 0;
-    margin: 20px 0px;
   }
 
   .container {
@@ -338,6 +337,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 1.75rem;
+    margin-bottom: 1.7rem;
   }
   
   .call {
