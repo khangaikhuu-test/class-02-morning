@@ -148,6 +148,7 @@ body {
 }
 
 footer {
+    width: 100%;
     background: #063255;
     height: 463px;
     color: #FFFFFF;
@@ -431,6 +432,10 @@ footer {
     background: #FFFFFF;
 }
 
+#subscribe {
+    margin-top: 16px;
+}
+
 .font-18 {
     font-size: 18px;
 }
@@ -501,4 +506,9 @@ footer {
 
 #ribbon {
     width: 100%;
+}
+
+#subscribed {
+    text-align: center;
+    height: calc(100vh - 650px);
 }
