@@ -27,17 +27,22 @@
     margin: 0 0 0 470px;
 }
 .header_link {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 17px;
-    padding: 18px 32px;
     width: 190px;
     height: 52px;
-    color:#F58A07;
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
     border-radius: 31%;
     margin: -15px 0 0 47px;
+    padding-top: 13px;
+    padding-left: 32px;
+
+}
+.header_link a {
+    color:#F58A07;
+    font-size: 16px;
+    font-weight: 600;
+    /* line-height: 17px; */
+    text-decoration: none;
 }
 .header_menu a {
     font-size: 16px;
