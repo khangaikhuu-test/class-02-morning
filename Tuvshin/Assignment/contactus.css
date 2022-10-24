@@ -5,6 +5,11 @@
     /* margin: 0;
     padding: 0; */
 }
+.golluulagch{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
 
                      /* HEAD NAV*/
 .head_container {
@@ -13,7 +18,7 @@
     width: 1280px;
     height: 52px;
     padding: 14px 0 ;
-    margin: 16px 328px;
+    /* margin: 16px 328px; */
 }
 .header_logo {
     margin-top: 0;
@@ -24,18 +29,24 @@
     margin: 0 0 0 470px;
 }
 .header_link {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 17px;
-    padding: 18px 32px;
     width: 190px;
     height: 52px;
-    color:#F58A07;
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
     border-radius: 31%;
     margin: -15px 0 0 47px;
+    padding-top: 13px;
+    padding-left: 32px;
+
 }
+.header_link a {
+    color:#F58A07;
+    font-size: 16px;
+    font-weight: 600;
+    /* line-height: 17px; */
+    text-decoration: none;
+}
+
 .header_menu a {
     font-size: 16px;
     line-height: 24px;
@@ -51,7 +62,7 @@
     border: 1px solid hidden;
     width: 1165px;
     height: 182px;
-    margin: 122px 435px 64px 328px;
+    margin: 122px 435px 64px 0;
     /* end margin bottom 64 -  daragiin text check */
 
 }
@@ -83,7 +94,7 @@
     line-height: 30px;
     font-weight: 500;
     color: #0d1317;
-    margin-left: 90px;
+    margin-left: 0;
 }
 .cont_text {
     font-size: 18px;
@@ -98,7 +109,7 @@
     line-height: 30px;
     font-weight: 500;
     color: #5b5b5b;
-    margin-left: 90px;
+    margin-left: 0;
     margin-top: 16px;
     width: 290px;
 }
@@ -107,18 +118,35 @@
     line-height: 30px;
     font-weight: 500;
     color: #5b5b5b;
-    margin-left: 90px;
+    margin-left: 0;
     margin-top: 16px;
 
 
     /* width: 160px;
     height: 30px; */
 }
+.input2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 
+}
+.cont_input2{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 456px;
+}
 
+input[type=text], select {
+    border: 1px solid white;
+    border-radius:31px ;
+  
+    height: 54px;
+    background-color: rgba(210, 218, 237, 0.17);
+    padding: 8px 0 0 32px;
 
-
-
+}
 
 
 
@@ -233,7 +261,7 @@ input[type=text], select {
     display: flex;
     justify-content: space-between;
     border: 1px solid hidden;
-    margin: 80px 0 0 320px;
+    margin-top: 80px;
     width: 1280px;
     height: 199px;
 }
@@ -242,7 +270,7 @@ input[type=text], select {
     justify-content: space-between;
     width: 1280px;
     height: 24px;
-    margin: 80px 0 0 320px;
+    margin-top: 80px;
 }
 
 .foot_text {
