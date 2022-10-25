@@ -322,6 +322,7 @@ footer::after {
 
 .article-flex div {
     margin-top: 15px;
+    margin-bottom: 64px;
 }
 
 .article-header {
