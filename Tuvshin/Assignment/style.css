@@ -29,24 +29,25 @@
     margin: 0 0 0 470px;
 }
 .header_link {
-    width: 190px;
+    position: absolute;
+    width: 173px;
     height: 52px;
-    border: 0px solid rgba(245, 138, 7, 0.1);
-    background-color: rgba(245, 138, 7, 0.1);
-    border-radius: 31%;
-    margin: -15px 0 0 47px;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
     padding-top: 13px;
     padding-left: 32px;
-
+    right: 500px;
+    top: 8px;
 }
+
 .header_link a {
-    color:#F58A07;
-    font-size: 16px;
+    font-style: normal;
     font-weight: 600;
-    /* line-height: 17px; */
+    font-size: 16px;
+    line-height: 106.5%;
+    color:#F58A07;
     text-decoration: none;
 }
-
 .header_menu a {
     font-size: 16px;
     line-height: 24px;

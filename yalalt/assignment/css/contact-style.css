@@ -156,7 +156,7 @@ body {
   font-weight: 500;
   color: #5b5b5b;
   width: 270px;
-  
+
 }
 
 .text-para-bottom {
@@ -250,7 +250,7 @@ form {
 
 #fname,
 #lname,
-#email, 
+#email,
 #message {
   width: 605px;
   color: #9c9c9c;
@@ -278,12 +278,11 @@ form {
 }
 
 
-.map-google {
+iframe {
   margin-top: 96px;
   width: 620px;
   height: 370px;
   border-radius: 20px;
-  background: url(../images/googlemap-zurag.jpg);
 }
 
 
