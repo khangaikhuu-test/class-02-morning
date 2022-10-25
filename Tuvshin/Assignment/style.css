@@ -618,16 +618,13 @@ footer {
     font-weight: 500;
     line-height: 24px;
 }
-input[type=text], select {
+.foot_input {
     border: 1px solid white;
     border-radius:31px ;
     width: 342px;
     height: 54px;
-}
-.foot_input {
     font-size: 16px;
     color: #9c9c9c;
-    margin: 18px 0 0 32px;
 }
 .foot_link {
     border: 1px solid #F58A07;
