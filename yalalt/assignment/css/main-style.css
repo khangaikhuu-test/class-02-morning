@@ -23,10 +23,6 @@
   --font18: 1.125rem;
   /* 16px */
   --font16: 1rem;
-
-  /* Test hiihed zoriulaw */
-  --test1-border: 1px solid red;
-  --test2-border: 1.5px solid #01b780;
 }
 
 * {
@@ -41,12 +37,11 @@ main {
 }
 
 body {
-  /* max-width: 1920px; */
   margin: 0;
   padding: 0;
 }
 
-/***** CSS Resused Code here - Mainly used style Code ********/
+/***** CSS Resused Code here  ********/
 
 .container {
   max-width: 1280px;
@@ -59,7 +54,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: inherit;
-  /* align-content: center; */
 }
 
 .margin-2 {
@@ -98,7 +92,7 @@ body {
   margin: 128px 0;
 }
 
-/* Main used style CSS Reused code end */
+/* Main menu code */
 
 .nav-menu {
   width: 657px;
@@ -148,7 +142,7 @@ body {
   color: var(--black);
 }
 
-/* Show case style Start */
+
 /* background light blue */
 #showcase {
   background: var(--bg-light);
@@ -185,12 +179,10 @@ body {
 
 #showcase .container .container-content .showcase-text .btn {
   flex: none;
-  /* width: 12.43rem; */
   padding: 0.8rem 2.5rem;
   text-align: center;
   border-radius: 20px;
   text-decoration: none;
-  /* transition: all 1s ease-in-out; */
 }
 
 /* Button 1 */
@@ -205,12 +197,7 @@ body {
   color: var(--black);
 }
 
-/* #showcase .container .container-content .btn:hover {
-    background: var(--medium-header-color);
-    color: var(--secondary-color);
-} */
 
-/* Image 1 */
 #showcase .container .container-content .showcase-image {
   flex: 1;
   display: flex;
@@ -218,8 +205,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 703px;
-  background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png)
-    center center/cover;
+  background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/header-image.png) center center/cover;
 }
 
 #showcase .container .container-content .showcase-text .showcase-logo-text {
@@ -235,12 +221,10 @@ body {
 }
 
 /* We Work 1 Design Style */
-/* Card container class */
 #what-we-work-1 .container .container-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -282,12 +266,7 @@ body {
   margin-bottom: 33px;
 }
 
-#what-we-work-1
-  .container
-  .container-content
-  .card-container
-  .card
-  .title-card {
+#what-we-work-1 .container .container-content .card-container .card .title-card {
   font-size: var(--font24);
   font-weight: 600;
   color: var(--big-header-color);
@@ -310,7 +289,6 @@ body {
 }
 
 /* WHAT WE WORK 2 HESEG */
-/* Row flex */
 #what-we-work-2 .container .container-content {
   flex-direction: column;
   padding: 96px 0;
@@ -335,7 +313,6 @@ body {
   flex-basis: 50%;
 }
 
-/* Row flex */
 #what-we-work-2 .container .container-content .card-container-white {
   display: flex;
   align-items: center;
@@ -343,12 +320,7 @@ body {
   column-gap: 40px;
 }
 
-/* Column flex */
-#what-we-work-2
-  .container
-  .container-content
-  .card-container-white
-  .card-white {
+#what-we-work-2 .container .container-content .card-container-white .card-white {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -361,31 +333,18 @@ body {
   box-shadow: 1px 1px 2px var(--bg-light);
 }
 
-#what-we-work-2
-  .container
-  .container-content
-  .card-container-white
-  .card-white
-  img {
+#what-we-work-2 .container .container-content .card-container-white .card-white img {
   width: 41px;
 }
 
-#what-we-work-2
-  .container
-  .container-content
-  .card-container-white
-  .card-white
-  .med-title {
+#what-we-work-2 .container .container-content .card-container-white .card-white .med-title {
   font-size: var(--font24);
   color: var(--big-header-color);
   margin-top: 2rem;
   margin-bottom: 0px;
 }
-/* WORK 2 Heseg ---INVOICE SUPPORT SURVEY--- END */
 
 /* The energy of a START-UP begin */
-
-/* 1 1 1 1 1 1 1 */
 #about-us .container .container-content .start-up {
   display: flex;
   justify-items: center;
@@ -403,12 +362,6 @@ body {
   width: 596px;
 }
 
-/* #about-us .container .container-content .start-up .experience-left .e1 {
-  color: var(--big-header-color);
-  line-height: 56px;
-  font-size: var(--font48);
-} */
-
 #about-us .container .container-content .start-up .experience-left .e2 {
   line-height: 30px;
   font-size: var(--font18);
@@ -423,13 +376,7 @@ body {
   margin: 48px 0;
 }
 
-#about-us
-  .container
-  .container-content
-  .start-up
-  .experience-left
-  .has-2child
-  .child {
+#about-us .container .container-content .start-up .experience-left .has-2child .child {
   display: flex;
   flex-direction: column;
   justify-items: stretch;
@@ -437,49 +384,25 @@ body {
   width: 264px;
 }
 
-#about-us
-  .container
-  .container-content
-  .start-up
-  .experience-left
-  .has-2child
-  .child
-  .child-no {
+#about-us .container .container-content .start-up .experience-left .has-2child .child .child-no {
   color: var(--primary-color);
   font-size: var(--font36);
   font-weight: 700;
 }
 
-#about-us
-  .container
-  .container-content
-  .start-up
-  .experience-left
-  .has-2child
-  .child
-  .child-title {
+#about-us .container .container-content .start-up .experience-left .has-2child .child .child-title {
   color: var(--big-header-color);
   font-size: var(--font24);
   margin: 1rem 0;
 }
 
-#about-us
-  .container
-  .container-content
-  .start-up
-  .experience-left
-  .has-2child
-  .child
-  .child-text {
+#about-us .container .container-content .start-up .experience-left .has-2child .child .child-text {
   line-height: 28px;
   font-size: var(--font16);
 }
 
-/* 15+ 500+ hesegiin zurag oruulsan heseg */
-/* Background coloroor oruulj vzeh ________________________ */
 /* emegtein zurag */
 #experienced-woman {
-  /* position: relative; */
   background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png),
     url(../images/orange-side.png);
   height: 667px;
@@ -490,16 +413,13 @@ body {
 
 /* har emegtei deerh shar bulangiin opacity */
 #orangeBox-on-image {
-  /* position: absolute; */
   background: url(../images/orange-side.png) no-repeat center/cover;
   height: 667px;
   width: 153px;
   border-radius: 20px 0 0 20px;
   mix-blend-mode: multiply;
 }
-/* 1 1 1 1 1 1 1 1 */
 
-/* Experience Start-up Service 2 dugaar mor - ROW 2 */
 /* Helping clients , ... 3 button tai */
 #about-us .container .container-content .experienceCol {
   display: flex;
@@ -510,7 +430,6 @@ body {
 }
 
 #about-us .container .container-content .my-service-all .strategy-services {
-  /* Bagaar ni center ogow */
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -521,24 +440,14 @@ body {
 }
 
 /* Buttons row container */
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .button-and-starImage {
+#about-us .container .container-content .my-service-all .strategy-services .button-and-starImage {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Zvvn deed buland boonoor ni bairshuulah */
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .strategy-buttons {
+#about-us .container .container-content .my-service-all .strategy-services .strategy-buttons {
   display: flex;
   align-items: flex-start;
   align-content: flex-start;
@@ -548,23 +457,11 @@ body {
   column-gap: 24px;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .strategy-buttons
-  a {
+#about-us .container .container-content .my-service-all .strategy-services .strategy-buttons a {
   text-decoration: none;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .strategy-buttons
-  .bs-button {
+#about-us .container .container-content .my-service-all .strategy-services .strategy-buttons .bs-button {
   background: var(--bg-lightB);
   border: rgba(6, 50, 85, 0.3) solid 1px;
   border-radius: 31px;
@@ -573,25 +470,14 @@ body {
   font-size: 1rem;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .strategy-buttons
-  .bs-button:first-child {
+#about-us .container .container-content .my-service-all .strategy-services .strategy-buttons .bs-button:first-child {
   background: var(--secondary-color);
   border: var(--secondary-color) solid 1px;
   border-radius: 31px;
   color: var(--primary-color);
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .star-image {
+#about-us .container .container-content .my-service-all .strategy-services .star-image {
   display: flex;
   justify-items: flex-end;
   align-items: flex-end;
@@ -607,93 +493,46 @@ body {
   height: 170px;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box
-  .left-side {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box .left-side {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box
-  .left-side
-  .title {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box .left-side .title {
   width: 572px;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box
-  .left-side
-  .text {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box .left-side .text {
   width: 510px;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box
-  .left-side
-  a {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box .left-side a {
   text-decoration: none;
   color: var(--black);
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box
-  .team-womans {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box .team-womans {
   background-image: url(../images/team.png);
   height: 466px;
   width: 472px;
   border-radius: 20px;
 }
 
-#about-us
-  .container
-  .container-content
-  .my-service-all
-  .strategy-services
-  .all-service-btn-box
-  .team-womans
-  .orange-box2nd {
+#about-us .container .container-content .my-service-all .strategy-services .all-service-btn-box .team-womans .orange-box2nd {
   background: url(../images/team.png), var(--primary-color);
   height: 466px;
   width: 120px;
   background-blend-mode: multiply;
   border-radius: 20px 0px 0px 20px;
 }
-
-/* The energy of a START-UP END */
 
 /* Hondlon zurag shar background */
 #energy-job-vacancies {
@@ -708,8 +547,7 @@ body {
 
 #energy-job-vacancies .left-image2 {
   position: absolute;
-  background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png)
-    no-repeat center center/cover;
+  background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png) no-repeat center center/cover;
   left: 0;
   width: 963px;
   height: 518px;
@@ -765,35 +603,20 @@ body {
   width: 550px;
 }
 
-#finsweet
-  .container
-  .container-content
-  .left-side-intro
-  .ceo-img-name
-  .img-ceo {
+#finsweet .container .container-content .left-side-intro .ceo-img-name .img-ceo {
   width: 80px;
   height: 80px;
   background: url(../images/ceo-image.png);
 }
 
-#finsweet
-  .container
-  .container-content
-  .left-side-intro
-  .ceo-img-name
-  .ceo-name {
+#finsweet .container .container-content .left-side-intro .ceo-img-name .ceo-name {
   color: #063255;
   font-size: var(--font24);
   font-weight: 500;
   margin: 0px 24px;
 }
 
-#finsweet
-  .container
-  .container-content
-  .left-side-intro
-  .ceo-img-name
-  .ceo-company {
+#finsweet .container .container-content .left-side-intro .ceo-img-name .ceo-company {
   font-size: var(--font18);
   font-weight: 500;
   color: var(--primary-color);
@@ -920,6 +743,3 @@ body {
   color: var(--primary-color);
   font-weight: 500;
 }
-
-
-

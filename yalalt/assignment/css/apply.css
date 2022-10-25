@@ -48,12 +48,6 @@ body {
     margin: 0px auto;
 }
 
-.container-width {
-    max-width: 1376px;
-    margin: 0px auto;
-    position: relative;
-}
-
 /* Flex row */
 .flex-row {
     display: flex;
