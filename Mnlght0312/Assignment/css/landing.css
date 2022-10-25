@@ -498,5 +498,11 @@ footer p {
 .cactus {
     color: white;
 }
+.loxem {
+    align-self: center;
+}
+.gray li {
+    margin-bottom: 10px;
+}
 
 
