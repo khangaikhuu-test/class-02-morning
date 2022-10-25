@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9a12ec8366.js" crossorigin="anonymous"></script>
     <link href="../css/contact-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
@@ -37,13 +38,30 @@
     <main>
         <section id="showcase-blog">
             <div class="container">
-                <div class="flex-col-container">
-                    <div class="flex-row">
-                        <div>
-                            <p class="large-title">
-                                Have a question? Let's get in touch with us.
-                            </p>
-                        </div>
+                <div class="flex-row">
+                    <!-- Ehnii baganad -->
+                    <div class="flex-col-container">
+                        <p class="large-title">
+                            Have a question? Let's get in touch with us.
+                        </p>
+                        <p class="text-para-bottom">
+                            Fill up the Form and ou team will get back to within 24 hrs
+                        </p>
+
+                        <form action="apply-register.html">
+                            <div class="flex-col">
+                                <input type="text" name="fname" id="fname" placeholder="First Name">
+                                <input type="text" name="lname" id="lname" placeholder="Last name">
+                                <input type="email" name="email" id="email" placeholder="Email address">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Type message"></textarea>
+                                <input type="submit" id="submit" name="submit">
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- 2 dahi baganii elements -->
+                    <div class="flex-col-container">
                         <div class="flex-row">
                             <div class="flex-col">
                                 <p class="medium-title">
@@ -65,10 +83,12 @@
                                 </p>
                             </div>
                         </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2186.7961751818516!2d106.93339533231506!3d47.92351459965134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969215ec9fae43%3A0xe66f36ef49c09486!2sSeoul%20Business%20Center%2C%20Ulaanbaatar!5e0!3m2!1sen!2smn!4v1666670379388!5m2!1sen!2smn"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
-                    <p class="text-para-bottom">
-                        Fill up the Form and ou team will get back to within 24 hrs
-                    </p>
                 </div>
             </div>
         </section>
@@ -81,10 +101,10 @@
         <div id="footer-img-left"></div>
 
         <div class="container">
-            <div class="flex-col">
+            <div class="container-content">
                 <div class="footer-row1">
                     <div class="footer col-1">
-                        <div class="logo"><img src="../images/white-logo.svg" alt=""></div>
+                        <div id="footer-logo"></div>
                         <p class="footer-title1">Bespoke software solutions</p>
                         <div class="foot-social-logo">
                             <i class="fa-brands fa-facebook-f"></i>

@@ -27,6 +27,13 @@
     font-size: 16px;
     margin-bottom: 16px;
 }
+.menu-container a {
+    padding-left: 16px;
+}
+.menu-container a:hover {
+    color: black;
+    text-shadow: 2px 2px 5px rgb(223, 223, 223);
+}
 .list {
     margin: 10px;
     text-decoration: none;

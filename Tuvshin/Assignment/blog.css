@@ -27,17 +27,24 @@
     margin: 0 0 0 470px;
 }
 .header_link {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 17px;
-    padding: 18px 32px;
-    width: 190px;
+    position: absolute;
+    width: 173px;
     height: 52px;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding-top: 13px;
+    padding-left: 32px;
+    right: 500px;
+    top: 8px;
+}
+
+.header_link a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
     color:#F58A07;
-    border: 0px solid rgba(245, 138, 7, 0.1);
-    background-color: rgba(245, 138, 7, 0.1);
-    border-radius: 31%;
-    margin: -15px 0 0 47px;
+    text-decoration: none;
 }
 .header_menu a {
     font-size: 16px;
@@ -231,16 +238,13 @@ footer {
     font-weight: 500;
     line-height: 24px;
 }
-input[type=text], select {
+.foot_input {
     border: 1px solid white;
     border-radius:31px ;
     width: 342px;
     height: 54px;
-}
-.foot_input {
     font-size: 16px;
     color: #9c9c9c;
-    margin: 18px 0 0 32px;
 }
 .foot_link {
     border: 1px solid #F58A07;
@@ -258,11 +262,9 @@ input[type=text], select {
     display: flex;
     justify-content: space-between;
     border: 1px solid hidden;
-    /* margin-top: 80px; */
+    margin-top: 80px;
     width: 1280px;
     height: 199px;
-    margin-top: 30px;
-
 }
 .foot_box2 {
     display: flex;
@@ -270,7 +272,6 @@ input[type=text], select {
     width: 1280px;
     height: 24px;
     margin-top: 80px;
-
 }
 
 .foot_text {

@@ -32,11 +32,13 @@ header {
     color: #394149;
 }
 
-.but1 {
+.but1 input {
+    border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;
     color: #F58A07;
+    font-weight: 600;
 }
 
 
@@ -113,7 +115,7 @@ p {
     gap: 18px;
 }
 
-.type {
+.type input {
     width: 342px;
     height: 54px;
     border-radius: 31px;
@@ -123,12 +125,21 @@ p {
     padding-left: 32px;
 }
 
-.but5 {
+.type input:focus {
+    border-style: none;
+    outline: none;
+}
+
+.but5 input {
     padding: 18px 32px;
     background: #F58A07;
     color: #ffffff;
     border-radius: 31px;
-    width: 156px;
+    border-style: none;
+}
+
+.but5 input:focus {
+    outline: none;
 }
 
 .bottom2 {
@@ -184,7 +195,7 @@ p {
 
 .banner1a {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-content: center;
 }
 
@@ -201,13 +212,14 @@ p {
 
 .banner2 {
     display: flex;
+    justify-content: space-between;
 }
 
 .banner2a {
     width: 46%;
     display: flex;
-    align-content: space-between;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .banner2 img {
@@ -218,9 +230,67 @@ p {
     font-size: 4rem;
     color: #1D3444;
     line-height: 72px;
+    margin: 0;
 }
 
-.but {
+.but a {
     color: #F58A07;
     margin-top: 24px;
+}
+
+
+/* <!--        Latest blog and news         --> */
+
+.latest {
+    margin-top: 128px;
+}
+
+.posts1 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.latest1 {
+    font-size: 3rem;
+    color: #0D1317;
+    line-height: 3.5rem;
+}
+
+.latest2 {
+    display: flex;
+    gap: 40px;
+    flex-flow: row wrap;
+    margin-bottom: 128px;
+}
+
+.post11 {
+    display: flex;
+    flex-direction: column;
+}
+
+.post11 img {
+    height: 230px;
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+
+.latest3 {
+    padding: 0 32px;
+    width: 400px;
+    height: 277px;
+    border-radius: 0 0 20px 20px;
+    background-color: #EDF7FF;
+}
+
+.latest3 p {
+    color: #5b5b5b;
+}
+
+.latest3 h3 {
+    font-size: 1.5rem;
+}
+
+.but3 {
+    color: #F58A07;
 }

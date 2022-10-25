@@ -161,7 +161,7 @@ header {
 
 .fontsmall {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     color: #5B5B5B;
@@ -191,4 +191,8 @@ header {
     line-height: 44px;
     letter-spacing: -0.03em;
     color: #0D1317;
+}
+
+.banner1-div1 {
+    display: flex;
 }
