@@ -294,6 +294,9 @@ footer::after {
 .max-w750 {
     max-width: 750px;
 }
+.w50p {
+   max-width: 50%;
+}
 
 
 .max-wf {
@@ -722,7 +725,6 @@ footer::after {
     margin-bottom: 32px;
 }
 
-#form-input {
-    width: 100%;
-    justify-content: space-around;
+#contact-us {
+    width: 45%;
 }
