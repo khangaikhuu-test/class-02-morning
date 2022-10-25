@@ -108,15 +108,16 @@ section {
                                  /* ARTICLE*/
 .car2_article {
     border: 5px solid hidden;
+    border-radius: 20px;
     background-color: rgba(193, 228, 255, 0.3);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 1280px;
     height: 441px;
-    margin-top;:64px
-    border-radius: 20px;
+    margin-top:64px
 }
+
 .car2_col3 {
     border: 5px solid hidden;
     display: flex;
@@ -164,9 +165,9 @@ section {
 
 }
 
-input[type=text] {
-    /* width: 628px;
-    height: 54px; */
+.input1 input {
+    width: 628px;
+    height: 54px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -179,6 +180,40 @@ input[type=text] {
     font-size: 16px;
     line-height: 19px;
   }
+  .input2 input {
+    width: 628px;
+    height: 54px;
+    padding: 12px 20px;
+    margin: 8px 24px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    color: #9C9C9C;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+.input3 input {
+    width: 1280px;
+    height: 215px;
+    padding: 12px 20px;
+    margin-top: 26px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    color: #9C9C9C;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.input3::placeholder {
+    position: absolute;
+    margin-top: 20px;
+}
 
 #fname {
     font-style: normal;
@@ -209,7 +244,20 @@ input[type=text] {
     flex-direction: column;
     margin-top: 60px;
 }
-  
+.click {
+    margin-top: 25px;
+    border: 1px solid pink;
+    background-color: #F58A07;
+    border-radius: 31px;
+    width: 119px;
+    height: 54px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+
+}
 
 
 
@@ -219,6 +267,7 @@ footer {
     background-color: #063255;
     /* width: 1920px; */
     height: 463px;
+    margin-top: 25px;
 }
 .corner1 {
     border: 1px solid #f58A07;
@@ -289,16 +338,13 @@ footer {
     font-weight: 500;
     line-height: 24px;
 }
-.input2[type=text], select {
-    border: 1px solid white;
-    border-radius:0px ;
-    /* width: 342px; */
-    height: 54px;
-}
 .foot_input {
+    border: 1px solid white;
+    border-radius:31px ;
+    width: 342px;
+    height: 54px;
     font-size: 16px;
     color: #9c9c9c;
-    margin: 18px 0 0 32px;
 }
 .foot_link {
     border: 1px solid #F58A07;
@@ -320,7 +366,6 @@ footer {
     width: 1280px;
     height: 199px;
 }
-
 .foot_box2 {
     display: flex;
     justify-content: space-between;

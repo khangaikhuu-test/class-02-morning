@@ -32,12 +32,13 @@ header {
     color: #394149;
 }
 
-.but1 input{
+.but1 input {
     border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;
     color: #F58A07;
+    font-weight: 600;
 }
 
 
@@ -123,10 +124,12 @@ p {
     align-items: center;
     padding-left: 32px;
 }
+
 .type input:focus {
     border-style: none;
     outline: none;
 }
+
 .but5 input {
     padding: 18px 32px;
     background: #F58A07;
@@ -134,6 +137,7 @@ p {
     border-radius: 31px;
     border-style: none;
 }
+
 .but5 input:focus {
     outline: none;
 }
@@ -229,15 +233,18 @@ p {
     margin: 0;
 }
 
-.but a{
+.but a {
     color: #F58A07;
     margin-top: 24px;
 }
 
+
 /* <!--        Latest blog and news         --> */
+
 .latest {
     margin-top: 128px;
 }
+
 .posts1 {
     display: flex;
     flex-direction: column;
@@ -275,6 +282,7 @@ p {
     border-radius: 0 0 20px 20px;
     background-color: #EDF7FF;
 }
+
 .latest3 p {
     color: #5b5b5b;
 }

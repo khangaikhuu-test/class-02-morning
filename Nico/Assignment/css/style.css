@@ -20,6 +20,10 @@ body {
     margin: 5px 0 5px 0;
 }
 
+main {
+    min-height: calc(100vh - 553px);
+}
+
 .contents {
     max-width: 1280px;
     margin: 0 auto;
@@ -156,6 +160,10 @@ footer {
     color: #FFFFFF;
 }
 
+#footcont {
+    z-index: 1;
+}
+
 .f-logos {
     display: flex;
     flex-direction: column;
@@ -200,6 +208,10 @@ footer {
 .flex-col {
     display: flex;
     flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .article-flex {
@@ -309,6 +321,18 @@ footer {
 /* backgrounds */
 
 /* backgrounds by size */
+
+.l-blue-bg {
+    width: 400px;
+    height: 181px;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+}
+
+.little-contents {
+    padding: 32px 40px;
+}
+
 .little-bg {
     border-radius: 20px;
     height: 242px;
@@ -318,6 +342,7 @@ footer {
 }
 
 .half-bg {
+    position: relative;
     border: 0;
     border-radius: 20px;
     height: auto;
@@ -357,8 +382,12 @@ footer {
 }
 
 #drinking {
-    mix-blend-mode: multiply;
+    width: 616px;
+    height: 650px;
+}
 
+#drinking-container {
+    position: relative;
 }
 
 /* #ribbon {
@@ -382,6 +411,33 @@ footer {
     mix-blend-mode: multiply;
 }
 
+.little-stack {
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    border-radius: 20px;
+}
+
+#microphone {
+    margin: 128px 0 0 -48px;
+}
+
+#img3 {
+    margin: 272px 573px;
+}
+
+#img4 {
+    margin: 217px 0 0 -48px;
+}
+
+#img5 {
+    margin: 272px 573px;
+}
+
+#img6 {
+    margin: 342px 0 0 -48px;
+}
+
 #smiling-stack {
     width: 153px;
     height: 670px;
@@ -389,6 +445,14 @@ footer {
 }
 
 #drinking-stack {
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    width: 180px;
+    height: 650px;
+}
+
+#talking-stack {
+    position: absolute;
     border-radius: 20px 0px 0px 20px;
     width: 180px;
     height: 650px;
@@ -527,7 +591,7 @@ footer {
 .email-input {
     border-radius: 31px;
     padding: 5% 10%;
-    width: calc(342px - 21%)
+    width: calc(342px - 32%)
 }
 
 #subscribed {

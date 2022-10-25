@@ -8,10 +8,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 main {
     margin-top: 80px;
     margin-bottom: 128px;
 }
+
 
 /*      Header       */
 
@@ -38,14 +40,15 @@ header {
     color: #394149;
 }
 
-
-.but1 input{
+.but1 input {
     border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;
     color: #F58A07;
+    font-weight: 600;
 }
+
 
 /*      footer       */
 
@@ -129,10 +132,12 @@ p {
     align-items: center;
     padding-left: 32px;
 }
+
 .type input:focus {
     border-style: none;
     outline: none;
 }
+
 .but5 input {
     padding: 18px 32px;
     background: #F58A07;
@@ -140,6 +145,7 @@ p {
     border-radius: 31px;
     border-style: none;
 }
+
 .but5 input:focus {
     outline: none;
 }
@@ -189,22 +195,25 @@ p {
     margin: 0 auto;
     background-position: center;
 }
+
 .banner1a {
     margin-top: 80px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .banner1b {
     color: #394149;
     margin-right: 21px;
     margin-left: 21px;
 }
+
 .comment {
     max-width: 752px;
     margin: 0 auto;
-    
 }
+
 .comment1 h1 {
     font-size: 4rem;
     line-height: 4.5rem;
@@ -214,6 +223,7 @@ p {
 .comment1 p {
     color: #5b5b5b;
 }
+
 .comment1 h2 {
     font-size: 3rem;
     color: #0D1317;
