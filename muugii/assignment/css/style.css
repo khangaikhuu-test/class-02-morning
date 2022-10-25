@@ -278,29 +278,15 @@ display: flex;
 
 
 }
-.about-main-container
+.abnum
 {
+    display: flex;
     margin: auto;
-    max-width: 1280px;
 }
-
-.about-con{
+.abnum1
+{
    
- display: flex;
- 
-
-}
-.about-feauture {
-    
-    float: left;
-    width: 66px;
-    height: 50px;
-    margin: auto;
-}
-
-.num {
-    
-    font-weight: 700;
+    flex-direction: row;
     font-size: 36px;
     line-height: 50px;
     color: #F58A07;
