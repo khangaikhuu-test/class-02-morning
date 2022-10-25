@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 * {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -22,6 +24,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 50px 0 50px 0;
+    height: calc(100% - 100px);
 }
 
 .contents h2 {
@@ -42,10 +45,13 @@ body {
 }
 
 .align-between {
-    display: flex;
-    flex-direction: column;
     align-content: space-between;
-    height: 100%;
+}
+
+#blue-bg-height {
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100% - 100px)
 }
 
 /* header starts here */
@@ -143,6 +149,19 @@ body {
     align-self: flex-end;
 }
 
+footer {
+    width: 100%;
+    background: #063255;
+    height: 463px;
+    color: #FFFFFF;
+}
+
+.f-logos {
+    display: flex;
+    flex-direction: column;
+
+}
+
 #greyish {
     font-weight: 400;
     font-size: 18px;
@@ -166,13 +185,21 @@ body {
 }
 
 .between {
-    display: flex;
-    width: 100%;
     justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+    flex-grow: 1;
 }
 
 .flex {
     display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }
 
 .article-flex {
@@ -197,6 +224,10 @@ body {
 
 .max-w270 {
     max-width: 270px;
+}
+
+.max-w350 {
+    max-width: 350px;
 }
 
 .max-w400 {
@@ -243,6 +274,15 @@ body {
     color: #0D1317;
 }
 
+.huge-h {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+
+}
+
 .big-h {
     font-size: 48px;
     line-height: 56px;
@@ -258,6 +298,12 @@ body {
     line-height: 106.5%;
     letter-spacing: -0.03em;
     color: #0D1317;
+}
+
+.f-header {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 /* backgrounds */
@@ -307,15 +353,20 @@ body {
 
 #smiling {
     background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png) center / cover;
-    isolation: isolate;
+
 }
 
-#ribbon {
+#drinking {
+    mix-blend-mode: multiply;
+
+}
+
+/* #ribbon {
     background-image: url('../images/Ribbon.png') no-repeat scroll 0 0 transparent;
     background-position: 0 0;
-    z-index: 100;
-    /* background stacks */
-}
+    z-index: 100; */
+
+/* background stacks */
 
 #team {
     background-image: url(../images/team.png);
@@ -337,6 +388,12 @@ body {
     margin: 0;
 }
 
+#drinking-stack {
+    border-radius: 20px 0px 0px 20px;
+    width: 180px;
+    height: 650px;
+}
+
 #phone-talking {
     background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png);
     background-size: cover;
@@ -355,6 +412,10 @@ body {
     height: 178px;
     width: 179px;
     margin: -64px -64px 0 0;
+}
+
+#ribbon-div {
+    width: 100%;
 }
 
 .orange {
@@ -383,8 +444,8 @@ body {
     color: #FFFFFF;
     border-radius: 27px;
     line-height: 17.04px;
-    /* padding: 18px 32px 19px 32px; */
-    padding: 5% 10%;
+    padding: 18px 32px 19px 32px;
+    /* padding: 5% 10%; */
 }
 
 .grey-30 {
@@ -397,10 +458,29 @@ body {
     background: #FFFFFF;
 }
 
+#subscribe {
+    margin-top: 16px;
+}
+
 .font-18 {
     font-size: 18px;
 }
 
+#orange-border1 {
+    align-self: flex-end;
+    background: #F58A07;
+    width: 53px;
+    height: 144px;
+    border-radius: 0 20px 0 0;
+}
+
+#orange-border2 {
+    margin-top: 38px;
+    background: #F58A07;
+    width: 53px;
+    height: 287px;
+    border-radius: 20px 0 0 20px;
+}
 
 #orange-bg-half {
 
@@ -431,6 +511,61 @@ body {
     overflow: hidden;
 }
 
-.img-cover {
+.img-cover {}
 
+#fins-logo-white {
+    width: 120px;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+/* inputs */
+
+.email-input {
+    border-radius: 31px;
+    padding: 5% 10%;
+    width: calc(342px - 21%)
+}
+
+#subscribed {
+    text-align: center;
+    height: calc(100vh - 650px);
+}
+
+#video-image {
+    width: 620px;
+    height: 501px;
+    background: url(../images/video-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#play-button {
+    border: 0;
+    align-self: flex-end;
+    margin: 0 0 40px 40px;
+    background: white;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+}
+
+#play-icon {
+    margin: 17px 15px;
+}
+
+#play-video {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 101.8%;
+    text-transform: capitalize;
+    color: white;
+    align-self: flex-end;
+    margin: 0 0 55px 17px
 }

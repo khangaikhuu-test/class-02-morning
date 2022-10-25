@@ -32,7 +32,9 @@ header {
     color: #394149;
 }
 
-.but1 {
+
+.but1 input{
+    border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;
@@ -88,7 +90,7 @@ header {
     gap: 72px;
 }
 
-.services span {
+.serbut {
     padding: 18px 32px;
     background-color: #F58A07;
     color: #ffffff;
@@ -216,6 +218,7 @@ header {
 
 .icons p {
     line-height: 28px;
+    color: #5B5B5B;
 }
 
 
@@ -283,7 +286,6 @@ header {
 
 
 /*      part 2       */
-
 .part2 {
     height: 682px;
     background-color: #EDF7FF;
@@ -292,11 +294,15 @@ header {
     justify-content: space-around;
     border-radius: 20px;
     margin: 95px 0 128px 0;
-    background-image: url(./images/Ribbon.png);
-    background-repeat: no-repeat;
-    background-position: top right;
+    position: relative;
 }
-
+.ribbon img{
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    right: -16px;
+    top: -16px;
+}
 .part2head {
     display: flex;
     justify-content: left;
@@ -418,6 +424,7 @@ header {
 .video1 h1 {
     font-size: 3rem;
     color: #0d1317;
+    font-weight: 600;
 }
 
 .video1 p {
@@ -494,6 +501,7 @@ header {
     color: #0D1317;
     line-height: 3.5rem;
     padding-top: 96px;
+    font-weight: 600;
 }
 
 .latest2 {
@@ -595,7 +603,7 @@ p {
     gap: 18px;
 }
 
-.type {
+.type input {
     width: 342px;
     height: 54px;
     border-radius: 31px;
@@ -604,13 +612,19 @@ p {
     align-items: center;
     padding-left: 32px;
 }
-
-.but5 {
+.type input:focus {
+    border-style: none;
+    outline: none;
+}
+.but5 input {
     padding: 18px 32px;
     background: #F58A07;
     color: #ffffff;
     border-radius: 31px;
-    width: 156px;
+    border-style: none;
+}
+.but5 input:focus {
+    outline: none;
 }
 
 .bottom2 {
@@ -684,12 +698,15 @@ p {
     width: 510px;
     margin: 24px 0;
 }
-
 .but6 {
+    margin-top: 24px;
+}
+.but6 a{
     background: #F58A07;
     color: #ffffff;
     padding: 18px 32px;
     border-radius: 27px;
+    
 }
 
 .s1b {
@@ -842,6 +859,7 @@ li {
     font-size: 3rem;
     color: #0D1317;
     margin-bottom: 64px;
+    font-weight: 600;
 }
 
 .m1 {

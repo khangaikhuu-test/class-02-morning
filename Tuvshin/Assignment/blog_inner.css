@@ -4,8 +4,11 @@
     font-family: 'Poppins', sans-serif;
     /* margin: 0;
     padding: 0; */
+    
 }
-
+.blog_inner {
+    margin:0 0 0 130px;
+}
                      /* HEAD NAV*/
 .head_container {
     display: flex;
@@ -24,17 +27,22 @@
     margin: 0 0 0 470px;
 }
 .header_link {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 17px;
-    padding: 18px 32px;
     width: 190px;
     height: 52px;
-    color:#F58A07;
     border: 0px solid rgba(245, 138, 7, 0.1);
     background-color: rgba(245, 138, 7, 0.1);
     border-radius: 31%;
     margin: -15px 0 0 47px;
+    padding-top: 13px;
+    padding-left: 32px;
+
+}
+.header_link a {
+    color:#F58A07;
+    font-size: 16px;
+    font-weight: 600;
+    /* line-height: 17px; */
+    text-decoration: none;
 }
 .header_menu a {
     font-size: 16px;
@@ -90,6 +98,7 @@ footer {
     background-color: #063255;
     /* width: 1920px; */
     height: 463px;
+    margin-top: 128px;
 }
 .corner1 {
     border: 1px solid #f58A07;

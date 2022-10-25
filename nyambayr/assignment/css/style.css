@@ -1,10 +1,10 @@
 * {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
   box-sizing: border-box;
   /* font-size: 16px;
     line-height: 24px; */
 }
+
 .container {
   max-width: 1280px;
   margin: auto;
@@ -29,13 +29,22 @@
   margin: auto;
   max-width: 1280px;
 }
+
+.mainlogo {
+  margin-top: 28px;
+  width: 122px;
+  height: 28px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   margin-right: 50px;
+  color: #394149;
 }
+
 .navbar {
   display: flex;
   align-content: space-around;
@@ -43,12 +52,10 @@ nav {
   column-gap: 30px;
   list-style: none;
   margin-left: 50px;
+  font-size: 16px;
+  font-weight: 600;
 }
-.mainlogo {
-  margin-top: 28px;
-  width: 122px;
-  height: 28px;
-}
+
 .callout {
   width: 173px;
   height: 52px;
@@ -61,16 +68,22 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
 }
+
 a:link {
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: none;
 }
+
 a {
   color: inherit;
 }
+
 /* menu/slider heseg duusav */
 
 /* main heseg ehlev */
@@ -80,28 +93,32 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.main1 {
-  font-size: 48px;
+
+h1 {
+  font-weight: 600;
+  font-size: 64px;
   line-height: 72px;
-  color: #1d3444;
-  font-weight: bold;
-  line-height: 72px;
+  margin-top: 117px;
   letter-spacing: -0.03em;
-  text-align: left;
+  color: #1d3444;
 }
+
 .maintext {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
   color: #5b5b5b;
 }
+
 .main-buttons {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 30px;
+  margin-top: 32px;
+  gap: 32px;
   align-items: center;
 }
+
 .button1 {
   width: 199px;
   height: 54px;
@@ -113,38 +130,46 @@ a {
   justify-content: center;
   color: #ffffff;
 }
-.button1 {
-  width: 199px;
-  height: 54px;
-  border-radius: 27px;
-  background: #f58a07;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
+
+.button2 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #1d3444;
 }
-.p1 {
-  margin-top: 50px;
-  display: flex;
+
+.content1-sta {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: #394149;
-  opacity: 0.5;
+  color: rgba(57, 65, 73, 0.5);
+  margin-top: 56px;
 }
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b5b5b;
+}
+
 .logo1 {
   width: 143px;
   height: 33px;
 }
+
 .logo2 {
   width: 134px;
   height: 31px;
 }
+
 .logo3 {
   width: 140px;
   height: 32px;
 }
+
 .small-logos {
   display: flex;
   flex-direction: row;
@@ -158,28 +183,30 @@ a {
   margin-top: 85px;
 }
 
-/*This is content-2*/
+/*This is CONTENT-2*/
 
-h2 {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-content: center;
-  margin-right: 500px;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 56px;
-  letter-spacing: -0.03em;
-  text-align: left;
+.content2 {
+  margin-top: 96px;
 }
 
-.h2-content {
-  margin-right: 500px;
+h2 {
+  color: #1d3444;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  display: block;
+  max-width: 735px;
+}
+
+.content2-text {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
+  color: #5b5b5b;
+  max-width: 735px;
 }
 
 .h2-post1 {
@@ -190,6 +217,7 @@ h2 {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .column-container {
   display: flex;
   align-items: center;
@@ -197,6 +225,7 @@ h2 {
   column-gap: 40px;
   margin: 50px 0;
 }
+
 .column-img {
   border-radius: 20px;
   overflow: hidden;
@@ -205,12 +234,14 @@ h2 {
   border-radius: 20px;
   margin-bottom: 33px;
 }
+
 .column-title {
   font-size: 24px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: -0.03em;
   text-align: left;
+  color: #0d1317;
 }
 
 .column-content {
@@ -219,31 +250,39 @@ h2 {
   line-height: 28px;
   letter-spacing: -0.03em;
   text-align: left;
+  color: #5b5b5b;
+  width: 380px;
 }
 
 .more-button {
   color: #f58a07;
 }
 
-/*This is content3-*/
+/*This is CONTENT - 3 */
 
 .content3 {
   display: flex;
   background-color: #dceaf5;
   height: 665px;
+  margin-top: 96px;
+  margin-bottom: 64px;
 }
 
 h3 {
   color: #0d1317;
-  font-weight: 600;
   font-size: 36px;
+  font-weight: 600;
   line-height: 44px;
   letter-spacing: -0.03em;
+  width: 619px;
 }
 
-.content3 h3 {
-  margin-top: 96px;
-  margin-bottom: 64px;
+.content3-text {
+  width: 620px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1d3444;
 }
 
 .content3-row {
@@ -253,28 +292,34 @@ h3 {
 }
 
 .content3-box {
-  width: 32%;
+  width: 31%;
   border-radius: 20px;
   text-align: left;
   background: #ffffff;
   padding: 41px;
 }
 
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0d1317;
+}
+
 /*This is content4-*/
 
-
-.content4{
-  display:flex;
-  
-}
-.content-left{
-  width:596px;
-  height:549px;
+.content4 {
+  display: flex;
 }
 
-.upper-text1{
-  width:596px;
-  height:157px;
+.content-left {
+  width: 596px;
+  height: 549px;
+}
+
+.upper-text1 {
+  width: 596px;
+  height: 157px;
   font-weight: 600;
   font-size: 48px;
   line-height: 56px;
@@ -282,46 +327,53 @@ h3 {
   color: #0d1317;
   margin-top: 166px;
 }
-.upper-text2{
+
+.upper-text2 {
   width: 510px;
   height: 120px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 500;
-  color:#5b5b5b;
+  color: #5b5b5b;
   margin-top: 32px;
 }
-.bottom-text{
-  display:flex;
 
+.bottom-text {
+  display: flex;
 }
-.bottom-text11{
+
+.bottom-text11 {
   font-weight: 700;
   font-size: 36px;
   line-height: 50px;
-  color:#f58a07;
+  margin-top: 48px;
+  color: #f58a07;
 }
-.bottom-text12{
+
+.bottom-text12 {
   font-weight: 600;
   font-size: 24px;
   line-height: 106.5%;
-  color:#0d1317;
+  color: #0d1317;
   letter-spacing: -0.03em;
 }
-.bottom-text13{
+
+.bottom-text13 {
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: #5b5b5b;
 }
-.bottom-text1{
-  display:flex;
+
+.bottom-text1 {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   gap: 16px;
   width: 40%;
 }
-.content-right{
+
+.content-right {
   background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/about-image.png);
   margin-top: 96px;
   background-color: #f58a07;
@@ -332,12 +384,352 @@ h3 {
 }
 
 #orange-box {
-    background-color: #f58a07;
-    mix-blend-mode: multiply;
-    width: 153px;
-    height: 670px;
-    border-radius: 20px 0 0 20px;
+  background-color: #f58a07;
+  mix-blend-mode: multiply;
+  width: 153px;
+  height: 670px;
+  border-radius: 20px 0 0 20px;
 }
-/* main heseg duusav */
 
-/* footer heseg ehlev */
+/*This is content5-*/
+
+* .help-content-container {
+  display: flex;
+  margin-left: 48px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.content5-text {
+  background-color: #edf7ff;
+  margin-top: 85px;
+  border-radius: 20px;
+  height: 682px;
+}
+
+.content5-above {
+  margin-top: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+.content5h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  width: 572px;
+  color: #0d1317;
+  margin-top: 88px;
+}
+
+.content5h3 {
+  margin-top: 25px;
+  width: 510px;
+}
+
+.content5-link1 {
+  margin-top: 48px;
+  font-size: 16px;
+  width: 194px;
+  height: 40px;
+  color: #f58a07;
+  background-color: #ffffff;
+  border-radius: 31px;
+  text-align: center;
+  padding: 8px 24px 8px 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.content5-link2 {
+  margin-top: 48px;
+  margin-left: 24px;
+  width: 183px;
+  height: 40px;
+  color: rgba(6, 50, 85, 0.3);
+  border: 1px solid #a8bccc;
+  border-radius: 31px;
+  text-align: center;
+  padding: 8px 20px 8px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.content5-image {
+  background: url(../images/Content5-Image.png);
+  border-radius: 20px;
+  width: 472px;
+  height: 466px;
+  margin-top: 168px;
+  margin-left: 100px;
+  margin-right: 42.39px;
+}
+
+.content5-orange {
+  background-color: #f58a07;
+  width: 120px;
+  height: 466px;
+  border-radius: 20px 0 0 20px;
+  mix-blend-mode: multiply;
+}
+
+.content5-ribbon {
+  position: absolute;
+  margin-left: 1119px;
+  margin-top: -700px;
+}
+
+/*This is CONTENT - 6 */
+
+.content6 {
+  height: 518px;
+  background-color: #f58a07;
+}
+
+.content6-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content6-image {
+  width: 50%;
+  background: url(../images/Content6-Image.png) no-repeat center / cover #f58a07;
+}
+
+.content6-text {
+  background-color: #f58a07;
+  padding: 128px 0 0 128px;
+  width: 50%;
+  height: 518px;
+}
+
+.content6-text h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 60px;
+  width: 480px;
+}
+
+.content6-button {
+  background-color: #fff;
+  padding: 18px 32px;
+  color: #f58a07;
+  font-weight: 600;
+  border-radius: 27px;
+  margin-top: 40px;
+}
+
+/*This is CONTENT - 7 */
+
+.content7 {
+  display: flex;
+  margin-top: 128px;
+}
+
+.content7-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 128px;
+}
+
+.content7-left {
+  display: auto;
+  max-width: 550px;
+}
+
+.content7-intro {
+  display: flex;
+}
+
+.content7-CEO {
+  margin-left: 24px;
+  font-size: 24px;
+  width: 500;
+  color: #063255;
+}
+
+.content7-JOB {
+  margin-left: 24px;
+  font-size: 18px;
+  width: 500;
+  color: #f58a07;
+}
+
+.content7-right {
+  margin-left: 110px;
+}
+
+.content7-video {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 40px;
+}
+
+.content7-icon {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 88px 0;
+}
+
+.content7-Vtext {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/*This is CONTENT - 8 */
+
+.content8 {
+  background-color: #dceaf5;
+  height: 819px;
+  display: flex;
+}
+
+.content8-text {
+  margin-top: 96px;
+}
+
+.content8-back {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.content8-max {
+  background-color: white;
+  border-radius: 20px;
+  width: 399px;
+}
+
+.content8-img img {
+  border-radius: 20px 20px 0 0;
+}
+
+.content8-margin {
+  margin: 32px;
+}
+
+/* FOOTER heseg ehlev */
+
+footer {
+  background-color: #063255;
+  height: 463px;
+}
+
+.footerlogo {
+  margin-top: 80px;
+}
+
+.footer-company {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  width: 351px;
+  margin-top: 32px;
+}
+
+.footer-column {
+  display: flex;
+}
+
+.social {
+  margin-top: 35.33px;
+}
+
+.allrights img {
+  margin-top: 86.7px;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-left: 110px;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 110px;
+}
+
+.join {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-left: 137px;
+}
+
+.email {
+  width: 342px;
+  height: 54px;
+  color: #9c9c9c;
+  background-color: #ffffff;
+  border-radius: 31px;
+  margin-top: 24px;
+  margin-bottom: 17px;
+  margin-left: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: 150px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.subscribe {
+  width: 156px;
+  height: 54px;
+  color: white;
+  background-color: #f58a07;
+  border-radius: 31px;
+  margin-top: 16px;
+  margin-bottom: 17px;
+  margin-left: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.privacy {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 181px;
+  margin-top: 122px;
+}
+
+.right-orange {
+  margin-left: 267px;
+  margin-top: 38px;
+}
+
+.left-orange {
+  margin-right: 267px;
+  margin-top: 319px;
+}
+
+.footer-container {
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+}

@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+form
+{
+    border: 2px solid gray;
+    max-width: 400px;
+    margin: auto;
+}
+.row
+{
+    margin: 5px 30px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    margin: right 30px;
+    margin-left: 30px;
+}

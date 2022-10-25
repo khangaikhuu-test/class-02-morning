@@ -776,6 +776,8 @@ footer a {
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 60px;
+    margin-bottom: 50px;
+    width: 50%;
 }
 
 
@@ -793,9 +795,9 @@ footer a {
     margin-bottom: 70px;
 }
 
-.contact-section-col2 img {
-    border-radius: 20px;
-
+.contact-section-col2 {
+    border-radius: 20px;    
+    width: 50%;
 }
 
 #orange-btn {
@@ -1213,7 +1215,7 @@ footer a {
 }
 
 #blog-header-text {
-    width: 80%;    
+    width: 80%;
 }
 
 #blog-header-link {
@@ -1339,7 +1341,7 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-right: 60px;
+    margin-right: 24px;
 }
 
 
@@ -1368,16 +1370,53 @@ footer a {
     margin-bottom: 30px;
 }
 
-
-
-
 .apply-heseg {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
 
+/* -------------Form--------------- */
 
+input {
+    border-radius: 27px;
+    border: none;
+    padding: 20px;
+    background-color: rgba(210, 218, 237, 0.17);
+    margin-top: 10px;
+}
 
+textarea {
+    border-radius: 27px;
+    border: none;
+    padding: 20px;
+    background-color: rgba(210, 218, 237, 0.17);
+    margin-top: 10px;
+}
 
+footer input {
+    border-radius: 31px;
+    border: none;
+    padding: 20px 150px 20px 30px;
+    background-color: #fff;
+    margin-top: 10px;
+}
 
+.apply-heseg input {
+    border-radius: 27px;
+    border: none;
+    padding: 20px 430px 20px 30px;
+    background-color: rgba(210, 218, 237, 0.17);
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+
+.apply-heseg textarea {
+    border-radius: 27px;
+    border: none;
+    padding: 20px;
+    background-color: rgba(210, 218, 237, 0.17);
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    margin-bottom: 32px;
+}

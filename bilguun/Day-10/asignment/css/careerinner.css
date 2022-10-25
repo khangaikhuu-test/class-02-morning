@@ -1,0 +1,273 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+/*      footer       */
+
+footer {
+    background-color: #063255;
+    position: relative;
+}
+
+.bottom a,
+p {
+    color: #ffffff;
+}
+
+.bottom1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.bottom1a h2 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.vectors img {
+    margin-right: 21px;
+}
+
+.bottom1b {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-size: 1.125rem;
+}
+
+.bottom1b p {
+    margin-top: 0;
+}
+
+.bottom1b a {
+    margin: 8px 0 8px 0;
+}
+
+.bottom1c {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom1c a {
+    margin-bottom: 16px;
+}
+
+.bottom1c p {
+    margin: 8px 0 8px 0;
+}
+
+.bottom1c a {
+    font-size: 1.125rem;
+}
+
+.bottom1d p {
+    font-size: 1.125rem;
+    margin-top: 0;
+}
+
+.bottom1d {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 18px;
+}
+
+.type input {
+    width: 342px;
+    height: 54px;
+    border-radius: 31px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+.type input:focus {
+    border-style: none;
+    outline: none;
+}
+.but5 input {
+    padding: 18px 32px;
+    background: #F58A07;
+    color: #ffffff;
+    border-radius: 31px;
+    border-style: none;
+}
+.but5 input:focus {
+    outline: none;
+}
+
+.bottom2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 84px 0 84px 0;
+}
+
+.bottom2b {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.text7 {
+    color: #ffffff;
+}
+
+.shapeleft {
+    width: 53px;
+    height: 144px;
+    border-radius: 0px 20px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #F58A07;
+}
+
+.shaperight {
+    width: 53px;
+    height: 287px;
+    background: #F58A07;
+    position: absolute;
+    border-radius: 20px 0 0 20px;
+    right: 0;
+    top: 38px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap: 32px;
+    padding: 30px 0;
+    color: #394149;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #394149;
+}
+
+.but1 input{
+    border-style: none;
+    background: #F58A071A;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: #F58A07;
+}
+
+
+/*      Part 1       */
+.part1 {
+    margin-top: 108px;
+}
+.text1 {
+    font-size: 4rem;
+    color: #1D3444;
+    line-height: 4.5rem;
+}
+.m-text {
+    display: flex;
+    flex-direction: row;
+    gap: 284px;
+    margin: 64px 0 64px 0;
+}
+.text2 h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #0D1317;
+}
+.text2 p {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #5b5b5b;
+    max-width: 640px;
+}
+
+/*      Part 2       */
+.text3 h2{
+    font-size: 1.5rem;
+    color: #0D1317;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.text3 {
+    color: #F58A07;
+    font-size: 1.5rem;
+}
+.text4 {
+    color: #5b5b5b;
+}
+
+.part2 {
+    display: flex;
+    gap: 92px;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 68px;
+}
+.part3 {
+    margin-top: 128px;
+}
+.form {
+    margin-top: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.style1 {
+    
+    width: 49%;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: rgba(156, 156, 156, 1);
+    padding: 18px 0 18px 32px;
+}
+
+.style2 {
+    width: 100%;
+    height: 215px;
+    border-radius: 27px;
+    background-color: rgba(210, 218, 237, 0.17);
+    color: rgba(156, 156, 156, 1);
+    padding: 18px 32px 18px 32px;
+}
+
+.submit {
+    color: #ffffff;
+    padding: 18px 32px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}   
+
+input:focus {
+    outline: none;
+}
+
+input {
+    border-style: none;
+}
+textarea {
+    border-style: none;
+}
