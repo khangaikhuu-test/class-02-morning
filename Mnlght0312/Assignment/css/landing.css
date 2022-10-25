@@ -498,5 +498,22 @@ footer p {
 .cactus {
     color: white;
 }
-
-
+.loxem {
+    align-self: center;
+}
+.gray li {
+    margin-bottom: 10px;
+}
+.mac img {
+    margin: 128px 0px;
+    border-radius: 20px;
+}
+.book {
+    margin: 128px 0px;
+}
+.ospring {
+    gap: 0 !important;
+}
+.trmt {
+    margin-top: 50px;
+}
