@@ -64,7 +64,6 @@
     height: 182px;
     margin: 122px 435px 64px 0;
     /* end margin bottom 64 -  daragiin text check */
-
 }
 .cont_column1{
     display: flex;
@@ -102,7 +101,6 @@
     font-weight: 500;
     color: #5b5b5b;
     margin-top: 16px;
-
 }
 .cont_text2 {
     font-size: 18px;
@@ -120,8 +118,6 @@
     color: #5b5b5b;
     margin-left: 0;
     margin-top: 16px;
-
-
     /* width: 160px;
     height: 30px; */
 }
@@ -129,6 +125,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 150px;
 
 }
 .cont_input2{
@@ -138,25 +135,43 @@
     height: 456px;
 }
 
-input[type=text], select {
+.first-name {
     border: 1px solid white;
     border-radius:31px ;
-  
+    width: 605px;
     height: 54px;
     background-color: rgba(210, 218, 237, 0.17);
     padding: 8px 0 0 32px;
-
+}
+.type-message {
+    border: 1px solid white;
+    border-radius:31px ;
+    width: 605px;
+    height: 200px;
+    background-color: rgba(210, 218, 237, 0.17);
+    padding-left: 30px;
+    padding-top: 0;
 }
 
+.type-message::placeholder{
+    position: absolute;
+    margin-top: 20px;
+}
 
+.click {
+    margin-top: 25px;
+    border: 1px solid pink;
+    background-color: #F58A07;
+    border-radius: 31px;
+    width: 119px;
+    height: 54px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
 
-
-
-
-
-
-
-
+}
 
                         /* FOOTER SECTION #9 */
 footer {
@@ -164,6 +179,7 @@ footer {
     background-color: #063255;
     /* width: 1920px; */
     height: 463px;
+    margin-top: 25px;
 }
 .corner1 {
     border: 1px solid #f58A07;
@@ -234,16 +250,13 @@ footer {
     font-weight: 500;
     line-height: 24px;
 }
-input[type=text], select {
+.foot_input {
     border: 1px solid white;
     border-radius:31px ;
     width: 342px;
     height: 54px;
-}
-.foot_input {
     font-size: 16px;
     color: #9c9c9c;
-    margin: 18px 0 0 32px;
 }
 .foot_link {
     border: 1px solid #F58A07;

@@ -32,13 +32,15 @@ header {
     color: #394149;
 }
 
-.but1 input{
+.but1 input {
     border-style: none;
     background: #F58A071A;
     padding: 18px 30px;
     border-radius: 30px;
     color: #F58A07;
+    font-weight: 600;
 }
+
 
 /*      footer       */
 
@@ -122,10 +124,12 @@ p {
     align-items: center;
     padding-left: 32px;
 }
+
 .type input:focus {
     border-style: none;
     outline: none;
 }
+
 .but5 input {
     padding: 18px 32px;
     background: #F58A07;
@@ -133,6 +137,7 @@ p {
     border-radius: 31px;
     border-style: none;
 }
+
 .but5 input:focus {
     outline: none;
 }
@@ -189,7 +194,9 @@ p {
     color: #394149;
 }
 
+
 /*      Part 1       */
+
 .part1 {
     display: flex;
     justify-content: space-between;
@@ -197,28 +204,42 @@ p {
     margin-top: 108px;
     margin-bottom: 64px;
 }
+
 .part1 p {
     font-size: 1.125rem;
     color: #5b5b5b;
-    line-height: 2rem;
+    line-height: 1.7rem;
 }
+
 .text1 {
     font-size: 3rem;
     line-height: 4rem;
     color: #1d3444;
     width: 43.8%;
 }
+
 .text2 {
     font-size: 1.5rem;
     line-height: 2rem;
     color: #0d1317;
 }
+
+.text4 {
+    font-size: 1.125rem;
+    color: #5b5b5b;
+    line-height: 2rem;
+    margin-top: 18px;
+}
+
 .text3 {
     width: 49%;
     display: flex;
     gap: 76px;
 }
+
+
 /*      Part 3       */
+
 .form {
     display: flex;
     flex-direction: column;
@@ -250,7 +271,7 @@ p {
     border-radius: 31px;
     margin-top: 32px;
     margin-bottom: 128px;
-}   
+}
 
 input:focus {
     outline: none;
@@ -259,6 +280,7 @@ input:focus {
 input {
     border-style: none;
 }
+
 textarea {
     border-style: none;
 }
@@ -275,6 +297,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
 }
+
 .part3 {
     margin-bottom: 128px;
 }
