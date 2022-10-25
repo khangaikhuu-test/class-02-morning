@@ -1,19 +1,18 @@
 * { 
-    max-width: 1280px;
     font-family: 'Poppins' , sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     box-sizing: border-box;
 }
-body{
+
+/* .container{
     max-width: 1280px;
-    box-sizing: border-box;
-}
-.container{
-    max-width: 1280px;
-}
+    margin: auto;
+} */
 header{
+    max-width: 1280px;
+    margin: auto;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
@@ -44,15 +43,16 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 .navbar{
     display: flex;
-    align-content: space-around;
+    align-items: center;
     justify-content: space-around;
-    column-gap:30px;
+    column-gap:32px;
     list-style: none;
+    color: #394149;
 }
 a:link{
     text-decoration: none;
@@ -64,6 +64,8 @@ a{
     color: inherit;
 }
 main{
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     height:703px;
     background: #dceaf5;
@@ -155,8 +157,11 @@ main{
     align-self: flex-end;
 }
 .help-main{
+    max-width: 1280px;
+    margin: auto;
     display:flex;
     flex-direction: column;
+    margin-top: 96px;
 
 }
 .header2{
@@ -165,8 +170,12 @@ main{
     font-size: 48px;
     line-height: 56px;
     font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .help-p{
+    margin-top: 27px;
+    margin-bottom: 0px;
     width:735px;
     height:90px;
     font-size: 18px;
@@ -233,6 +242,8 @@ main{
     line-height: 44px;
     width: 619px;
     height:132px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .feature2{
     font-size:18px;
@@ -241,6 +252,8 @@ main{
     width: 620px;
     height:102px;
     color: #1d3444;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .feature3{
     display:flex;
@@ -405,6 +418,8 @@ main{
     line-height: 56px;
     letter-spacing: -0.03em;
     color:#0d1317;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .service-p{
     width: 510px;
@@ -413,9 +428,12 @@ main{
     font-size: 18px;
     line-height: 30px;
     color:#5b5b5b;
+    margin-top: 25px;
+    margin-bottom: 0px;
 
 }
 .service-button{
+    margin-top: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 106.5%;
@@ -437,6 +455,9 @@ main{
 }
 .ct{
     display: flex;
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 128px;
 }
 .ct-pic{
     background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png) center / cover;
@@ -480,16 +501,22 @@ main{
     
 }
 .video{
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     margin-top: 128px;
+    align-items: center;
 }
 .video-left{
     display: flex;
     flex-direction: column;
     width: 550px;
     height: 346px;
+    justify-content: center;
 }
 .video-h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 550px;
     height: 112px;
     font-weight: 600;
@@ -500,6 +527,8 @@ main{
     color: #0d1317;
 }
 .video-p{
+    margin-top: 24px;
+    margin-bottom: 0px;
     width: 550px;
     height: 90px;
     font-weight: 500;
@@ -594,6 +623,7 @@ main{
     text-transform: capitalize;
     color: #0d1317;
     margin-top: 96px;
+    margin-bottom: 0px;
 }
 .latest-bottom{
     display: flex;

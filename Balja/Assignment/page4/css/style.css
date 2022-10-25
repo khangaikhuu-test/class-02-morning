@@ -1,9 +1,11 @@
 *{
-    max-width: 1280px;
+    
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 navbar{
+    max-width: 1280px;
+    margin: auto;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
@@ -49,6 +51,8 @@ a{
     color: inherit;
 }
 header{
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     width: 1280px;
     height: 749px;
@@ -112,7 +116,8 @@ header{
     border-radius: 20px;
 }
 .latest{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 1174px;
     display: flex;
     flex-direction: column;
@@ -200,7 +205,8 @@ header{
     margin-left: 32px;
 }
 .footer-container{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 463px;
     background:#063255;
     display: flex;
