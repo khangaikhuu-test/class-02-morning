@@ -91,22 +91,6 @@
     list-style: disc;
 }
 
-  .imageBox1 {
-    height: 650px;
-    width: 616px;
-  }
-
-  .imageBox2 {
-    height: 550px;
-    width: 620px;
-    border-radius: 20px;
-  }
-
-  .imageBox3 {
-    height: 501px;
-    width: 620px;
-  }
-
   .medium-title {
     font-size: 3rem;
     line-height: 56px;
@@ -147,6 +131,7 @@
     width: 616px;
 }
 
+/* Background ongo 2-iig holij gargaw */
 .doubleBlend {
     background: url(../images/drink-coffee.jpg), #f58a07;
     height: 650px;
@@ -165,12 +150,15 @@
     width: 620px;
 }
 
+/* Orange ongotei mix multiply hiiw */
 .doubleBlend2 {
     position: absolute;
-    background: url(../images/podcasting.jpg), #f58a07;
+    background: #f58a07;
     height: 97px;
     width: 95px;
-    background-blend-mode: multiply;
+    mix-blend-mode: color;
+    mix-blend-mode: hue;
+    mix-blend-mode: multiply;
     border-radius: 20px;
     left:-48px;
     top: 128px;
@@ -205,10 +193,12 @@
 
 .doubleBlend4 {
     position: absolute;
-    background: url(../images/risk-assessment.jpg), #f58a07;
+    background: #f58a07;
     height: 97px;
     width: 95px;
-    background-blend-mode: multiply;
+    mix-blend-mode: color;
+    mix-blend-mode: hue;
+    mix-blend-mode: multiply;
     border-radius: 20px;
     left: -48px;
     top: 217px;
@@ -224,10 +214,10 @@
 
 .doubleBlend5 {
     position: absolute;
-    background: url(../images/artificiall-intelligence.jpg), #f58a07;
+    background: #f58a07;
     height: 97px;
     width: 95px;
-    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
     border-radius: 20px;
     right: -48px;
     top: 272px;
@@ -243,10 +233,10 @@
 
 .doubleBlend6 {
     position: absolute;
-    background: url(../images/smart-contract.jpg), #f58a07;
+    background: #f58a07;
     height: 97px;
     width: 95px;
-    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
     border-radius: 20px;
     left: -48px;
     top: 342px;
@@ -367,7 +357,12 @@
     margin: 32px 32px 0 32px;
   }
   
-  #blog-news .container .flex-col .container-card2 .card-white2 .med-title2-p {
+  #blog-news 
+  .container 
+  .flex-col 
+  .container-card2 
+  .card-white2 
+  .med-title2-p {
     font-size: 1rem;
     font-weight: 500;
     line-height: 28px;
