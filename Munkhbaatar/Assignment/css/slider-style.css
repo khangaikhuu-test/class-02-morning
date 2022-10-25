@@ -631,6 +631,12 @@ span {
 .footer-c .text-18px {
   color: #ffffff;
   padding-bottom: 32px;
+  text-decoration: none;
+}
+
+.footer-c a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-c input {
@@ -1166,4 +1172,15 @@ ul {
   width: 119px;
   height: 54px;
   margin-top: 15px;
+}
+
+
+
+/* ------------- CAREERS INNER FORM  -------------*/
+.contact-us-submission-c {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 30vh;
+  margin-bottom: 100px;
 }
