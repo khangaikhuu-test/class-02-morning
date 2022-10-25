@@ -3,6 +3,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.container
+{
+    margin: auto;
+    max-width: 1280px;
+}
 /*header heseg ehlev*/
 header {
     display: flex;
@@ -42,7 +47,7 @@ nav a {
     width: 173px;
     height: 52px;
 }         /*navbar duusav*/
-.header
+.header-image
 {
    
    background: #DCEAF5;
@@ -51,11 +56,38 @@ nav a {
    width: 1994.63px;
    height: 749px;
 }
-.header-container /*video section start*/
-{       display: flex;
-        margin: 0 auto;
-        max-width: 1280px;
+
+
+.header
+{
+    display: flex;
 }
+
+.header-image
+{
+    display: flex;
+}
+.header-image h6
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #394149;
+    opacity: 0.87;
+    width: 123px;
+    height: 32px;
+    margin-top: 161px;
+    margin-left: 8px; 
+}
+
+
+
+
+
+
+
+
+/* 
 
 .header-image
     {
@@ -69,18 +101,7 @@ nav a {
         margin-top: 161px;
         border-radius: 20px;
     }
- .header-image h6
-    {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 32px;
-        color: #394149;
-        opacity: 0.87;
-        width: 123px;
-        height: 32px;
-        margin-top: 161px;
-        margin-left: 8px; 
-    }
+
 .header-image p
     {   
         margin-top: 161px;
@@ -98,10 +119,10 @@ nav a {
 .header-left
 {
    max-width: 1280px;
-   display: inline-block;
-   margin-left: -400px;
+   /* display: flex;
+   margin-left: -750px; }
 
-}
+
 .header-left h2
 {   
     max-width: 1280px;
@@ -141,14 +162,16 @@ nav a {
         background: url('../images/blog2.jpg');
         border-radius: 20px;
         margin-top: 128px;
-        margin-left: 176px;
-    }   /*header section finish*/
+        
+    }   */
+
     .Lasest-section    /*lasest section start*/
     {
         background: #DCEAF5;
         height: 819px;
         margin: auto;
         max-width: 1280px;
+        
         
     
     }
@@ -159,16 +182,19 @@ nav a {
         line-height: 56px;
         letter-spacing: -0.03em;
         color: #0D1317;
-        margin-top: 128px;
-        display: inline-flex;
-        flex-wrap: row wrap;
-        margin: 40px;
+        margin: 0 auto;
+        max-width: 1280px;
+       
+      
      
     }
     
     .blog-items {
         margin-top: 64px;
          margin: 40px;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 40px;
     }
     
     .blog-items img {
