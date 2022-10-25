@@ -803,7 +803,7 @@ margin: 0 auto;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF ;
-    margin-top: 16px;
+   
 } 
 .footer-company p:nth-child(4)
 {
@@ -811,9 +811,9 @@ margin: 0 auto;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    margin-top: 16px;
+    
 }  
-.footer-company p:nth-child(6)
+.footer-company p:nth-child(5)
 {
     font-weight: 500;
     font-size: 16px;
