@@ -1,0 +1,14 @@
+body {
+    margin: 10px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    min-height: 60vh;
+    background: url();
+}

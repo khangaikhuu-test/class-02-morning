@@ -733,3 +733,59 @@ h6 {
   margin: auto;
   display: flex;
 }
+
+/* SERVICES - 1*/
+
+.orange-icon{
+  max-width: 1480px;
+  margin: auto;
+}
+
+.service1-image {
+  background: url(../images/service1.png);
+  height: 650px;
+  width: 616px;
+  border-radius: 20px;
+  margin-top: 108px;
+  margin-left: 46px;
+}
+
+.service1-orange {
+  background-color: #f58a07;
+  width: 180px;
+  height: 650px;
+  border-radius: 20px 0 0 20px;
+  mix-blend-mode: multiply;
+}
+
+.service1-maintext h1{
+  max-width: 618px;
+  margin-top: 254px;
+}
+
+.service2{
+  margin-top: 90px;
+  display: flex;
+}
+
+.service2-image{
+  margin-right: 38px;
+}
+
+.service2-content{
+  margin-left: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+.service2-orange{
+  position: absolute;
+  background-color: #F58A07;
+  mix-blend-mode: multiply;
+  width: 95px;
+  height: 97px;
+  margin-top: 250px;
+  margin-left: 53px;
+  border-radius: 20px;
+}
