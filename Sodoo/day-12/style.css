@@ -7,6 +7,7 @@ form {
     max-width: 400px;
     margin: 0 auto;
     border: 2px solid orange;
+    border-radius: 20px;
 }
 
 .row {
@@ -19,3 +20,18 @@ form {
 
 }
 
+input {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: azure;
+    border: none;
+
+}
+
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: azure;
+    border: none;
+
+}
