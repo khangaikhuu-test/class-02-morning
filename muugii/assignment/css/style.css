@@ -172,15 +172,14 @@ a {
 .build {
     margin-top: 96px;
     background: #EDF7FF;
+    max-width: 1280px;
 }
-
 .about {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    max-width: 1280px;
+    
     margin: 40px;
     margin-top: 96px;
+    
 
 }
 
@@ -273,6 +272,10 @@ margin: 0 auto;
     line-height: 30px;
     color: #5B5B5B;
    
+}
+.about-total
+{
+  display: flex;
 }
 .ab-num
 {
@@ -608,6 +611,7 @@ margin: 0 auto;
         height: 51px;
         background: #F58A07;
         transform: rotate(0);  
+        margin-bottom: 128px;
  
     }
     
@@ -626,31 +630,32 @@ margin: 0 auto;
     background: #DCEAF5;
     margin: 0 auto;
     height: 819px;
-    width: 1980px;
     margin-top: 128px;
-
+    max-width: 1280px;
 
 }
 .section-title 
 {   
-    align-items: center;
-    max-width: 1280px;
+   
+    
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
     letter-spacing: -0.03em;
     color: #0D1317;
     margin-top: 96px;
+   
 }
 
 
 .blog-items {
-   
+    max-width: 1280px;
+    margin: 0 auto;
     margin-top: 64px;
     gap: 40px;
     display: flex;
+    margin-left: 20px;
 }
-
 .blog-items img {
     border-radius: 20px 20px 0 0;
     width: 400px;
@@ -724,34 +729,46 @@ margin: 0 auto;
     color: #FFFFFF;
 }
 
-.footer-top> a
+.footer-top > a
 {
+    display: flex;
     background: #FFFFFF;
     width: 136px;
     height: 20px;
+    
 }
-.footer-top >a:nth-child(1)
+.footer-top > a:nth-child(1)
 {
     width: 21.34px;
     height: 20px;
     left: calc(50% - 21.34px/2 - 629.33px);
     top: calc(50% - 20px/2 + 3112.5px);
+    margin-left: 24px;
 }
-.footer-top >a:nth-child(2)
+.footer-top > a:nth-child(2)
 {
     width: 21.34px;
     height: 20px;
     left: calc(50% - 21.34px/2 - 591.11px);
     top: calc(50% - 20px/2 + 3112.5px);  
+    
 }
-.footer-top >a:nth-child(3)
+.footer-top > a:nth-child(3)
 {
     width: 21.34px;
     height: 20px;
     left: calc(50% - 21.34px/2 - 552.89px);
     top: calc(50% - 20px/2 + 3112.5px); 
 }
-.footer-top >a:nth-child(4)
+.footer-top > a:nth-child(3-1)
+{
+    left: 33.51%;
+    right: 33.16%;
+    top: 33.15%;
+    bottom: 33.51%;
+    border: 2px solid #FFFFFF;
+}
+.footer-top > a:nth-child(4)
 {
     
     width: 21.34px;
@@ -759,26 +776,20 @@ margin: 0 auto;
     left: calc(50% - 21.34px/2 - 514.67px);
     top: calc(50% - 20px/2 + 3112.5px);
 }
-.footer-bottom
-{
-    display: flex;
-    margin-left: 980px;
-    margin-top: -120px; 
-}
-.company h1
+.footer-company p:nth-child(1)
 {   
-    justify-content: space-around;
-    align-content: space-between;
+   margin-top: 80px;
     width: 92px;
     height: 27px;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-    display: flex;
+    margin-right: 341px;
+  
    
 }
 
-.com-about
+.footer-company p:nth-child(2)
 {  
     margin-top: 24px;
     font-weight: 500;
@@ -786,39 +797,44 @@ margin: 0 auto;
     line-height: 24px;
     color: #FFFFFF;
 } 
-.com-careers
+.footer-company p:nth-child(3)
 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF 
+    color: #FFFFFF ;
+    margin-top: 16px;
 } 
-.com-service
+.footer-company p:nth-child(4)
 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-top: 16px;
 }  
-.com-blog
+.footer-company p:nth-child(6)
 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-top: 16px;
 }
-.connect
+
+
+.footer-connect
 {
    display: flex;
-   margin-top: -230px;
-   margin-left: 1200px;
+   margin-top: 80px;
    flex-direction: column;
    width: 79px;
    height: 27px;
+   color: #FFFFFF;
 
 
 }
-.connect h1
+.footer-connect h1
 {
     font-weight: 600;
     font-size: 18px;
@@ -827,14 +843,14 @@ margin: 0 auto;
     margin-top: 26px;
   
 }
-.connect-text
+.footer-connect p
 {
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF; 
     margin-top: 26px;
 }
-.connect-num
+.footer-connect p:nth-child(1)
 {
    font-weight: 500;
    font-size: 16px;
@@ -851,4 +867,10 @@ margin: 0 auto;
     line-height: 24px;
     color: #FFFFFF;
     align-content:flex-end ;
+}
+.footer-bottom
+{
+    display: flex;
+    margin-left: 980px;
+    margin-top: -120px; 
 }
