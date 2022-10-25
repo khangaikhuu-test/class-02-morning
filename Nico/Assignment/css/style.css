@@ -154,10 +154,23 @@ main {
 }
 
 footer {
+    position: relative;
     width: 100%;
     background: #063255;
     height: 463px;
     color: #FFFFFF;
+}
+
+footer::before {
+    content: "";
+    background: #F58A07;
+    width: 53px;
+    height: 144px;
+    border-radius: 0 20px 0 0;
+}
+
+footer::after {
+    content: "";
 }
 
 #footcont {
