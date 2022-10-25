@@ -235,8 +235,9 @@ section {
     background-color: rgba(245, 138, 7, 1);
     justify-content: space-between;
 }
-.energyres {
-    margin: 0 auto;
+.energyres p {
+    margin-right: 600px;
+    margin-top: 90px;
 }
 .exp {
     width: 532px;
@@ -490,6 +491,18 @@ footer p {
     width: 600px;
     font-size: 3rem;
     color: rgba(29, 52, 68, 1);
+}
+.jumpin {
+    color: rgba(245, 138, 7, 1);
+}
+.cactus {
+    color: white;
+}
+.loxem {
+    align-self: center;
+}
+.gray li {
+    margin-bottom: 10px;
 }
 
 
