@@ -210,6 +210,10 @@ footer {
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .article-flex {
     display: flex;
     line-height: 28px;
@@ -317,6 +321,18 @@ footer {
 /* backgrounds */
 
 /* backgrounds by size */
+
+.l-blue-bg {
+    width: 400px;
+    height: 181px;
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+}
+
+.little-contents {
+    padding: 32px 40px;
+}
+
 .little-bg {
     border-radius: 20px;
     height: 242px;
@@ -429,6 +445,13 @@ footer {
 }
 
 #drinking-stack {
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    width: 180px;
+    height: 650px;
+}
+
+#talking-stack {
     position: absolute;
     border-radius: 20px 0px 0px 20px;
     width: 180px;
