@@ -818,7 +818,15 @@ body {
   z-index: 1;
 }
 
-#finsweet .container .container-content .right-side-intro-ceo .image-video a {
+.image-video .icon-video {
+  position: absolute;
+  left: 20px;
+  width: 17px;
+  height: 17px;
+  z-index: 10;
+}
+
+#finsweet .container .container-content .right-side-intro-ceo .image-video {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
