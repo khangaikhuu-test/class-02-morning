@@ -131,7 +131,7 @@ nav {
 .content {
     display: flex;
     flex-direction: column;
-    /* justify-content: left; */
+
     max-width: 1280px;
     margin: auto;
     padding-right: 700px;
@@ -149,7 +149,7 @@ nav {
 #post {
     border-radius: 20px;
 
-    /* margin: 0 auto; */
+
 
 }
 
@@ -164,8 +164,9 @@ nav {
 .we-build {
     display: flex;
     max-width: 1280px;
-    margin: 0 auto;
+    margin: 127px auto;
     align-items: center;
+
 }
 
 #learnmore {
@@ -177,9 +178,10 @@ nav {
     display: flex;
     max-width: 1280px;
     margin: 0 auto;
-    justify-content: space-between;
-    /* flex-direction: column; */
 
+    justify-content: space-between;
+
+    position: relative;
     align-items: center;
 }
 
@@ -199,10 +201,7 @@ nav {
     color: orange;
 }
 
-/* .box-text {
-    display: flex;
-    flex-direction: row;
-} */
+
 
 #max-width-title {
     max-width: 516px;
@@ -217,7 +216,7 @@ nav {
     margin-top: 88.39px;
     border-radius: 20px;
     background: orange;
-    /* opacity: 0.6; */
+
 
 }
 
@@ -242,7 +241,7 @@ nav {
     padding: 40px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+
     position: relative;
 }
 
@@ -496,4 +495,136 @@ footer .connect {
     margin-top: 88.39px;
     border-radius: 20px 0 0 20px;
     mix-blend-mode: multiply;
+}
+
+.orangeopacityservices1 {
+    background: #F58A07;
+    width: 95px;
+    height: 97px;
+    position: absolute;
+    left: -47.5px;
+    top: 200px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+
+}
+
+.orangeopacityservices2 {
+    background: #F58A07;
+    width: 95px;
+    height: 97px;
+    position: absolute;
+    right: -47.5px;
+    top: 360px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+
+}
+
+.orangeopacityservices3 {
+    background: #F58A07;
+    width: 95px;
+    height: 97px;
+    position: absolute;
+    left: -47.5px;
+    top: 300px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+
+}
+
+.orangeopacityservices4 {
+    background: #F58A07;
+    width: 95px;
+    height: 97px;
+    position: absolute;
+    left: -47.5px;
+    top: 350px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+
+}
+
+.we-help {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+/* CAREER PAGE SOME CSS */
+
+.careerbox {
+    display: flex;
+    gap: 40px;
+    max-width: 1280px;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 128px;
+    margin-top: 64px;
+
+}
+
+.boxblue {
+    width: 400px;
+    height: 181px;
+
+    border-radius: 20px;
+    background: rgba(193, 228, 255, 0.3);
+    padding: 22px 130px 32px 40px;
+
+}
+
+.hiretext {
+
+    color: #394149;
+    opacity: 0.6;
+}
+
+.applynow a {
+    color: #F58A07;
+
+}
+
+/* BLOG PAGE SOME CSS */
+
+
+.blog-first-post {
+    max-width: 1280px;
+    padding: 128px 0 128px 0;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.blog-first-post .left {
+    max-width: 510px;
+}
+
+.blog-first-post .left h1 {
+    font-size: 64px;
+    letter-spacing: -0.03em;
+    line-height: 72px;
+}
+
+.readmore {
+    color: #F58A07;
+}
+
+
+/* all post section */
+.allposts {
+    max-width: 1280px;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    background: #EDF7FF;
+
+
 }
