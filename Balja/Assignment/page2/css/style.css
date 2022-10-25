@@ -1,5 +1,4 @@
 *{
-    max-width: 1280px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
@@ -8,6 +7,8 @@ navbar{
     flex-flow: row;
     justify-content: space-between;
     align-content:center; 
+    max-width: 1280px;
+    margin: auto;
 }
 .logo1{
     display: flex;
@@ -49,11 +50,13 @@ a{
     color: inherit;
 }
 header{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 650px;
     display: flex;
     margin-top: 108px;
     gap: 46px;
+    margin-bottom: 90px;
 }
 .header-right{
     display: flex;
@@ -109,10 +112,11 @@ header{
 .feature{
     display: flex;
     flex-direction: column;
-    width: 1280px;
+    max-width: 1280px;
     height: 3262px;
     margin-top: 90px;
     gap: 128px;
+    margin: auto;
 
 }
 #feature-1{
@@ -357,7 +361,8 @@ header{
 
 }
 .latest{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 819px;
     background: #dceaf5;
     display: flex;
@@ -446,7 +451,8 @@ header{
     margin-left: 32px;
 }
 .footer-container{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 463px;
     background:#063255;
     display: flex;

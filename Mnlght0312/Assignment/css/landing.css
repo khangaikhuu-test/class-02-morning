@@ -449,9 +449,9 @@ footer p {
     border-radius: 20px;
 }
 
-.lontainer {
+.lontainer p {
     width: 842px;
-    padding: 69px 0px;
+    padding: 69px 50px;
 }
 .detail {
     padding: 69px 0px 0px 64px;
@@ -516,4 +516,36 @@ footer p {
 }
 .trmt {
     margin-top: 50px;
+}
+.mapouter {
+    margin-top: 180px;
+}
+.fear {
+    width: 300px;
+    background-color: white;
+}
+.sub {
+    margin-top: 10px;
+}
+footer {
+    position: relative;
+}
+footer::before {
+    content: "";
+    width: 53px;
+    height: 200px;
+    background-color: #F58A07;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 20px 0 0;
+}
+footer::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 200px;
+    right: 0;
+    top: 38px;
+    background: #F58A07;
+    border-radius: 20px 0 0 20px;
 }
