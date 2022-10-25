@@ -235,8 +235,9 @@ section {
     background-color: rgba(245, 138, 7, 1);
     justify-content: space-between;
 }
-.energyres {
-    margin: 0 auto;
+.energyres p {
+    margin-right: 600px;
+    margin-top: 90px;
 }
 .exp {
     width: 532px;
