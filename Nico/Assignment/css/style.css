@@ -292,6 +292,10 @@ footer::after {
     max-width: 600px;
 }
 
+.max-w750 {
+    max-width: 750px;
+}
+
 .max-wf {
     max-width: fit-content;
 }
@@ -677,7 +681,7 @@ footer::after {
     height: 32px;
 }
 
-#posted-andrew {
+.posted-andrew {
     align-items: center;
     margin-bottom: 24px;
 }
