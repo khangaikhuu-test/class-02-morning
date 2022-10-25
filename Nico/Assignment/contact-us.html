@@ -2,86 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <div class="main-nav">
-            <img id="finsweet" src="./images/Logo.svg" />
-            <div class="navbar">
-                <div class="nav-item"><a href="./index.html">Home</a></div>
-                <div class="nav-item"><a href="./careers.html">Careers</a></div>
-                <div class="nav-item"><a href="./services.html">Services</a></div>
-                <div class="nav-item"><a href="./blog.html">Blog</a></div>
-                <div class="nav-item"><a href="./contact-us.html">Contact Us</a></div>
-                <div class="nav-item" id="call-to"><a>Call to Action</a></div>
-            </div>
+  <header>
+    <div class="main-nav">
+      <img id="finsweet" src="./images/Logo.svg" />
+      <div class="navbar">
+        <div class="nav-item"><a href="./index.html">Home</a></div>
+        <div class="nav-item"><a href="./careers.html">Careers</a></div>
+        <div class="nav-item"><a href="./services.html">Services</a></div>
+        <div class="nav-item"><a href="./blog.html">Blog</a></div>
+        <div class="nav-item"><a href="./contact-us.html">Contact Us</a></div>
+        <div class="nav-item" id="call-to"><a>Call to Action</a></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="contents flex around">
+      <div>
+        <div class="header big-h max-w550">Have a question ? Let’s get in touch with us.</div>
+        <p>Fill up the Form and ou team will get back to within 24 hrs</p>
+
+      </div>
+      <div class="flex between">
+        <div class="max-w270">
+          <div class="header small-h">Location</div>
+          <p>DLF Cybercity, Bhubaneswar,
+            India, &52050</p>
         </div>
-    </header>
-    <main>
+        <div >
+          <div class="header small-h">Contact Us</div>
+          <p>020 7993 2905 <br>
+          hi@finsweet.com</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="contents flex">
+      <div id="form-input" class="flex">
+        <form class="max-w600" id="message-form" action="sent-message.html">
+          <input type="text" name="first-name" placeholder="First Name" class="inputs">
+          <input type="text" name="last-name" placeholder="Last Name" class="inputs">
+          <input type="email" name="email" placeholder="Email address" class="inputs">
+          <textarea type="text" name="message" placeholder="Type message" id="message-box"></textarea>
+          <button type="submit" class="button orange-bg">Submit</button>
+        </form>
+        <iframe class="border-r"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3740.8252744538754!2d85.80558415080232!3d20.348835586303696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1908e1d5643381%3A0x51d46c8662be1599!2sDLF%20Cybercity-%20Mindfire%20Solutions%2C%20Technology%20Corridor%2C%20Chandaka%20Industrial%20Estate%2C%20K%20I%20I%20T%20University%2C%20Patia%2C%20Bhubaneswar%2C%20Odisha%20751024%2C%20%D0%AD%D0%BD%D1%8D%D1%82%D1%85%D1%8D%D0%B3!5e0!3m2!1smn!2smn!4v1666694152292!5m2!1smn!2smn"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
 
 
+    </div>
 
-    </main>
-    <footer class="flex">
-        <div id="footcont" class="contents flex-col around">
-          <div class="flex align-between between">
-            <div class="f-logos max-w350 between">
-              <img id="fins-logo-white" src="./images/Logo-white.svg" alt="fins-logo">
-              <div class="header med-h white">
-                Bespoke software solutions
-              </div>
-              <div class="logos">
-                <img src="./images/facebook.png" alt="fb-logo">
-                <img src="./images/youtube.png" alt="yt-logo">
-                <img src="./images/instagram.png" alt="ig-logo">
-                <img src="./images/twitter.png" alt="twitter-logo">
-              </div>
-            </div>
-            <div class="about">
-              <div class="f-header">Company</div>
-              <p>About Us</p>
-              <p>Careers</p>
-              <p>Services</p>
-              <p>Blog</p>
-            </div>
-            <div class="about">
-              <div class="f-header">Connect</div>
-              <p>hi@finsweet.com</p>
-              <p>+(123) 456-7890</p>
-            </div>
-            <div class="newsletter flex-col between">
-              <div class="f-header">Join Newsletter</div>
-              <div class="input">
-                <form action="subscribed.html">
-                  <input type="email" name="email" placeholder="Type email here" class="email-input">
-                  <button type="submit" placeholder="submit" id="subscribe" class="button orange-bg">Subscribe</button>
-                </form>
-              </div>
-    
-            </div>
-    
+
+  </main>
+  <footer class="flex">
+    <div id="footcont" class="contents flex-col around">
+      <div class="flex align-between between">
+        <div class="f-logos max-w350 between">
+          <img id="fins-logo-white" src="./images/Logo-white.svg" alt="fins-logo">
+          <div class="header med-h white">
+            Bespoke software solutions
           </div>
-          <div class="f-bottom flex between">
-    
-    
-            <p>© All rights reserved – Finsweet</p>
-            <div class="flex gap-40">
-              <p>Privacy Policy</p>
-              <p>Terms & Conditions
-              </p>
-            </div>
+          <div class="logos">
+            <img src="./images/facebook.png" alt="fb-logo">
+            <img src="./images/youtube.png" alt="yt-logo">
+            <img src="./images/instagram.png" alt="ig-logo">
+            <img src="./images/twitter.png" alt="twitter-logo">
           </div>
         </div>
-      </footer>
+        <div class="about">
+          <div class="f-header">Company</div>
+          <p>About Us</p>
+          <p>Careers</p>
+          <p>Services</p>
+          <p>Blog</p>
+        </div>
+        <div class="about">
+          <div class="f-header">Connect</div>
+          <p>hi@finsweet.com</p>
+          <p>+(123) 456-7890</p>
+        </div>
+        <div class="newsletter flex-col between">
+          <div class="f-header">Join Newsletter</div>
+          <div class="input">
+            <form action="subscribed.html">
+              <input type="email" name="email" placeholder="Type email here" class="email-input">
+              <button type="submit" placeholder="submit" id="subscribe" class="button orange-bg">Subscribe</button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="f-bottom flex between">
+
+
+        <p>© All rights reserved – Finsweet</p>
+        <div class="flex gap-40">
+          <p>Privacy Policy</p>
+          <p>Terms & Conditions
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

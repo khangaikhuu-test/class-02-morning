@@ -56,9 +56,7 @@ main {
     align-self: center;
 }
 
-.space-evenly {
-
-}
+.space-evenly {}
 
 #blue-bg-height {
     flex-direction: column;
@@ -118,6 +116,7 @@ main {
     height: 749px;
     background: #DCEAF5;
 }
+
 .slider {
     display: flex;
     max-width: 1280px;
@@ -295,6 +294,7 @@ footer::after {
 .max-w750 {
     max-width: 750px;
 }
+
 
 .max-wf {
     max-width: fit-content;
@@ -698,4 +698,31 @@ footer::after {
 
 .posts {
     background: #EDF7FF;
+}
+
+.inputs {
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 17px 32px 18px 32px;
+    font-size: 16px;
+    line-height: 19px;
+    border: 0;
+    width: calc(100% - 89px);
+    margin-bottom: 16px;
+}
+
+#message-box {
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px;
+    padding: 32px 32px 109px 32px;
+    font-size: 16px;
+    line-height: 19px;
+    border: 0;
+    width: calc(100% - 89px);
+    margin-bottom: 32px;
+}
+
+#form-input {
+    width: 100%;
+    justify-content: space-around;
 }
