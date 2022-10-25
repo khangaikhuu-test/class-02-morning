@@ -1,9 +1,11 @@
 *{
-    max-width: 1280px;
+    
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 navbar{
+    max-width: 1280px;
+    margin: auto;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
@@ -49,7 +51,8 @@ a{
     color: inherit;
 }
 header{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 650px;
     display: flex;
     justify-content: space-between;
@@ -102,7 +105,8 @@ header{
     text-transform: capitalize;
 }
 .career-selection{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 522px;
     margin-top: 127px;
 }
@@ -154,7 +158,8 @@ header{
     margin-top: 64px;
 }
 .latest{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 819px;
     background: #dceaf5;
     display: flex;
@@ -243,7 +248,8 @@ header{
     margin-left: 32px;
 }
 .footer-container{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 463px;
     background:#063255;
     display: flex;
