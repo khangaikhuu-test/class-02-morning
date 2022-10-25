@@ -245,18 +245,21 @@ a {
     margin-bottom: 96px; /*build section finish*/
 }
 
-.about-main-container   /*about section start*/
-{
-display: flex;
-}
+  
 
-.about-header {
+
+.aboutheader {          /*about section start*/
+
 
     max-width: 1280px;
     margin: auto;
     display: flex;
     
 }
+ .abouttext
+ {
+    display: flex;
+ }
 
 .ab {
     
@@ -278,14 +281,13 @@ display: flex;
 
 
 }
-.abnum
+.num
 {
-    display: flex;
+    
     margin: auto;
 }
-.abnum1
-{
-   
+.ab-num
+{   display: flex;
     flex-direction: row;
     font-size: 36px;
     line-height: 50px;
@@ -294,7 +296,8 @@ display: flex;
 }
 
 .award {
-  
+    display: flex;
+    flex-direction: row;
     margin-top: 16px;
     font-weight: 600;
     font-size: 24px;
@@ -303,6 +306,8 @@ display: flex;
 }
 
 .award-text {
+    
+    flex-wrap: wrap;
     
     margin-top: 16px;
     font-size: 16px;
@@ -344,6 +349,7 @@ display: flex;
     background: #EDF7FF;
     border-radius: 20px; 
     margin-top: 95px;
+    position: relative;
  }
 .service-container
 {
@@ -351,13 +357,18 @@ display: flex;
     margin: auto;
     
 }
+.ribbon
+{
+    position: relative;
+}
 #ribbon-main
 {
     position: absolute;
     width: 179px;
     height: 178px;
-    left: 1255px;
-    top: 3378px;
+    left: 1110px;
+    top: -15px;
+   
     
    
 }
@@ -367,6 +378,8 @@ display: flex;
     display: flex;
     margin-top: 48px;
     margin-left: 48px;
+    text-align: center;
+    
    
 
  
@@ -380,8 +393,8 @@ display: flex;
     height: 40px;
     color: #F58A07;
     font-size: 16px;
-    line-height: 24px;
     margin-right: 24px;
+    line-height: 13px;
 }
 
 .ser-digital
@@ -392,7 +405,7 @@ display: flex;
     height: 40px; 
     width: 155px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 13px;
     color: rgba(6, 50, 85, 0.3);
     
 }
@@ -407,7 +420,7 @@ display: flex;
     height: 40px;
     color: rgba(6, 50, 85, 0.3);
     font-size: 16px;
-    line-height: 24px;  /*service-tan finish*/
+    line-height: 13px;  /*service-tan finish*/
 }
 
 /*helping-container start*/
@@ -508,10 +521,8 @@ display: flex;
 .see-job
 {   
     margin-top: 40px;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     font-size: 16px;
-    line-height: 106.5%;
     color: #F58A07;
     background: #FFFFFF;
     border-radius: 31px;
@@ -622,11 +633,20 @@ display: flex;
     background: #DCEAF5;
     margin: 0 auto;
     height: 819px;
-    
- }
 
-.lasest-container h1
-{
+}
+.Lasest-section h1
+{   
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #0D1317;
+    margin-top: 96px;
+}
+.lasest-container 
+{   
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
@@ -635,12 +655,12 @@ display: flex;
     margin-top: 128px;
     max-width: 1280px;
     display: flex;
+    flex-direction: row   ;
 }
 
 .blog-items {
     margin-top: 64px;
-    display: flex;
-    gap: 40px;
+    margin: 40px;
 }
 
 .blog-items img {
@@ -654,7 +674,7 @@ display: flex;
     border-radius: 0 0 20px 20px;
     width: 400px;
     height: 277px;
-    padding: 32px;
+    margin: auto;
 }
 
 .blog-items h3 {
@@ -677,6 +697,7 @@ display: flex;
     color: #f58a07;
     margin-bottom: 96px;
 }
+
 .footer-container     /*fooder start*/
 {
     max-width: 1920px;
@@ -729,7 +750,7 @@ display: flex;
 }
 .social-icon-face img
 {
-  
+    background: #FFFFFF;
   margin-top: 260px;
   left: 29.16%;
   bottom: 8.33%;
