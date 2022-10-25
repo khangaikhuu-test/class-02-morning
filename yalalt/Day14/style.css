@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.banner {
+    position: relative;
+    min-height: 60vh;
+    background-image: url(https://placeimg.com/800/400/tech);
+    display: flex;
+    background-size: cover;
+
+}
+
+.banner::after,
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    mix-blend-mode: color;
+    mix-blend-mode: hue;
+    mix-blend-mode: hard-light;
+    z-index: 1;
+    transform: skew(-99deg) translateX(-20%);
+}
+
+
+
+.banner>* {
+    z-index: 100;
+}
+
+iframe {
+    border-radius: 20px;
+
+}
