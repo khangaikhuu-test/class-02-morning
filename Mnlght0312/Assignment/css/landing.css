@@ -491,5 +491,11 @@ footer p {
     font-size: 3rem;
     color: rgba(29, 52, 68, 1);
 }
+.jumpin {
+    color: rgba(245, 138, 7, 1);
+}
+.cactus {
+    color: white;
+}
 
 
