@@ -1,9 +1,10 @@
 *{
-    max-width: 1280px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 navbar{
+    max-width: 1280px;
+    margin: auto;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
@@ -49,6 +50,8 @@ a{
     color: inherit;
 }
 header{
+    max-width: 1280px;
+    margin: auto;
     width: 1165px;
     height: 182px;
     display: flex;
@@ -93,7 +96,8 @@ header{
     color: #5b5b5b;
 }
 .contact{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 456px;
     display: flex;
     flex-direction: column;
@@ -153,7 +157,8 @@ header{
     align-items: center;
 }
 .footer-container{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 463px;
     background:#063255;
     display: flex;

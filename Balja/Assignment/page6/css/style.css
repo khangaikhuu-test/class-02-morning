@@ -1,9 +1,10 @@
 *{
-    max-width: 1280px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 navbar{
+    max-width: 1280px;
+    margin: auto;
     display:flex;
     flex-flow: row;
     justify-content: space-between;
@@ -49,6 +50,8 @@ a{
     color: inherit;
 }
 header{
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -83,7 +86,8 @@ header{
     color: #5b5b5b;
 }
 .details{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 441px;
     display: flex;
     background: rgba(193, 228, 255, 0.3);
@@ -113,7 +117,8 @@ header{
 }
 .apply{
     margin-top: 128px;
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 564px;
     display: flex;
     flex-direction: column;
@@ -175,7 +180,8 @@ header{
     align-items: center;
 }
 .footer-container{
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
     height: 463px;
     background:#063255;
     display: flex;
