@@ -495,10 +495,9 @@ section {
 }
 .sec7_playbutton {
     display: flex;
-    margin: -80px 0 0 1020px;
+    margin: -80px 0 0 1160px;
 }
 .sec7_playicon {
-    position: relative;
     margin: 0 0 18px -30px;
 }
 .sec7_text2 {
