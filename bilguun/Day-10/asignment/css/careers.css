@@ -186,6 +186,32 @@ p {
     width: 48%;
 }
 
+.s1a h1 {
+    line-height: 4.5rem;
+    font-size: 4rem;
+    color: #1D3444;
+}
+
+.s1a p {
+    font-size: 1.125rem;
+    color: #5b5b5b;
+    margin-bottom: 48px;
+}
+
+.but6 a {
+    border-style: none;
+    background: #F58A071A;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: #F58A07;
+    font-weight: 600;
+}
+
+#s1 {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /*      Careeres part 2  */
 
@@ -270,4 +296,33 @@ p {
     height: 277px;
     border-radius: 0 0 20px 20px;
     background-color: #FFFFFF;
+}
+
+.latest3 p {
+    color: #5b5b5b;
+}
+
+.text4 p {
+    color: #5b5b5b;
+}
+
+.but1 input {
+    border-style: none;
+    background: #F58A071A;
+    padding: 18px 30px;
+    border-radius: 30px;
+    color: #F58A07;
+    font-weight: 600;
+}
+
+.text4 p {
+    color: #5b5b5b;
+}
+
+.but3 {
+    color: #F58A07;
+}
+
+.latest3 h3 {
+    font-size: 1.5rem;
 }
