@@ -252,6 +252,9 @@ h4 {
   text-decoration: none;
   color: #f58a07;
 }
+.learn-more a:hover {
+  text-shadow: 1px 1px 2px rgb(193, 193, 193);
+}
 
 .col-with-margin-40 {
   margin: 40px 40px 40px 0;
