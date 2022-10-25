@@ -47,16 +47,14 @@
     color: #F58A07;
 }
 
-header .headersection
-{
+header .headersection {
     display: flex;
     gap: 99px;
     margin: 94px 115px 64px 0;
     width: 1165px;
 }
 
-header h2
-{
+header h2 {
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
@@ -65,16 +63,14 @@ header h2
     width: 561px;
 }
 
-header h3
-{
+header h3 {
     font-weight: 500;
     font-size: 24px;
     color: #0d1317;
     margin: 0 0 16px 0;
 }
 
-header p
-{
+header p {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -82,24 +78,18 @@ header p
     margin: 0;
 }
 
-.rightside
-{
+.rightside {
     display: flex;
     gap: 76px;
 }
 
-.contact
-{
-    margin: 64px auto 128px ;
+.contact {
+    margin-bottom: 128px;
+    display: flex;
+    gap: 55px;
 }
 
-/* .contactside
-{
-    display: flex; map oruulah
-} */
-
-.contact input
-{
+.contact input {
     color: #9c9c9c;
     font-weight: 500;
     font-size: 16px;
@@ -110,22 +100,19 @@ header p
     width: 605px;
     display: flex;
     flex-direction: column;
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
-#typetext
-{
+#typetext {
     height: 160px;
     width: 605px;
 }
 
-#typetext::placeholder
-{  
+#typetext::placeholder {
     position: absolute;
 }
 
-button
-{
+button {
     font-weight: 600;
     font-size: 16px;
     color: white;
@@ -136,38 +123,37 @@ button
     margin-top: 32px;
 }
 
-footer
-{
+iframe {
+    border-radius: 20px;
+}
+
+footer {
     background: #063255;
     position: relative;
 }
 
-.footercontainer
-{
-margin: 0 auto;
+.footercontainer {
+    margin: 0 auto;
 }
-footer .footertop
-{
+
+footer .footertop {
     display: flex;
     padding: 80px 0 80px;
     color: white;
 }
 
-.footerheadings
-{
+.footerheadings {
     font-weight: 600;
     font-size: 18px;
     margin: 0 0 24px 0;
 }
 
-.footerleft 
-{
+.footerleft {
     width: 351px;
     height: 199px;
 }
 
-.footerleft h2
-{
+.footerleft h2 {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -176,32 +162,27 @@ footer .footertop
     height: 88px;
 }
 
-.footerleft ul
-{
+.footerleft ul {
     display: flex;
     gap: 20px;
     margin: 0;
     padding: 0;
 }
 
-.footerleft li
-{
+.footerleft li {
     list-style: none;
 }
 
-.footerleft a
-{
+.footerleft a {
     text-decoration: none;
     color: white;
 }
 
-.footercompany
-{
+.footercompany {
     margin: 0 107px 0 110px;
 }
 
-.footercompany .companylinks
-{
+.footercompany .companylinks {
     margin: 0;
     padding: 0;
     display: flex;
@@ -209,21 +190,18 @@ footer .footertop
     gap: 16px;
 }
 
-.footercompany .companylinks a
-{
+.footercompany .companylinks a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 16px;
 }
 
-.subscripe
-{
+.subscripe {
     margin-left: 137px;
 }
 
-.subscripe input
-{
+.subscripe input {
     color: #9c9c9c;
     font-weight: 500;
     font-size: 16px;
@@ -233,8 +211,7 @@ footer .footertop
     width: 342px;
 }
 
-.subscripe button
-{
+.subscripe button {
     color: white;
     background: #f58a07;
     border: #F58A07;
@@ -246,37 +223,32 @@ footer .footertop
     margin-top: 16px;
 }
 
-.footerbottom
-{
+.footerbottom {
     display: flex;
     justify-content: space-between;
     padding-bottom: 80px;
 }
 
-.footerbottom p
-{
+.footerbottom p {
     color: white;
     font-weight: 500;
     font-size: 16px;
     margin: 0;
 }
 
-.footerbottomlinks
-{
+.footerbottomlinks {
     display: flex;
     gap: 32px;
 }
 
-.footerbottomlinks a
-{
+.footerbottomlinks a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 16px;
 }
 
-.shapeleft
-{
+.shapeleft {
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -286,14 +258,12 @@ footer .footertop
     border-top-right-radius: 20px;
 }
 
-.shaperight
-{
+.shaperight {
     position: absolute;
-    top:38px;
+    top: 38px;
     right: 0px;
     width: 53px;
     height: 287px;
     background: #f58a07;
     border-radius: 20px 0 0 20px;
 }
-
