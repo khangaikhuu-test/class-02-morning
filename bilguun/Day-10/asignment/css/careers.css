@@ -180,69 +180,57 @@ p {
 }
 
 
-/*      Blog         */
+/*      Careers part 1 */
 
-.banner {
-    background-color: rgba(220, 234, 245, 1);
-    padding: 128px 0 128px 0;
+.c-width {
+    width: 48%;
 }
 
-.banner1 {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-}
 
-.banner1a {
+/*      Careeres part 2  */
+
+.c-main1 {
     display: flex;
+    flex-flow: row wrap;
     justify-content: flex-start;
-    align-content: center;
+    gap: 40px;
+    margin-bottom: 128px;
 }
 
-.banner1a img {
-    width: 32px;
-    height: 32px;
-}
-
-.banner1b {
-    color: #394149;
-    margin-right: 21px;
-    margin-left: 21px;
-}
-
-.banner2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.banner2a {
-    width: 46%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.banner2 img {
+.c-main {
+    width: 31.25%;
     border-radius: 20px;
+    background-color: rgba(193, 228, 255, 0.3);
+    padding: 32px 130px 32px 40px;
 }
 
-.banner2 h1 {
-    font-size: 4rem;
-    color: #1D3444;
-    line-height: 72px;
-    margin: 0;
+.c-head {
+    font-size: 3rem;
+    color: #0D1317;
+    margin-bottom: 64px;
+    font-weight: 600;
 }
 
-.but a {
+.m1 {
+    font-size: 1.5rem;
+    color: #0d1317;
+}
+
+.m2 {
+    font-size: 1.125rem;
+    color: #394149;
+}
+
+.m3 {
+    font-size: 1.125rem;
     color: #F58A07;
-    margin-top: 24px;
 }
 
 
 /* <!--        Latest blog and news         --> */
 
 .latest {
-    margin-top: 128px;
+    background: #DCEAF5 100vw;
 }
 
 .posts1 {
@@ -255,13 +243,13 @@ p {
     font-size: 3rem;
     color: #0D1317;
     line-height: 3.5rem;
+    padding-top: 96px;
+    font-weight: 600;
 }
 
 .latest2 {
     display: flex;
     gap: 40px;
-    flex-flow: row wrap;
-    margin-bottom: 128px;
 }
 
 .post11 {
@@ -277,20 +265,9 @@ p {
 
 .latest3 {
     padding: 0 32px;
+    margin-bottom: 96px;
     width: 400px;
     height: 277px;
     border-radius: 0 0 20px 20px;
-    background-color: #EDF7FF;
-}
-
-.latest3 p {
-    color: #5b5b5b;
-}
-
-.latest3 h3 {
-    font-size: 1.5rem;
-}
-
-.but3 {
-    color: #F58A07;
+    background-color: #FFFFFF;
 }
