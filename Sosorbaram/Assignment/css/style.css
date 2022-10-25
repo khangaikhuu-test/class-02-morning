@@ -609,7 +609,7 @@ footer .connect {
     line-height: 72px;
 }
 
-.readmore {
+.readmore a {
     color: #F58A07;
 }
 
@@ -618,13 +618,58 @@ footer .connect {
 .allposts {
     max-width: 1280px;
     display: flex;
-
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    border-radius: 20px;
 
+
+
+
+
+}
+
+.alltopic {
+
+    max-width: 400px;
+    margin: 10px;
     background: #EDF7FF;
+    border-radius: 20px;
+    max-height: 500px;
 
+}
+
+.alltopic img {
+    border-radius: 20px 20px 0 0;
+}
+
+.alltopictext {
+    padding: 20px;
+}
+
+.allbox {
+
+
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.innerblog img {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+
+}
+
+#membericon {
+    max-width: 409px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    max-width: 752px;
+    margin: 120px auto;
 
 }
