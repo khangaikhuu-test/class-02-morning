@@ -91,22 +91,6 @@
     list-style: disc;
 }
 
-  .imageBox1 {
-    height: 650px;
-    width: 616px;
-  }
-
-  .imageBox2 {
-    height: 550px;
-    width: 620px;
-    border-radius: 20px;
-  }
-
-  .imageBox3 {
-    height: 501px;
-    width: 620px;
-  }
-
   .medium-title {
     font-size: 3rem;
     line-height: 56px;
