@@ -122,17 +122,18 @@ header {
 
 .form {
     display: flex;
-
 }
 
-.row {
+.row input{
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
-    width: 660px;
+    width: 630px;
     padding: 17px;
-    margin: 24px;
+    margin: 20px 24px 12px 0;
 }
-
+input{
+    border-color: rgba(210, 218, 237, 0.17);
+}
 .shown {
     color: #9C9C9C;
 }
@@ -140,13 +141,14 @@ header {
 .margin {
     margin-bottom: 51px;
 }
-.entertext {
+.entertext input{
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
     max-width: 100%;
     padding: 17px;
-    margin: 24px;
+    margin: 0px 24px 24px 0;
     height: 215px;
+    width: 1280px;
 }
 .footer1{
     background-color: #DCEAF5;
@@ -219,12 +221,13 @@ header {
     width: 136px;
     justify-content: space-between;
 }
-.footer2-col2-text-white {
+.footer2-col2-text-white input{
     background-color: #FFFFFF;
     color: #9C9C9C;
     border-radius: 31px;
     padding: 18px 188px 17px 32px;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 .footer2-col2-text-orange{
     background-color: #F58A07;

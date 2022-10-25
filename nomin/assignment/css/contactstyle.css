@@ -100,7 +100,7 @@ header {
     display: flex;
     margin: auto auto;
 }
-.graytext{
+.graytext input{
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
     color:#9C9C9C;
@@ -110,12 +110,12 @@ header {
 .banner2-left {
     max-width: 50%;
 }
-.graytextlarge{
+.graytextlarge input{
     background: rgba(210, 218, 237, 0.17);
     border-radius: 27px;
     color:#9C9C9C;
     font-size: 16px;
-    padding:32px 461px 108px 32px;
+    padding:32px 490px 108px 32px;
 }
 .banner2 {
     display: flex;
@@ -164,12 +164,13 @@ iframe{
     width: 136px;
     justify-content: space-between;
 }
-.footer2-col2-text-white {
+.footer2-col2-text-white input{
     background-color: #FFFFFF;
     color: #9C9C9C;
     border-radius: 31px;
     padding: 18px 188px 17px 32px;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 .footer2-col2-text-orange{
     background-color: #F58A07;
@@ -203,4 +204,7 @@ iframe{
 .footerorange{
     display: flex;
     justify-content: space-between;
+}
+input{
+    border-color: rgba(210, 218, 237, 0.17);
 }

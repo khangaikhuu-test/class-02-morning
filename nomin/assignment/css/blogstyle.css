@@ -103,7 +103,6 @@ header {
 
 .team {
     margin-top: 128px;
-
 }
 
 .fontsmallorange {
@@ -145,7 +144,7 @@ header {
 
 .footer1context {
     width: 400px;
-    height: 477px;
+    height: 507px;
     background: #DCEAF5;
     border-radius: 20px 20px 20px 20px;
 }
@@ -204,12 +203,13 @@ header {
     justify-content: space-between;
 }
 
-.footer2-col2-text-white {
+.footer2-col2-text-white input{
     background-color: #FFFFFF;
     color: #9C9C9C;
     border-radius: 31px;
     padding: 18px 188px 17px 32px;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 
 .footer2-col2-text-orange {
