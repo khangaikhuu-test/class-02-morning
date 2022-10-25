@@ -52,6 +52,14 @@ main {
     align-content: space-between;
 }
 
+.align-center {
+    align-self: center;
+}
+
+.space-evenly {
+
+}
+
 #blue-bg-height {
     flex-direction: column;
     justify-content: space-around;
@@ -106,6 +114,10 @@ main {
     background: #DCEAF5;
 }
 
+.blog-slider {
+    height: 749px;
+    background: #DCEAF5;
+}
 .slider {
     display: flex;
     max-width: 1280px;
@@ -162,15 +174,24 @@ footer {
 }
 
 footer::before {
+    position: absolute;
     content: "";
     background: #F58A07;
+    bottom: 0;
     width: 53px;
     height: 144px;
     border-radius: 0 20px 0 0;
 }
 
 footer::after {
+    position: absolute;
     content: "";
+    background: #F58A07;
+    right: 0;
+    top: 38px;
+    width: 53px;
+    height: 287px;
+    border-radius: 20px 0 0 20px;
 }
 
 #footcont {
@@ -263,6 +284,10 @@ footer::after {
     max-width: 550px;
 }
 
+.max-w560 {
+    max-width: 560px;
+}
+
 .max-w600 {
     max-width: 600px;
 }
@@ -320,7 +345,7 @@ footer::after {
 
 .small-h {
     font-size: 24px;
-    line-height: 106.5%;
+    line-height: 36px;
     letter-spacing: -0.03em;
     color: #0D1317;
 }
@@ -645,4 +670,28 @@ footer::after {
     color: white;
     align-self: flex-end;
     margin: 0 0 55px 17px
+}
+
+#posted {
+    width: 32px;
+    height: 32px;
+}
+
+#posted-andrew {
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+#blog-top-slider p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#all-posts {
+    margin-top: 78px;
+    margin-bottom: 64px;
+}
+
+.posts {
+    background: #EDF7FF;
 }
