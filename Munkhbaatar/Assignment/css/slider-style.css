@@ -159,6 +159,10 @@ h4 {
   font-style: normal;
 }
 
+.a-button:hover {
+  text-shadow: 1px 1px 2px rgb(195, 195, 195);
+}
+
 .orange-btn {
   color: #ffffff;
   background-color: #f58a07;
@@ -530,7 +534,39 @@ h4 {
 .video-image {
   width: 620px;
   height: 501px;
+  position: relative;
 }
+.video-image img {
+  position: absolute;
+}
+.video-c .circle {
+  bottom:40px;
+  left: 40px;
+}
+
+/* .video-c .circle:hover {
+  box-shadow: 0px 0px 0px 3px white;
+} */
+
+.video-c .play {
+  bottom:59px;
+  left: 60px;
+}
+
+.play-text {
+  bottom: 50px;
+  left: 100px;
+  position: absolute;
+  color: #ffffff;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.play-text:hover {
+  text-shadow: 2px 2px 4px white;
+}
+
+
 
 /* ------------- LATEST BLOG & NEWS -------------*/
 
@@ -637,6 +673,12 @@ span {
 .footer-c a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.footer-c a:hover {
+  color: #ffca5f;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px #4d7ba1;
 }
 
 .footer-c input {
