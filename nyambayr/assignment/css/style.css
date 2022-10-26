@@ -149,7 +149,6 @@ h1 {
 p {
   font-size: 18px;
   font-weight: 500;
-  line-height: 30px;
   letter-spacing: 0em;
   text-align: left;
   color: #5b5b5b;
@@ -187,6 +186,7 @@ p {
 
 .content2 {
   margin-top: 96px;
+  margin-bottom: 96px;
 }
 
 h2 {
@@ -256,6 +256,9 @@ h2 {
 
 .more-button {
   color: #f58a07;
+  font-weight: 500;
+  font-size: 16px;
+
 }
 
 /*This is CONTENT - 3 */
@@ -315,6 +318,9 @@ h4 {
 .content-left {
   width: 596px;
   height: 549px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .upper-text1 {
@@ -826,3 +832,34 @@ h6 {
   margin-left: 1333px;
   border-radius: 20px;
 }
+
+/* CAREER- 1 */
+
+.career1-image {
+  background: url(../images/careers1/content1.png);
+  height: 650px;
+  width: 616px;
+  border-radius: 20px;
+  margin-top: 108px;
+  margin-left: 46px;
+}
+
+.career1-row {
+  display: flex;
+  height: 221px;
+}
+
+.career1-box {
+  background-color: rgba(193, 228, 255, 0.3); 
+  border-radius: 20px;
+  height: 181px;
+  width: 400px;
+  margin-top: 64px;
+  margin-right: 40px;
+}
+
+.career1-margin{
+  margin-top: 32px;
+  margin-left: 40px;
+}
+
