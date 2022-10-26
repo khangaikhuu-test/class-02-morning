@@ -3,7 +3,7 @@ h1{
 }
 form
 {
-    border: 2px solid gray;
+    border: 2px solid blue;
     max-width: 400px;
     margin: auto;
 }
@@ -15,4 +15,11 @@ form
     justify-content: space-between;
     margin: right 30px;
     margin-left: 30px;
+}
+input 
+{
+    background: rgba(210, 218, 237, 0.17);
+    border-radius: 27px; 
+    width: 628px;
+    height: 54px;
 }

@@ -3,11 +3,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.container
-{
-    margin: auto;
-    max-width: 1280px;
-}
+
 /*header heseg ehlev*/
 header {
     display: flex;
@@ -47,25 +43,34 @@ nav a {
     width: 173px;
     height: 52px;
 }         /*navbar duusav*/
-.header-image
+
+.header-container
 {
-   
-   background: #DCEAF5;
-   display: flex;
-   margin: 0 auto;
-   width: 1994.63px;
-   height: 749px;
+  
+background: #DCEAF5; 
+position: absolute;
+width: 1994.63px;
+height: 749px;
+left: 0px;
+top: 84px; 
 }
-
-
-.header
+.header-text
 {
     display: flex;
+    margin:0 auto;
+    max-width: 1280px;
 }
-
-.header-image
+.header-image 
 {
     display: flex;
+    flex-direction: row;
+}
+.header-image img
+{
+    width: 32px;
+    height: 32px;
+    margin-top: 161px;
+    border-radius: 20px;
 }
 .header-image h6
 {
@@ -80,27 +85,6 @@ nav a {
     margin-left: 8px; 
 }
 
-
-
-
-
-
-
-
-/* 
-
-.header-image
-    {
-        display: flex;
-        flex-direction: row;
-    }
-.header-image img
-    {
-        width: 32px;
-        height: 32px;
-        margin-top: 161px;
-        border-radius: 20px;
-    }
 
 .header-image p
     {   
@@ -119,7 +103,7 @@ nav a {
 .header-left
 {
    max-width: 1280px;
-   /* display: flex;
+    display: flex;
    margin-left: -750px; }
 
 
@@ -163,7 +147,7 @@ nav a {
         border-radius: 20px;
         margin-top: 128px;
         
-    }   */
+    }   
 
     .Lasest-section    /*lasest section start*/
     {
@@ -171,6 +155,7 @@ nav a {
         height: 819px;
         margin: auto;
         max-width: 1280px;
+       
         
         
     
@@ -183,7 +168,7 @@ nav a {
         letter-spacing: -0.03em;
         color: #0D1317;
         margin: 0 auto;
-        max-width: 1280px;
+      
        
       
      
