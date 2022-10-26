@@ -282,15 +282,23 @@ header {
 .banner6 {
     display: flex;
     margin-top: 128px;
-    width: 100%;
+    max-width: 100%;
+    height: 518px;
     margin-bottom: 128px;
+}
+.banner6-left{
+    background: url(https://m24-development-images.s3.ap-southeast-1.amazonaws.com/assignment/images/experience-image.png) no-repeat center/cover;
+    width: 50%;
 }
 .banner6-right{
     background-color: #F58A07;
-    height: 518px;
-    width: 100%;
     padding-top: 128px;
     padding-left: 128px;
+    width: 50%;
+}
+.lilmargin{
+    margin-left: 125px;
+    margin-bottom: 40px;
 }
 .coffee{
     width: 100%;
@@ -381,7 +389,7 @@ header {
 }
 .footer1context{
     width: 400px;
-    height: 477px;
+    height: 507px;
     background: #FFFFFF;
     border-radius: 20px 20px 20px 20px;
 }
@@ -425,12 +433,13 @@ header {
     width: 136px;
     justify-content: space-between;
 }
-.footer2-col2-text-white {
+.footer2-col4 input {
     background-color: #FFFFFF;
     color: #9C9C9C;
     border-radius: 31px;
     padding: 18px 188px 17px 32px;
     font-size: 16px;
+    margin-bottom: 16px ;
 }
 .footer2-col2-text-orange{
     background-color: #F58A07;
@@ -464,4 +473,8 @@ header {
 .footerorange{
     display: flex;
     justify-content: space-between;
+}
+.new{
+    padding-bottom: 32px;
+
 }

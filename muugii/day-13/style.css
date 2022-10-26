@@ -35,10 +35,7 @@ h1
     content: "";
     transform: skew(-159deg) translate(-50%);
  }  
-.banner 
-{
-    
-}
+
 .banner >*
 {
     z-index: 100;

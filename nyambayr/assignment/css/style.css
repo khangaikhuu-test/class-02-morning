@@ -541,6 +541,9 @@ h4 {
 .content7-left {
   display: auto;
   max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content7-intro {
@@ -736,7 +739,7 @@ h6 {
 
 /* SERVICES - 1*/
 
-.orange-icon{
+.orange-icon {
   max-width: 1480px;
   margin: auto;
 }
@@ -758,34 +761,68 @@ h6 {
   mix-blend-mode: multiply;
 }
 
-.service1-maintext h1{
+.service1-maintext h1 {
   max-width: 618px;
   margin-top: 254px;
 }
 
-.service2{
+/* SERVICE - 2 */
+
+.service2 {
   margin-top: 90px;
   display: flex;
 }
 
-.service2-image{
+.service2-image {
   margin-right: 38px;
 }
 
-.service2-content{
+.service2-content {
   margin-left: 38px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  }
+}
 
-.service2-orange{
+.service-list ul li {
+  margin-top: 8px;
+}
+
+.service2-orange {
   position: absolute;
-  background-color: #F58A07;
+  background-color: #f58a07;
   mix-blend-mode: multiply;
   width: 95px;
   height: 97px;
   margin-top: 250px;
   margin-left: 53px;
+  border-radius: 20px;
+}
+
+/* SERVICE - 3 */
+.service3 {
+  margin-top: 90px;
+  display: flex;
+}
+
+.service3-image {
+  margin-left: 38px;
+}
+
+.service3-content {
+  margin-right: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service3-orange {
+  position: absolute;
+  background-color: #f58a07;
+  mix-blend-mode: multiply;
+  width: 95px;
+  height: 97px;
+  margin-top: -300px;
+  margin-left: 1333px;
   border-radius: 20px;
 }

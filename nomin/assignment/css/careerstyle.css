@@ -205,12 +205,13 @@ header {
     width: 136px;
     justify-content: space-between;
 }
-.footer2-col2-text-white {
+.footer2-col2-text-white input{
     background-color: #FFFFFF;
     color: #9C9C9C;
     border-radius: 31px;
     padding: 18px 188px 17px 32px;
     font-size: 16px;
+    margin-bottom: 16px;
 }
 .footer2-col2-text-orange{
     background-color: #F58A07;
@@ -244,4 +245,11 @@ header {
 .footerorange{
     display: flex;
     justify-content: space-between;
+}
+.fontsmallorange {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
 }
