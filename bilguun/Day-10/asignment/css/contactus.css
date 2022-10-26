@@ -287,7 +287,6 @@ textarea {
 
 .map {
     border-radius: 20px;
-    background-image: url(../images/map.png);
     width: 620px;
     height: 370px;
 }

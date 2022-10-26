@@ -200,11 +200,23 @@ p {
 
 .but6 a {
     border-style: none;
-    background: #F58A071A;
+    background: #F58A07;
     padding: 18px 30px;
     border-radius: 30px;
-    color: #F58A07;
+    color: #FFFFFF;
     font-weight: 600;
+}
+.s1b {
+    position: relative;
+}
+.colored2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 650px;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(245, 138, 7, 0.7);
 }
 
 #s1 {
@@ -215,6 +227,9 @@ p {
 
 /*      Careeres part 2  */
 
+.part2 {
+    margin-top: 128px;
+}
 .c-main1 {
     display: flex;
     flex-flow: row wrap;
@@ -227,7 +242,7 @@ p {
     width: 31.25%;
     border-radius: 20px;
     background-color: rgba(193, 228, 255, 0.3);
-    padding: 32px 130px 32px 40px;
+    padding: 32px;
 }
 
 .c-head {
@@ -250,6 +265,7 @@ p {
 .m3 {
     font-size: 1.125rem;
     color: #F58A07;
+    margin-top: 32px;
 }
 
 

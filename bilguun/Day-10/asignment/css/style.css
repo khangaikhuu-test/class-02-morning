@@ -67,7 +67,6 @@ header {
 .text1 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
     gap: 20px;
 }
@@ -388,7 +387,6 @@ header {
 .cta {
     max-width: 1920px;
     display: flex;
-    flex-direction: row;
     margin: 0 auto;
 }
 
@@ -448,7 +446,7 @@ header {
 
 .latest2 {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
 }
 
 .post11 {
@@ -516,7 +514,6 @@ header {
 
 .ceo {
     display: flex;
-    flex-direction: row;
     gap: 24px;
     align-items: center;
 }
